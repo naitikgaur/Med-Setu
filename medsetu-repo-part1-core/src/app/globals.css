@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+::selection {
+  background: #006d77;
+  color: #ffffff;
+}
+
+/* Keyboard focus belongs to the system: a consistent teal ring for any
+   control that does not define its own focus treatment (elements with
+   explicit focus: utilities keep precedence). */
+:focus-visible {
+  outline: 2px solid #006d77;
+  outline-offset: 2px;
+}
+
+input,
+textarea {
+  caret-color: #006d77;
+}
+
+/* Thin themed scrollbar so the browser surface matches the palette. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfd9db;
+  border-radius: 8px;
+  border: 2px solid #f4f7f9;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #006d77;
+}
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #bfd9db transparent;
+}
+
+/* TCS-iON palette tile shapes (verified against TCS iON / digialm
+   instruction manuals): Not Answered is a pentagon pointing UP, Answered
+   is the same pentagon pointing DOWN, Marked states are circles.
+   Used by the exam-window palette and its legends everywhere. */
+.tile-up {
+  clip-path: polygon(50% 0, 100% 30%, 100% 100%, 0 100%, 0 30%);
+}
+.tile-down {
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+}
+
+/* Solution sheet entrance */
+@keyframes sheet-in {
+  from { transform: translateX(24px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes sheet-in-up {
+  from { transform: translateY(24px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.sheet-in { animation: sheet-in 180ms ease-out; }
+.sheet-in-up { animation: sheet-in-up 180ms ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .sheet-in, .sheet-in-up { animation: none; }
+}
+
+/* ---------- print: only the .print-area is rendered ---------- */
+.print-area {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 14mm 12mm;
+  }
+  body {
+    background: #fff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-area {
+    display: block !important;
+    color: #000;
+    font-size: 11px;
+    line-height: 1.45;
+    font-variant-numeric: tabular-nums;
+  }
+  .print-area h1 { font-size: 19px; }
+  .print-area h2 { font-size: 13px; margin-top: 14px; }
+  .print-area table { page-break-inside: auto; }
+  .print-area tr { page-break-inside: avoid; }
+  .print-area img { break-inside: avoid; page-break-inside: avoid; }
+  .print-avoid-break { page-break-inside: avoid; break-inside: avoid; }
+}
