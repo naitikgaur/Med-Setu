@@ -1,0 +1,3362 @@
+{
+ "paperId": "jun-2026",
+ "label": "June 2026",
+ "session": "June 2026 session",
+ "examDate": "28 June 2026",
+ "questions": [
+  {
+   "n": 1,
+   "subject": null,
+   "text": "A 32-year-old woman falls on an outstretched hand. X-ray confirms a fracture of the radial head. Which nerve is most commonly associated with this injury?",
+   "options": [
+    "Ulnar nerve",
+    "Median nerve",
+    "Posterior interosseous nerve",
+    "Anterior interosseous nerve"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 2,
+   "subject": null,
+   "text": "A 30-year-old man presents with a deep laceration over the palm. On examination, sensation over the dorsal aspect of the hand is normal. He is unable to flex the little finger and ring finger. Wasting is found on palmar aspect. Which of the following nerves is most likely injured?",
+   "options": [
+    "Median nerve at the wrist",
+    "Deep branch of the ulnar nerve",
+    "Radial nerve",
+    "Posterior Interosseous nerve"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 3,
+   "subject": null,
+   "text": "A 30-year-old man requires surgery for a fracture of proximal humerus. The anesthesiologist plans a brachial plexus block that provides anesthesia to the entire upper limb below the shoulder. Following the block, the patient develops ipsilateral facial numbness too. Which block is being performed?",
+   "options": [
+    "Supraclavicular block",
+    "Infraclavicular block",
+    "Axillary block",
+    "Interscelene block"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 4,
+   "subject": null,
+   "text": "A 48-year-old woman undergoes a minor pelvic surgery involving dissection along the lateral pelvic wall. During the procedure, a nerve that passes through a canal is inadvertently injured. Postoperatively, she has difficulty in adduction of thigh while walking, along with loss of sensation over the medial aspect of the thigh. Which nerve was most likely injured?",
+   "options": [
+    "Femoral nerve",
+    "Sciatic nerve",
+    "Obturator nerve",
+    "Superior gluteal nerve"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 5,
+   "subject": null,
+   "text": "A 45-year-old man undergoes a splenectomy following abdominal trauma. During dissection and ligation of the splenic hilum, care must be taken to avoid injury to a vessel. Which of the following vessels is most likely to be injured?",
+   "options": [
+    "Left gastric artery",
+    "Cystic artery",
+    "Splenic artery",
+    "Left gastroepiploic artery"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 6,
+   "subject": null,
+   "text": "A 25-year-old man is brought to the emergency department after a road traffic accident. On examination, he has bilateral periorbital ecchymosis (raccoon eyes) without direct injury to the orbit. Under which layer of the scalp is responsible for it?",
+   "options": [
+    "Arrow marked structure A",
+    "Arrow marked structure B",
+    "Arrow marked structure C",
+    "Arrow marked structure D"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 7,
+   "subject": null,
+   "text": "A 30-year-old man falls from a height and lands on his feet. He develops pain along the medial side of the knee, difficulty walking, and pain that worsens during knee flexion. Which of the following structures is most likely injured?",
+   "options": [
+    "Medial meniscus",
+    "Lateral meniscus",
+    "Anterior cruciate ligament",
+    "Posterior cruciate ligament"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 8,
+   "subject": null,
+   "text": "Which of the following findings is most consistent with an upper motor neuron (UMN) lesion of the facial nerve?",
+   "options": [
+    "Complete paralysis of ipsilateral side of the face, including inability to wrinkle the forehead",
+    "Weakness of the contralateral lower half of the face with forehead sparing",
+    "Weakness of the contralateral lower half of the face with inability to wrinkle the forehead",
+    "Hyperacusis with complete ipsilateral facial weakness"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 9,
+   "subject": null,
+   "text": "A 52-year-old patient undergoes a parotidectomy for a parotid gland tumor. After surgery, he complains of loss of sensation over the skin covering the angle of the mandible and lower part of the auricle. Which nerve was most likely injured during the procedure?",
+   "options": [
+    "Auriculotemporal nerve",
+    "Great auricular nerve",
+    "Facial nerve",
+    "Lesser occipital nerve"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 10,
+   "subject": null,
+   "text": "A 40-year-old man presents with loss of pain sensation in the left lower limb. Which of the following structures is most likely involved?",
+   "options": [
+    "Right spinothalamic tract",
+    "Left spinothalamic tract",
+    "Right dorsal column",
+    "Left dorsal column"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 11,
+   "subject": null,
+   "text": "The spinothalamic tract primarily carries which of the following sensations?",
+   "options": [
+    "Pain and temperature",
+    "Vibration and proprioception",
+    "Fine touch and pressure",
+    "Conscious proprioception from the lower limb"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 12,
+   "subject": null,
+   "text": "Which of the following statements regarding the embryological development of the Stapes and external auditory meatus/canal is correct?",
+   "options": [
+    "Stapes – First pharyngeal arch; External auditory meatus – First pharyngeal pouch",
+    "Stapes – Second pharyngeal arch; External auditory meatus – First pharyngeal cleft",
+    "Stapes – Second pharyngeal pouch; External auditory meatus – First pharyngeal pouch",
+    "Stapes – Third pharyngeal arch; External auditory meatus – Second pharyngeal cleft"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 13,
+   "subject": null,
+   "text": "A 14-year-old boy presents with a fistula/opening, which intermittently discharges pus, along the anterior border of the sternocleidomastoid muscle. This anomaly results from the persistence of which of the following embryological structures?",
+   "options": [
+    "Second pharyngeal pouch",
+    "Second pharyngeal cleft",
+    "Third pharyngeal pouch",
+    "Third pharyngeal cleft"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 14,
+   "subject": null,
+   "text": "An image of the lateral wall of the nasal cavity is shown, with the arrow pointing to a meatus. Which of the following structures normally drains into this meatus? Cadaveric image provided ?",
+   "options": [
+    "Frontal sinus",
+    "Maxillary sinus",
+    "Posterior ethmoidal air cells",
+    "Anterior ethmoidal air cells"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 15,
+   "subject": null,
+   "text": "A 22-year-old man presents with fever, sore throat, and a painful swelling on the lateral aspect of the upper neck, just below the angle of the mandible. On examination, the swelling is tender, suggesting lymphadenitis of a deep cervical lymph node in this region. Which lymph node is most likely affected?",
+   "options": [
+    "Submandibular lymph node",
+    "Jugulodigastric lymph node",
+    "Jugulo-omohyoid lymph node",
+    "Submental lymph node"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 16,
+   "subject": null,
+   "text": "An image of the lateral aspect of the skull shows an arrow pointing a suture. Which type of suture is indicated by the arrow?",
+   "options": [
+    "Serrate suture",
+    "Denticulate suture",
+    "Squamous suture",
+    "Plane suture"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 17,
+   "subject": null,
+   "text": "During surgery for a gastric ulcer, the prepyloric vein of Mayo is accidentally injured, resulting in bleeding. This vein is an important landmark for the pylorus, and is closely related to the lesser omentum at the pyloric end. It drains into which of the following veins?",
+   "options": [
+    "Portal vein",
+    "Superior mesenteric vein",
+    "Right gastric vein",
+    "Splenic vein"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 18,
+   "subject": null,
+   "text": "A histological section of a blood vessel is shown. Identify the vessel.",
+   "options": [
+    "Aorta",
+    "Brachiocephalic vein",
+    "Azygos vein",
+    "Inferior vena cava"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 19,
+   "subject": null,
+   "text": "A 28-year-old professional singer undergoes thyroid surgery. After the operation, she notices that she is unable to produce high-pitched sounds, although her voice is otherwise normal. Injury to which of the following nerves is the most likely cause?",
+   "options": [
+    "Internal branch of superior laryngeal nerve",
+    "External branch of superior laryngeal nerve",
+    "Recurrent laryngeal nerve",
+    "Glossopharyngeal nerve"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 20,
+   "subject": null,
+   "text": "The molecular process illustrated in the image is best described as:",
+   "options": [
+    "RNA splicing",
+    "Gene editing",
+    "RNA editing",
+    "Post-translational modification"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 21,
+   "subject": null,
+   "text": "A patient presents with megaloblastic anemia associated with neurological manifestations. Deficiency of which vitamin is the most likely cause?",
+   "options": [
+    "Vitamin B12",
+    "Vitamin B1",
+    "Vitamin B2",
+    "Vitamin B3"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 22,
+   "subject": null,
+   "text": "A 6-year-old girl is noted to have brittle, lightly pigmented hair. Deficiency of which amino acid, an important constituent of keratin and folding of keratin, is most likely responsible for this finding?",
+   "options": [
+    "Methionine",
+    "Lysine",
+    "Cysteine",
+    "Glycine"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 23,
+   "subject": null,
+   "text": "A child presents with a history of dark urine and bluish-black pigmentation of the ear cartilage. Which of the following enzyme defects is most likely responsible for this condition?",
+   "options": [
+    "Phenylalanine hydroxylase deficiency",
+    "Homogentisate oxidase deficiency",
+    "Pyruvate dehydrogenase deficiency",
+    "Fumarylacetoacetate hydrolase deficiency"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 24,
+   "subject": null,
+   "text": "A 7-year-old child presents with extreme sensitivity to sunlight since infancy, recurrent freckles over sun-exposed areas, and multiple pigmented skin lesions. results from a defect in which of the following DNA repair mechanisms?",
+   "options": [
+    "Base excision repair",
+    "Mismatch repair",
+    "Nucleotide excision repair",
+    "Non-homologous end joining"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 25,
+   "subject": null,
+   "text": "A 2-year-old child undergoes surgery, and the wound takes nearly one month to heal completely. Deficiency of which of the following micronutrients is the most likely cause of delayed wound healing?",
+   "options": [
+    "Copper",
+    "Zinc",
+    "Magnesium",
+    "Iron"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 26,
+   "subject": null,
+   "text": "A 9 yrs old child develops recurrent vomiting after consuming fruit juice.benedicts test is positive. Deficiency of metabolism of which sugar is the most likely cause of this presentation?",
+   "options": [
+    "Glucose",
+    "Fructose",
+    "Sucrose",
+    "Galactose"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 27,
+   "subject": null,
+   "text": "A 2-year-old child presents with acute watery diarrhea for the past 3 days. Arterial blood gas analysis shows: pH = 7.20, PaCO₂ = 25 mmHg, HCO₃⁻ = 16 mEq/L, and an anion gap of 12 mEq/L. What is the most likely acid-base disorder?",
+   "options": [
+    "Normal anion gap metabolic acidosis (NAGMA)",
+    "High anion gap metabolic acidosis (HAGMA)",
+    "Respiratory acidosis",
+    "Respiratory alkalosis"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 28,
+   "subject": null,
+   "text": "A 45-year-old man undergoes evaluation of kidney function. His physician orders creatinine clearance instead of inulin clearance. Compared with the true glomerular filtration rate (GFR), creatinine clearance is expected to be:",
+   "options": [
+    "Equal to GFR",
+    "Slightly lower than GFR",
+    "Slightly higher than GFR",
+    "Unrelated to GFR"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 29,
+   "subject": null,
+   "text": "A 9-year-old boy from a low-income family presents with bleeding gums, recurrent bruising, poor wound healing, and pain in both legs for the past 2 months. Examination reveals perifollicular hemorrhages, corkscrew hairs, and swollen, spongy gums. X-ray shows a dense white line at the metaphysis. The underlying biochemical defect involves impaired hydroxylation of proline residues during collagen synthesis. Deficiency of which vitamin is responsible for the defective activity of the enzyme involved?",
+   "options": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin K"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 30,
+   "subject": null,
+   "text": "A child presents with seizures and developmental delay. Serum glucose is normal, but cerebrospinal fluid (CSF) glucose is markedly low. The defect is most likely due to deficiency of which glucose transporter?",
+   "options": [
+    "GLUT-1",
+    "GLUT-2",
+    "GLUT-4",
+    "GLUT-5"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 31,
+   "subject": null,
+   "text": "A 6-year-old boy presents with recurrent respiratory tract infections, chronic cough, failure to thrive, and bulky, foul-smelling stools. The child is most likely to develop deficiency of which of the following vitamins due to the underlying disease?",
+   "options": [
+    "Vitamin A",
+    "Vitamin B12",
+    "Vitamin C",
+    "Folic acid"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 32,
+   "subject": null,
+   "text": "A patient with severe nodulocystic acne is planned for treatment with isotretinoin. Which of the following baseline investigations should be performed before initiating therapy to monitor its most important adverse effects?",
+   "options": [
+    "Serum electrolytes",
+    "Lipid profile with liver function tests (LFTs)",
+    "Complete blood count (CBC) with lipid profile",
+    "Liver function tests (LFTs) alone"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 33,
+   "subject": null,
+   "text": "A man presents with intense itching, especially at night, and lesions over the scrotum. He lives in a crowded environment. The clinical image is shown below. What is the primary lesion seen in this condition?",
+   "options": [
+    "Papule",
+    "Vesicle",
+    "Burrow",
+    "Allergic dermatitis"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 34,
+   "subject": null,
+   "text": "A 35-year-old man presents with an asymptomatic brownish patch in the axillary region for the past 3 months. There is no history of itching. Wood’s lamp examination of the lesion is shown in the image. What is the treatment of choice?",
+   "options": [
+    "Oral Fluconazole",
+    "Topical Permethrin",
+    "Oral erythromycin",
+    "Acyclovir"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 35,
+   "subject": null,
+   "text": "A patient presents with a linear depressed lesion over the forehead extending into the scalp, associated with localized alopecia. What is the most likely diagnosis?",
+   "options": [
+    "Linear lichen planus",
+    "En coup de sabre",
+    "Alopecia areata",
+    "DLE"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 36,
+   "subject": null,
+   "text": "A patient with borderline leprosy who is on multidrug therapy (MDT) develops sudden redness and swelling of the existing skin lesions along with pain and tenderness of the peripheral nerves. What change in treatment is required?",
+   "options": [
+    "Continue MDT, start thalidomide",
+    "Continue MDT, start steroids",
+    "Stop MDT and start steroids",
+    "Continue MDT alone"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 37,
+   "subject": null,
+   "text": "A 28-year-old pregnant woman is newly diagnosed with multibacillary leprosy. Which of the following is the most appropriate treatment?",
+   "options": [
+    "Defer treatment till delivery",
+    "Rifampicin alone",
+    "Standard MDT",
+    "Dapsone alone"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 38,
+   "subject": null,
+   "text": "A 32-year-old man is diagnosed with multibacillary leprosy and is started on WHO-recommended multidrug therapy (MDT). Which of the following correctly represents the monthly supervised dose and daily unsupervised dose of rifampicin, clofazimine, and dapsone in an adult patient?",
+   "options": [
+    "Rifampicin 600 mg monthly + Clofazimine 300 mg monthly + Dapsone 100 mg daily + Clofazimine 50 mg daily",
+    "Rifampicin 450 mg monthly + Clofazimine 300 mg monthly + Dapsone 50 mg daily + Clofazimine 100 mg daily",
+    "Rifampicin 600 mg monthly + Clofazimine 100 mg monthly + Dapsone 100 mg daily + Clofazimine 100 mg daily",
+    "Rifampicin 600 mg daily + Clofazimine 50 mg daily + Dapsone 100 mg monthly"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 39,
+   "subject": null,
+   "text": "A 20 year old male presented with ear discharge and severe itching in the ear since 7 days. On examination a wet news paper appearance was seen as shown in the image. What is the likely diagnosis of this condition?",
+   "options": [
+    "Otomycosis",
+    "Keratosis obturans",
+    "Malignant otitis externa",
+    "Furuncle of EAC"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 40,
+   "subject": null,
+   "text": "41 year old who underwent thyroid surgery for colloid nodule complained that she does not have complaints on normal voicing but she has difficulty in producing high pitched notes while singing. What is the likely nerve damage which has occurred?",
+   "options": [
+    "External branch of SLN",
+    "Internal Branch of SLN",
+    "Recurrent laryngeal nerve",
+    "Glossopharyngeal nerve"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 41,
+   "subject": null,
+   "text": "A 7 year old boy presented to the OPD with high grade fever, drooling of saliva and severe odynophagia. On Xray soft tissue neck lateral view the following findings were seen. What is the likely diagnosis of this patient?",
+   "options": [
+    "Ludwigs angina",
+    "Parapharyngeal abscess",
+    "Peritonsillar abscess",
+    "Retropharyngeal abscess"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 42,
+   "subject": null,
+   "text": "A 6 year old child underwent adenoidectomy for adenoid hypertrophy and post surgery the child complained of hypernasal voice and occasional regurgitation of fluids from nose. What is the likely cause for it?",
+   "options": [
+    "Submucous cleft palate unmasked after surgery",
+    "Choanal atresia unmasked after surgery",
+    "Adhesions in nasopharynx",
+    "Uvular injury post surgery"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 43,
+   "subject": null,
+   "text": "A patient has to undergo a preoperative assessment of vocal cord mobility before thyroid surgery. During flexible endoscopy where should the tip of the endoscope be positioned to obtain best view of vocal cords?",
+   "options": [
+    "Pyriform sinus",
+    "Below the epiglottis",
+    "In between arytenoids",
+    "Base of tongue"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 44,
+   "subject": null,
+   "text": "A 12 year old child presented to the OPD with fever, pain and swelling over mastoid and forward displacement of pinna. What is the most likely diagnosis?",
+   "options": [
+    "Acute mastoiditis",
+    "Bezold abscess",
+    "Citellis abscess",
+    "Lateral sinus thrombosis"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 45,
+   "subject": null,
+   "text": "A 55 year old male presented to the OPD with recurrent epistaxis and unilateral nasal obstruction, and painless cervical lymphadenopathy and unilateral hearing loss .What is the most likely diagnosis of this patient?",
+   "options": [
+    "Nasopharyngeal carcinoma",
+    "Inverted papilloma",
+    "Antrochoanal polyp",
+    "Choanal atresia"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 46,
+   "subject": null,
+   "text": "A 35 year old male presented to the OPD with nasal obstruction and peanut like paste discharge. CT scan showed the following findings. What is the most likely diagnosis of this patient?",
+   "options": [
+    "Allergic fungal rhinosinusitis",
+    "Acute sinusitis",
+    "Chronic sinusitis",
+    "Juvenile angiofibroma"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 47,
+   "subject": null,
+   "text": "A 60-year-old male chronic smoker presents with progressive hoarseness of voice for 2 months. Indirect laryngoscopy reveals an ulcerative growth involving the right true vocal cord. The right vocal cord is fixed, and imaging demonstrates invasion of the thyroid cartilage. What is the most appropriate treatment?",
+   "options": [
+    "Total Laryngectomy plus Radiotherapy",
+    "Concurrent chemoradiation",
+    "Total laryngectomy with neck dissection",
+    "DefinItive Radiotherapy"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 48,
+   "subject": null,
+   "text": "A 27 year old man presents for a routine ENT OPD for routine examination with no history of hearing loss. Otoscopy examination shows a mobile tympanic membrane with a retraction pocket but no keratin debris. What is the next step of management of this case ?",
+   "options": [
+    "Observation(Wait and watch)",
+    "Tympanoplasty",
+    "Myringoplasty with mastoid exploration",
+    "Ventilation tube insertion"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 49,
+   "subject": null,
+   "text": "A 2 year old child presented with weak cry, hoarseness of voice with warty lesions in the larynx as shown in the image. The child was treated by excision of mass and intralesional cidofovir. What is the most likely strain to cause malignancy in such lesions ?",
+   "options": [
+    "HPV 16 and 18",
+    "CMV",
+    "HIV",
+    "EBV"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 50,
+   "subject": null,
+   "text": "A 44 year old Man presented to the ENT OPD with hoarseness of voice since 2 months. On examination the following seen as shown in the video. What is the next best step of management in this case ?",
+   "options": [
+    "Type 1 thyroplasty",
+    "Type 2 thyroplasty",
+    "Conservative management",
+    "Type 4 thyroplasty"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 51,
+   "subject": null,
+   "text": "A right - handed individual presents with multiple parallel incised wounds over the left (non- dominant) wrist. What is the most likely manner of injury?",
+   "options": [
+    "Homicidal Injury",
+    "Suicidal Injury with hesitational cuts",
+    "Accidental injury",
+    "Defense wounds"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 52,
+   "subject": null,
+   "text": "During medico legal examination of a fetus, the hydrostatic test demonstrates sinking pieces of liver and lung(video showed the liver and lung pieces sinking in water). There is no evidence of decomposition. What is the most likely interpretation? ( here video of floating lungs was given)",
+   "options": [
+    "Still born with absence of respiration and decomposition",
+    "Still born without respiration and decompensation",
+    "Live born with presence of respiration and decomposition",
+    "Live born with absence of decomposition"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 53,
+   "subject": null,
+   "text": "A 21-year-old married female with 10 weeks of gestation presents for medical termination of pregnancy (MTP).Her husband accompanies her and claims to be her guardian. From whom should written informed consent be obtained before performing MTP?",
+   "options": [
+    "Only Mother",
+    "Both Mother and Father",
+    "Parents of pregnant woman",
+    "Police"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 54,
+   "subject": null,
+   "text": "A patient with a history of severe head injury and raised intracranial pressure undergoes imaging showing a circular defects in the skull. What is the most likely explanation for this finding?",
+   "options": [
+    "Previous burr hole surgery",
+    "Gunshot wound",
+    "Depressed skull fracture",
+    "Congenital skull fracture"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 55,
+   "subject": null,
+   "text": "A victim sustains a penetrating stab injury to the abdomen. The wound has one sharp angle and one blunt (rounded) angle. Which weapon most likely produced this injury?",
+   "options": [
+    "Double-edged knife",
+    "Single-edged knife",
+    "Broken glass",
+    "Screwdriver"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 56,
+   "subject": null,
+   "text": "A surgical cotton swab is inadvertently left inside the abdomen during surgery. The patient develops septicemia one year later and dies. This event is best classified as:",
+   "options": [
+    "Adverse event",
+    "Never event",
+    "Sentinel event",
+    "Near miss"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 57,
+   "subject": null,
+   "text": "An X-ray of the elbow of a child is shown during medicolegal estimation. The radiography demonstrated the presence of secondary ossification centres. So, what will be the correct age of fusion of elbow joint?",
+   "options": [
+    "8-13 years",
+    "21-22 years",
+    "13-15 years",
+    "6 -9 years"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 58,
+   "subject": null,
+   "text": "A concious patient requires definitive airway protection. Below images of various airway devices are shown.Which of the following tubes is most suitable for endotracheal intubation? D",
+   "options": [
+    "Oropharyngeal airway",
+    "Nasopharyngeal airway",
+    "Endotracheal tube",
+    "Metallic endotracheal tube"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 59,
+   "subject": null,
+   "text": "During preoperative airway assessment, the patient is asked to open the mouth fully and protrude the tongue without phonation. Based on the image shown, what is the Mallampati classification? ( video of Mallampati was given)",
+   "options": [
+    "Mallampati Class I",
+    "Mallampati Class II",
+    "Mallampati Class III",
+    "Mallampati Class IV"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 60,
+   "subject": null,
+   "text": "A patient presents after a road traffic accident with hypotension (BP 80/60mmHg) and requires emergency induction of anesthesia. Which induction agent is most preferred?",
+   "options": [
+    "Propofol",
+    "Ketamine",
+    "Thiopentone (Thiopental)",
+    "Sevoflurane"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 61,
+   "subject": null,
+   "text": "A patient presents with recurrent episodes of severe pain in the right great toe. Serum uric acid is 10.2 mg/dL. Joint aspiration reveals needle-shaped, negatively birefringent crystals. What is the most appropriate long-term management?",
+   "options": [
+    "Allopurinol",
+    "Indomethacin",
+    "Colchicine",
+    "Ibuprofen"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 62,
+   "subject": null,
+   "text": "A 24-year-old woman presents with facial puffiness, pedal edema, hypertension, and frothy urine. She has a history of photosensitivity, oral ulcers, and joint pain. Laboratory investigations reveal positive ANA and anti-dsDNA antibodies, low serum C3 and C4 levels, and proteinuria of 4.2 g/day. What is the primary mechanism of renal damage in this patient?",
+   "options": [
+    "Antibodies directed against the glomerular basement membrane",
+    "Deposition of immune complexes with complement activation",
+    "T-cell-mediated cytotoxic injury (Type IV hypersensitivity)",
+    "Antineutrophil cytoplasmic antibody (ANCA)-mediated vasculitis"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 63,
+   "subject": null,
+   "text": "A 62-year-old man presents with progressive difficulty climbing stairs and rising from a chair. After walking for some time, he develops fatigue and falls. Symptoms alleviated by work. Chest imaging reveals a hilar lung mass. Which type of lung cancer is most commonly associated with this condition?",
+   "options": [
+    "Adenocarcinoma",
+    "Squamous cell carcinoma",
+    "Small cell carcinoma",
+    "Large cell carcinoma"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 64,
+   "subject": null,
+   "text": "A 12-year-old boy presents with recurrent episodes of mild scleral icterus, especially during fasting. He has no abdominal pain, dark urine, or weight loss. Laboratory investigations reveal isolated unconjugated hyperbilirubinemia with normal liver enzymes and hemoglobin. What is the most likely diagnosis?",
+   "options": [
+    "Crigler–Najjar syndrome",
+    "Dubin–Johnson syndrome",
+    "Gilbert syndrome",
+    "Rotor syndrome"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 65,
+   "subject": null,
+   "text": "A 60-year-old man suddenly collapses and becomes unconscious. Cardiac monitoring reveals ventricular fibrillation. According to current Advanced Cardiac Life Support (ACLS) guidelines, what should be done first?",
+   "options": [
+    "Administer amiodarone 300mg",
+    "Perform synchronized cardioversion",
+    "Deliver an unsynchronized shock of 200 J",
+    "Deliver an unsynchronized shock of 360 J"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 66,
+   "subject": null,
+   "text": "You are a physician waiting at a railway platform when a middle-aged man suddenly develops choking while eating. He is unable to speak, cough, or breathe, becomes cyanotic, and is clutching his neck. What is the most appropriate immediate intervention?",
+   "options": [
+    "Give five back blows",
+    "Perform the Heimlich maneuver",
+    "Perform a blind finger sweep",
+    "Perform an emergency tracheostomy"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 67,
+   "subject": null,
+   "text": "A 64-year-old man with recurrent angina undergoes coronary angiography. CT coronary angiography demonstrates 70% stenosis of the left anterior descending artery (LAD) and chronic total occlusion (CTO) of two other coronary arteries. He has previously undergone PCI. What is the most appropriate management?",
+   "options": [
+    "Repeat PCI",
+    "Continue optimal medical therapy alone",
+    "Coronary artery bypass grafting (CABG)",
+    "Thrombolytic therapy"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 68,
+   "subject": null,
+   "text": "A 24-year-old woman presents with fatigue, low-grade fever, dizziness, and weakness of the left upper limb during activity. Examination reveals diminished right radial pulse compared with the left. What is the most likely diagnosis?",
+   "options": [
+    "Temporal arteritis",
+    "Takayasu arteritis",
+    "Buerger disease",
+    "Granulomatosis with polyangiitis"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 69,
+   "subject": null,
+   "text": "Arterial blood gas analysis shows: pH = 7.30, PaCO₂ = 32 mmHg, HCO₃⁻ = 12 mEq/L. What is the most likely acid-base disorder?",
+   "options": [
+    "Metabolic acidosis",
+    "Metabolic alkalosis",
+    "Respiratory acidosis",
+    "Respiratory alkalosis"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 70,
+   "subject": null,
+   "text": "A mother brings her 3-year-old child with progressive abdominal swelling for the past 3 months. Examination reveals a large, firm, non-tender abdominal mass arising from the left flank that does not cross the midline. There is no history of gross hematuria or constitutional symptoms. What is the most likely diagnosis?",
+   "options": [
+    "Wilms tumor",
+    "Neuroblastoma",
+    "Metanephric blastema",
+    "Mesoblastic nephroma"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 71,
+   "subject": null,
+   "text": "A 45-year-old man with resistant hypertension despite multiple antihypertensive medications undergoes CT angiography, which demonstrates significant right renal artery stenosis with a small right kidney and a normal left kidney. What is the most appropriate management?",
+   "options": [
+    "Left nephrectomy",
+    "Renal artery stenting",
+    "No intervention is required",
+    "Add a calcium channel blocker"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 72,
+   "subject": null,
+   "text": "A 48-year-old woman presents with burning sensation, foreign body sensation, and persistent dryness in both eyes for several months. The test shown in the image is being performed to evaluate tear production. Which test is this? (VIDEO OF SCHIRMER TEST WAS GIVEN )",
+   "options": [
+    "Schirmer test with dry eye",
+    "Rose Bengal staining",
+    "Fluorescein staining",
+    "Tear breakup time (TBUT)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 73,
+   "subject": null,
+   "text": "A 32-year-old HIV-positive man with a CD4 count of 45 cells/µL presents with an opportunistic infection. Biopsy of the affected tissue reveals characteristic intranuclear inclusion bodies. Which of the following is the most likely causative organism?",
+   "options": [
+    "Cytomegalovirus (CMV)",
+    "Herpes simplex virus type 1 (HSV-1)",
+    "Toxoplasma gondii",
+    "Cryptococcus neoformans"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 74,
+   "subject": null,
+   "text": "A 42-year-old dairy farmer presents with prolonged remittent fever, drenching night sweats, and generalized body aches for the past 3 weeks. Blood culture is performed using a specialized biphasic culture system containing both solid and liquid media in the same bottle. Which organism is most likely being isolated?",
+   "options": [
+    "Brucella species",
+    "Salmonella Typhi",
+    "Mycobacterium tuberculosis",
+    "Leptospira interrogans"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 75,
+   "subject": null,
+   "text": "Following recent flooding in Mumbai , a 28-year-old man develops high-grade fever, severe calf muscle tenderness, and conjunctival suffusion after walking through stagnant water contaminated with rodent urine. Dark-field microscopy demonstrates highly motile, tightly coiled spirochetes with hooked ends. What is the most likely causative organism?",
+   "options": [
+    "Leptospira interrogans",
+    "Borrelia recurrentis",
+    "Treponema pallidum",
+    "Spirillum minus"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 76,
+   "subject": null,
+   "text": "A 35-year-old leather tannery worker presents with a painless ulcer on his forearm with a black necrotic eschar surrounded by extensive edema. The lesion began as a pruritic papule and progressed to a vesicle before ulcerating. Which virulence factor is primarily responsible for this disease?",
+   "options": [
+    "Poly-D-glutamate capsule of Bacillus anthracis",
+    "Anthrax toxin and lethal toxin",
+    "LPS endotoxin and edema toxin",
+    "Exfoliative toxin and lethal toxin"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 77,
+   "subject": null,
+   "text": "A 25-year-old sexually active man presents with painless inguinal swelling. Examination reveals non tender, enlargement of both the inguinal and femoral lymph nodes separated by the inguinal ligament and noted as groove sign. Which organism is the most likely cause?",
+   "options": [
+    "Klebsiella granulomatis",
+    "Treponema pallidum",
+    "Chlamydia trachomatis (L1–L3)",
+    "Haemophilus ducreyi"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 78,
+   "subject": null,
+   "text": "A 34-year-old man from a rural area presents with sudden-onset high fever, chills, and a painful swollen inguinal lymph node (bubo). He reports an outbreak of rodent deaths in his village and recalls flea bites. What is the most likely diagnosis?",
+   "options": [
+    "Bubonic plague",
+    "Tularemia",
+    "Scrub typhus",
+    "Lymphogranuloma venereum"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 79,
+   "subject": null,
+   "text": "20-year-old man develops rapidly progressive fever, headache, photophobia, neck stiffness, and altered sensorium after swimming in a freshwater lake. Which of the following statements is true regarding this organism?",
+   "options": [
+    "It causes chronic meningitis in immunocompromised individuals.",
+    "It is a free-living amoeba that causes primary amoebic meningoencephalitis by entering through the nasal mucosa.",
+    "It is a ciliated protozoan found in the gastrointestinal tract.",
+    "It causes granulomatous amoebic encephalitis."
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 80,
+   "subject": null,
+   "text": "A 22-year-old man from a rural area presents with a painless, friable, strawberry-like polypoidal mass in the nasal cavity. Which culture medium is used to grow the causative organism?",
+   "options": [
+    "No culture medium, as it cannot be cultivated in vitro",
+    "Sabouraud dextrose agar",
+    "Lowenstein–Jensen medium",
+    "Brain heart infusion agar"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 81,
+   "subject": null,
+   "text": "A 40-year-old man living near a river basin in Sub-Saharan Africa presents with generalized pruritus, subcutaneous nodules, and progressive visual impairment. Which parasite is responsible?",
+   "options": [
+    "Onchocerca volvulus with mosquito",
+    "Onchocerca volvulus with fly",
+    "Loa loa with fly",
+    "Loa loa with mosquito"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 82,
+   "subject": null,
+   "text": "The parasite causing intestinal schistosomiasis requires how many intermediate hosts to complete its life cycle?",
+   "options": [
+    "One (snail)",
+    "Two (snail and fish)",
+    "Three (snail, crab, and aquatic plant)",
+    "None (direct transmission)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 83,
+   "subject": null,
+   "text": "A 35-year-old man presents with acute profuse painless “rice-water” diarrhea and severe dehydration after consuming contaminated street food. The causative organism produces an enterotoxin with GM1 ganglioside. What is the intracellular mechanism of action of this toxin?",
+   "options": [
+    "Increased intracellular cAMP",
+    "Increased intracellular cGMP",
+    "Inhibition of protein synthesis by inactivation of EF-2",
+    "Cleavage of SNARE proteins"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 84,
+   "subject": null,
+   "text": "A 45-year-old man returning from Central Africa complains of a crawling sensation in his eye. Slit- lamp examination reveals a motile worm beneath the conjunctiva. Peripheral blood smear demonstrates sheathed microfilariae with nuclei extending to the tip of the tail. Identify the parasite.",
+   "options": [
+    "Loa loa",
+    "Wuchereriabancrofti",
+    "Brugiamalayi",
+    "Mansonella perstans"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 85,
+   "subject": null,
+   "text": "A 23-year-old woman presents with sudden-onset high fever, hypotension, diffuse erythematous rash resembling sunburn, and evidence of multiorgan involvement. What is the most likely diagnosis?",
+   "options": [
+    "Toxic shock syndrome",
+    "Staphylococcal scalded skin syndrome",
+    "Epidermabullosa",
+    "Hemolyticanemia"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 86,
+   "subject": null,
+   "text": "A 19-year-old college student presents with step-ladder fever, abdominal pain, headache, rose spots, and mild splenomegaly for 5 days. Which investigation is the most sensitive during this early stage of illness?",
+   "options": [
+    "Blood culture",
+    "Widal test",
+    "Stool culture",
+    "Urine culture"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 87,
+   "subject": null,
+   "text": "A 65-year-old woman develops profuse watery diarrhea 10 days after receiving broad-spectrum cefuroxime following elective surgery. Colonoscopy reveals yellowish plaques over the colonic mucosa. Which organism is the most likely cause?",
+   "options": [
+    "Clostridioides difficile",
+    "Enterotoxigenic Escherichia coli (ETEC)",
+    "Salmonella enteritidis",
+    "Staphylococcus aureus"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 88,
+   "subject": null,
+   "text": "A 4-year-old child presents with fever, painful oral ulcers, and vesicular lesions over the palms and soles. Which of the following is the most likely causative organism?",
+   "options": [
+    "Coxsackievirus A16",
+    "Coxsackievirus B",
+    "Cytomegalovirus (CMV)",
+    "Parvovirus B19"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 89,
+   "subject": null,
+   "text": "A 40-year-old HIV-positive patient with a low CD4 count presents with fever, cough, and bilateral pulmonary infiltrates. Bone marrow biopsy demonstrates numerous intracellular yeast forms within macrophages, consistent with Histoplasma capsulatum. What is the most common mode of transmission of this infection?",
+   "options": [
+    "Inhalation of spores from bird or bat droppings",
+    "Bite of infected rats",
+    "Ingestion of contaminated dairy products",
+    "Direct inoculation through the skin"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 90,
+   "subject": null,
+   "text": "A microbiology technician is performing quality control of a steam sterilizer shown in the image below. Which of the following biological indicators is used to monitor the effectiveness of this sterilization method?",
+   "options": [
+    "Geobacillus stearothermophilus",
+    "Bacillus subtilis",
+    "Bacillus globigii",
+    "Bacillus pumilus"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 91,
+   "subject": null,
+   "text": "A patient presents with multiple soft, verrucous, exophytic lesions over the external genitalia, giving them a cauliflower-like appearance. Which of the following infectious agents is the most likely cause?",
+   "options": [
+    "Herpes simplex virus (HSV)",
+    "Treponema pallidum",
+    "Human papillomavirus",
+    "Haemophilus ducreyi"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 92,
+   "subject": null,
+   "text": "A 5years old child presented with following symptoms. What is likely diagnosis?",
+   "options": [
+    "HFMD",
+    "Kawasaki disease",
+    "Scarlet fever",
+    "Measles"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 93,
+   "subject": null,
+   "text": "A 35-year-old man presents with gradually progressive diminution of vision in his right eye associated with elevated intraocular pressure. He gives a history of blunt ocular trauma with a cricket ball 10 years ago. Gonioscopy image is shown. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Pigmentary glaucoma",
+    "Pseudoexfoliative glaucoma",
+    "Angle recession glaucoma",
+    "Neovascular glaucoma"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 94,
+   "subject": null,
+   "text": "A 56-year-old female with long-standing rheumatoid arthritis presents with painless, gradual blurring of vision in the left eye. On examination, the sclera is as shown in the image. There is no ciliary congestion or significant redness. What is the most likely diagnosis?",
+   "options": [
+    "Scleritis",
+    "Episcleritis",
+    "Scleromalaciaperforans",
+    "Anterior uveitis"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 95,
+   "subject": null,
+   "text": "The pupillary appearance shown in the image is most characteristic of which condition?",
+   "options": [
+    "Posterior synechiae due to anterior uveitis",
+    "Acute angle-closure glaucoma",
+    "Adie’s tonic pupil",
+    "Oculomotor nerve palsy"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 96,
+   "subject": null,
+   "text": "A 7-year-old boy presents with sore throat, redness of the eye, and a membranous conjunctivitis as shown in the image. What is the most likely diagnosis?",
+   "options": [
+    "Adenoviral pharyngoconjunctival fever",
+    "Epidemic keratoconjunctivitis",
+    "Allergic conjunctivitis",
+    "Vernal keratoconjunctivitis"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 97,
+   "subject": null,
+   "text": "A patient presents with left homonymous hemianopia due to a lesion in the visual pathway . Which of the following patterns of visual field loss is seen in this condition?",
+   "options": [
+    "Right temporal and Left nasal vision loss",
+    "Right nasal and Left temporal vision loss",
+    "Bilateral temporal vision loss",
+    "Bilateral nasal vision loss"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 98,
+   "subject": null,
+   "text": "A child presents with complaints of poor vision in dim light and dryness of the eyes. On examination, there is corneal ulceration as shown in the image. What is the stage of Vitamin A deficiency in this patient?",
+   "options": [
+    "X1B",
+    "XF",
+    "X3A",
+    "X2"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 99,
+   "subject": null,
+   "text": "A patient with suspected proptosis is evaluated in the ophthalmology clinic. Which of the following instruments is being used?",
+   "options": [
+    "Hertel’s exophthalmometer",
+    "Tonometer",
+    "Keratometer",
+    "Retinoscope"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 100,
+   "subject": null,
+   "text": "What is the minutes of arc subtended by a standard letter of the chart shown in the image with 20/20 visual acuity line?",
+   "options": [
+    "1 minute",
+    "5 minutes",
+    "10 minutes",
+    "20 minutes"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 101,
+   "subject": null,
+   "text": "A patient undergoes retinoscopy under atropine from a distance of 1m. The retinoscopy cross meridians. What is the final refractive correction required for neutralized with +4.0D in both principle this patient?",
+   "options": [
+    "+2 spherical correction",
+    "+4 spherical correction",
+    "+2 cylindrical correction",
+    "+4 cylindrical correction"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 102,
+   "subject": null,
+   "text": "A 68-year-old patient presents with complaints of painful watering, reduced vision, and worsened symptoms on waking in the morning. There is a history of previous cataract surgery 2 years back. Slit- lamp examination of the cornea is shown in the image. What is the most likely diagnosis?",
+   "options": [
+    "Fuchs endothelial dystrophy",
+    "Bullous keratopathy",
+    "Acute angle-closure glaucoma",
+    "Herpes simplex keratitis"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 103,
+   "subject": null,
+   "text": "An elderly patient presents with watering, irritation, and foreign body sensation in the eye. On examination, the eyelid is as shown in the image. What is the most likely diagnosis?",
+   "options": [
+    "Ectropion",
+    "Marginal Entropion",
+    "Trichiasis",
+    "Blepharitis"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 104,
+   "subject": null,
+   "text": "A 10-year-old child presents with gradual painless diminution of vision since early childhood. The slit-lamp examination is as shown in the image. What is the most likely diagnosis?",
+   "options": [
+    "Nuclear cataract",
+    "Posterior subcapsular cataract",
+    "Zonular cataract",
+    "Mature cortical cataract"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 105,
+   "subject": null,
+   "text": "A 60-year-old patient presents with sudden onset flashes of light and floaters. Fundus examination is as shown in the image. What is the most likely associated finding related to this image?",
+   "options": [
+    "Can be treated but pneumopexy",
+    "present between external and internal retinal membrane",
+    "Rhegmatogenous retinal detachment",
+    "sunlight mediated damage"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 106,
+   "subject": null,
+   "text": "A 45-year-old man presents with sudden onset of painless visual loss. Neuro-ophthalmic examination localizes the lesion to the site labeled “A” in the given diagram of the visual pathway. Which of the following visual field defects is most likely to be seen?",
+   "options": [
+    "Ipsilateral monocular blindness",
+    "Bitemporal hemianopia",
+    "Contralateral homonymous hemianopia",
+    "Contralateral superior quadrantanopia (“pie in the sky”)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 107,
+   "subject": null,
+   "text": "A 28-year-old man sustains a fracture of the neck of the fibula following a road traffic accident. A few days later, he complains of difficulty walking and frequently trips over his toes. On examination, he has weakness of dorsiflexion and eversion of the foot, with sensory loss over the dorsum of the foot and the lateral aspect of the leg. Plantar flexion and inversion are preserved. What is the most likely nerve injured?",
+   "options": [
+    "Tibial nerve",
+    "Superficial peroneal nerve",
+    "Common peroneal nerve",
+    "Deep peroneal nerve"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 108,
+   "subject": null,
+   "text": "A patient is unable to flex the index finger while making a fist. There is weakness of thumb opposition and sensory loss over the lateral palm. Which nerve is injured?",
+   "options": [
+    "Radial nerve",
+    "Ulnar nerve",
+    "Median nerve",
+    "Axillary nerve"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 109,
+   "subject": null,
+   "text": "A 14-year-old patient with neglected CTEV (Congenital Talipes Equinovarus) associated with severe degenerative changes and destruction of the hind foot joints. What is the most appropriate treatment?",
+   "options": [
+    "Ponseti casting",
+    "Soft tissue release",
+    "Triple arthrodesis",
+    "Corrective osteotomy"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 110,
+   "subject": null,
+   "text": "A 25-year-old man is brought to the emergency department 3 days after a road traffic accident in which he sustained a fracture shaft of the femur. He is drowsy and confused with high-grade fever, tachycardia, breathlessness, and a petechial rash over the upper chest and axillae. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Pulmonary thromboembolism",
+    "Fat embolism syndrome",
+    "Air embolism",
+    "Amniotic fluid embolism"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 111,
+   "subject": null,
+   "text": "On examination, the patient’s Froment’s sign is positive. Which nerve is likely to be injured?",
+   "options": [
+    "Ulnar nerve",
+    "Median nerve",
+    "Radial nerve",
+    "Musculocutaneous nerve"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 112,
+   "subject": null,
+   "text": "(Video associated with the wrist drop was given in the question ) Wrist drop and flickering",
+   "options": [
+    "Radial nerve movement is there in the index finger. what is most commonly associated with injury to which nerve?",
+    "Ulnar nerve",
+    "PIN",
+    "AIN"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 113,
+   "subject": null,
+   "text": "A patient sustains a direct blow to the anterior knee and is unable to actively extend the knee. Which of the following injuries is most likely?",
+   "options": [
+    "ACL tear",
+    "Patellar tendon rupture",
+    "Meniscal tear",
+    "PCL tear"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 114,
+   "subject": null,
+   "text": "A 32-year-old man presents with a painless enlargement of the right testis for 3 months. There is no history of trauma or infection. Serum tumor markers show normal β-hCG and normal α-fetoprotein (AFP) levels. An image of the histopathology is provided as below. Based on the clinical findings and histopathology, what is the most likely diagnosis?",
+   "options": [
+    "Choriocarcinoma",
+    "Yolk sac tumor",
+    "Seminoma",
+    "Teratoma"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 115,
+   "subject": null,
+   "text": "A 58-year-old man presents with progressive weight loss, altered bowel habits, and intermittent passage of blood in stools for 4 months. Colonoscopy reveals an ulceroproliferative growth in the sigmoid colon, and biopsy confirms adenocarcinoma of the colon. Mutation in which of the following genes is most commonly associated?",
+   "options": [
+    "KRAS",
+    "BRCA1",
+    "RET",
+    "RB1"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 116,
+   "subject": null,
+   "text": "A 14-year-old boy presents with pain and swelling over the lower leg for 2 months. X-ray shows an onion-skin periosteal reaction. Biopsy reveals PAS-positive small round blue cells. Which of the following chromosomal translocations is most commonly associated with this tumor?",
+   "options": [
+    "t(11;22)",
+    "t(9;22)",
+    "t(8;14)",
+    "t(15;17)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 117,
+   "subject": null,
+   "text": "A 45-year-old strict vegetarian presents with progressive fatigue, numbness and tingling in both feet, and difficulty walking for the past 6 months. Laboratory investigations reveal anemia. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Iron deficiency anemia",
+    "Megaloblastic anemia",
+    "Aplastic anemia",
+    "Sideroblastic anemia"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 118,
+   "subject": null,
+   "text": "An 8-year-old boy presents with a rapidly enlarging jaw swelling. Lymph node biopsy reveals a high- grade B-cell lymphoma, and cytogenetic analysis demonstrates the t(8;14)(q24;q32) translocation involving the c-MYC gene. Infection with which of the following viruses is most strongly associated with this malignancy?",
+   "options": [
+    "Human papillomavirus (HPV)",
+    "Epstein–Barr virus (EBV)",
+    "Human herpesvirus-8 (HHV-8)",
+    "Human T-cell lymphotropic virus-1 (HTLV-1)"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 119,
+   "subject": null,
+   "text": "A 38-year-old man with advanced HIV infection presents with fever, weight loss, cough, and multiple papular skin lesions. His CD4 count is 48 cells/mm³. Histopathological examination of a skin biopsy is shown below. What is the most likely mode of acquisition of this infection?",
+   "options": [
+    "Inhalation of microconidia from soil contaminated with bird and bat droppings",
+    "Bite of an infected tick",
+    "Ingestion of contaminated dairy products",
+    "Direct inoculation through skin abrasions"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 120,
+   "subject": null,
+   "text": "A 35-year-old woman presents with recurrent episodes of sweating, palpitations, and confusion that improve after glucose intake. She is diagnosed with an insulinoma. Which of the following tumors should be actively screened for in this patient?",
+   "options": [
+    "Pituitary adenoma",
+    "Papillary thyroid carcinoma",
+    "Medullary thyroid carcinoma",
+    "Pheochromocytoma"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 121,
+   "subject": null,
+   "text": "A 45-year-old patient presents with a thyroid swelling. Histopathological examination reveals a tumor composed of cells derived from parafollicular (C) cells with amyloid deposition in the stroma. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Papillary carcinoma of thyroid",
+    "Follicular carcinoma of thyroid",
+    "Medullary carcinoma of thyroid",
+    "Anaplastic carcinoma of thyroid"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 122,
+   "subject": null,
+   "text": "A peripheral blood smear of a 12-year-old child with recurrent episodes of bone pain, anemia, and jaundice is shown. The smear demonstrated below. What is the most likely diagnosis?",
+   "options": [
+    "Thalassemia major",
+    "Hereditary spherocytosis",
+    "Sickle cell anemia",
+    "Autoimmune hemolyticanemia"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 123,
+   "subject": null,
+   "text": "A patient presents with the classic triad of chronic sinusitis, bronchiectasis, and situs inversus. What is the most likely diagnosis?",
+   "options": [
+    "Cystic fibrosis",
+    "Kartagener syndrome",
+    "Young syndrome",
+    "Primary immunodeficiency"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 124,
+   "subject": null,
+   "text": "Iodine deficiency in children is best assessed by measuring:",
+   "options": [
+    "Serum iodine concentration",
+    "Urinary iodine concentration",
+    "Serum TSH levels",
+    "Serum thyroglobulin levels"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 125,
+   "subject": null,
+   "text": "Two phenotypically normal parents have a first child diagnosed with rickets due to an autosomal recessive disorder. During preconception counseling, they ask about the risk of their second child being affected. What is the probability?",
+   "options": [
+    "0%",
+    "25%",
+    "50%",
+    "100%"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 126,
+   "subject": null,
+   "text": "A child with severe acute malnutrition (SAM) presents with diarrhea and features of shock. Which of the following is the most appropriate initial intravenous fluid?",
+   "options": [
+    "Normal saline",
+    "Ringer’s lactate",
+    "5% Dextrose with half-normal saline",
+    "5% Dextrose alone"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 127,
+   "subject": null,
+   "text": "A newborn has failed to pass meconium within the first 48 hours of life. Now patient with parent presented at opd at 6months old. What is the gold standard investigation for confirming the diagnosis?",
+   "options": [
+    "X-ray abdomen",
+    "Barium enema",
+    "Rectal biopsy",
+    "Anorectal manometry"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 128,
+   "subject": null,
+   "text": "According to the Anemia Mukt Bharat (AMB) program, what is the recommended iron and folic acid (IFA) supplementation for children aged 10-19 years with Hb. 8.9gm?",
+   "options": [
+    "Daily 20 mg elemental iron + 100 mcg folic acid",
+    "Weekly 45 mg elemental iron + 400 mcg folic acid",
+    "Weekly 30 mg elemental iron + 250 mcg folic acid",
+    "Daily 60 mg elemental iron + 500 mcg folic acid"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 129,
+   "subject": null,
+   "text": "A 6-month-old infant is brought with recurrent prolonged febrile seizures beginning at 5 months of age. Over the next few months, the child develops myoclonic seizures and developmental delay despite appropriate antiepileptic therapy. Genetic testing reveals a mutation in the SCN1A gene. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Myoclonic epilepsy",
+    "Lennox–Gastaut syndrome",
+    "Noonan syndrome",
+    "Dravet syndrome"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 130,
+   "subject": null,
+   "text": "Compared with standard normal saline, ReSoMal contains:",
+   "options": [
+    "Lower sodium and higher potassium",
+    "Higher sodium and lower potassium",
+    "Lower sodium and lower potassium",
+    "Higher sodium and higher potassium"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 131,
+   "subject": null,
+   "text": "Based on the Mid-Upper Arm Circumference (MUAC) measured using the Shakir tape with 11.3cm, weight for height <-3SD., what is the nutritional status of the child?",
+   "options": [
+    "Normal nutritional status",
+    "Moderate acute malnutrition",
+    "Severe acute malnutrition",
+    "Overweight"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 132,
+   "subject": null,
+   "text": "Based on the marked point on the WHO Weight-for-Age Growth Chart for girls (Birth to 5 years), what is the correct interpretation of the child’s growth status?",
+   "options": [
+    "Normal weight",
+    "Underweight",
+    "Severely underweight",
+    "Overweight"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 133,
+   "subject": null,
+   "text": "A 2-month-old infant presents with persistent inconsolable crying lasting for more than 3 hours. The symptoms began shortly after receiving routine immunizations. Which of the following vaccine components is most commonly associated with this adverse effect?",
+   "options": [
+    "Hepatitis B vaccine",
+    "Inactivated polio vaccine (IPV)",
+    "Pertussis component",
+    "Haemophilus influenzae type b (Hib) vaccine"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 134,
+   "subject": null,
+   "text": "A 12-kg toddler is admitted to the pediatric ward and requires maintenance intravenous fluid therapy. Using the standard Holliday–Segar formula, what is the total maintenance fluid requirement over the next 24 hours?",
+   "options": [
+    "1000 mL",
+    "1100 mL",
+    "1200 mL",
+    "1400 mL"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 135,
+   "subject": null,
+   "text": "A 6-month-old infant presents with recurrent respiratory tract infections, persistent wheezing, failure to thrive, and bulky, foul-smelling stools. Laboratory evaluation suggests obstruction of the exocrine glands by thick, viscid secretions. Dysfunction of which ion channel is primarily responsible for this condition?",
+   "options": [
+    "Sodium channel",
+    "Potassium channel",
+    "Chloride channel",
+    "Calcium channel"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 136,
+   "subject": null,
+   "text": "A 2-year-old boy presents with significant developmental delay. He is unable to sit independently and has spasticity with increased tone in all four limbs. On attempting purposeful movements, he demonstrates uncoordinated involuntary hand movements. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Duchenne muscular dystrophy",
+    "Cerebral palsy",
+    "Spinal muscular atrophy type I",
+    "Down syndrome"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 137,
+   "subject": null,
+   "text": "A newborn presents with severe respiratory distress, a scaphoid abdomen, and decreased breath sounds over the left hemithorax. Chest X-ray and CT scan reveal bowel loops herniating into the thoracic cavity with a rightward mediastinal shift, consistent with a right sided Bochdalek hernia. What is the most important primary pulmonary complication associated with this condition?",
+   "options": [
+    "Hypoplasia of the left lung",
+    "Congenital lobar emphysema of the right lung",
+    "Pulmonary sequestration of the left lung",
+    "Hypoplasia of the right lung"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 138,
+   "subject": null,
+   "text": "A 3-year-old child with severe acute malnutrition is admitted to a Nutritional Rehabilitation Centre (NRC). Forty-eight hours after initiation of nutritional rehabilitation with a high-carbohydrate diet, the child develops generalized muscle weakness, cardiac arrhythmias, and altered sensorium, suggestive of refeeding syndrome. Which of the following electrolyte abnormalities is most characteristic of this condition?",
+   "options": [
+    "Hyperkalemia, hypophosphatemia, hypernatremia",
+    "Hypocalcemia, hypokalemia, hypernatremia",
+    "Hypophosphatemia, hypokalemia, hyponatremia",
+    "Hypernatremia, hyperphosphatemia, hyperkalemia"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 139,
+   "subject": null,
+   "text": "A newborn is diagnosed with Prune Belly syndrome. Which of the following is a characteristic feature of this condition?",
+   "options": [
+    "Acute subpubic angle",
+    "Deficiency of abdominal wall muscles with urinary tract anomalies",
+    "Bilateral undescended ovaries",
+    "Tracheoesophageal fistula"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 140,
+   "subject": null,
+   "text": "A patient with migraine is prescribed sumatriptan for acute relief. Which of the following best describes its mechanism of action?",
+   "options": [
+    "5-HT1B/D receptor agonist",
+    "5-HT2 receptor agonist",
+    "5-HT1B/1D receptor antagonist",
+    "5-HT1a receptor antagonis"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 141,
+   "subject": null,
+   "text": "A patient presents with aspirin overdose and is found to have metabolic acidosis with respiratory alkalosis. What is the preferred management in first one hour?",
+   "options": [
+    "Forced alkaline diuresis with sodium bicarbonate",
+    "IV N-acetylcysteine administration",
+    "Forced acidic diuresis with ammonium chloride",
+    "Forced gastric lavage should be done"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 142,
+   "subject": null,
+   "text": "A patient is started on an immunomodulatory drug that inhibits calcineurin, thereby preventing IL- 2 transcription and T-cell activation. Which of the following drugs was most likely prescribed?",
+   "options": [
+    "Daclizumab",
+    "Anakinra",
+    "Cyclosporine",
+    "Sirolimus"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 143,
+   "subject": null,
+   "text": "A 65-year-old man presents with back pain, anemia, hypercalcemia, an M-protein spike on serum protein electrophoresis, and a skull X-ray showing multiple punched-out (“raindrop/cracked skull”) lytic lesions. Which of the following is a drug is used in the treatment of this patient?",
+   "options": [
+    "Palbociclib",
+    "Bortezomib",
+    "Imatinib",
+    "Cyclosporine"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 144,
+   "subject": null,
+   "text": "A 6 months old child presents with acute diarrhea. According to current recommendations, what is the appropriate dose of zinc supplementation?",
+   "options": [
+    "10 mg daily for 7 days",
+    "10 mg daily for 14 days",
+    "20 mg daily for 7 days",
+    "20 mg daily for 14 days"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 145,
+   "subject": null,
+   "text": "A 35-year-old man with confirmed pheochromocytoma develops persistent tachycardia during preoperative evaluation. What is the correct sequence of pharmacological therapy? drugs names in options",
+   "options": [
+    "Administer phenoxybezamine first, followed by a propranolol.",
+    "Administer a propranolol first, followed by anphenoxybenazine.",
+    "Administer both drugs simultaneously",
+    "Start a calcium channel blocker alone"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 146,
+   "subject": null,
+   "text": "A 26-year-old pregnant woman presents with burning micturition, increased urinary frequency, and suprapubic discomfort for 2 days. She is afebrile and hemodynamically stable. Urine culture grows Escherichia coli 10.5 sensitive to multiple antibiotics. Which of the following is the safest oral antibiotic for treating her urinary tract infection?",
+   "options": [
+    "Ciprofloxacin",
+    "Doxycycline",
+    "nitrofurantoin",
+    "Cotrimoxazole"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 147,
+   "subject": null,
+   "text": "An elderly patient presents with severe burning pain followed by grouped vesicular eruptions over the right side of the chest. The rash is unilateral, follows the T6 dermatome, and does not cross the midline. Which antiviral drug is preferred for the prophylactic treatment of this condition?",
+   "options": [
+    "Acyclovir",
+    "Ganciclovir",
+    "Oseltamivir",
+    "interferon alpha"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 148,
+   "subject": null,
+   "text": "A patient with hypertension is prescribed a drug that follows first-order elimination kinetics at therapeutic doses. Which of the following statements is true regarding first-order kinetics?",
+   "options": [
+    "The rate of elimination is directly proportional to the plasma drug concentration.",
+    "A constant amount of drug is eliminated per unit time.",
+    "Drug elimination becomes independent of plasma concentration.",
+    "The drug follows enzyme-saturation kinetics even at low doses."
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 149,
+   "subject": null,
+   "text": "A 58-year-old man with poorly controlled hypertension presents with severe headache, blurring of vision, confusion, and a blood pressure of 230/140 mmHg. Fundus examination reveals papilledema, and he is diagnosed with hypertensive emergency. The physician decides to administer intravenous labetalol. What is the correct initial regimen? ncct image",
+   "options": [
+    "Labetalol 20 mg IV administered slowly over 2 minutes",
+    "Labetalol 4 mg IV infusion over 60 minutes",
+    "Labetalol 200 mg orally as the initial treatment",
+    "Labetalol 1 mg IV bolus"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 150,
+   "subject": null,
+   "text": "A 15-year-old adolescent with newly diagnosed acute lymphoblastic leukemia (ALL) is started on intensive induction chemotherapy. Two days later, he develops oliguria, nausea, vomiting, hyperuricemia, hyperkalemia, hyperphosphatemia, and hypocalcemia, consistent . Which of the following agents is most effective for rapidly lowering the serum uric acid concentration?",
+   "options": [
+    "Allopurinol with hydration",
+    "Pegloticase",
+    "Febuxostat",
+    "Probenecid"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 151,
+   "subject": null,
+   "text": "A 35-year-old woman is diagnosed with pulmonary arterial hypertension. Which of the following drugs is most appropriate for reducing pulmonary arterial pressure?",
+   "options": [
+    "Furosemide",
+    "Amlodipine",
+    "Bosentan",
+    "Enalapril"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 152,
+   "subject": null,
+   "text": "A 60-year-old man presents to the emergency department with a blood pressure of 230/110 mmHg, severe headache, blurred vision, and evidence of end-organ damage. Which of the following is the drug of choice for immediate blood pressure reduction?",
+   "options": [
+    "Hydrochlorothiazide",
+    "Amlodipine",
+    "Sodium nitroprusside",
+    "Losartan"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 153,
+   "subject": null,
+   "text": "A young woman has been receiving an antiepileptic drug for generalized tonic-clonic seizures for the past 2 years. She now presents with weight gain, irregular menstrual cycles, acne, hirsutism, and obesity. Pelvic ultrasonography reveals multiple small peripheral ovarian follicles consistent with polycystic ovary syndrome (PCOS). Which of the following antiepileptic drugs is most likely responsible?",
+   "options": [
+    "Divalproex sodium",
+    "Lithium",
+    "Lamotrigine",
+    "Carbamazepine"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 154,
+   "subject": null,
+   "text": "A 58-year-old man with hypertension and type 2 diabetes mellitus is started on chlorthalidone. At follow-up, his blood glucose levels are found to be significantly elevated despite adherence to antidiabetic therapy. Which of the following best explains the mechanism responsible for this adverse effect?",
+   "options": [
+    "Chlorthalidone causes hypokalemia, which reduces insulin secretion from pancreatic β-cells.",
+    "Chlorthalidone directly stimulates hepatic gluconeogenesis by activating glucagon receptors.",
+    "Chlorthalidone increases insulin secretion, leading to receptor downregulation and hyperglycemia.",
+    "Chlorthalidone inhibits GLUT-4 translocation in skeletal muscle, causing insulin resistance."
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 155,
+   "subject": null,
+   "text": "An enzyme is incubated with Drug X, resulting in reduced enzyme activity. When the substrate concentration is markedly increased, the inhibition is completely overcome and enzyme activity returns to normal. Which type of enzyme inhibition best explains this finding?",
+   "options": [
+    "Non-competitive inhibition",
+    "Competitive inhibition",
+    "Irreversible inhibition",
+    "Uncompetitive inhibition"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 156,
+   "subject": null,
+   "text": "A patient with type 2 diabetes mellitus on glibenclamide is started on gemfibrozil. Soon after, he develops recurrent hypoglycemic episodes. What is the most likely mechanism of this drug interaction?",
+   "options": [
+    "Enzyme induction",
+    "Increased renal excretion of glibenclamide",
+    "CYP2C9 inhibition by gemfibrozil",
+    "Reduced gastrointestinal absorption of glibenclamide"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 157,
+   "subject": null,
+   "text": "A patient presents with hypotension associated with marked bradycardia. Which of the following drugs is most appropriate to increase both blood pressure and heart rate?",
+   "options": [
+    "Dopamine",
+    "Adrenaline",
+    "Noradrenaline",
+    "Isoprenaline"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 158,
+   "subject": null,
+   "text": "A patient with bronchial asthma is prescribed an additional drug for symptomatic control of respiratory symptoms. The site of action of the drug is marked in the diagram given below . Which of the following drugs was most likely prescribed?",
+   "options": [
+    "Zileuton",
+    "Montelukast",
+    "Indomethacin",
+    "Theophylline"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 159,
+   "subject": null,
+   "text": "A patient is started on haloperidol. After some time, he develops slow movements, tremors and rigidity, as given below. What is the mechanism that is responsible for this?",
+   "options": [
+    "5-HT₂ receptor antagonism",
+    "SSRI",
+    "H₁ receptor antagonism",
+    "Typical D₂ receptor antagonism"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 160,
+   "subject": null,
+   "text": "A population of 90,000 had 30 existing cases of tuberculosis on January 1, 2008. During the year, 15 new cases were added. No deaths or migration occurred. What is the period prevalence of tuberculosis per 1000 population?",
+   "options": [
+    "0.5/1000",
+    "0.05/1000",
+    "5.0/1000",
+    "50.0/1000"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 161,
+   "subject": null,
+   "text": "When quantitative results from multiple randomized controlled trials are statistically combined to obtain a pooled estimate, the process is called:",
+   "options": [
+    "Meta-analysis",
+    "Systematic review",
+    "Narrative review",
+    "Cohort study"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 162,
+   "subject": null,
+   "text": "The diagram shows participants selected on the basis of disease status (disease present and disease absent), after which prior exposure is assessed. What type of study is illustrated?",
+   "options": [
+    "Case-control study",
+    "Retrospective cohort study",
+    "Cross-sectional study",
+    "Ecological study"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 163,
+   "subject": null,
+   "text": "A study compares patients with a neurological disorder and healthy controls. Participants are asked about their previous use of electronic gadgets. Which bias is most likely to occur?",
+   "options": [
+    "Attrition bias",
+    "Berksonian bias",
+    "Recall bias",
+    "Hawthorne bias"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 164,
+   "subject": null,
+   "text": "A population consists of 10,000 individuals. During one year, there were 60 deaths, of which 8 were due to tuberculosis, 20 due to cardiovascular diseases, and the remaining due to other causes. What is the proportional mortality due to tuberculosis?",
+   "options": [
+    "13.3%",
+    "0.66%",
+    "0.8%",
+    "7.5%"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 165,
+   "subject": null,
+   "text": "A public health planner wants a single measure that combines years of life lost due to premature death and years lived with disability to estimate the burden of mental disorders. Which measure should be used?",
+   "options": [
+    "DALY",
+    "QALY",
+    "PQLI",
+    "Standardization"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 166,
+   "subject": null,
+   "text": "A 35-year-old man presents with bilateral pitting edema of the legs, erythematous skin changes, diarrhea, breathlessness, and features of congestive cardiac failure. Several members of his community have developed similar symptoms after consuming mustard oil from the same source. The outbreak is most likely due to adulteration of mustard oil with which of the following?",
+   "options": [
+    "Argemone oil",
+    "Linseed oil",
+    "Castor oil",
+    "Mineral oil"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 167,
+   "subject": null,
+   "text": "Which of the following is considered the most sensitive indicator for assessing iodine deficiency disorders (IDD) at the population level?",
+   "options": [
+    "Neonatal hypothyroidism prevalence",
+    "Urinary iodine excretion",
+    "Goitre prevalence",
+    "Serum TSH level"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 168,
+   "subject": null,
+   "text": "A town has a mid-year population of 24,000 and recorded 120 live births during the year. What is the crude birth rate (CBR)?",
+   "options": [
+    "3 per 1000 population",
+    "5 per 1000 population",
+    "10 per 1000 population",
+    "20 per 1000 population"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 169,
+   "subject": null,
+   "text": "Regarding fertility indicators, which of the following statements is correct?",
+   "options": [
+    "Gross Reproduction Rate (GRR) is the total number of children born to a woman",
+    "Net Reproduction Rate (NRR) is the average number of daughters born to a woman who survive to reproductive age",
+    "Total Fertility Rate (TFR) measures only female births",
+    "General Fertility Rate (GFR) is the number of births per 1000 total population"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 170,
+   "subject": null,
+   "text": "In a population of 10,000, disease prevalence is 1%. A screening test has 80% sensitivity and 90% specificity. What is the Positive Predictive Value (PPV)?",
+   "options": [
+    "0.074 (7.4%)",
+    "0.47 (47%)",
+    "0.80 (80%)",
+    "0.90 (90%)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 171,
+   "subject": null,
+   "text": "A patient is diagnosed with plague. Which of the following is the vector responsible for transmission of the disease?",
+   "options": [
+    "Louse",
+    "Flea",
+    "Sand fly",
+    "Mite"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 172,
+   "subject": null,
+   "text": "During a flood situation, a health worker advises household disinfection of 20 litres of drinking water. Which agent is most commonly recommended?",
+   "options": [
+    "Chlorine tablet",
+    "Alum",
+    "Potassium permanganate (KMnO₄)",
+    "Bleaching powder"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 173,
+   "subject": null,
+   "text": "Malnutrition status is assessed in two different groups of children before and after an intervention. Which statistical test is most appropriate if the outcome is categorized as malnourished/non- malnourished?",
+   "options": [
+    "Chi-square test",
+    "Paired t-test",
+    "Unpaired t-test",
+    "ANOVA"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 174,
+   "subject": null,
+   "text": "An economic researcher divides a city into five socioeconomic zones and then randomly selects individuals from each zone. Which sampling method is being used?",
+   "options": [
+    "Stratified random sampling",
+    "Simple random sampling",
+    "Cluster sampling",
+    "Systematic sampling"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 175,
+   "subject": null,
+   "text": "Which of the following is the most commonly used method of randomization in research studies?",
+   "options": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 176,
+   "subject": null,
+   "text": "Which economic evaluation technique is used to compare two treatments when one treatment costs ₹5000 and successfully treats 70 out of 100 patients, while another costs ₹8000 and successfully treats 85 out of 100 patients?",
+   "options": [
+    "Cost-benefit analysis",
+    "Cost-effectiveness analysis",
+    "Cost-utility analysis",
+    "Cost-minimization analysis"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 177,
+   "subject": null,
+   "text": "A worker employed in a dye factory develops carcinoma of the urinary bladder. Which chemical exposure is most likely responsible?",
+   "options": [
+    "benzidine",
+    "Polyvinyl chloride (PVC)",
+    "Asbestos",
+    "Benzene"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 178,
+   "subject": null,
+   "text": "A child presents with anemia and wrist drop. The peripheral blood smear shows basophilic stippling of red blood cells. What is the most likely diagnosis?",
+   "options": [
+    "Lead poisoning",
+    "Arsenic poisoning",
+    "Mercury poisoning",
+    "Thallium poisoning"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 179,
+   "subject": null,
+   "text": "A shipyard worker presents with chronic cough and breathlessness. Which occupational disease is most likely?",
+   "options": [
+    "Silicosis",
+    "Asbestosis",
+    "Byssinosis",
+    "Bagassosis"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 180,
+   "subject": null,
+   "text": "Arrange the following logos/organizations in the correct order as shown in the image. Options:",
+   "options": [
+    "WHO → UNICEF → NLEP → ICDS",
+    "UNICEF → WHO → NLEP → ICDS",
+    "WHO → NLEP → UNICEF → ICDS",
+    "ICDS → UNICEF → WHO → NLEP"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 181,
+   "subject": null,
+   "text": "ORS demonstration to mothers is an example of which type/domain of learning?",
+   "options": [
+    "Cognitive domain",
+    "Affective domain",
+    "Psychomotor domain",
+    "Observational learning"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 182,
+   "subject": null,
+   "text": "A 4-year-old child is bitten by a pet dog. The wound shows bleeding puncture marks as seen in the image. The dog is vaccinated. How should the child be managed?",
+   "options": [
+    "No action needed",
+    "Only local wound washing",
+    "Anti-rabies vaccine only",
+    "Anti-rabies vaccine with rabies immunoglobulin"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 183,
+   "subject": null,
+   "text": "Which of the following is a health committee associated with health planning and health services in India?",
+   "options": [
+    "Bhore Committee",
+    "Kartar Singh Committee",
+    "Srivastava Committee",
+    "Mudaliar Committee"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 184,
+   "subject": null,
+   "text": "Which of the following is a regular health worker posted at the Primary Health Centre (PHC) and provides maternal and child health services?",
+   "options": [
+    "Pharmacist",
+    "ASHA worker",
+    "Staff Nurse",
+    "Auxiliary Nurse Midwife (ANM)"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 185,
+   "subject": null,
+   "text": "ASHA workers promote Village Health and Nutrition activities primarily by implementing which principle of Primary Health Care?",
+   "options": [
+    "Community participation",
+    "Equitable distribution n",
+    "Intersectoral coordination",
+    "Appropriate technology"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 186,
+   "subject": null,
+   "text": "Alcohol-based hand sanitizers are primarily promoted under which level of the Village Health, Sanitation and Nutrition Committee (VHSNC)?",
+   "options": [
+    "Primary level",
+    "Secondary level",
+    "Community level",
+    "Tertiary level"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 187,
+   "subject": null,
+   "text": "A 4-year-old boy does not respond to his name, avoids eye contact, prefers playing alone, has delayed speech with echolalia, exhibits repetitive hand flapping, and becomes distressed by changes in routine. He have good grades in school. What is the most likely diagnosis?",
+   "options": [
+    "Attention-deficit/hyperactivity disorder (ADHD)",
+    "Asperger syndrome",
+    "Autism spectrum disorder",
+    "Intellectual disability"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 188,
+   "subject": null,
+   "text": "A man develops an intense fear of having cancer after his uncle dies from the disease. Despite repeated medical evaluations showing no evidence of malignancy, he remains convinced that he has cancer. What is the most likely diagnosis?",
+   "options": [
+    "Somatic symptom disorder",
+    "Illness anxiety disorder",
+    "Delusional disorder, somatic type",
+    "Somatiasation"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 189,
+   "subject": null,
+   "text": "A kindergarten teacher believes that all of her students are failing because of her. She also reports hearing voices commenting on her actions. What is the most appropriate treatment?",
+   "options": [
+    "Psychotherapy alone",
+    "Antidepressant alone",
+    "Antidepressant plus antipsychotic",
+    "Mood stabilizer"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 190,
+   "subject": null,
+   "text": "A patient with schizophrenia develops involuntary repetitive movements of the face and hands after long-term treatment. Which class of drugs is the most likely cause of this adverse effect?",
+   "options": [
+    "Benzodiazepines",
+    "Selective serotonin reuptake inhibitors (SSRIs)",
+    "Typical antipsychotics",
+    "Mood stabilizers"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 191,
+   "subject": null,
+   "text": "A patient with bipolar disorder on long-term treatment develops excessive thirst and polyuria tremors, agitation, and hyperactivity. Which of the following drugs is the most likely cause?",
+   "options": [
+    "Valproate",
+    "Carbamazepine",
+    "Lithium",
+    "Lamotrigine"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 192,
+   "subject": null,
+   "text": "A 22-year-old female athlete presents with secondary amenorrhea for the past 6 months. She has experienced significant weight loss due to excessive physical training. Which of the following hormonal profiles is most likely to be seen?",
+   "options": [
+    "Low LH, low FSH",
+    "High FSH, low LH",
+    "High FSH, high LH",
+    "Low FSH, high LH"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 193,
+   "subject": null,
+   "text": "What is the full form of the radiation safety principle “ALARA”?",
+   "options": [
+    "As Long As Radiation Allows",
+    "As Low As Reasonably Achievable",
+    "As Little As Radiation Accepted",
+    "As Low As Required for Assessment"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 194,
+   "subject": null,
+   "text": "A 48-year-old man presents with colicky abdominal pain, progressive abdominal distension, vomiting, and inability to pass flatus for the past 24 hours. An erect abdominal X-ray is shown below. What is the most likely diagnosis?",
+   "options": [
+    "Large bowel obstruction",
+    "Small bowel obstruction",
+    "Acute pancreatitis",
+    "Volvulus"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 195,
+   "subject": null,
+   "text": "A 25-year-old man is brought to the emergency department after a road traffic accident with loss of consciousness. A non-contrast CT scan of the head is shown. What is the most likely diagnosis?",
+   "options": [
+    "Subdural hemorrhage",
+    "Epidural hematoma",
+    "Subarachnoid hemorrhage",
+    "Hemorrhagic contusion"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 196,
+   "subject": null,
+   "text": "A 52-year-old man with poorly controlled diabetes presents with facial pain, nasal congestion, periorbital swelling, and diminished vision in the right eye. MRI of the paranasal sinuses and orbit is shown. What is the most appropriate treatment?",
+   "options": [
+    "Oral voriconazole",
+    "Intravenous fluconazole",
+    "Intravenous vancomycin",
+    "Intravenous liposomal amphotericin B with surgical debridement"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 197,
+   "subject": null,
+   "text": "A 56-year-old woman with carcinoma of the cervix is planned for intracavitary brachytherapy following external beam radiotherapy. What is the principal advantage of brachytherapy?",
+   "options": [
+    "It is effective in treating distant metastases.",
+    "It eliminates the need for radioactive sources.",
+    "It delivers a high radiation dose to the tumor while minimizing exposure to surrounding normal tissues.",
+    "It is more effective than surgery for all solid tumors."
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 198,
+   "subject": null,
+   "text": "A 58-year-old man with a known primary liver malignancy undergoes a whole-body imaging study, which demonstrates multiple hypermetabolic lesions in both lungs, consistent with pulmonary metastases. What is the principle behind this imaging modality?",
+   "options": [
+    "Tissue perfusion using iodine contrast",
+    "Decreased glucose metabolism in tissues",
+    "Increased glucose metabolism using ¹⁸F-fluorodeoxyglucose (FDG)",
+    "Water diffusion in brain tissue"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 199,
+   "subject": null,
+   "text": "A 22-year-old man is brought to the emergency department after being struck on the head with a heavy iron rod during an assault. He has a laceration over the left parieto-occipital region and a palpable step deformity. CT scan findings are shown below. What is the most likely diagnosis?",
+   "options": [
+    "Linear skull fracture",
+    "Basilar skull fracture",
+    "Depressed skull fracture",
+    "Diastatic skull fracture"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 200,
+   "subject": null,
+   "text": "MATCH THE FOLLOWING",
+   "options": [
+    "ERCP",
+    "MRCP",
+    "HIDA SCAN",
+    "PTC 1. 2. 3. + 4."
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 201,
+   "subject": null,
+   "text": "According to ATLS burn resuscitation protocol, an adult weighing 50 kg has 20% TBSA second- degree burns. What is the fluid requirement in the first 24 hours?",
+   "options": [
+    "4000 mL",
+    "3000 mL",
+    "2000 mL",
+    "5000 mL"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 202,
+   "subject": null,
+   "text": "A 38-year-old woman presents with a 2-month history of spontaneous, unilateral, blood-stained discharge from a single duct of the right nipple. There is no palpable breast lump. What is the most likely diagnosis?",
+   "options": [
+    "Intraductal papilloma",
+    "Fibroadenoma",
+    "Duct ectasia",
+    "Breast carcinoma"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 203,
+   "subject": null,
+   "text": "A 52-year-old man presents with a slowly enlarging, painless swelling in the right parotid region. FNAC confirms a malignant parotid tumor. The surgeon wants to assess the first group of lymph nodes involved in metastasis.",
+   "options": [
+    "Submental lymph nodes",
+    "Deep cervical lymph nodes",
+    "Preauricular and superficial parotid lymph nodes",
+    "Submandibular lymph nodes"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 204,
+   "subject": null,
+   "text": "A 20-year-old man presents with intermittent mucoid discharge from a small opening along the anterior border of the lower one-third of the sternocleidomastoid muscle since childhood. What is the most likely diagnosis?",
+   "options": [
+    "Thyroglossal fistula",
+    "Branchial fistula",
+    "Dermoid cyst",
+    "Tuberculous sinus"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 205,
+   "subject": null,
+   "text": "A 32-year-old man presents after a stab injury to the neck. The wound is located between the cricoid cartilage and the angle of the mandible. He is tachycardic (pulse 120/min) and hypotensive (BP 90/70 mmHg). Which of the following correctly identifies the neck zone and the appropriate next step in management?",
+   "options": [
+    "Zone I – CT angiography followed by selective exploration if indicated",
+    "Zone II – Immediate surgical exploration",
+    "Zone III – MRI neck followed by observation",
+    "Zone II – Conservative management with close observation"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 206,
+   "subject": null,
+   "text": "A 28-year-old man is brought to the emergency department after a road traffic accident. He has sudden breathlessness, absent breath sounds on the right side, and chest X-ray shows a large right-sided pneumothorax with complete lung collapse. He is hemodynamically stable. What is the next best management?",
+   "options": [
+    "Intercostal chest tube",
+    "Emergency thoracotomy",
+    "Oxygen alone",
+    "Endotracheal intubation only"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 207,
+   "subject": null,
+   "text": "A 25-year-old man undergoes an elective splenectomy for hereditary spherocytosis. While ligating the splenic vessels, the surgeon preserves an artery to maintain the blood supply to the stomach. Which artery is it?",
+   "options": [
+    "Splenic artery",
+    "Left gastroepiploic artery",
+    "Left gastric artery",
+    "Short gastric artery"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 208,
+   "subject": null,
+   "text": "A 28-year-old man is brought to the emergency department following a road traffic accident. He is hemodynamically stable and complains of right flank pain. Examination reveals mild abrasions over the right flank. Contrast-enhanced CT of the abdomen is shown below. Based on the CT findings, what is the most likely grade of renal injury according to the AAST renal injury classification?",
+   "options": [
+    "Grade II renal injury",
+    "Grade III renal injury",
+    "Grade IV renal injury",
+    "Grade V renal injury"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 209,
+   "subject": null,
+   "text": "A patient involved in a road traffic accident has: • GCS: E4 V3 M4 • Respiratory rate: 28/min • Blood pressure: 90/60 mmHg What is the appropriate triage category?",
+   "options": [
+    "Green",
+    "Yellow",
+    "Red",
+    "Black"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 210,
+   "subject": null,
+   "text": "Which irrigation fluid is preferred during bipolar TURP?",
+   "options": [
+    "1.5% Glycine",
+    "3% Sorbitol",
+    "Normal saline",
+    "Sterile water"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 211,
+   "subject": null,
+   "text": "During laparoscopic cholecystectomy, a Veress needle is inserted through the umbilicus. After insufflating a small amount of CO₂, the insufflation pressure rises abruptly, and crepitus is felt around the umbilical port. What is the most likely cause?",
+   "options": [
+    "Veress needle punctured the bowel",
+    "Veress needle failed to enter the peritoneal cavity / or needle enter into subcutaneous space",
+    "Over-insufflation of CO₂ into the peritoneal cavity",
+    "Injury to the inferior epigastric artery"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 212,
+   "subject": null,
+   "text": "A 35-year-old woman undergoes surgery for a thyroid nodule. Postoperatively, she develops ptosis and miosis on the operated side. Which surgical approach is most likely associated with this complication?",
+   "options": [
+    "Conventional collar incision thyroidectomy",
+    "Transaxillary endoscopic thyroidectomy",
+    "Transoral vestibular thyroidectomy",
+    "Lateral cervical lymph node biopsy"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 213,
+   "subject": null,
+   "text": "A 30-year-old man is brought to the emergency department after a stab injury to the left lower chest. His blood pressure is 90/59 mmHg. Chest X-ray is normal. What is the next best step?",
+   "options": [
+    "eFAST",
+    "CT chest",
+    "CT abdomen",
+    "Diagnostic laparoscopy"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 214,
+   "subject": null,
+   "text": "A 42-year-old woman with morbid obesity undergoes bariatric surgery. The procedure includes the creation of a long biliopancreatic (bile) limb, resulting in reduced mixing of bile with ingested food until the distal small intestine. She is counseled about the risk of developing deficiencies of fat-soluble vitamins (A, D, E, and K). Which of the following bariatric procedures is she most likely to have undergone?",
+   "options": [
+    "Sleeve gastrectomy",
+    "Adjustable gastric banding",
+    "Roux-en-Y gastric bypass",
+    "Intragastric balloon"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 215,
+   "subject": null,
+   "text": "A 68-year-old man presents with sudden onset severe pain in the left lower limb for 5 hours. On examination, the limb is cold and pale. Distal pulses are absent. Sensory loss is present over the toes, and motor power is 4/5 at the ankle. There is no fixed mottling or muscle rigidity. What is the preferred treatment option?",
+   "options": [
+    "Intravenous anticoagulation and observation",
+    "Catheter-directed thrombolysis",
+    "Urgent revascularization",
+    "Amputation"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 216,
+   "subject": null,
+   "text": "A 56-year-old man presents with bleeding per rectum for 4 months. On examination, there is a 5 cm ulceroproliferative growth arising from the anal canal,5cm above the dentate line. Biopsy reveals squamous cell carcinoma. Contrast-enhanced CT shows no distant metastasis. What is the best initial treatment?",
+   "options": [
+    "TME",
+    "Surgery followed by radiotherapy",
+    "Neoadjuvant chemoradiotherapy followed by surgery",
+    "APR"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 217,
+   "subject": null,
+   "text": "A 48-year-old man presents with severe retrosternal pain after forceful vomiting. Contrast-enhanced CT with water-soluble contrast demonstrates a distal esophageal perforation with contrast leak into the mediastinum. He is hemodynamically stable, but the perforation is diagnosed within 24 hours of symptom onset. What is the next best step in management?",
+   "options": [
+    "Conservative management",
+    "Early surgical exploration",
+    "Nasogastric tube feeds",
+    "Observation"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 218,
+   "subject": null,
+   "text": "Which of the following options correctly describes neoadjuvant chemotherapy?",
+   "options": [
+    "Chemotherapy given before surgery",
+    "Chemotherapy given after surgery",
+    "Chemotherapy independent of surgery",
+    "Chemotherapy with additional initial treatment"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 219,
+   "subject": null,
+   "text": "A 40-year-old woman presents with a painless palpable lump in the left breast. Mammography reveals a suspicious lesion (BI-RADS 5). Before planning definitive treatment or evaluating the extent of disease and possible metastasis, tissue diagnosis is required. Which of the following is the preferred method for obtaining a histological diagnosis?",
+   "options": [
+    "Core needle biopsy",
+    "FNAC",
+    "Incision biopsy",
+    "Excision biopsy"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 220,
+   "subject": null,
+   "text": "Basal cell carcinoma (BCC) is present near the inner canthus. The tumor is small but high grade. Which of the following statements is correct?",
+   "options": [
+    "Locally aggressive",
+    "Invades the eye",
+    "Can extend up to the brain",
+    "All of the above"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 221,
+   "subject": null,
+   "text": "A patient presents with an obstructing left ureteric stone causing hydronephrosis and fever. What is the most appropriate initial management?",
+   "options": [
+    "Observation only",
+    "Percutaneous nephrectomy",
+    "Urgent urinary decompression with DJ stenting or percutaneous nephrostomy",
+    "Elective nephrectomy"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 222,
+   "subject": null,
+   "text": "An abdominal X-ray demonstrates a staghorn calculus occupying the renal pelvis and calyces. Which type of urinary stone is most commonly responsible?",
+   "options": [
+    "Uric acid stone",
+    "Calcium oxalate stone",
+    "Magnesium ammonium phosphate (struvite) stone",
+    "Cystine stone"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 223,
+   "subject": null,
+   "text": "A patient is placed in the Trendelenburg position during surgery. Which of the following hemodynamic changes is expected immediately after positioning?",
+   "options": [
+    "Decreased central venous pressure (CVP)",
+    "Increased central venous pressure (CVP)",
+    "Decreased preload",
+    "Decreased venous return"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 224,
+   "subject": null,
+   "text": "The area marked on the left ventricular pressure-volume loop shown in the image represents which phase of the cardiac cycle?",
+   "options": [
+    "Isovolumetric contraction",
+    "Ejection phase",
+    "Isovolumetric relaxation",
+    "Rapid ventricular filling"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 225,
+   "subject": null,
+   "text": "The clinical sign shown in the image is most likely due to which of the following mechanisms?",
+   "options": [
+    "Hyperkalemia causing depolarization of the muscle membrane",
+    "Hypercalcemia causing decreased neuromuscular excitability",
+    "Hypocalcemia causing increased neuronal excitability",
+    "Hypomagnesemia causing decreased acetylcholine release"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 226,
+   "subject": null,
+   "text": "An opening snap heard on cardiac auscultation is classically associated with which of the following",
+   "options": [
+    "Aortic stenosis conditions?",
+    "Mitral stenosis with Mitral regurgitation",
+    "Hypertrophic cardiomyopathy",
+    "Tricuspid regurgitation"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 227,
+   "subject": null,
+   "text": "A 52-year-old man with a past history of untreated syphilis presents with urinary retention, overflow incontinence, and sensory ataxia. The cystometrogram shows a large-capacity bladder with markedly reduced detrusor contractions. What is the most likely diagnosis?Which of the following is the most likely diagnosis?",
+   "options": [
+    "Automatic bladder",
+    "Atonic bladder",
+    "Spastic bladder",
+    "Neurogenic uninhibited bladder"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 228,
+   "subject": null,
+   "text": "A 50 year-old man with severe aortic stenosis undergoes cardiac catheterization. Which of the following pressure-volume loop changes is most consistent with this condition?",
+   "options": [
+    "Decreased end-systolic volume with increased stroke volume",
+    "Increased end-diastolic volume with increased stroke volume",
+    "Increased afterload with decreased stroke volume",
+    "Decreased afterload with increased stroke volume"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 229,
+   "subject": null,
+   "text": "A skeletal muscle fiber is examined in the resting state and then immediately after contraction begins. Which of the following changes occurs in the sarcomere during muscle contraction?",
+   "options": [
+    "A band shortens while I band remains unchanged",
+    "H zone and I band decrease in length, while A band remains constant",
+    "A band decreases in length, while H zone remains unchanged",
+    "Z lines move farther apart"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 230,
+   "subject": null,
+   "text": "A bodybuilder has been self- administering exogenous testoterone injections for several months to increase muscle mass. Which of the following hormonal changes is most likely to occur?",
+   "options": [
+    "low GnRH, low LH, high FSH",
+    "low GnRH, high LH, High FSH",
+    "low GnRH, low LH, lowFSH",
+    "high GRH, high LH, high FSH"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 231,
+   "subject": null,
+   "text": "A researcher is studying the first major checkpoint that determines whether a cell is committed to DNA replication or enters the quiescent (G₀) phase. This checkpoint occurs immediately before which phase of the cell cycle?",
+   "options": [
+    "G₂ phase",
+    "M phase",
+    "S phase",
+    "G₀ phase"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 232,
+   "subject": null,
+   "text": "A healthy 25-year-old man is exercising vigorously. Which pulmonary zone shows the greatest increase in perfusion compared with rest?",
+   "options": [
+    "Zone 1",
+    "Zone 2",
+    "Zone 3",
+    "No change in any zone"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 233,
+   "subject": null,
+   "text": "A researcher is comparing different markers for measurement of the glomerular filtration rate (GFR). Which of the following is the best reason why inulin is preferred over creatinine for accurate estimation of GFR?",
+   "options": [
+    "Creatinine falsely overestimates GFR because it is secreted by the renal tubules.",
+    "Inulin falsely overestimates GFR because it undergoes tubular secretion.",
+    "Creatinine falsely underestimates GFR because it is completely reabsorbed.",
+    "Inulin is metabolized by the kidneys before excretion."
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 234,
+   "subject": null,
+   "text": "Which of the following ultrasound findings is diagnostic of polycystic ovarian morphology?",
+   "options": [
+    "≥20 follicles in both ovaries in 1 section",
+    "≥12 follicles in both ovaries",
+    "≥20 follicles in one ovary",
+    "≥12 follicles in one ovary"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 235,
+   "subject": null,
+   "text": "Based on the embryological timing of zygotic division, when did cleavage most likely occur?",
+   "options": [
+    "Less than 72 hours after fertilization",
+    "4–8 days after fertilization",
+    "8–12 days after fertilization",
+    "> 12 days"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 236,
+   "subject": null,
+   "text": "A 50-year-old woman presents with recurrent episodes of sudden heat sensation associated with profuse sweating and flushing over the past several months. She has irregular menstrualcycles suggestive of the menopausal transition. Which of the following is the cause of hot flashes?",
+   "options": [
+    "LH",
+    "FSH",
+    "High Progesterone",
+    "high Estrogen (Estradiol)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 237,
+   "subject": null,
+   "text": "A 26-year-old Rh-negative woman had one full-term pregnancy 3 years ago. Her husband is Rh- positive. She is unsure whether she received anti-immunoglobulin after delivery.The child was later found to be Rh-negative. She is currently pregnant and in her 8th week of pregnancy",
+   "options": [
+    "Administer anti-D immunoglobulin immediately before conception",
+    "Perform an Indirect Coombs Test (Indirect Antiglobulin Test) to assess maternalsensitization",
+    "Administer anti-D immunoglobulin only after the next delivery regardless of the baby’s Rhstatus",
+    "No further evaluation or prophylaxis is required"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 238,
+   "subject": null,
+   "text": "A 35-year-old non-pregnant woman presents with persistent postcoital spotting for the past several months. Her serum β-hCG isnegative. Which of the following is the most likely diagnosis?",
+   "options": [
+    "Polycystic ovary syndrome (PCOS)",
+    "cervical ectropion",
+    "Endometrial hyperplasia",
+    "Submucosal fibroid"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 239,
+   "subject": null,
+   "text": "A 24-year-old woman presents to the emergency department with fever, lower abdominal pain, vaginal bleeding, and foul-smelling vaginal discharge 3 days after undergoing an abortion by an unlicensed practitioner. On examination, she is febrile, tachycardic, and has markeduterine tenderness. What is the most likely diagnosis?",
+   "options": [
+    "Incomplete abortion",
+    "Septic abortion",
+    "Threatened abortion",
+    "Missed abortion"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 240,
+   "subject": null,
+   "text": "Identify the maneuver? (video was there )",
+   "options": [
+    "Mauriceau–Smellie–Veit (MSV) maneuver",
+    "Burns–Marshall maneuver",
+    "Lovsetmaneuver",
+    "Pinard maneuver"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 241,
+   "subject": null,
+   "text": "What is the underlying embryological defect responsible for bicornuate uterus?",
+   "options": [
+    "Failure of fusion of the Müllerian ducts",
+    "Failure of descent of the Mu llerian ducts",
+    "Failure of fusion of the Wolffian ducts",
+    "Failure of resorption of the Mu llerian septum"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 242,
+   "subject": null,
+   "text": "All of the following are core components of Active Management of the Third Stage of Labor (AMTSL) EXCEPT ?",
+   "options": [
+    "Administration of 10 IU oxytocin IM/IV immediately after birth of the baby,",
+    "Controlled cord traction (CCT) to remove the placenta",
+    "Delayed Cord Clamping",
+    "Uterine Massage Whether its early or Delayed cord clamping, it does not change the incidence of PPH."
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 243,
+   "subject": null,
+   "text": "A 28-year-old woman who is known to be HIV-positive is on regularantiretroviral therapy (ART) with good adherence and anhigh viral load. She has delivered a healthy term baby. Sheasks the doctor whether she can breastfeed her newborn. What isthe most appropriate advice?",
+   "options": [
+    "Complete avoidance of breastfeeding is mandatory in all HIV-positivemothers",
+    "Breastfeeding is allowed only if infant is on isoniazid prophylaxis",
+    "Exclusive breastfeeding is allowed if mother is on ART with viral suppression",
+    "Breastfeeding is allowed only after 6 months of formula feeding"
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 244,
+   "subject": null,
+   "text": "A 30-year-old woman presents to the gynecology outpatient department because she is unable to feel the thread of her IUCD. She had the IUCD inserted 6 months ago. On per speculum examination, the IUCD strings are not visible at the external cervical os. She is asymptomatic. What is the immediate next best step inmanagement?",
+   "options": [
+    "Use a PROBe to remove the IUCD, again reinsert",
+    "Perform MRI",
+    "Perform HSG",
+    "use a probe (IUCD hook) and try to remove the IUCD in the OPD."
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 245,
+   "subject": null,
+   "text": "A 30-year-old nulliparous woman with primary infertility is found tohave a 5–6 cm ovarianendometrioma on pelvic ultrasonography.She desires future fertility. Which of the following is the most appropriate fertility-preserving treatment?",
+   "options": [
+    "Oophorectomy",
+    "Cauterization (ablation) of the cyst wall",
+    "Transvaginal cystectomy",
+    "Laparoscopic cystectomy (cyst wall excision)"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 246,
+   "subject": null,
+   "text": "A 28-year-old G2P1L1 woman with a previous pregnancy complicated by pregnancy-induced hypertension (PIH) has recently beendiagnosed with antiphospholipid antibody syndrome (APS). She is planning her next pregnancy and presents for preconceptioncounseling. Which of the following is the most appropriatepreconception management?",
+   "options": [
+    "Low-dose aspirin alone",
+    "Low-dose aspirin combined with low-molecular-weight heparin (LMWH)",
+    "Low-molecular-weight heparin (LMWH) alone",
+    "Low-Dose aspirin with Fractioned heparin"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 247,
+   "subject": null,
+   "text": "A primigravida in active labor has been in labor for 3 hours. On vaginal examination, the cervix is 6 cm dilated, and there has been no further progress in cervical dilatation or descent of the presentingpart during this period. There is rupture of membranes already done and on per vaginal examination there is no moulding of the fetal scalp bones. What is the most appropriate next step in management?",
+   "options": [
+    "Cesarean section",
+    "wait and watch",
+    "Induction of labor",
+    "Give oxytocin"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 248,
+   "subject": null,
+   "text": "Both parents have sickle cell trait. At 16 weeks of gestation, which of the following is the most appropriate diagnostic test for prenatal diagnosis of sickle cell disease?",
+   "options": [
+    "Amniocentesis",
+    "Chorionic villus sampling (CVS)",
+    "Cordocentesis",
+    "Ultrasonography (USG)"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 249,
+   "subject": null,
+   "text": "A woman between 30–50-year-old of age presents for routine cervical cancer screening. Which of the following is the screening strategy?",
+   "options": [
+    "Pap smear every 5 years",
+    "tvs every 5 yrs",
+    "Colposcopy every 5 years",
+    "Co-testing (HPV + Pap smear) every 5 years"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 250,
+   "subject": null,
+   "text": "Following a tubectomy, what is the recommended duration of leave under the National Family Welfare Programme?",
+   "options": [
+    "7 days",
+    "14 days",
+    "21 days",
+    "28 days"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 251,
+   "subject": null,
+   "text": "An infertile woman undergoes hysterosalpingography (HSG), which demonstrates a characteristic “cogwheel” appearance of the fallopian tube. What is the most likely diagnosis?",
+   "options": [
+    "Hydrosalpinx",
+    "Asherman syndrome",
+    "Pelvic inflammatory disease (PID)",
+    "Ectopic pregnancy"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 252,
+   "subject": null,
+   "text": "The image below demonstrates the McRoberts maneuver used during the management of shoulder dystocia. What is the primary mechanism by which this maneuver facilitates delivery Except?",
+   "options": [
+    "Straightening of the sacrum relative to the lumbar vertebrae",
+    "Rotation of the symphysis pubis toward the maternal head",
+    "Decreases the angle of pelvic inclination",
+    "Increases the anteroposterior diameter of the pelvic outlet"
+   ],
+   "correct": 3,
+   "explanation": ""
+  },
+  {
+   "n": 253,
+   "subject": null,
+   "text": "A 26-year-old primigravida at 20 weeks of gestation presents for routine antenatal evaluation. She has rheumatic heart disease with mitral stenosis (mitral valve area = 1.2 cm²). She is NYHA Class II with no signs of pulmonary edema or heart failure. What is the most appropriate management?",
+   "options": [
+    "Immediate percutaneous balloon mitral valvotomy",
+    "Continue medical management with regular antenatal follow-up",
+    "Elective mitral valve replacement during pregnancy",
+    "Termination of pregnancy"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 254,
+   "subject": null,
+   "text": "A 30-year-old woman wishes to conceive again and She has a history of two consecutive spontaneous abortions during the second trimester. She has no history of first-trimester miscarriages. Which of the following is the most likely cause?",
+   "options": [
+    "Antiphospholipid antibody syndrome",
+    "Cervical insufficiency (cervical incompetence)",
+    "Luteal phase defect",
+    "Chromosomal abnormality"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 255,
+   "subject": null,
+   "text": "A 27-year-old multigravida at 16 weeks of gestation presents for her first antenatal visit. She received Td vaccination during her previous pregnancy 3 years ago, but she is unable to recall the number of doses she received. What is the most appropriate management?",
+   "options": [
+    "No Td vaccination is required in the current pregnancy.",
+    "Administer a single Td booster dose at 28weeks AOG.",
+    "Restart the Td vaccination schedule with 2 doses given 4 weeks apart.",
+    "Administer Td vaccine only after delivery."
+   ],
+   "correct": 2,
+   "explanation": ""
+  },
+  {
+   "n": 256,
+   "subject": null,
+   "text": "A semen sample is examined under the microscope, demonstrating progressively motile spermatozoa. According to the WHO reference values, what is the minimum percentage of progressively motile sperm required to be considered normal? (microscopic video was there)",
+   "options": [
+    "≥42%",
+    "40%",
+    "38%",
+    "30%"
+   ],
+   "correct": 0,
+   "explanation": ""
+  },
+  {
+   "n": 257,
+   "subject": null,
+   "text": "During a medicolegal examination in a sexual assault case, motile spermatozoa are identified on a vaginal smear. Their presence most likely indicates that sexual intercourse occurred within which of the following time periods?",
+   "options": [
+    "6–12 hours",
+    "12–24 hours",
+    "24–48 hours",
+    "48–72 hours"
+   ],
+   "correct": 1,
+   "explanation": ""
+  },
+  {
+   "n": 258,
+   "subject": null,
+   "text": "A 45-year-old multiparous woman presents with a vaginal bulge that protrudes beyond the introitus, urinary leakage while coughing, and is able to void urine normally. She undergoes anterior colporrhaphy with mesh repair (colpopexy). Which condition is this surgery primarily performed to correct?",
+   "options": [
+    "Rectocele",
+    "Cystocele",
+    "Enterocele",
+    "Vesicovaginal fistula"
+   ],
+   "correct": 1,
+   "explanation": ""
+  }
+ ]
+}

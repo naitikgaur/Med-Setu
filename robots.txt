@@ -1,0 +1,11 @@
+# MedSetu — everyone is welcome to crawl the whole site.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://med-setu.netlify.app/sitemap.xml
