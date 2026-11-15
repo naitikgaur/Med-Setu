@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "description": "MedSetu \u2014 the complete FMGE practice package by Naitik Library: previous-year papers as full mock tests, subject-wise tests, and a 15,607-question bank with Practice and Exam modes. Free, static, no data collected.",
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "^8.5.23",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4"
+  },
+  "name": "medsetu",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "prebuild": "node scripts/prepare-data.mjs",
+    "prepare": "node scripts/prepare-data.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "version": "3.0.0"
+}
