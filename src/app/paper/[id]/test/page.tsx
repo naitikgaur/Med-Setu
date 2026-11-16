@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PAPERS_META, getMeta, paperDescriptor } from '../../../../lib/papers';
 import Runner from '../../../../components/Runner';
@@ -11,3 +12,5 @@ export default function TestPage({ params }: { params: { id: string } }) {
   if (!meta) notFound();
   return <Runner desc={paperDescriptor(meta)} />;
 }
+
+export const metadata: Metadata = { robots: { index: false, follow: false } };

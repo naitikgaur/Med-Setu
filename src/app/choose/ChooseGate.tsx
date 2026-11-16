@@ -40,7 +40,26 @@ export default function ChooseGate() {
         </Link>
       </div>
 
-      <div className="mt-6 grid gap-4 md:grid-cols-3">
+      <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <Link
+          href="/tests/"
+          className="group flex flex-col rounded-xl border border-med-line bg-med-soft/40 p-6 shadow-card transition hover:border-med hover:shadow-lift"
+        >
+          <p className="text-xs font-bold uppercase tracking-wide text-med">New · Grand tests</p>
+          <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Test Series</h2>
+          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+            30 full-syllabus grand tests — 300 questions each in the official NBEMS mix, drawn from
+            previous-year papers and the question bank, with a learning for every question and an
+            eight-part analysis.
+          </p>
+          <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
+            30 tests · 9,000 questions
+          </p>
+          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+            Go to the Test Series →
+          </span>
+        </Link>
+
         <Link
           href="/papers/"
           className="group flex flex-col rounded-xl border border-line bg-white p-6 shadow-card transition hover:border-med-line hover:shadow-lift"

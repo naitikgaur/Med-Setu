@@ -6,6 +6,7 @@ export const metadata = {
   title: 'About MedSetu — Naitik Library',
   description:
     'MedSetu is made by the efforts of Naitik Library, founded by Naitik Gaur, Gautam Nagar, New Delhi — the complete free FMGE practice package: previous-year mock papers, subject-wise tests and a question bank, for every student.',
+  alternates: { canonical: '/about/' },
 };
 
 export default function About() {

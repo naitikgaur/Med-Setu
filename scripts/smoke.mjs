@@ -462,10 +462,13 @@ console.log('7) Gated entry flow');
   ok(chunkText.includes('gate-name') && chunkText.includes('gate-sum'), 'gate: name + sum fields ship in the bundle');
   ok(chunkText.includes('Continue as'), 'gate: returning students get the "Continue as" path');
 
-  // Guards: the library and paper pages sit behind the client-side name gate,
-  // and the static HTML of /papers must not leak the library itself.
+  // Guards: attempting sits behind the client-side name gate. V4 change
+  // (founder's SEO brief): the static HTML of /papers now LISTS the 12
+  // paper pages so crawlers can find them — the attempt flow itself is
+  // still gated (RequireName on every paper page + LibraryGate below).
   const papersHtml = readFileSync(join(out, 'papers', 'index.html'), 'utf8');
-  ok(!papersHtml.includes('/paper/dec-2020/'), 'papers: static HTML contains no paper cards (library renders only after the gate)');
+  ok(papersHtml.includes('/paper/dec-2020/') && papersHtml.includes('/paper/jun-2026/'),
+    'papers: static HTML lists all 12 paper pages for crawlers (V4 SEO); attempting stays gated');
   const requireSrc = readFileSync(join(root, 'src', 'components', 'RequireName.tsx'), 'utf8');
   ok(requireSrc.includes('/start/') && requireSrc.includes('router.replace'),
     'guard: RequireName redirects to /start when no name is stored');
@@ -618,8 +621,8 @@ console.log('9) Subject-wise tests (V2)');
   ok(!existsSync(join(out, 'subject/orthopaedics/test-2')), 'export: orthopaedics has no test-2 (single-year subject)');
   ok(!existsSync(join(out, 'subject/minor-subjects/test-1')), 'export: minor-subjects has no test-1 (single-year subject)');
   const subjectsHtml = readFileSync(join(out, 'subjects', 'index.html'), 'utf8');
-  ok(!subjectsHtml.includes('Anatomy') && !subjectsHtml.includes('Community Medicine'),
-    'subjects: static HTML contains no subject cards (grid renders only after the gate)');
+  ok(subjectsHtml.includes('Anatomy') && subjectsHtml.includes('Community Medicine'),
+    'subjects: static HTML lists the subjects for crawlers (V4 SEO); attempting stays gated');
   const chooseHtml = readFileSync(join(out, 'choose', 'index.html'), 'utf8');
   ok(!chooseHtml.includes('What will you practise'), 'choose: static HTML contains no choice cards (renders only after the gate)');
   // Years are never shown: no year strings anywhere under the subject routes.
@@ -722,7 +725,7 @@ console.log('9) Subject-wise tests (V2)');
   const homeHtml2 = readFileSync(join(out, 'index.html'), 'utf8');
   ok(homeHtml2.includes('Subject-wise tests') && !homeHtml2.includes('/subject/'),
     'landing: subject-wise tests described, with no subject links (descriptions only)');
-  ok(homeHtml2.includes('MedSetu v3'), 'footer: "MedSetu v3" small print ships');
+  ok(homeHtml2.includes('MedSetu v4'), 'footer: "MedSetu v4" small print ships');
 
   // Analysis engine: the new detailed fields, unit-tested on synthetic data.
   const synthQ = (subject) => ({ subject, text: 'q', options: ['a', 'b', 'c', 'd'], correct: 0, explanation: '', img: false });
@@ -844,8 +847,8 @@ console.log('10) Question bank (V3)');
   ok(headerSrc.includes('Question Bank') && headerSrc.includes('FMGE Practice Package'),
     'header: Question Bank nav item + package tagline');
   const chromeSrc = readFileSync(join(root, 'src', 'components', 'SiteChrome.tsx'), 'utf8');
-  ok(chromeSrc.includes('href="/qbank/"') && chromeSrc.includes('MedSetu v3'),
-    'footer: Question Bank link + v3 small print');
+  ok(chromeSrc.includes("'/qbank/'") && chromeSrc.includes('MedSetu v4'),
+    'footer: Question Bank link + v4 small print');
   const qlib = readFileSync(join(root, 'src', 'lib', 'qbank.ts'), 'utf8');
   ok(qlib.includes("'medsetu-qb-session'") && qlib.includes("'medsetu-qb-mistakes'")
     && qlib.includes("'medsetu-qb-bookmarks'") && qlib.includes("'medsetu-qb-progress'"),
@@ -1191,6 +1194,120 @@ console.log('13) AdSense readiness (robots, sitemap, footer links)');
     ok(['href="/about/"', 'href="/naitik-library/"', 'href="/privacy/"'].every((h) => html.includes(h)),
       `footer: ${page} links to /about, /naitik-library and /privacy (reviewer reachability)`);
   }
+}
+
+// ---------- 14. V4: Test Series, 8-part analysis, overhaul, SEO ----------
+console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
+{
+  const seriesMeta = JSON.parse(readFileSync(join(root, 'src/lib/series-meta.json'), 'utf8'));
+  ok(seriesMeta.length === 30, 'series: meta lists exactly 30 tests');
+
+  const seenTexts = new Set();
+  let totalQ = 0;
+  let repeatCount = 0;
+  let noLearning = 0;
+  let noExpl = 0;
+  for (let i = 1; i <= 30; i++) {
+    const f = join(root, `src/data/tests/series-test-${String(i).padStart(2, '0')}.json`);
+    ok(existsSync(f), `series: data file ${i} exists`);
+    const data = JSON.parse(readFileSync(f, 'utf8'));
+    const qs = data.questions || data;
+    ok(Array.isArray(qs) && qs.length === 300, `series: test ${i} has exactly 300 questions`);
+    for (const q of qs) {
+      totalQ++;
+      const key = (q.text || '').toLowerCase().replace(/\s+/g, ' ').trim();
+      if (seenTexts.has(key)) repeatCount++;
+      seenTexts.add(key);
+      if (!q.learning || q.learning.trim().length < 10) noLearning++;
+      if (!q.explanation || q.explanation.trim().length < 3) noExpl++;
+    }
+  }
+  ok(totalQ === 9000, `series: 9,000 questions in total (got ${totalQ})`);
+  ok(repeatCount === 0, `series: zero repeated questions across the 30 tests (got ${repeatCount})`);
+  ok(noLearning === 0, `series: every question carries a learning point (missing ${noLearning})`);
+  ok(noExpl === 0, `series: every question carries an explanation (missing ${noExpl})`);
+
+  // routes in the export
+  for (const p of ['tests/index.html', 'tests/series-test-1/index.html',
+    'tests/series-test-15/index.html', 'tests/series-test-30/index.html',
+    'tests/series-test-1/test/index.html', 'tests/series-test-1/analysis/index.html',
+    'contact/index.html', 'terms/index.html', 'disclaimer/index.html',
+    'llms.txt', 'og.png']) {
+    ok(existsSync(join(out, p)), `v4 routes: out/${p} exists`);
+  }
+  const homeHtml = readFileSync(join(out, 'index.html'), 'utf8');
+  ok(homeHtml.includes('Test Series') && homeHtml.includes('Four ways to practise'),
+    'home: Test Series mode card present');
+  ok(homeHtml.includes('Questions students ask'),
+    'home: FAQ section present');
+  ok(homeHtml.includes('The FMGE pattern') && homeHtml.includes('Community Medicine'),
+    'home: FMGE pattern + weightage table present');
+  ok(homeHtml.includes('property="og:image"') && homeHtml.includes('/og.png'),
+    'home: OpenGraph image wired');
+  ok(homeHtml.includes('"@type":"Organization"') || homeHtml.includes('"@type": "Organization"') ||
+     homeHtml.includes('@graph'), 'home: Organization JSON-LD present');
+  ok(homeHtml.includes('MedSetu v4'), 'footer: version line updated to v4');
+  for (const h of ['href="/tests/"', 'href="/contact/"', 'href="/terms/"', 'href="/disclaimer/"', 'href="/privacy/"']) {
+    ok(homeHtml.includes(h), `nav/footer: homepage carries ${h}`);
+  }
+  const testsHtml = readFileSync(join(out, 'tests/index.html'), 'utf8');
+  ok(testsHtml.includes('Grand Test 30') && testsHtml.includes('What is the MedSetu Test Series?'),
+    'tests index: 30 tests listed with FAQ content');
+
+  // trust pages carry only the approved phone number
+  for (const p of ['contact/index.html', 'terms/index.html', 'disclaimer/index.html']) {
+    const html = readFileSync(join(out, p), 'utf8');
+    ok(!html.includes('9654042372'), `trust: out/${p} has no removed phone number`);
+  }
+  const contactHtml = readFileSync(join(out, 'contact/index.html'), 'utf8');
+  ok(contactHtml.includes('8920922167'), 'contact: page carries the library phone number');
+
+  // session routes are noindex; sitemap is clean and complete
+  for (const p of ['tests/series-test-1/test/index.html', 'start/index.html', 'choose/index.html',
+    'qbank/play/index.html']) {
+    const html = readFileSync(join(out, p), 'utf8');
+    ok(html.includes('noindex'), `seo: out/${p} is noindex`);
+  }
+  const sm = readFileSync(join(out, 'sitemap.xml'), 'utf8');
+  const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  ok(!locs.some((u) => u.includes('/start/') || u.includes('/choose/')),
+    'sitemap: gate pages removed');
+  ok(locs.includes('https://med-setu.netlify.app/tests/') &&
+     locs.includes('https://med-setu.netlify.app/tests/series-test-30/') &&
+     locs.includes('https://med-setu.netlify.app/contact/') &&
+     locs.includes('https://med-setu.netlify.app/terms/') &&
+     locs.includes('https://med-setu.netlify.app/disclaimer/'),
+    'sitemap: test series + trust pages included');
+  ok(locs.length === 88, `sitemap: exactly 88 URLs (got ${locs.length})`);
+
+  const robots = readFileSync(join(out, 'robots.txt'), 'utf8');
+  ok(robots.includes('OAI-SearchBot') && robots.includes('PerplexityBot') && robots.includes('ClaudeBot'),
+    'robots: AI search crawlers explicitly allowed');
+
+  const headers = readFileSync(join(out, '_headers'), 'utf8');
+  ok(headers.includes('/bimg/*') && headers.includes('immutable'),
+    'headers: immutable cache rules for image directories');
+
+  // analysis structure (source-level, mirroring sections 9/12)
+  const av = readFileSync(join(root, 'src/components/AnalysisView.tsx'), 'utf8');
+  for (const s of ['Overview', 'Performance Analysis', 'Score Potential', 'Attempt Analysis',
+    'Time Analysis', 'Topic Analysis', 'Question Journey', 'Qs by Qs Analysis']) {
+    ok(av.includes(s), `analysis: section "${s}" present in AnalysisView`);
+  }
+  const pv = readFileSync(join(root, 'src/components/PrintViews.tsx'), 'utf8');
+  ok(pv.includes('Contents') && pv.includes('Attempt Analysis') && pv.includes('Question Journey'),
+    'print: PDF report carries Contents + the 8-part structure');
+  const sol = readFileSync(join(root, 'src/components/Solution.tsx'), 'utf8');
+  ok(sol.includes('Learning from this question'), 'solution: learning callout present');
+
+  // community links (founder-supplied 2026-11-16)
+  ok(homeHtml.includes('https://chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07') &&
+     homeHtml.includes('https://www.instagram.com/naitiklibrary/'),
+    'community: footer carries the WhatsApp group + Instagram links');
+  const contactHtml2 = readFileSync(join(out, 'contact/index.html'), 'utf8');
+  ok(contactHtml2.includes('chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07') &&
+     contactHtml2.includes('instagram.com/naitiklibrary'),
+    'community: contact page carries both community links');
 }
 
 console.log(failures === 0 ? '\nSMOKE: ALL CHECKS PASSED' : `\nSMOKE: ${failures} FAILURE(S)`);

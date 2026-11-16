@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Let's start — MedSetu",
   description:
     'Enter your name, pass a quick human check, and the whole MedSetu FMGE practice package is open: previous-year mock papers, subject-wise tests and the question bank. No account, nothing collected.',
+  robots: { index: false, follow: false },
 };
 
 export default function StartPage() {

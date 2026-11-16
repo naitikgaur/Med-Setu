@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { PAPERS_META, getMeta } from '../../../lib/papers';
@@ -9,6 +10,16 @@ import StartPanel from './StartPanel';
 
 export function generateStaticParams() {
   return PAPERS_META.map((p) => ({ id: p.paperId }));
+}
+
+export function generateMetadata({ params }: { params: { id: string } }): Metadata {
+  const meta = getMeta(params.id);
+  if (!meta) return {};
+  return {
+    title: `FMGE ${meta.label} paper — full mock test with analysis — MedSetu`,
+    description: `Attempt the FMGE ${meta.label} previous-year paper as a full mock test on MedSetu: 300 questions in the real two-part exam manner, explanations, an eight-part analysis and a downloadable answer key. Free, no sign-up.`,
+    alternates: { canonical: `/paper/${params.id}/` },
+  };
 }
 
 export default function PaperPage({ params }: { params: { id: string } }) {

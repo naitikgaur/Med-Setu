@@ -153,6 +153,15 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
         </p>
       )}
 
+      {q.learning && (
+        <div className="mt-4 rounded-lg border border-med-line bg-med-soft/60 px-4 py-3">
+          <p className="text-xs font-bold uppercase tracking-wide text-med-deep">
+            Learning from this question
+          </p>
+          <p className="mt-1 text-[14.5px] font-medium leading-relaxed text-ink">{q.learning}</p>
+        </div>
+      )}
+
       <div className="mt-4 border-t border-line pt-4">
         <h3 className="text-sm font-bold uppercase tracking-wide text-med-deep">Detailed solution</h3>
         {hasExplanation ? (

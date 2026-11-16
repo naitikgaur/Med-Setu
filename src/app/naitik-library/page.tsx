@@ -6,6 +6,7 @@ export const metadata = {
   title: 'Naitik Library — a study hall for medical students, Gautam Nagar, New Delhi',
   description:
     'Naitik Library is a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur. It is the library behind MedSetu, the free FMGE mock-test site.',
+  alternates: { canonical: '/naitik-library/' },
 };
 
 export default function NaitikLibrary() {

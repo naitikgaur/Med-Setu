@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SUBJECTS_META, getSubject, getSubjectTest, subjectDescriptor } from '../../../../../lib/subjects';
 import AnalysisView from '../../../../../components/AnalysisView';
@@ -17,3 +18,5 @@ export default function SubjectAnalysisPage({ params }: { params: { slug: string
   if (!subject || !test) notFound();
   return <AnalysisView desc={subjectDescriptor(subject, test)} />;
 }
+
+export const metadata: Metadata = { robots: { index: false, follow: false } };

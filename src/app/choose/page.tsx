@@ -6,6 +6,7 @@ export const metadata = {
   title: 'Choose your practice — MedSetu by Naitik Library',
   description:
     'Previous-year FMGE papers as full mock tests, subject-wise tests one subject at a time, or the question bank — practise question by question. Free, on your device, nothing stored.',
+  robots: { index: false, follow: false },
 };
 
 export default function ChoosePage() {

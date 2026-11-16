@@ -5,6 +5,7 @@ export const metadata = {
   title: 'Privacy Policy — MedSetu',
   description:
     'MedSetu keeps no data: no server, no database, no accounts — your name and answers live only in your browser tab. The homepage carries Google AdSense ads; this page explains what that means for cookies.',
+  alternates: { canonical: '/privacy/' },
 };
 
 const linkCls =
@@ -25,7 +26,7 @@ export default function Privacy() {
             one exception to “nothing runs here but the site” is advertising on the homepage,
             explained plainly below.
           </p>
-          <p className="mt-3 text-sm text-inksoft">Last updated: 15 November 2026</p>
+          <p className="mt-3 text-sm text-inksoft">Last updated: 16 November 2026</p>
         </section>
 
         <section className="mt-10">

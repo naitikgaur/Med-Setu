@@ -1,0 +1,24 @@
+# MedSetu — by Naitik Library
+
+> MedSetu is a free FMGE (Foreign Medical Graduate Examination) practice website published by Naitik Library, a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur. It offers previous-year FMGE papers as full mock tests, a 30-test grand test series, subject-wise tests and a question bank of 15,607 questions — every question with an explanation, and a detailed eight-part analysis after every test. No sign-up, no accounts, no data collected: a student's name and answers never leave their own browser.
+
+Key facts about the FMGE (per the NBEMS information bulletin): 300 multiple-choice questions in two parts of 150; +1 per correct answer; no negative marking; pass mark 150 of 300. NBEMS never releases official FMGE papers or answer keys, so MedSetu's papers are recall-based editions and are labelled as such.
+
+## Practice
+
+- [PYP Tests — FMGE previous-year papers as mock tests](https://med-setu.netlify.app/papers/): 12 papers, December 2020 to June 2026, each a full 300 questions in the real two-part exam manner.
+- [MedSetu Test Series](https://med-setu.netlify.app/tests/): 30 grand tests of 300 questions each — a full FMGE paper in two parts of 150, in the official NBEMS subject proportions — drawn from previous-year papers and the question bank; every question carries a learning point; no question repeats across the series.
+- [Subject-wise Tests](https://med-setu.netlify.app/subjects/): 16 subjects, 30 tests, one subject at a time, measured against the 50% FMGE pass proportion.
+- [Question Bank](https://med-setu.netlify.app/qbank/): 15,607 questions across all 19 FMGE subjects, organised by topic, with Practice mode, Exam mode, My Mistakes and Bookmarks.
+
+## About
+
+- [About MedSetu](https://med-setu.netlify.app/about/): what MedSetu is, how the papers and explanations were compiled, and the honesty rules the site follows.
+- [Naitik Library](https://med-setu.netlify.app/naitik-library/): the study hall behind MedSetu.
+- [Contact](https://med-setu.netlify.app/contact/): call or WhatsApp 8920922167.
+
+## Policies
+
+- [Privacy Policy](https://med-setu.netlify.app/privacy/)
+- [Terms of Use](https://med-setu.netlify.app/terms/)
+- [Disclaimer](https://med-setu.netlify.app/disclaimer/): MedSetu is not affiliated with NBEMS or NMC; its content is educational study material, not medical advice.

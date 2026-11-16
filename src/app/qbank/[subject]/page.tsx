@@ -15,6 +15,7 @@ export function generateMetadata({ params }: { params: { subject: string } }): M
   return {
     title: `${s.name} — Question Bank · MedSetu`,
     description: `${s.total} ${s.name} questions for FMGE practice on MedSetu, organised by topic with full explanations — practise in Practice mode or sit a set in Exam mode.`,
+    alternates: { canonical: `/qbank/${params.subject}/` },
   };
 }
 

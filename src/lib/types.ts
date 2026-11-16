@@ -5,6 +5,10 @@ export interface Question {
   // bookmarks / progress are keyed by it) and their source topic.
   bankId?: string;
   topic?: string;
+  // Test Series only: the one-line learning distilled from this question's
+  // own explanation, and which MedSetu pool the question was drawn from.
+  learning?: string;
+  src?: 'bank' | 'pyq';
   text: string;
   options: string[];
   correct: number; // 0-3
@@ -95,6 +99,27 @@ export interface SubjectMeta {
   tests: SubjectTestEntry[];
 }
 
+// ---- test series (V4) -------------------------------------------------------
+
+export interface SeriesTestMeta {
+  testId: string; // 'series-test-1' … 'series-test-30'
+  testNo: number;
+  title: string; // 'Grand Test 1'
+  total: number; // 150
+  durationMin: number; // 150
+  pyqCount: number; // questions drawn from previous-year papers
+  imgCount: number; // questions carrying an image (or an image note)
+  subjects: Record<string, number>; // per-subject question counts
+}
+
+export interface SeriesTestData {
+  testId: string;
+  testNo: number;
+  title: string;
+  durationMin: number;
+  questions: Question[];
+}
+
 export interface SubjectTestData {
   testId: string;
   slug: string;
@@ -117,7 +142,7 @@ export interface TestData {
  */
 export interface TestDescriptor {
   id: string; // attempt storage key + data id
-  kind: 'paper' | 'subject' | 'qbank';
+  kind: 'paper' | 'subject' | 'qbank' | 'series';
   // For benchmarked (non-paper) tests: the sentence under the verdict
   // explaining what the 50% line means for this kind of test.
   benchmarkNote?: string;

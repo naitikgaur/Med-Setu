@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { loadPaper } from '../lib/papers';
 import { loadSubjectTest } from '../lib/subjects';
+import { loadSeriesTest } from '../lib/series';
 import { QBANK_META, addMistake, loadQBankTestData, recordProgress } from '../lib/qbank';
 import { loadAttempt, fmtDuration, fmtClock } from '../lib/store';
 import { analyseAttempt } from '../lib/analysis';
@@ -11,6 +12,7 @@ import type { Attempt, TestData, TestDescriptor } from '../lib/types';
 import { SiteFooter } from './SiteChrome';
 import { SiteHeader } from './SiteHeader';
 import { PrintReport, PrintKey } from './PrintViews';
+import { classifyPerQ, breakdownRows, topicRows, journeyChanges, CLASS_META, CLASS_ORDER } from '../lib/classes';
 import { SolutionSheet, statusChip } from './Solution';
 
 type Filter = 'wrong' | 'all' | 'correct' | 'skipped' | 'marked' | 'guessed' | 'added' | 'image';
@@ -18,16 +20,6 @@ type PrintTarget = 'report' | 'key' | null;
 
 const SUBJECT_FOOTNOTE =
   "Subject groups follow the source book's sections. Recall compilations group some questions differently from the official NBEMS blueprint, so treat subjects with very few questions as indicative.";
-
-const NAV = [
-  ['overview', 'Overview'],
-  ['subjects', 'Subjects'],
-  ['pace', 'Pace'],
-  ['time', 'Time & behaviour'],
-  ['whatif', 'What-if'],
-  ['solutions', 'Solutions'],
-  ['key', 'Answer key'],
-] as const;
 
 function ScoreDonut({ score, total, passed, tickLabel }: { score: number; total: number; passed: boolean | null; tickLabel: string }) {
   const r = 52;
@@ -82,7 +74,9 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
         ? await loadPaper(desc.id)
         : desc.kind === 'qbank'
           ? await loadQBankTestData(desc.id)
-          : await loadSubjectTest(desc.id);
+          : desc.kind === 'series'
+            ? await loadSeriesTest(desc.id)
+            : await loadSubjectTest(desc.id);
       if (!alive) return;
       setPaper(p);
       setAttempt(att);
@@ -122,6 +116,9 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
     () => (paper && attempt ? analyseAttempt(paper, attempt) : null),
     [paper, attempt]
   );
+
+  const topics = useMemo(() => (paper && a ? topicRows(paper, a) : []), [paper, a]);
+  const classified = useMemo(() => (a ? classifyPerQ(a) : []), [a]);
 
   if (state !== 'ready' || !paper || !attempt || !a) {
     return (
@@ -228,6 +225,22 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
 
   const subjectRow = a.subjects.length === 1 ? a.subjects[0] : null;
 
+  const classGroups = CLASS_ORDER.map((cls) => ({ cls, items: classified.filter((c) => c.cls === cls) }));
+  const unclassified = classified.filter((c) => c.cls === null).length;
+  const breakdown = breakdownRows(a);
+  const journey = journeyChanges(attempt, paper);
+  const sectionList: [string, string][] = [
+    ['overview', 'Overview'],
+    ['performance', 'Performance Analysis'],
+    ['potential', 'Score Potential'],
+    ['attempts', 'Attempt Analysis'],
+    ['time', 'Time Analysis'],
+    ...(topics.length > 0 ? [['topics', 'Topic Analysis'] as [string, string]] : []),
+    ['journey', 'Question Journey'],
+    ['solutions', 'Qs by Qs Analysis'],
+  ];
+  const navItems: [string, string][] = [...sectionList, ['key', 'Answer key']];
+
   return (
     <div className="flex min-h-screen flex-col">
       <div className="no-print">
@@ -236,7 +249,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
         {/* Sticky sub-navigation */}
         <div className="sticky top-0 z-30 border-b border-line bg-paper/95 backdrop-blur">
           <div className="mx-auto flex max-w-6xl items-center gap-1 overflow-x-auto px-4 py-2 [scrollbar-width:none] sm:px-6 [&::-webkit-scrollbar]:hidden">
-            {NAV.map(([id, label]) => (
+            {navItems.map(([id, label]) => (
               <a
                 key={id}
                 href={`#${id}`}
@@ -253,15 +266,41 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
           <p className="mt-5 text-sm">
             <Link href={desc.backHref} className="font-semibold text-med hover:underline">← {desc.backLabel}</Link>
           </p>
-          <h1 className="mt-1.5 text-2xl font-bold tracking-tight text-ink sm:text-3xl">
-            {desc.heading} — your analysis
+          <p className="mt-1.5 text-[15px] font-semibold text-med-deep">
+            👋 Hey {attempt.name}, here is your analysis
+          </p>
+          <h1 className="mt-1 text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+            {desc.heading}
           </h1>
           <p className="mt-1 text-sm text-inksoft">
-            {attempt.name} · {desc.subline} · calculated on your device, stored nowhere.
+            {desc.subline} · attempted on{' '}
+            {attempt.finishedAt
+              ? new Date(attempt.finishedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })
+              : '—'}{' '}
+            · calculated on your device, stored nowhere.
           </p>
           <div className="mt-4 flex flex-wrap gap-2 md:hidden">{downloadButtons}</div>
 
-          {/* ① Overview */}
+          {/* Contents — the parts of this analysis */}
+          <section id="contents" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+            <h2 className="text-xl font-bold text-ink">Contents</h2>
+            <p className="mt-1 text-sm text-inksoft">
+              This analysis is organised in {sectionList.length} parts. Use this list to jump
+              straight to the details you want.
+            </p>
+            <ol className="mt-4 grid gap-x-8 gap-y-2 sm:grid-cols-2">
+              {sectionList.map(([id, label], i) => (
+                <li key={id}>
+                  <a href={`#${id}`} className="group flex items-baseline gap-3 text-[15px]">
+                    <span className="font-bold tabular-nums text-med">{i + 1}.</span>
+                    <span className="font-medium text-ink group-hover:underline">{label}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
+
+          {/* 1 · Overview */}
           <section id="overview" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
             <div className="flex flex-wrap items-center gap-6">
               <ScoreDonut
@@ -382,12 +421,48 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               </p>
             )}
           </section>
-
-          {/* ② Subjects */}
-          <section id="subjects" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+          {/* 2 · Performance Analysis */}
+          <section id="performance" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
             <h2 className="text-xl font-bold text-ink">
-              {isSingle ? `${desc.singleSubject} — result` : 'Subject analysis'}
+              {isSingle ? `${desc.singleSubject} — result` : 'Performance Analysis'}
             </h2>
+            {!isSingle && a.hasSubjects && (
+              <>
+                <h3 className="mt-5 text-[15px] font-bold text-ink">Test breakdown</h3>
+                <div className="mt-2 overflow-x-auto">
+                  <table className="w-full min-w-[640px] text-left text-sm">
+                    <thead>
+                      <tr className="border-b border-line bg-mist/50 text-xs uppercase tracking-wide text-inksoft">
+                        <th className={cellTh}>Subject</th>
+                        <th className={cellTh}>Score</th>
+                        <th className={cellTh}>Attempted · Correct</th>
+                        <th className={cellTh}>Attempted · Wrong</th>
+                        <th className={cellTh}>Not Attempted</th>
+                        <th className="py-2 font-semibold">Not Visited</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[breakdown.overall, ...breakdown.rows].map((r) => (
+                        <tr
+                          key={r.subject}
+                          className={`border-b border-line/70 ${r.subject === 'Overall' ? 'bg-med-soft/50 font-semibold' : ''}`}
+                        >
+                          <td className="py-2 pr-3 font-medium text-ink">
+                            {r.subject}
+                            <span className="text-inksoft"> · {r.total} Qs</span>
+                          </td>
+                          <td className={cellTd}>{r.score} / {r.total}</td>
+                          <td className={cellTd}>{r.correct} / {r.total}</td>
+                          <td className={cellTd}>{r.wrong} / {r.total}</td>
+                          <td className={cellTd}>{r.notAttempted} / {r.total}</td>
+                          <td className="py-2 tabular-nums">{r.notVisited} / {r.total}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            )}
             {isSingle ? (
               <>
                 {subjectRow && (
@@ -623,69 +698,177 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               </>
             )}
           </section>
-
-          {/* ③ Pace — segments + blocks */}
-          <section id="pace" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
-            <h2 className="text-xl font-bold text-ink">{isBenchmark ? 'Halves & pace' : 'Parts & pace'}</h2>
-            <div className="mt-4 overflow-x-auto">
-              <table className="w-full min-w-[620px] text-left text-sm">
-                <thead>
-                  <tr className="border-b border-line bg-mist/50 text-xs uppercase tracking-wide text-inksoft">
-                    <th className={cellTh}>{isBenchmark ? 'Half' : 'Part'}</th>
-                    <th className={cellTh}>Attempted</th>
-                    <th className={cellTh}>Correct</th>
-                    <th className={cellTh}>Wrong</th>
-                    <th className={cellTh}>Skipped</th>
-                    <th className={cellTh}>Accuracy</th>
-                    <th className={cellTh}>Time</th>
-                    <th className="py-2 font-semibold">Avg / Q</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {a.segments.map((s, i) => (
-                    <tr key={s.key} className="border-b border-line/70">
-                      <td className="py-2 pr-3 font-medium text-ink">{segLabel(i, s.from, s.to)}</td>
-                      <td className={cellTd}>{s.attempted}</td>
-                      <td className={cellTd}>{s.correct}</td>
-                      <td className={cellTd}>{s.wrong}</td>
-                      <td className={cellTd}>{s.skipped}</td>
-                      <td className={cellTd}>
-                        <span className="inline-flex items-center gap-2">
-                          <span className="h-1.5 w-16 overflow-hidden rounded-full bg-mist">
-                            <span className="block h-full bg-med" style={{ width: `${s.accuracy}%` }} />
-                          </span>
-                          <span className="font-semibold">{s.attempted ? `${s.accuracy}%` : '—'}</span>
-                        </span>
-                      </td>
-                      <td className={cellTd}>{fmtDuration(s.timeSec)}</td>
-                      <td className="py-2 tabular-nums">{fmtClock(s.avgTimeSec)}</td>
-                    </tr>
+          {/* 3 · Score Potential */}
+          <section id="potential" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+            <h2 className="text-xl font-bold text-ink">Score Potential</h2>
+            {isBenchmark ? (
+              <div className="mt-4 overflow-x-auto">
+                <table className="w-full min-w-[440px] text-left text-sm">
+                  <tbody>
+                    {[
+                      ['Score', `${v.score} / ${v.total}`],
+                      ['50% mark', `${benchMark} of ${v.total}`],
+                      [benchPassed ? 'Cleared by' : 'More correct answers needed', benchPassed ? `${v.score - benchMark}` : `${benchGap}`],
+                      ['Marks lost (wrong answers)', String(a.wrong)],
+                      ['Unattempted', String(a.skipped)],
+                      ['Skip dividend (skips × ¼)', `≈ ${a.skipDividend}`],
+                    ].map(([label, value]) => (
+                      <tr key={label} className="border-b border-line/70">
+                        <td className="py-2 pr-3 font-medium text-ink">{label}</td>
+                        <td className="py-2 text-right font-bold tabular-nums text-ink">{value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <>
+                <p className="mt-1.5 text-sm text-inksoft">
+                  Pure arithmetic on this attempt — no predictions, just where your {a.wrong} lost marks sit.
+                </p>
+                {a.wrong === 0 ? (
+                  <p className="mt-3 font-medium text-med-deep">No wrong answers — there is nothing to recover. A clean paper.</p>
+                ) : (
+                  <>
+                    {v.full && !v.passed && (
+                      <p className="mt-3 text-[15px] text-ink">
+                        You need <strong>{v.gapToPass} more marks</strong> to reach 150.
+                        {a.topPoolMarks >= v.gapToPass
+                          ? ' Your biggest recovery pools below hold more than that on their own.'
+                          : ''}
+                      </p>
+                    )}
+                    {a.topPools.length > 0 ? (
+                      <>
+                        <ul className="mt-4 space-y-2">
+                          {a.topPools.map((p) => (
+                            <li key={p.subject} className="flex items-center gap-3">
+                              <span className="w-44 shrink-0 truncate text-sm font-semibold text-ink sm:w-56">{p.subject}</span>
+                              <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-mist">
+                                <span className="block h-full bg-bad" style={{ width: `${a.wrong ? (p.lostMarks / a.wrong) * 100 : 0}%` }} />
+                              </span>
+                              <span className="text-sm font-bold tabular-nums text-bad">{p.lostMarks} marks</span>
+                            </li>
+                          ))}
+                        </ul>
+                        <p className="mt-3 text-sm leading-relaxed text-inksoft">
+                          Your 3 biggest recovery pools — {a.topPools.map((p) => p.subject).join(', ')} — hold{' '}
+                          <strong className="text-ink">{a.topPoolMarks} of your {a.wrong} lost marks</strong>.
+                          Revise those first; they are the cheapest marks in your next attempt.
+                        </p>
+                      </>
+                    ) : (
+                      <p className="mt-3 text-sm text-inksoft">
+                        This paper&apos;s questions carry no subject tags, so lost marks can&apos;t be
+                        grouped by subject — they are all in the solutions below.
+                      </p>
+                    )}
+                  </>
+                )}
+              </>
+            )}
+            {a.wrong > 0 && (
+              <div className="mt-5 border-t border-line pt-4">
+                <h3 className="text-[15px] font-bold text-ink">Improved score by error reduction</h3>
+                <p className="mt-1 text-sm text-inksoft">
+                  If you had fixed a share of your {a.wrong} wrong answers, this is where your score
+                  would stand — the same arithmetic, applied to this attempt only:
+                </p>
+                <div className="mt-3 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line text-center sm:grid-cols-4">
+                  {[
+                    ['Fix ¼ of mistakes', v.score + Math.ceil(a.wrong / 4)],
+                    ['Fix ½ of mistakes', v.score + Math.ceil(a.wrong / 2)],
+                    ['Fix ¾ of mistakes', v.score + Math.ceil((a.wrong * 3) / 4)],
+                    ['Fix every mistake', v.score + a.wrong],
+                  ].map(([label, val]) => (
+                    <div key={label} className="bg-white px-3 py-3">
+                      <p className="text-[22px] font-bold leading-tight tabular-nums text-med-deep">
+                        {val} <span className="text-sm font-semibold text-inksoft">/ {v.total}</span>
+                      </p>
+                      <p className="text-[11px] font-medium text-inksoft">{label}</p>
+                    </div>
                   ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h3 className="mt-5 text-[15px] font-bold text-ink">
-              Accuracy per block of {a.paceBlocks[0] ? a.paceBlocks[0].to - a.paceBlocks[0].from : 0} questions
-            </h3>
-            <div className="mt-3 space-y-2">
-              {a.paceBlocks.map((b) => (
-                <div key={b.from} className="flex items-center gap-3">
-                  <span className="w-20 shrink-0 text-sm font-medium tabular-nums text-ink">{b.label}</span>
-                  <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-mist">
-                    <span className="block h-full bg-med" style={{ width: `${b.accuracy}%` }} />
-                  </span>
-                  <span className="w-60 shrink-0 text-right text-sm tabular-nums text-inksoft">
-                    {b.correct}/{b.attempted} correct · <strong className="text-ink">{b.attempted ? `${b.accuracy}%` : '—'}</strong> · avg {fmtClock(b.avgTimeSec)}
-                  </span>
+                </div>
+              </div>
+            )}
+          </section>
+          {/* Attempt Analysis — every attempt classified */}
+          <section id="attempts" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+            <h2 className="text-xl font-bold text-ink">Attempt Analysis</h2>
+            <p className="mt-1 text-sm leading-relaxed text-inksoft">
+              Every question is classified by what you did with it — your time against the{' '}
+              {fmtClock(a.timeDetail.availableSec / a.total)} allotted per question, your visits and
+              your answer changes. Every label explains itself; click a question to open its
+              solution.
+            </p>
+            <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {classGroups.map(({ cls, items }) => (
+                <div key={cls} className="rounded-lg border border-line bg-paper px-4 py-4">
+                  <div className="flex items-baseline justify-between gap-2">
+                    <p className="text-[15px] font-bold text-ink">{CLASS_META[cls].label}</p>
+                    <p className="text-xl font-bold tabular-nums text-med-deep">{items.length}</p>
+                  </div>
+                  <p className="mt-1 text-[13px] leading-relaxed text-inksoft">{CLASS_META[cls].blurb}</p>
+                  {items.length > 0 ? (
+                    <div className="mt-3 flex flex-wrap gap-1.5">
+                      {items.map(({ row }) => (
+                        <button
+                          key={row.idx}
+                          type="button"
+                          onClick={() => openSolution(row.idx, items.map((x) => x.row))}
+                          className="rounded-md bg-white px-2 py-1 text-xs font-bold tabular-nums text-ink ring-1 ring-line transition hover:ring-med"
+                          title={`Open Q${row.idx + 1}'s solution`}
+                        >
+                          Q{row.idx + 1}
+                        </button>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="mt-3 text-[13px] text-inksoft">None in this attempt.</p>
+                  )}
                 </div>
               ))}
+              <div className="rounded-lg border border-dashed border-line px-4 py-4">
+                <div className="flex items-baseline justify-between gap-2">
+                  <p className="text-[15px] font-bold text-ink">Everything else</p>
+                  <p className="text-xl font-bold tabular-nums text-inksoft">{unclassified}</p>
+                </div>
+                <p className="mt-1 text-[13px] leading-relaxed text-inksoft">
+                  Questions that fall outside the five labels — answered at a normal pace without
+                  drama, or skipped quickly. Not every question needs a story.
+                </p>
+              </div>
             </div>
+            {classGroups.some(({ cls, items }) => cls !== 'perfect' && items.length > 0) && (
+              <div className="mt-5">
+                <h3 className="text-[15px] font-bold text-ink">Why each label was given</h3>
+                <ul className="mt-2 space-y-1.5">
+                  {classGroups
+                    .filter(({ cls }) => cls !== 'perfect')
+                    .flatMap(({ cls, items }) =>
+                      items.map(({ row, reason }) => (
+                        <li key={`${cls}-${row.idx}`} className="text-sm leading-relaxed text-inksoft">
+                          <button
+                            type="button"
+                            onClick={() => openSolution(row.idx, items.map((x) => x.row))}
+                            className="font-bold tabular-nums text-med hover:underline"
+                          >
+                            Q{row.idx + 1}
+                          </button>{' '}
+                          <span className="font-semibold text-ink">{CLASS_META[cls].label}.</span>{' '}
+                          {reason}
+                        </li>
+                      ))
+                    )}
+                </ul>
+              </div>
+            )}
           </section>
 
-          {/* ④ Time & behaviour */}
+          {/* 5 · Time Analysis */}
           <section id="time" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
-            <h2 className="text-xl font-bold text-ink">Time &amp; behaviour</h2>
+            <h2 className="text-xl font-bold text-ink">Time Analysis</h2>
+            <p className="mt-1 text-sm text-inksoft">This section shows where your minutes went — and what they bought you.</p>
 
             <div className="mt-4 overflow-x-auto">
               <table className="w-full min-w-[520px] text-left text-sm">
@@ -828,83 +1011,245 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               </div>
             </div>
           </section>
+          {/* 5b · Pace */}
+          <section id="pace" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+            <h2 className="text-xl font-bold text-ink">{isBenchmark ? 'Halves & pace' : 'Parts & pace'}</h2>
+            <div className="mt-4 overflow-x-auto">
+              <table className="w-full min-w-[620px] text-left text-sm">
+                <thead>
+                  <tr className="border-b border-line bg-mist/50 text-xs uppercase tracking-wide text-inksoft">
+                    <th className={cellTh}>{isBenchmark ? 'Half' : 'Part'}</th>
+                    <th className={cellTh}>Attempted</th>
+                    <th className={cellTh}>Correct</th>
+                    <th className={cellTh}>Wrong</th>
+                    <th className={cellTh}>Skipped</th>
+                    <th className={cellTh}>Accuracy</th>
+                    <th className={cellTh}>Time</th>
+                    <th className="py-2 font-semibold">Avg / Q</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {a.segments.map((s, i) => (
+                    <tr key={s.key} className="border-b border-line/70">
+                      <td className="py-2 pr-3 font-medium text-ink">{segLabel(i, s.from, s.to)}</td>
+                      <td className={cellTd}>{s.attempted}</td>
+                      <td className={cellTd}>{s.correct}</td>
+                      <td className={cellTd}>{s.wrong}</td>
+                      <td className={cellTd}>{s.skipped}</td>
+                      <td className={cellTd}>
+                        <span className="inline-flex items-center gap-2">
+                          <span className="h-1.5 w-16 overflow-hidden rounded-full bg-mist">
+                            <span className="block h-full bg-med" style={{ width: `${s.accuracy}%` }} />
+                          </span>
+                          <span className="font-semibold">{s.attempted ? `${s.accuracy}%` : '—'}</span>
+                        </span>
+                      </td>
+                      <td className={cellTd}>{fmtDuration(s.timeSec)}</td>
+                      <td className="py-2 tabular-nums">{fmtClock(s.avgTimeSec)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
 
-          {/* ⑤ What-if */}
-          <section id="whatif" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
-            <h2 className="text-xl font-bold text-ink">What-if: where the marks are</h2>
-            {isBenchmark ? (
+            <h3 className="mt-5 text-[15px] font-bold text-ink">
+              Accuracy per block of {a.paceBlocks[0] ? a.paceBlocks[0].to - a.paceBlocks[0].from : 0} questions
+            </h3>
+            <div className="mt-3 space-y-2">
+              {a.paceBlocks.map((b) => (
+                <div key={b.from} className="flex items-center gap-3">
+                  <span className="w-20 shrink-0 text-sm font-medium tabular-nums text-ink">{b.label}</span>
+                  <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-mist">
+                    <span className="block h-full bg-med" style={{ width: `${b.accuracy}%` }} />
+                  </span>
+                  <span className="w-60 shrink-0 text-right text-sm tabular-nums text-inksoft">
+                    {b.correct}/{b.attempted} correct · <strong className="text-ink">{b.attempted ? `${b.accuracy}%` : '—'}</strong> · avg {fmtClock(b.avgTimeSec)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </section>
+          {/* Topic Analysis — where the syllabus stands, topic by topic */}
+          {topics.length > 0 && (
+            <section id="topics" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+              <h2 className="text-xl font-bold text-ink">Topic Analysis</h2>
+              <p className="mt-1 text-sm leading-relaxed text-inksoft">
+                Your questions grouped by the topic they test, weakest first. This is the most
+                direct revision list this analysis can give you: a topic with wrong answers is a
+                topic to re-read before your next test.
+              </p>
+              {topics.filter((t) => t.wrong >= 2).length > 0 && (
+                <p className="mt-3 rounded-lg bg-bad/[0.06] px-4 py-3 text-sm leading-relaxed text-ink">
+                  <strong className="text-bad">Revise first:</strong>{' '}
+                  {topics
+                    .filter((t) => t.wrong >= 2)
+                    .slice(0, 5)
+                    .map((t) => `${t.topic} (${t.wrong} wrong)`)
+                    .join(' · ')}
+                </p>
+              )}
               <div className="mt-4 overflow-x-auto">
-                <table className="w-full min-w-[440px] text-left text-sm">
+                <table className="w-full min-w-[620px] text-left text-sm">
+                  <thead>
+                    <tr className="border-b border-line bg-mist/50 text-xs uppercase tracking-wide text-inksoft">
+                      <th className={cellTh}>Topic</th>
+                      <th className={cellTh}>Subject</th>
+                      <th className={cellTh}>Qs</th>
+                      <th className={cellTh}>Correct</th>
+                      <th className={cellTh}>Wrong</th>
+                      <th className={cellTh}>Skipped</th>
+                      <th className="py-2 font-semibold">Accuracy</th>
+                    </tr>
+                  </thead>
                   <tbody>
-                    {[
-                      ['Score', `${v.score} / ${v.total}`],
-                      ['50% mark', `${benchMark} of ${v.total}`],
-                      [benchPassed ? 'Cleared by' : 'More correct answers needed', benchPassed ? `${v.score - benchMark}` : `${benchGap}`],
-                      ['Marks lost (wrong answers)', String(a.wrong)],
-                      ['Unattempted', String(a.skipped)],
-                      ['Skip dividend (skips × ¼)', `≈ ${a.skipDividend}`],
-                    ].map(([label, value]) => (
-                      <tr key={label} className="border-b border-line/70">
-                        <td className="py-2 pr-3 font-medium text-ink">{label}</td>
-                        <td className="py-2 text-right font-bold tabular-nums text-ink">{value}</td>
-                      </tr>
-                    ))}
+                    {topics
+                      .filter((t) => t.total >= 2)
+                      .slice(0, 40)
+                      .map((t) => (
+                        <tr key={`${t.subject}-${t.topic}`} className="border-b border-line/70 transition-colors hover:bg-paper">
+                          <td className="py-2 pr-3 font-medium text-ink">{t.topic}</td>
+                          <td className="py-2 pr-3 text-inksoft">{t.subject}</td>
+                          <td className={cellTd}>{t.total}</td>
+                          <td className={cellTd}>{t.correct}</td>
+                          <td className={cellTd}>{t.wrong}</td>
+                          <td className={cellTd}>{t.skipped}</td>
+                          <td className="py-2 tabular-nums">
+                            <span className="inline-flex items-center gap-2">
+                              <span className="h-1.5 w-16 overflow-hidden rounded-full bg-mist">
+                                <span className="block h-full bg-med" style={{ width: `${t.accuracy}%` }} />
+                              </span>
+                              <span className="font-semibold">{t.correct + t.wrong ? `${t.accuracy}%` : '—'}</span>
+                            </span>
+                          </td>
+                        </tr>
+                      ))}
                   </tbody>
                 </table>
               </div>
-            ) : (
-              <>
-                <p className="mt-1.5 text-sm text-inksoft">
-                  Pure arithmetic on this attempt — no predictions, just where your {a.wrong} lost marks sit.
+              <p className="mt-3 text-xs text-inksoft">
+                Topics with a single question in this test are counted in your subject analysis
+                above; this table lists topics with 2 or more.
+              </p>
+            </section>
+          )}
+
+          {/* Question Journey — how you travelled through the test */}
+          <section id="journey" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
+            <h2 className="text-xl font-bold text-ink">Question Journey</h2>
+            <p className="mt-1 text-sm leading-relaxed text-inksoft">
+              How you moved through the test: every question coloured by its result, the visits you
+              paid it, the answers you changed along the way, and what those changes cost or earned.
+              Click any question to open its solution.
+            </p>
+            <div className="mt-4 grid grid-cols-4 gap-1.5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10">
+              {a.perQ.map((r) => (
+                <button
+                  key={r.idx}
+                  type="button"
+                  onClick={() => openSolution(r.idx, a.perQ)}
+                  className={`rounded-md px-1.5 py-1.5 text-center text-[11px] font-medium leading-tight tabular-nums transition hover:ring-2 hover:ring-med/50 ${
+                    r.status === 'correct'
+                      ? 'bg-ok/10 text-ink'
+                      : r.status === 'wrong'
+                        ? 'bg-bad/[0.08] text-ink'
+                        : 'bg-mist text-inksoft'
+                  }`}
+                  title={`Q${r.idx + 1}: ${r.status} · ${r.visits} visit${r.visits === 1 ? '' : 's'} · ${fmtClock(r.timeSec)}`}
+                >
+                  <span className="block font-bold">Q{r.idx + 1}</span>
+                  <span>
+                    {r.visits === 0 ? 'not visited' : r.visits === 1 ? fmtClock(r.timeSec) : `${r.visits} visits`}
+                  </span>
+                </button>
+              ))}
+            </div>
+            <div className="mt-5 grid gap-4 md:grid-cols-2">
+              <div className="rounded-lg bg-paper px-4 py-4">
+                <p className="text-[15px] font-bold text-ink">
+                  Answer changes ({journey.length})
                 </p>
-                {a.wrong === 0 ? (
-                  <p className="mt-3 font-medium text-med-deep">No wrong answers — there is nothing to recover. A clean paper.</p>
+                {journey.length ? (
+                  <ul className="mt-2 space-y-1.5 text-sm tabular-nums text-inksoft">
+                    {journey.slice(0, 40).map((c, i) => (
+                      <li key={i} className="flex items-baseline justify-between gap-2">
+                        <span>
+                          <strong className="text-ink">Q{c.q}</strong> · {c.from} → {c.to}
+                        </span>
+                        {c.effect === 'gained' ? (
+                          <span className="font-semibold text-ok">+1 gained</span>
+                        ) : c.effect === 'lost' ? (
+                          <span className="font-semibold text-bad">−1 lost</span>
+                        ) : (
+                          <span>no effect</span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
                 ) : (
-                  <>
-                    {v.full && !v.passed && (
-                      <p className="mt-3 text-[15px] text-ink">
-                        You need <strong>{v.gapToPass} more marks</strong> to reach 150.
-                        {a.topPoolMarks >= v.gapToPass
-                          ? ' Your biggest recovery pools below hold more than that on their own.'
-                          : ''}
-                      </p>
-                    )}
-                    {a.topPools.length > 0 ? (
-                      <>
-                        <ul className="mt-4 space-y-2">
-                          {a.topPools.map((p) => (
-                            <li key={p.subject} className="flex items-center gap-3">
-                              <span className="w-44 shrink-0 truncate text-sm font-semibold text-ink sm:w-56">{p.subject}</span>
-                              <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-mist">
-                                <span className="block h-full bg-bad" style={{ width: `${a.wrong ? (p.lostMarks / a.wrong) * 100 : 0}%` }} />
-                              </span>
-                              <span className="text-sm font-bold tabular-nums text-bad">{p.lostMarks} marks</span>
-                            </li>
-                          ))}
-                        </ul>
-                        <p className="mt-3 text-sm leading-relaxed text-inksoft">
-                          Your 3 biggest recovery pools — {a.topPools.map((p) => p.subject).join(', ')} — hold{' '}
-                          <strong className="text-ink">{a.topPoolMarks} of your {a.wrong} lost marks</strong>.
-                          Revise those first; they are the cheapest marks in your next attempt.
-                        </p>
-                      </>
-                    ) : (
-                      <p className="mt-3 text-sm text-inksoft">
-                        This paper&apos;s questions carry no subject tags, so lost marks can&apos;t be
-                        grouped by subject — they are all in the solutions below.
-                      </p>
-                    )}
-                  </>
+                  <p className="mt-1 text-sm text-inksoft">You never changed an answer in this attempt.</p>
                 )}
-              </>
-            )}
+                {journey.length > 40 && (
+                  <p className="mt-2 text-xs text-inksoft">…and {journey.length - 40} more changes.</p>
+                )}
+                <p className="mt-2 text-sm tabular-nums text-inksoft">
+                  Net effect of all changes:{' '}
+                  <strong className="text-ink">
+                    {a.changeReport.net > 0 ? `+${a.changeReport.net}` : a.changeReport.net} marks
+                  </strong>
+                </p>
+              </div>
+              <div className="space-y-4">
+                <div className="rounded-lg bg-paper px-4 py-4">
+                  <p className="text-[15px] font-bold text-ink">Marked for review</p>
+                  {a.perQ.filter((r) => r.marked).length ? (
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      {a.perQ
+                        .filter((r) => r.marked)
+                        .map((r) => (
+                          <button
+                            key={r.idx}
+                            type="button"
+                            onClick={() => openSolution(r.idx, a.perQ.filter((x) => x.marked))}
+                            className="rounded-md bg-white px-2 py-1 text-xs font-bold tabular-nums text-ink ring-1 ring-line transition hover:ring-med"
+                          >
+                            Q{r.idx + 1}
+                          </button>
+                        ))}
+                    </div>
+                  ) : (
+                    <p className="mt-1 text-sm text-inksoft">Nothing was marked for review.</p>
+                  )}
+                </div>
+                <div className="rounded-lg bg-paper px-4 py-4">
+                  <p className="text-[15px] font-bold text-ink">Visited 3+ times</p>
+                  {a.perQ.filter((r) => r.visits >= 3).length ? (
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      {a.perQ
+                        .filter((r) => r.visits >= 3)
+                        .map((r) => (
+                          <button
+                            key={r.idx}
+                            type="button"
+                            onClick={() => openSolution(r.idx, a.perQ.filter((x) => x.visits >= 3))}
+                            className="rounded-md bg-white px-2 py-1 text-xs font-bold tabular-nums text-ink ring-1 ring-line transition hover:ring-med"
+                          >
+                            Q{r.idx + 1} · {r.visits}×
+                          </button>
+                        ))}
+                    </div>
+                  ) : (
+                    <p className="mt-1 text-sm text-inksoft">No question needed three visits.</p>
+                  )}
+                </div>
+              </div>
+            </div>
           </section>
 
-          {/* ⑥ Solutions explorer */}
+          {/* 8 · Qs by Qs Analysis */}
           <section id="solutions" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
             <div className="flex flex-wrap items-center gap-3">
               <div>
-                <h2 className="text-xl font-bold text-ink">Solutions &amp; review</h2>
+                <h2 className="text-xl font-bold text-ink">Qs by Qs Analysis</h2>
                 <p className="mt-0.5 text-sm text-inksoft">
                   Click any question to open its full solution.
                   {filter === 'wrong' && ' Wrong answers are listed slowest-first — knowledge gaps before rushed slips.'}
@@ -1002,8 +1347,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               solutions PDF below contains every question with its detailed explanation.
             </p>
           </section>
-
-          {/* ⑦ Answer key */}
+          {/* 8b · Answer key */}
           <section id="key" className="mt-6 scroll-mt-16 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
             <h2 className="text-xl font-bold text-ink">Answer key</h2>
             <p className="mt-1 text-sm text-inksoft">

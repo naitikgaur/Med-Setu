@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { loadPaper } from '../lib/papers';
 import { loadSubjectTest } from '../lib/subjects';
+import { loadSeriesTest } from '../lib/series';
 import { QBANK_META, isBookmarked, loadQBankTestData, toggleBookmark } from '../lib/qbank';
 import {
   loadAttempt, saveAttempt, fmtClock,
@@ -44,7 +45,9 @@ export default function Runner({ desc }: { desc: TestDescriptor }) {
         ? await loadPaper(desc.id)
         : desc.kind === 'qbank'
           ? await loadQBankTestData(desc.id)
-          : await loadSubjectTest(desc.id);
+          : desc.kind === 'series'
+            ? await loadSeriesTest(desc.id)
+            : await loadSubjectTest(desc.id);
       if (!alive) return;
       setPaper(p);
       attemptRef.current = a;

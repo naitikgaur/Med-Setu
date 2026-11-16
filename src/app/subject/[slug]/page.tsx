@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SUBJECTS_META, getSubject } from '../../../lib/subjects';
@@ -9,6 +10,16 @@ import SubjectStartPanel from './SubjectStartPanel';
 
 export function generateStaticParams() {
   return SUBJECTS_META.map((s) => ({ slug: s.slug }));
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const subject = getSubject(params.slug);
+  if (!subject) return {};
+  return {
+    title: `${subject.name} — FMGE subject-wise tests — MedSetu`,
+    description: `${subject.name} subject-wise tests for FMGE on MedSetu: ${subject.tests.length} test${subject.tests.length === 1 ? '' : 's'}, every question with its full explanation and a detailed analysis against the 50% mark. Free.`,
+    alternates: { canonical: `/subject/${params.slug}/` },
+  };
 }
 
 export default function SubjectPage({ params }: { params: { slug: string } }) {

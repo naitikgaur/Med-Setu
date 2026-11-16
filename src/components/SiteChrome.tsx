@@ -84,52 +84,99 @@ export function DonateStrip() {
   );
 }
 
+const FOOTER_COLS: { title: string; links: [string, string][] }[] = [
+  {
+    title: 'Practise',
+    links: [
+      ['Test Series — 30 grand tests', '/tests/'],
+      ['PYP Tests — previous-year papers', '/papers/'],
+      ['Subject-wise Tests', '/subjects/'],
+      ['Question Bank', '/qbank/'],
+      ["Let's Start", '/start/'],
+    ],
+  },
+  {
+    title: 'MedSetu',
+    links: [
+      ['About MedSetu', '/about/'],
+      ['Naitik Library', '/naitik-library/'],
+      ['Contact us', '/contact/'],
+    ],
+  },
+  {
+    title: 'Policies',
+    links: [
+      ['Privacy Policy', '/privacy/'],
+      ['Terms of Use', '/terms/'],
+      ['Disclaimer', '/disclaimer/'],
+    ],
+  },
+];
+
 export function SiteFooter() {
   return (
     <footer className="no-print mt-0 bg-med-abyss text-white">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-        <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+        <div className="grid gap-10 lg:grid-cols-[1.2fr_2fr]">
           <div className="max-w-md">
             <BrandLockup light />
             <p className="mt-3 text-sm leading-relaxed text-white/75">{CREDIT_LINE}</p>
             <p className="mt-2 text-sm text-white/75">
               Questions or help: <span className="font-semibold tabular-nums text-white">{PHONES}</span>
             </p>
-            <nav className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm font-medium" aria-label="Footer">
-              <Link href="/papers/" className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
-                PYP Tests
-              </Link>
-              <Link href="/subjects/" className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
-                Subject-wise Tests
-              </Link>
-              <Link href="/qbank/" className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
-                Question Bank
-              </Link>
-              <Link href="/about/" className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
-                About
-              </Link>
-              <Link href="/naitik-library/" className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
-                Naitik Library
-              </Link>
-              <Link href="/privacy/" className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
-                Privacy Policy
-              </Link>
-            </nav>
-          </div>
-          <div className="text-sm leading-relaxed text-white/75">
-            <p className="font-semibold text-white">Support Naitik Library</p>
-            <div className="mt-2">
-              <CopyUpi dark />
-            </div>
-            <p className="mt-3 max-w-sm text-xs leading-relaxed text-white/65">
-              Disclaimer: MedSetu is not affiliated with NBEMS or NMC. NBEMS never releases official
-              FMGE question papers; the papers here are recall-based editions for practice only.
+            <p className="mt-4 text-sm font-semibold text-white">Join the MedSetu community</p>
+            <p className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-sm font-medium">
+              <a
+                href="https://chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+              >
+                WhatsApp group
+              </a>
+              <a
+                href="https://www.instagram.com/naitiklibrary/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+              >
+                Instagram — @naitiklibrary
+              </a>
             </p>
+            <div className="mt-5 text-sm leading-relaxed text-white/75">
+              <p className="font-semibold text-white">Support Naitik Library</p>
+              <div className="mt-2">
+                <CopyUpi dark />
+              </div>
+            </div>
           </div>
+          <nav className="grid grid-cols-2 gap-8 sm:grid-cols-3" aria-label="Footer">
+            {FOOTER_COLS.map((col) => (
+              <div key={col.title}>
+                <p className="text-xs font-bold uppercase tracking-[0.12em] text-white/60">{col.title}</p>
+                <ul className="mt-3 space-y-2 text-sm font-medium">
+                  {col.links.map(([label, href]) => (
+                    <li key={href}>
+                      <Link href={href} className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
+                        {label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </nav>
         </div>
-        <div className="mt-8 border-t border-white/15 pt-4 text-xs text-white/65">
-          Your name and answers never leave your device. No accounts, no tracking, no data collected.
-          <span className="mt-1 block">MedSetu v3</span>
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-white/65">
+          Disclaimer: MedSetu is not affiliated with NBEMS or NMC. NBEMS never releases official
+          FMGE question papers; the papers here are recall-based editions for practice only.
+          MedSetu is a free practice resource — it is not medical advice and not a substitute for
+          your own teachers and textbooks.
+        </p>
+        <div className="mt-4 border-t border-white/15 pt-4 text-xs text-white/65">
+          Your name and answers never leave your device. No accounts, no tracking of your practice,
+          no data collected.
+          <span className="mt-1 block">MedSetu v4 · Made by Naitik Library, Gautam Nagar, New Delhi</span>
         </div>
       </div>
     </footer>

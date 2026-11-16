@@ -1,8 +1,39 @@
-# MedSetu — everyone is welcome to crawl the whole site.
+# MedSetu — search engines and AI search crawlers are welcome.
+# MedSetu is a free educational site; being found and cited in Google
+# search, AI Overviews, ChatGPT search, Perplexity and Copilot is the
+# point of the site, so every reputable crawler is allowed everywhere.
+
 User-agent: Googlebot
 Allow: /
 
 User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
 Allow: /
 
 User-agent: *

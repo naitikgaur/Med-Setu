@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PAPERS_META, getMeta, paperDescriptor } from '../../../../lib/papers';
 import AnalysisView from '../../../../components/AnalysisView';
@@ -11,3 +12,5 @@ export default function AnalysisPage({ params }: { params: { id: string } }) {
   if (!meta) notFound();
   return <AnalysisView desc={paperDescriptor(meta)} />;
 }
+
+export const metadata: Metadata = { robots: { index: false, follow: false } };
