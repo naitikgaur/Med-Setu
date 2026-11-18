@@ -6,9 +6,9 @@ import { QBANK_META } from '../../lib/qbank';
 import QBankGate from './QBankGate';
 
 export const metadata: Metadata = {
-  title: 'FMGE Question Bank — 15,607 Questions by Subject & Topic — MedSetu',
+  title: 'FMGE Question Bank — 13,934 Questions by Subject & Topic — MedSetu',
   description:
-    'The MedSetu question bank for FMGE: 15,607 practice questions across all 19 subjects, organised by topic, every one with its answer and explanation. Practise question by question in Practice mode, sit a set in Exam mode, and clear My Mistakes. Free, no sign-up.',
+    'The MedSetu question bank for FMGE: 13,934 practice questions across all 19 subjects, organised by topic, every one with its answer and explanation. Practise question by question in Practice mode, sit a set in Exam mode, and clear My Mistakes. Free, no sign-up.',
   alternates: { canonical: '/qbank/' },
 };
 

@@ -263,133 +263,136 @@
     ]
    }
   ],
-  "shipped": 15607
+  "shipped": 13934
  },
  "imgStats": {
-  "referenced": 7196,
+  "referenced": 5274,
   "covered": 4756,
-  "questionsWithImg": 3743,
+  "questionsWithImg": 2089,
   "questionsImgCovered": 2088,
-  "explWithImg": 1985,
+  "explWithImg": 1772,
   "explImgCovered": 1324,
-  "optionImgQuestions": 20
+  "optionImgQuestions": 0,
+  "excludedMissingImg": 1673,
+  "excludedStemImg": 1654,
+  "excludedOptionImg": 20
  },
  "unknownSubjects": [],
  "unknownRawNames": [],
  "perSubject": [
   {
    "subject": "Anatomy",
-   "total": 740,
-   "topics": 36,
-   "imgCount": 345
+   "total": 606,
+   "topics": 35,
+   "imgCount": 212
   },
   {
    "subject": "Physiology",
-   "total": 446,
+   "total": 425,
    "topics": 31,
-   "imgCount": 80
+   "imgCount": 59
   },
   {
    "subject": "Biochemistry",
-   "total": 821,
+   "total": 773,
    "topics": 35,
-   "imgCount": 91
+   "imgCount": 45
   },
   {
    "subject": "Pathology",
-   "total": 942,
+   "total": 861,
    "topics": 37,
-   "imgCount": 224
+   "imgCount": 143
   },
   {
    "subject": "Microbiology",
-   "total": 1012,
+   "total": 889,
    "topics": 34,
-   "imgCount": 281
+   "imgCount": 158
   },
   {
    "subject": "Pharmacology",
-   "total": 664,
+   "total": 652,
    "topics": 30,
-   "imgCount": 54
+   "imgCount": 42
   },
   {
    "subject": "Forensic Medicine",
-   "total": 629,
+   "total": 577,
    "topics": 33,
-   "imgCount": 111
+   "imgCount": 59
   },
   {
    "subject": "Medicine",
-   "total": 2043,
+   "total": 1834,
    "topics": 76,
-   "imgCount": 360
+   "imgCount": 154
   },
   {
    "subject": "Surgery",
-   "total": 1482,
+   "total": 1314,
    "topics": 35,
-   "imgCount": 462
+   "imgCount": 296
   },
   {
    "subject": "Obstetrics & Gynaecology",
-   "total": 1498,
+   "total": 1394,
    "topics": 44,
-   "imgCount": 226
+   "imgCount": 124
   },
   {
    "subject": "Community Medicine",
-   "total": 1253,
-   "topics": 34,
-   "imgCount": 116
+   "total": 1206,
+   "topics": 33,
+   "imgCount": 70
   },
   {
    "subject": "Paediatrics",
-   "total": 711,
+   "total": 653,
    "topics": 35,
-   "imgCount": 115
+   "imgCount": 58
   },
   {
    "subject": "Ophthalmology",
-   "total": 622,
+   "total": 518,
    "topics": 33,
-   "imgCount": 225
+   "imgCount": 122
   },
   {
    "subject": "ENT",
-   "total": 570,
+   "total": 469,
    "topics": 36,
-   "imgCount": 203
+   "imgCount": 103
   },
   {
    "subject": "Anaesthesia",
-   "total": 364,
+   "total": 329,
    "topics": 33,
-   "imgCount": 74
+   "imgCount": 41
   },
   {
    "subject": "Orthopaedics",
-   "total": 479,
+   "total": 371,
    "topics": 36,
-   "imgCount": 246
+   "imgCount": 139
   },
   {
    "subject": "Dermatology",
-   "total": 499,
+   "total": 380,
    "topics": 35,
-   "imgCount": 248
+   "imgCount": 130
   },
   {
    "subject": "Psychiatry",
-   "total": 423,
+   "total": 416,
    "topics": 34,
-   "imgCount": 14
+   "imgCount": 7
   },
   {
    "subject": "Radiology",
-   "total": 409,
+   "total": 267,
    "topics": 32,
-   "imgCount": 268
+   "imgCount": 127
   }
  ]
 }

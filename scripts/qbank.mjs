@@ -251,7 +251,20 @@ export function buildQBank(root) {
     if (!existsSync(join(root, 'src', 'data', 'bimg', e.file))) return null;
     return `/bimg/${e.file}`;
   };
-  const imgStats = { referenced: 0, covered: 0, questionsWithImg: 0, questionsImgCovered: 0, explWithImg: 0, explImgCovered: 0, optionImgQuestions: 0 };
+  const imgStats = { referenced: 0, covered: 0, questionsWithImg: 0, questionsImgCovered: 0, explWithImg: 0, explImgCovered: 0, optionImgQuestions: 0, excludedMissingImg: 0, excludedStemImg: 0, excludedOptionImg: 0 };
+  // Exclusion rule (2026-11-19, founder report: "no image is showing in any
+  // image based questions"): a question whose ESSENTIAL image content is
+  // missing — its stem figure could not be downloaded (all failures are the
+  // assets.corebtr.com 403 block) or any of its options is an image URL —
+  // does not ship in the bank at all. Students were meeting questions they
+  // could not fairly attempt (e.g. "Match List I with List II" where the
+  // lists themselves were the missing image). Same spirit as the
+  // answer-conflict exclusions: the bank carries only complete questions.
+  // ONE hand-verified exception: qb-7ce3ee9ce5 (Physiology, osmosis
+  // compartments) — read in full 2026-11-19; its stem describes the whole
+  // setup in text and is answerable without the figure, and the Test
+  // Series Physiology pool needs it to meet the exact NBEMS quota.
+  const MISSING_IMG_KEEPERS = new Set(['qb-7ce3ee9ce5']);
   // Some CoreBTR questions carry their OPTIONS as image URLs (all on
   // assets.corebtr.com, which refuses every request from this machine —
   // see QBANK-REPORT.md). Those URLs are not in the image map, so they can
@@ -278,24 +291,37 @@ export function buildQBank(root) {
     if (!recs.length) continue;
     recs.sort((a, b) => a.topic.localeCompare(b.topic) || a.stem.localeCompare(b.stem));
     const topics = new Map();
-    const questions = recs.map((w, i) => {
-      topics.set(w.topic, (topics.get(w.topic) || 0) + 1);
+    const questions = [];
+    for (const w of recs) {
       const id = `qb-${sha(w.hash).slice(0, 10)}`;
       if (seenIds.has(id)) throw new Error('bank id collision: ' + id);
       seenIds.add(id);
+      // Missing-essential-image exclusion (see MISSING_IMG_KEEPERS above):
+      // stem figure referenced but none of it downloaded, or any option is
+      // an image URL -> the question cannot be attempted fairly; skip it.
+      const stemLocal = w.qImgs.length ? w.qImgs.map(resolve).filter(Boolean) : [];
+      const stemMissing = w.qImgs.length > 0 && stemLocal.length === 0;
+      const hasOptionImgs = w.options.some(isUrlText);
+      if ((stemMissing || hasOptionImgs) && !MISSING_IMG_KEEPERS.has(id)) {
+        imgStats.excludedMissingImg++;
+        if (stemMissing) imgStats.excludedStemImg++;
+        if (hasOptionImgs) imgStats.excludedOptionImg++;
+        continue;
+      }
+      topics.set(w.topic, (topics.get(w.topic) || 0) + 1);
       let options = w.options;
-      if (options.some(isUrlText)) {
+      if (hasOptionImgs) {
         imgStats.optionImgQuestions++;
         options = options.map((o) => (isUrlText(o) ? OPTION_IMG_PLACEHOLDER : o));
       }
       const q = {
-        bankId: id, n: i + 1, subject, topic: w.topic, text: scrubBareUrls(w.stem),
+        bankId: id, n: questions.length + 1, subject, topic: w.topic, text: scrubBareUrls(w.stem),
         options, correct: w.correct, explanation: scrubBareUrls(w.explanation),
         img: false,
       };
       if (w.qImgs.length) {
         imgStats.questionsWithImg++;
-        const local = w.qImgs.map(resolve).filter(Boolean);
+        const local = stemLocal;
         imgStats.referenced += w.qImgs.length; imgStats.covered += local.length;
         if (local.length) { q.images = local; if (local.length === w.qImgs.length) imgStats.questionsImgCovered++; }
         else q.img = true;
@@ -321,8 +347,8 @@ export function buildQBank(root) {
       if (!(q.correct >= 0 && q.correct <= 3)) throw new Error('bad correct index ' + id);
       if (normAnswerText(q.options[q.correct]) !== normAnswerText(w.correctText)
         && !(isUrlText(w.correctText) && q.options[q.correct] === OPTION_IMG_PLACEHOLDER)) throw new Error('correct text drift ' + id);
-      return q;
-    });
+      questions.push(q);
+    }
     const slug = subjectSlug(subject);
     writeFileSync(join(outDir, `${slug}.json`), JSON.stringify({ subject, slug, questions }));
     metaSubjects.push({
@@ -346,6 +372,6 @@ export function buildQBank(root) {
     perSubject: metaSubjects.map((s) => ({ subject: s.name, total: s.total, topics: s.topics.length, imgCount: s.imgCount })),
   };
   writeFileSync(join(root, 'qbank-report.json'), JSON.stringify(report, null, 1));
-  console.log(`qbank: shipped ${stats.shipped} questions across ${metaSubjects.length} subjects; conflicts excluded ${stats.conflicts}; images covered ${imgStats.covered}/${imgStats.referenced}`);
+  console.log(`qbank: shipped ${stats.shipped} questions across ${metaSubjects.length} subjects; conflicts excluded ${stats.conflicts}; missing-image excluded ${imgStats.excludedMissingImg}; images covered ${imgStats.covered}/${imgStats.referenced}`);
   return report;
 }

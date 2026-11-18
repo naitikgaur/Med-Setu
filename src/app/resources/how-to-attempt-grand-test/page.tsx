@@ -179,7 +179,7 @@ export default function HowToAttemptGrandTest() {
             </li>
             <li>
               <strong className="text-ink">Topic Analysis</strong> \u2014 the most important section. It
-              maps every question to its topic across the syllabus (699 topics in MedSetu&apos;s bank)
+              maps every question to its topic across the syllabus (697 topics in MedSetu&apos;s bank)
               and shows where your marks leaked, topic by topic.{' '}
               <strong className="text-ink">Convert this directly into your next revision list:</strong>{' '}
               every topic with two or more wrong answers goes on the list, in order of questions lost.

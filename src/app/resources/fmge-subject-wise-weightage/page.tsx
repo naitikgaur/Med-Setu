@@ -53,7 +53,7 @@ export default function SubjectWiseWeightage() {
             30 full-length tests of 300 questions each \u2014 <strong className="text-ink">9,000
             questions in total</strong>, built in the FMGE&apos;s two-part, 150 + 150 format and spread
             across all <strong className="text-ink">19 subjects</strong> and{' '}
-            <strong className="text-ink">699 topics</strong>. Every one of the 30 tests uses the same
+            <strong className="text-ink">697 topics</strong>. Every one of the 30 tests uses the same
             subject blueprint, so the distribution below is not an average of averages: it is the
             exact split, question by question.
           </p>
@@ -155,7 +155,7 @@ export default function SubjectWiseWeightage() {
               <strong className="text-ink">Test in the same proportions.</strong> A mock that
               over-samples your favourite subject lies to you. MedSetu&apos;s grand tests hold the
               split above in every single test, so a weak subject cannot hide \u2014 your Topic Analysis
-              after each test shows exactly which of the 699 topics the marks leaked from.
+              after each test shows exactly which of the 697 topics the marks leaked from.
             </li>
             <li>
               <strong className="text-ink">Revisit the small subjects on a spaced loop.</strong> Five

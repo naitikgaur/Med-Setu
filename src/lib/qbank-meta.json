@@ -1,15 +1,15 @@
 {
- "total": 15607,
+ "total": 13934,
  "subjects": [
   {
    "slug": "anatomy",
    "name": "Anatomy",
-   "total": 740,
-   "imgCount": 345,
+   "total": 606,
+   "imgCount": 212,
    "topics": [
     {
      "name": "Abdomen Pelvis",
-     "count": 31
+     "count": 27
     },
     {
      "name": "AIIMS 2017",
@@ -29,15 +29,11 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 151
-    },
-    {
-     "name": "Cadaveric Sections",
-     "count": 4
+     "count": 100
     },
     {
      "name": "Embryology",
-     "count": 31
+     "count": 21
     },
     {
      "name": "FMGE Aug 2020",
@@ -85,11 +81,11 @@
     },
     {
      "name": "Head Neck",
-     "count": 21
+     "count": 11
     },
     {
      "name": "Histology Osteology",
-     "count": 26
+     "count": 4
     },
     {
      "name": "INI-CET 2021",
@@ -109,7 +105,7 @@
     },
     {
      "name": "Lower Limb",
-     "count": 24
+     "count": 16
     },
     {
      "name": "NEET 2018",
@@ -141,11 +137,11 @@
     },
     {
      "name": "Neuroanatomy",
-     "count": 38
+     "count": 20
     },
     {
      "name": "Pyqs",
-     "count": 18
+     "count": 11
     },
     {
      "name": "Zvrecommended Qs",
@@ -156,8 +152,8 @@
   {
    "slug": "physiology",
    "name": "Physiology",
-   "total": 446,
-   "imgCount": 80,
+   "total": 425,
+   "imgCount": 59,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -221,11 +217,11 @@
     },
     {
      "name": "General Physiology · All Qbank Qs Excluding Pyqs",
-     "count": 49
+     "count": 43
     },
     {
      "name": "General Physiology · Basics Of Cell Cytoskeleton",
-     "count": 7
+     "count": 2
     },
     {
      "name": "General Physiology · Body Fluid Compartments",
@@ -233,11 +229,11 @@
     },
     {
      "name": "General Physiology · Miscellaneous",
-     "count": 6
+     "count": 3
     },
     {
      "name": "General Physiology · Nerve Muscle Physiology",
-     "count": 16
+     "count": 9
     },
     {
      "name": "INI-CET 2021",
@@ -288,8 +284,8 @@
   {
    "slug": "biochemistry",
    "name": "Biochemistry",
-   "total": 821,
-   "imgCount": 91,
+   "total": 773,
+   "imgCount": 45,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -309,7 +305,7 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 236
+     "count": 214
     },
     {
      "name": "Basics Of Metabolism",
@@ -317,11 +313,11 @@
     },
     {
      "name": "Carbohydrate Metabolism Disorders",
-     "count": 41
+     "count": 34
     },
     {
      "name": "Enzyme Kinetics",
-     "count": 10
+     "count": 5
     },
     {
      "name": "FMGE Aug 2020",
@@ -385,7 +381,7 @@
     },
     {
      "name": "Lipid Metabolism Disorders",
-     "count": 22
+     "count": 21
     },
     {
      "name": "Minerals",
@@ -393,7 +389,7 @@
     },
     {
      "name": "Molecular Biology",
-     "count": 38
+     "count": 33
     },
     {
      "name": "NEET 2018",
@@ -425,19 +421,19 @@
     },
     {
      "name": "Protein Metabolism Disorders",
-     "count": 17
+     "count": 14
     },
     {
      "name": "Pyqs",
-     "count": 43
+     "count": 38
     }
    ]
   },
   {
    "slug": "pathology",
    "name": "Pathology",
-   "total": 942,
-   "imgCount": 224,
+   "total": 861,
+   "imgCount": 143,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -501,7 +497,7 @@
     },
     {
      "name": "General Pathology · All Qbank Qs Excluding Pyqs",
-     "count": 58
+     "count": 49
     },
     {
      "name": "General Pathology · Cell Injury",
@@ -509,35 +505,35 @@
     },
     {
      "name": "General Pathology · Miscellaneous Pathology",
-     "count": 20
+     "count": 10
     },
     {
      "name": "General Pathology · Neoplasia",
-     "count": 19
+     "count": 16
     },
     {
      "name": "Hematology · All Qbank Qs Excluding Pyqs",
-     "count": 95
+     "count": 72
     },
     {
      "name": "Hematology · Platelet Coagulation Disorders",
-     "count": 25
+     "count": 23
     },
     {
      "name": "Hematology · Pyqs",
-     "count": 95
+     "count": 71
     },
     {
      "name": "Immunology · All Qbank Qs Excluding Pyqs",
-     "count": 41
+     "count": 36
     },
     {
      "name": "Immunology · Basics Of Immunology",
-     "count": 14
+     "count": 10
     },
     {
      "name": "Immunology · Immunodeficiency Disorders",
-     "count": 8
+     "count": 7
     },
     {
      "name": "Immunology · Pyqs",
@@ -592,8 +588,8 @@
   {
    "slug": "microbiology",
    "name": "Microbiology",
-   "total": 1012,
-   "imgCount": 281,
+   "total": 889,
+   "imgCount": 158,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -613,15 +609,15 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 199
+     "count": 150
     },
     {
      "name": "Antimicrobials",
-     "count": 15
+     "count": 14
     },
     {
      "name": "Bacteriology",
-     "count": 84
+     "count": 68
     },
     {
      "name": "FMGE Aug 2020",
@@ -669,7 +665,7 @@
     },
     {
      "name": "General Microbiology Sterilisation",
-     "count": 12
+     "count": 9
     },
     {
      "name": "Hiv Art",
@@ -693,7 +689,7 @@
     },
     {
      "name": "Mycology",
-     "count": 43
+     "count": 26
     },
     {
      "name": "NEET 2018",
@@ -725,19 +721,19 @@
     },
     {
      "name": "Parasitology",
-     "count": 52
+     "count": 33
     },
     {
      "name": "Pyqs",
-     "count": 96
+     "count": 78
     }
    ]
   },
   {
    "slug": "pharmacology",
    "name": "Pharmacology",
-   "total": 664,
-   "imgCount": 54,
+   "total": 652,
+   "imgCount": 42,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -801,11 +797,11 @@
     },
     {
      "name": "General Pharmacology · All Qbank Qs Excluding Pyqs",
-     "count": 52
+     "count": 45
     },
     {
      "name": "General Pharmacology · Ans",
-     "count": 15
+     "count": 14
     },
     {
      "name": "General Pharmacology · Anticancer Drugs",
@@ -813,7 +809,7 @@
     },
     {
      "name": "General Pharmacology · General Pharmacology",
-     "count": 23
+     "count": 19
     },
     {
      "name": "INI-CET 2021",
@@ -864,8 +860,8 @@
   {
    "slug": "forensic-medicine",
    "name": "Forensic Medicine",
-   "total": 629,
-   "imgCount": 111,
+   "total": 577,
+   "imgCount": 59,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -885,15 +881,15 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 157
+     "count": 134
     },
     {
      "name": "Asphyxia",
-     "count": 10
+     "count": 7
     },
     {
      "name": "Ballistics",
-     "count": 5
+     "count": 1
     },
     {
      "name": "FMGE Aug 2020",
@@ -941,7 +937,7 @@
     },
     {
      "name": "Human Identification",
-     "count": 11
+     "count": 6
     },
     {
      "name": "INI-CET 2021",
@@ -961,7 +957,7 @@
     },
     {
      "name": "Injuries",
-     "count": 20
+     "count": 14
     },
     {
      "name": "Medical Law",
@@ -997,15 +993,15 @@
     },
     {
      "name": "Pyqs",
-     "count": 86
+     "count": 75
     }
    ]
   },
   {
    "slug": "medicine",
    "name": "Medicine",
-   "total": 2043,
-   "imgCount": 360,
+   "total": 1834,
+   "imgCount": 154,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -1025,27 +1021,27 @@
     },
     {
      "name": "Cardiovascular System · Acute Coronary Syndrome Mi",
-     "count": 29
+     "count": 16
     },
     {
      "name": "Cardiovascular System · All Qbank Qs Excluding Pyqs",
-     "count": 114
+     "count": 76
     },
     {
      "name": "Cardiovascular System · Arrhythmias Ecg",
-     "count": 37
+     "count": 21
     },
     {
      "name": "Cardiovascular System · Cardiomyopathy Arf",
-     "count": 18
+     "count": 13
     },
     {
      "name": "Cardiovascular System · Chf",
-     "count": 12
+     "count": 8
     },
     {
      "name": "Cardiovascular System · Cvs Graphs Physiology",
-     "count": 10
+     "count": 7
     },
     {
      "name": "Cardiovascular System · Dyslipidaemia",
@@ -1053,39 +1049,39 @@
     },
     {
      "name": "Cardiovascular System · Heart Sounds Murmurs",
-     "count": 19
+     "count": 18
     },
     {
      "name": "Cardiovascular System · Hypertension",
-     "count": 16
+     "count": 15
     },
     {
      "name": "Cardiovascular System · Jvp Pulse",
-     "count": 12
+     "count": 10
     },
     {
      "name": "Endocrine · Adrenal Disorders Carcinoid",
-     "count": 44
+     "count": 41
     },
     {
      "name": "Endocrine · All Qbank Qs Excluding Pyqs",
-     "count": 44
+     "count": 42
     },
     {
      "name": "Endocrine · Diabetes",
-     "count": 36
+     "count": 35
     },
     {
      "name": "Endocrine · Parathyroid Disorders",
-     "count": 13
+     "count": 12
     },
     {
      "name": "Endocrine · Pituitary Disorders",
-     "count": 22
+     "count": 19
     },
     {
      "name": "Endocrine · Pyqs",
-     "count": 20
+     "count": 18
     },
     {
      "name": "FMGE Aug 2020",
@@ -1133,7 +1129,7 @@
     },
     {
      "name": "GI Hepatobiliary System · All Qbank Qs Excluding Pyqs",
-     "count": 57
+     "count": 43
     },
     {
      "name": "GI Hepatobiliary System · Ascites Chronic Diarrhoea",
@@ -1145,11 +1141,11 @@
     },
     {
      "name": "GI Hepatobiliary System · Gi Physiology",
-     "count": 5
+     "count": 4
     },
     {
      "name": "GI Hepatobiliary System · Ibd",
-     "count": 9
+     "count": 8
     },
     {
      "name": "GI Hepatobiliary System · Integrated Gi Hpb",
@@ -1157,15 +1153,15 @@
     },
     {
      "name": "GI Hepatobiliary System · Liver Diseases",
-     "count": 19
+     "count": 18
     },
     {
      "name": "GI Hepatobiliary System · Polyps Syndromes",
-     "count": 5
+     "count": 4
     },
     {
      "name": "GI Hepatobiliary System · Pyqs",
-     "count": 16
+     "count": 15
     },
     {
      "name": "INI-CET 2021",
@@ -1213,11 +1209,11 @@
     },
     {
      "name": "Neurology · All Qbank Qs Excluding Pyqs",
-     "count": 90
+     "count": 75
     },
     {
      "name": "Neurology · Basal Ganglia Movement Disorders",
-     "count": 10
+     "count": 9
     },
     {
      "name": "Neurology · Brain Death",
@@ -1225,43 +1221,43 @@
     },
     {
      "name": "Neurology · Dementia Headache",
-     "count": 23
+     "count": 22
     },
     {
      "name": "Neurology · Hypothalamus Thalamus Memory",
-     "count": 6
+     "count": 5
     },
     {
      "name": "Neurology · Meningitis Demyelinating Disorders",
-     "count": 18
+     "count": 17
     },
     {
      "name": "Neurology · Pyqs",
-     "count": 59
+     "count": 55
     },
     {
      "name": "Renal Electrolytes · Acid Base Electrolyte Disturbances",
-     "count": 44
+     "count": 41
     },
     {
      "name": "Renal Electrolytes · Aki Ckd",
-     "count": 26
+     "count": 25
     },
     {
      "name": "Renal Electrolytes · All Qbank Qs Excluding Pyqs",
-     "count": 53
+     "count": 44
     },
     {
      "name": "Renal Electrolytes · Glomerular Diseases",
-     "count": 18
+     "count": 17
     },
     {
      "name": "Renal Electrolytes · Pyqs",
-     "count": 29
+     "count": 24
     },
     {
      "name": "Respiratory System · All Qbank Qs Excluding Pyqs",
-     "count": 78
+     "count": 61
     },
     {
      "name": "Respiratory System · Ards",
@@ -1269,39 +1265,39 @@
     },
     {
      "name": "Respiratory System · Asthma Copd",
-     "count": 20
+     "count": 19
     },
     {
      "name": "Respiratory System · Carcinoma Lung",
-     "count": 9
+     "count": 5
     },
     {
      "name": "Respiratory System · Chest Infections",
-     "count": 11
+     "count": 5
     },
     {
      "name": "Respiratory System · Ild",
-     "count": 16
+     "count": 12
     },
     {
      "name": "Respiratory System · Pleural Effusion Pulmonary Embolism Pah",
-     "count": 14
+     "count": 13
     },
     {
      "name": "Respiratory System · Pyqs",
-     "count": 26
+     "count": 21
     },
     {
      "name": "Rheumatology · All Qbank Qs Excluding Pyqs",
-     "count": 57
+     "count": 47
     },
     {
      "name": "Rheumatology · Arthritis",
-     "count": 25
+     "count": 22
     },
     {
      "name": "Rheumatology · Connective Tissue Diseases",
-     "count": 14
+     "count": 13
     },
     {
      "name": "Rheumatology · Myopathy",
@@ -1309,15 +1305,15 @@
     },
     {
      "name": "Rheumatology · Pyqs",
-     "count": 11
+     "count": 10
     }
    ]
   },
   {
    "slug": "surgery",
    "name": "Surgery",
-   "total": 1482,
-   "imgCount": 462,
+   "total": 1314,
+   "imgCount": 296,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -1337,11 +1333,11 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 241
+     "count": 195
     },
     {
      "name": "Breast",
-     "count": 35
+     "count": 24
     },
     {
      "name": "FMGE Aug 2020",
@@ -1389,19 +1385,19 @@
     },
     {
      "name": "General Surgery",
-     "count": 45
+     "count": 35
     },
     {
      "name": "Gi Surgery",
-     "count": 84
+     "count": 70
     },
     {
      "name": "Hepatobiliary Surgery",
-     "count": 33
+     "count": 26
     },
     {
      "name": "Hernia",
-     "count": 26
+     "count": 21
     },
     {
      "name": "INI-CET 2021",
@@ -1453,7 +1449,7 @@
     },
     {
      "name": "Pyqs",
-     "count": 220
+     "count": 145
     },
     {
      "name": "Zvrecommended Qs",
@@ -1464,8 +1460,8 @@
   {
    "slug": "obstetrics-gynaecology",
    "name": "Obstetrics & Gynaecology",
-   "total": 1498,
-   "imgCount": 226,
+   "total": 1394,
+   "imgCount": 124,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -1485,35 +1481,35 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 319
+     "count": 282
     },
     {
      "name": "Amenorrhoea Dsd",
-     "count": 22
+     "count": 20
     },
     {
      "name": "Anatomy Prolapse",
-     "count": 27
+     "count": 20
     },
     {
      "name": "Aub",
-     "count": 22
+     "count": 17
     },
     {
      "name": "Basics Of Obstetrics",
-     "count": 47
-    },
-    {
-     "name": "Contraception",
      "count": 44
     },
     {
+     "name": "Contraception",
+     "count": 43
+    },
+    {
      "name": "Early Pregnancy Complications",
-     "count": 35
+     "count": 30
     },
     {
      "name": "Endometriosis Pcos",
-     "count": 14
+     "count": 12
     },
     {
      "name": "FMGE Aug 2020",
@@ -1561,11 +1557,11 @@
     },
     {
      "name": "Foetal Monitoring",
-     "count": 10
+     "count": 9
     },
     {
      "name": "Gynaecological Oncology",
-     "count": 49
+     "count": 39
     },
     {
      "name": "INI-CET 2021",
@@ -1589,19 +1585,19 @@
     },
     {
      "name": "Labour Its Complications",
-     "count": 76
+     "count": 65
     },
     {
      "name": "Medical Diseases In Pregnancy",
-     "count": 40
+     "count": 38
     },
     {
      "name": "Menstrual Physiology",
-     "count": 14
+     "count": 12
     },
     {
      "name": "Müllerian Anomalies Infertility",
-     "count": 29
+     "count": 22
     },
     {
      "name": "NEET 2018",
@@ -1633,23 +1629,23 @@
     },
     {
      "name": "Pelvis Skull",
-     "count": 9
+     "count": 7
     },
     {
      "name": "Placenta Antepartum Haemorrhage",
-     "count": 11
+     "count": 9
     },
     {
      "name": "Pyqs",
-     "count": 26
+     "count": 21
     }
    ]
   },
   {
    "slug": "community-medicine",
    "name": "Community Medicine",
-   "total": 1253,
-   "imgCount": 116,
+   "total": 1206,
+   "imgCount": 70,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -1669,23 +1665,19 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 286
-    },
-    {
-     "name": "Biostatistics",
-     "count": 1
+     "count": 263
     },
     {
      "name": "Demography",
-     "count": 46
+     "count": 45
     },
     {
      "name": "Environment",
-     "count": 34
+     "count": 28
     },
     {
      "name": "Epidemiology",
-     "count": 82
+     "count": 77
     },
     {
      "name": "FMGE Aug 2020",
@@ -1733,7 +1725,7 @@
     },
     {
      "name": "Health Programmes",
-     "count": 56
+     "count": 52
     },
     {
      "name": "INI-CET 2021",
@@ -1753,7 +1745,7 @@
     },
     {
      "name": "Miscellaneous",
-     "count": 36
+     "count": 34
     },
     {
      "name": "NEET 2018",
@@ -1781,19 +1773,19 @@
     },
     {
      "name": "Nutrition",
-     "count": 28
+     "count": 27
     },
     {
      "name": "Pyqs",
-     "count": 84
+     "count": 80
     }
    ]
   },
   {
    "slug": "paediatrics",
    "name": "Paediatrics",
-   "total": 711,
-   "imgCount": 115,
+   "total": 653,
+   "imgCount": 58,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -1813,19 +1805,19 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 181
+     "count": 153
     },
     {
      "name": "Congenital Heart Diseases",
-     "count": 10
+     "count": 8
     },
     {
      "name": "Cystic Fibrosis Pneumonia",
-     "count": 16
+     "count": 15
     },
     {
      "name": "Developmental Milestones",
-     "count": 20
+     "count": 18
     },
     {
      "name": "FMGE Aug 2020",
@@ -1873,11 +1865,11 @@
     },
     {
      "name": "Genetics",
-     "count": 28
+     "count": 21
     },
     {
      "name": "Growth Nutrition",
-     "count": 27
+     "count": 25
     },
     {
      "name": "INI-CET 2021",
@@ -1897,7 +1889,7 @@
     },
     {
      "name": "Miscellaneous",
-     "count": 27
+     "count": 23
     },
     {
      "name": "NEET 2018",
@@ -1929,19 +1921,19 @@
     },
     {
      "name": "Neonatology",
-     "count": 43
+     "count": 38
     },
     {
      "name": "Paediatric Gi Disorders",
-     "count": 25
+     "count": 18
     }
    ]
   },
   {
    "slug": "ophthalmology",
    "name": "Ophthalmology",
-   "total": 622,
-   "imgCount": 225,
+   "total": 518,
+   "imgCount": 122,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -1961,15 +1953,15 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 154
+     "count": 105
     },
     {
      "name": "Conjunctiva Orbit",
-     "count": 25
+     "count": 10
     },
     {
      "name": "Cornea Sclera",
-     "count": 20
+     "count": 7
     },
     {
      "name": "FMGE Aug 2020",
@@ -2017,7 +2009,7 @@
     },
     {
      "name": "Glaucoma",
-     "count": 11
+     "count": 8
     },
     {
      "name": "INI-CET 2021",
@@ -2037,7 +2029,7 @@
     },
     {
      "name": "Lens Cataract",
-     "count": 10
+     "count": 4
     },
     {
      "name": "NEET 2018",
@@ -2069,19 +2061,19 @@
     },
     {
      "name": "Neuro Ophthalmology",
-     "count": 16
+     "count": 13
     },
     {
      "name": "Pyqs",
-     "count": 43
+     "count": 28
     }
    ]
   },
   {
    "slug": "ent",
    "name": "ENT",
-   "total": 570,
-   "imgCount": 203,
+   "total": 469,
+   "imgCount": 103,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -2101,15 +2093,15 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 156
+     "count": 118
     },
     {
      "name": "Ear Anatomy",
-     "count": 7
+     "count": 3
     },
     {
      "name": "Ent Trauma",
-     "count": 5
+     "count": 1
     },
     {
      "name": "Facial Nerve",
@@ -2161,11 +2153,11 @@
     },
     {
      "name": "Head Neck Spaces",
-     "count": 7
+     "count": 3
     },
     {
      "name": "Infections Tonsils",
-     "count": 6
+     "count": 4
     },
     {
      "name": "INI-CET 2021",
@@ -2185,7 +2177,7 @@
     },
     {
      "name": "Larynx Vocal Cord Palsy",
-     "count": 26
+     "count": 14
     },
     {
      "name": "NEET 2018",
@@ -2217,23 +2209,23 @@
     },
     {
      "name": "Oral Cavity Salivary Glands",
-     "count": 14
+     "count": 6
     },
     {
      "name": "Paranasal Sinuses Nose",
-     "count": 27
+     "count": 13
     },
     {
      "name": "Pathologies Of The Ear",
-     "count": 44
+     "count": 29
     }
    ]
   },
   {
    "slug": "anaesthesia",
    "name": "Anaesthesia",
-   "total": 364,
-   "imgCount": 74,
+   "total": 329,
+   "imgCount": 41,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -2253,15 +2245,15 @@
     },
     {
      "name": "Airway Other Instruments",
-     "count": 52
+     "count": 33
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 102
+     "count": 97
     },
     {
      "name": "Bls Acls Nrp",
-     "count": 9
+     "count": 7
     },
     {
      "name": "FMGE Aug 2020",
@@ -2357,23 +2349,23 @@
     },
     {
      "name": "Pharmacology In Anaesthesia",
-     "count": 20
+     "count": 19
     },
     {
      "name": "Pre Op Assessment",
-     "count": 10
+     "count": 7
     },
     {
      "name": "Pyqs",
-     "count": 12
+     "count": 7
     }
    ]
   },
   {
    "slug": "orthopaedics",
    "name": "Orthopaedics",
-   "total": 479,
-   "imgCount": 246,
+   "total": 371,
+   "imgCount": 139,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -2393,19 +2385,19 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 104
+     "count": 56
     },
     {
      "name": "Bone Infections",
-     "count": 5
+     "count": 2
     },
     {
      "name": "Bone Tumours",
-     "count": 13
+     "count": 3
     },
     {
      "name": "Clinical Tests",
-     "count": 8
+     "count": 5
     },
     {
      "name": "FMGE Aug 2020",
@@ -2453,7 +2445,7 @@
     },
     {
      "name": "Fractures",
-     "count": 29
+     "count": 13
     },
     {
      "name": "INI-CET 2021",
@@ -2473,11 +2465,11 @@
     },
     {
      "name": "Metabolic Bone Diseases",
-     "count": 17
+     "count": 13
     },
     {
      "name": "Miscellaneous",
-     "count": 7
+     "count": 3
     },
     {
      "name": "NEET 2018",
@@ -2509,23 +2501,23 @@
     },
     {
      "name": "Nerve Injuries",
-     "count": 23
+     "count": 13
     },
     {
      "name": "Paediatric Orthopaedics",
-     "count": 8
+     "count": 2
     },
     {
      "name": "Pyqs",
-     "count": 11
+     "count": 7
     }
    ]
   },
   {
    "slug": "dermatology",
    "name": "Dermatology",
-   "total": 499,
-   "imgCount": 248,
+   "total": 380,
+   "imgCount": 130,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -2545,19 +2537,19 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 145
+     "count": 93
     },
     {
      "name": "Alopecia",
-     "count": 11
+     "count": 6
     },
     {
      "name": "Basics Of Skin",
-     "count": 11
+     "count": 10
     },
     {
      "name": "Dermatitis Acne",
-     "count": 8
+     "count": 5
     },
     {
      "name": "FMGE Aug 2020",
@@ -2605,7 +2597,7 @@
     },
     {
      "name": "Infections Including Leprosy",
-     "count": 45
+     "count": 26
     },
     {
      "name": "INI-CET 2021",
@@ -2625,7 +2617,7 @@
     },
     {
      "name": "Miscellaneous",
-     "count": 19
+     "count": 8
     },
     {
      "name": "NEET 2018",
@@ -2657,23 +2649,23 @@
     },
     {
      "name": "Papulosquamous Disorders",
-     "count": 13
+     "count": 9
     },
     {
      "name": "Pigmentation Disorders",
-     "count": 7
+     "count": 3
     },
     {
      "name": "Pyqs",
-     "count": 49
+     "count": 29
     }
    ]
   },
   {
    "slug": "psychiatry",
    "name": "Psychiatry",
-   "total": 423,
-   "imgCount": 14,
+   "total": 416,
+   "imgCount": 7,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -2693,7 +2685,7 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 149
+     "count": 144
     },
     {
      "name": "Anxiety Related Disorders",
@@ -2769,7 +2761,7 @@
     },
     {
      "name": "Miscellaneous",
-     "count": 15
+     "count": 14
     },
     {
      "name": "Mood Disorders Antidepressants",
@@ -2809,15 +2801,15 @@
     },
     {
      "name": "Pyqs",
-     "count": 5
+     "count": 4
     }
    ]
   },
   {
    "slug": "radiology",
    "name": "Radiology",
-   "total": 409,
-   "imgCount": 268,
+   "total": 267,
+   "imgCount": 127,
    "topics": [
     {
      "name": "AIIMS 2017",
@@ -2837,7 +2829,7 @@
     },
     {
      "name": "All Qbank Qs Excluding Pyqs",
-     "count": 102
+     "count": 40
     },
     {
      "name": "FMGE Aug 2020",
@@ -2885,15 +2877,15 @@
     },
     {
      "name": "General Radiology",
-     "count": 23
+     "count": 17
     },
     {
      "name": "Gi Hbp Radiology",
-     "count": 23
+     "count": 3
     },
     {
      "name": "Gu Radiology",
-     "count": 13
+     "count": 3
     },
     {
      "name": "INI-CET 2021",
@@ -2941,17 +2933,17 @@
     },
     {
      "name": "Neuroradiology",
-     "count": 28
+     "count": 6
     },
     {
      "name": "Pyqs",
-     "count": 39
+     "count": 17
     }
    ]
   }
  ],
  "images": {
-  "referenced": 7196,
+  "referenced": 5274,
   "covered": 4756
  }
 }

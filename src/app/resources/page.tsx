@@ -82,7 +82,7 @@ export default function Resources() {
               <Link href="/tests/" className="font-semibold text-med hover:underline">
                 Grand Test series
               </Link>{' '}
-              \u2014 30 full-length tests of 300 questions each (9,000 questions, 699 topics),
+              \u2014 30 full-length tests of 300 questions each (9,000 questions, 697 topics),
               in the real two-part FMGE format.
             </li>
             <li>
@@ -96,7 +96,7 @@ export default function Resources() {
               <Link href="/qbank/" className="font-semibold text-med hover:underline">
                 Question Bank
               </Link>{' '}
-              \u2014 15,607 questions across all 19 subjects, in Practice and Exam modes.
+              \u2014 13,934 questions across all 19 subjects, in Practice and Exam modes.
             </li>
             <li>
               <Link href="/papers/" className="font-semibold text-med hover:underline">

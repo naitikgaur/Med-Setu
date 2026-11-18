@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: 'Where do the questions come from?',
-    a: 'Every question is drawn from MedSetu\u2019s own material: about a third of each test comes from previous-year FMGE papers, and the rest from the MedSetu question bank of 15,607 questions. No question repeats anywhere across the 30 tests, so the series gives you 9,000 distinct questions.',
+    a: 'Every question is drawn from MedSetu\u2019s own material: about a quarter of each test comes from previous-year FMGE papers, and the rest from the MedSetu question bank of 13,934 questions. No question repeats anywhere across the 30 tests, so the series gives you 9,000 distinct questions.',
   },
   {
     q: 'What is the "learning" attached to every question?',
@@ -25,7 +25,7 @@ const FAQS = [
   },
   {
     q: 'How much of the FMGE syllabus do the 30 tests cover?',
-    a: 'Questions are dealt across topics in rotation, so the 30 tests together touch 698 of the 699 topic groups in the question bank — effectively the whole broad FMGE syllabus, most of it several times over.',
+    a: 'Questions are dealt across topics in rotation, so the 30 tests together touch all 697 topic groups in the question bank — effectively the whole broad FMGE syllabus, most of it several times over.',
   },
   {
     q: 'How is a grand test marked?',
@@ -68,7 +68,7 @@ export default function TestsPage() {
             ['30', 'grand tests'],
             ['9,000', 'questions, zero repeats'],
             [`${totalPyq.toLocaleString('en-IN')}`, 'from previous-year papers'],
-            ['698 / 699', 'syllabus topics covered'],
+            ['697 / 697', 'syllabus topics covered'],
           ].map(([big, small]) => (
             <div key={small} className="bg-white px-4 py-3.5 text-center">
               <p className="text-[22px] font-bold tabular-nums text-med-deep">{big}</p>

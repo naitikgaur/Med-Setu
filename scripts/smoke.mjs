@@ -777,6 +777,7 @@ console.log('10) Question bank (V3)');
   // Every chunk: shape, identity, locality of images.
   const seenIds = new Set();
   let badShape = 0, dupIds = 0, remoteImg = 0, emptyTopics = 0, noExpl = 0, totalQ = 0;
+  let missingImgShipped = 0, placeholderOptions = 0;
   const hostRe = /dailyrounds|cloudfront|corebtr\.com|researchgate|amazonaws/;
   for (const s2 of qmeta.subjects) {
     const chunk = JSON.parse(readFileSync(join(root, 'src', 'data', 'qbank', `${s2.slug}.json`), 'utf8'));
@@ -793,6 +794,10 @@ console.log('10) Question bank (V3)');
       const imgFields = JSON.stringify([q.images || [], q.explBlocks || [], q.explImg || false]);
       if (hostRe.test(imgFields) || /"https?:/.test(imgFields)) remoteImg += 1;
       if ((q.images || []).some((src) => !src.startsWith('/bimg/'))) remoteImg += 1;
+      // 2026-11-19 exclusion: no question whose essential image is missing
+      // may ship (the one hand-verified keeper is the sole exception).
+      if (q.img === true && q.bankId !== 'qb-7ce3ee9ce5') missingImgShipped += 1;
+      if (q.options.some((o) => o.includes('[Option image'))) placeholderOptions += 1;
     }
   }
   ok(totalQ === qmeta.total, `qbank: chunks together hold the full bank (${totalQ})`);
@@ -801,6 +806,9 @@ console.log('10) Question bank (V3)');
   ok(emptyTopics === 0, 'qbank: every question carries a topic');
   ok(remoteImg === 0, `qbank: no remote image hosts anywhere in shipped bank data (violations ${remoteImg})`);
   ok(noExpl <= 40, `qbank: explanations present for all but ${noExpl} questions (source gaps, honestly shown)`);
+  ok(missingImgShipped === 0, `qbank: no missing-stem-image questions ship (2026-11-19 exclusion; violations ${missingImgShipped})`);
+  ok(placeholderOptions === 0, `qbank: no placeholder option images ship (violations ${placeholderOptions})`);
+  ok(qreport.imgStats.excludedMissingImg === 1673, `qbank: missing-image exclusion count is 1,673 (got ${qreport.imgStats.excludedMissingImg})`);
 
   // Images on disk: count + magic bytes.
   const imgMap = JSON.parse(readFileSync(join(root, 'src', 'data', 'qbank-src', 'image-map.json'), 'utf8'));
@@ -835,7 +843,7 @@ console.log('10) Question bank (V3)');
   // Landing presents the complete package (server-rendered, descriptions only).
   const homeHtml3 = readFileSync(join(out, 'index.html'), 'utf8');
   ok(homeHtml3.includes('complete FMGE practice package') && homeHtml3.includes('The Question Bank')
-    && homeHtml3.includes('15,607'), 'landing: complete package + question bank + real bank count');
+    && homeHtml3.includes('13,934'), 'landing: complete package + question bank + real bank count');
   ok(!/href="\/(paper|subject|qbank)\/[^"]/.test(homeHtml3),
     'landing: still descriptions only — no links into gated content (paper/subject/bank pages)');
 
@@ -991,18 +999,22 @@ console.log('11) Source-brand scrub');
   ok(outMarrow === 0, 'scrub: zero brand-shaped "Marrow" in the built site');
 
   // Topic labels are FROZEN (user order 2026-11-14: exam names stay).
-  // Baseline = the delivered V3 build's qbank-meta (699 topics, 19 subjects).
+  // Baseline RE-SET 2026-11-19: the missing-image exclusion (scripts/qbank.mjs)
+  // removed 1,673 incomplete questions; two topics that were 100%
+  // image-dependent (Anatomy "Cadaveric Sections", Community Medicine
+  // "Biostatistics") went with them — 697 topics, 19 subjects. Topic NAMES
+  // and exam-sitting labels remain frozen exactly as before.
   const qmeta2 = JSON.parse(readFileSync(join(root, 'src', 'lib', 'qbank-meta.json'), 'utf8'));
   const triples = [];
   for (const s of qmeta2.subjects) for (const t of s.topics) triples.push([s.name, t.name, t.count].join('\u0001'));
   triples.sort();
   const topicHash = createHash('sha256').update(triples.join('\n')).digest('hex');
-  ok(topicHash === 'b54f24b78475451d7971a34855db480351d11af2437011ce515f06ede4940040' && triples.length === 699,
-    'scrub: qbank topic labels UNCHANGED from the delivered build (699 topics, hash match)');
+  ok(topicHash === 'c07fd026f7807b4ecc2f209526847e41243e0c50d957ac5f902372dc1aeb9867' && triples.length === 697,
+    'scrub: qbank topic labels match the 2026-11-19 baseline (697 topics, hash match)');
   const topicNames = new Set(triples.map((t) => t.split('\u0001')[1]));
   ok(['AIIMS 2017', 'INI-CET 2024', 'NEET 2024'].every((t) => topicNames.has(t)),
     'scrub: exam-sitting topic labels still present (AIIMS / INI-CET / NEET kept)');
-  ok(qmeta2.total === 15607, `scrub: bank total unchanged at 15,607 (got ${qmeta2.total})`);
+  ok(qmeta2.total === 13934, `scrub: bank total at the 2026-11-19 baseline of 13,934 (got ${qmeta2.total})`);
 }
 
 // ---------- 12. AdSense prep: homepage only (2026-11-15, founder decision) ----------

@@ -21,7 +21,7 @@ export default function StartPage() {
           </div>
           <GateCard />
           <p className="mt-5 text-center text-xs leading-relaxed text-inksoft">
-            Free for every FMGE student · 12 PYP papers · 30 subject-wise tests · a 15,607-question bank · no sign-up
+            Free for every FMGE student · 12 PYP papers · 30 subject-wise tests · a 13,934-question bank · no sign-up
           </p>
         </div>
       </main>

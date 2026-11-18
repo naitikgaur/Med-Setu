@@ -93,7 +93,11 @@ for (const f of readdirSync(join(ROOT, 'src', 'data', 'papers')).filter((x) => x
   if (f.includes('2026')) continue; // recall papers: no subjects/explanations
   const paper = JSON.parse(readFileSync(join(ROOT, 'src', 'data', 'papers', f), 'utf8'));
   for (const q of paper.questions || []) {
-    if (!q.subject || !q.explanation || !SUBJECTS.includes(q.subject)) continue;
+    // q.img = the paper question's figure is not in this edition (recall
+    // extraction) — since 2026-11-19 the series never deals a question
+    // whose essential image is missing; the bank pool is already clean
+    // (scripts/qbank.mjs exclusion), the PYQ pool is filtered here.
+    if (!q.subject || !q.explanation || !SUBJECTS.includes(q.subject) || q.img) continue;
     pyqTotal++;
     if (!pyqBySubject.has(q.subject)) pyqBySubject.set(q.subject, []);
     pyqBySubject.get(q.subject).push({ ...q, topic: paper.label });

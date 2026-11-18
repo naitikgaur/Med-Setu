@@ -8,7 +8,7 @@ import HeroVisual from '../components/HeroVisual';
 export const metadata: Metadata = {
   title: 'MedSetu — the complete FMGE practice package, free',
   description:
-    'MedSetu is the complete FMGE practice package: twelve previous-year papers as full mock tests in the real exam window (300 questions, two parts, pass mark 150), the MedSetu Test Series of 30 grand tests with a learning point on every question, 30 subject-wise tests, and a question bank of 15,607 questions with an explanation for every answer. Free, no sign-up, by Naitik Library, New Delhi.',
+    'MedSetu is the complete FMGE practice package: twelve previous-year papers as full mock tests in the real exam window (300 questions, two parts, pass mark 150), the MedSetu Test Series of 30 grand tests with a learning point on every question, 30 subject-wise tests, and a question bank of 13,934 questions with an explanation for every answer. Free, no sign-up, by Naitik Library, New Delhi.',
   alternates: { canonical: '/' },
 };
 
@@ -66,7 +66,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The Question Bank',
-    body: '15,607 questions across all 19 FMGE subjects, organised by topic, every one with its answer and explanation. Practise a topic at a time in sets of 20, 50 or the whole subject — the bank is where daily revision happens.',
+    body: '13,934 questions across all 19 FMGE subjects, organised by topic, every one with its answer and explanation. Practise a topic at a time in sets of 20, 50 or the whole subject — the bank is where daily revision happens.',
     icon: (
       <>
         <rect x="3.5" y="3.5" width="17" height="17" rx="2" />
@@ -189,7 +189,7 @@ const MODES: { title: string; count: string; body: string; href: string; badge?:
   },
   {
     title: 'Question Bank',
-    count: '19 subjects · 15,607 questions',
+    count: '19 subjects · 13,934 questions',
     body: 'Topic-by-topic daily practice in sets of 20, 50 or a whole subject — with Practice mode, My Mistakes and Bookmarks.',
     href: '/qbank/',
   },
@@ -233,7 +233,7 @@ const HOME_FAQ: { q: string; a: string }[] = [
   },
   {
     q: 'What is the MedSetu Test Series?',
-    a: 'Thirty grand tests of 300 questions each — a full FMGE paper, in two parts of 150 — built from MedSetu’s question bank and previous-year questions in the official NBEMS subject mix. Every question carries a short learning point drawn from its explanation, no question repeats across the series, and together the 30 tests touch all 699 of the question bank’s topics — the whole syllabus.',
+    a: 'Thirty grand tests of 300 questions each — a full FMGE paper, in two parts of 150 — built from MedSetu’s question bank and previous-year questions in the official NBEMS subject mix. Every question carries a short learning point drawn from its explanation, no question repeats across the series, and together the 30 tests touch all 697 of the question bank’s topics — the whole syllabus.',
   },
   {
     q: 'Do I need to create an account?',
@@ -295,7 +295,7 @@ export default function Home() {
               Twelve previous-year papers as full mock tests in the window you will face on exam
               day — two parts of 150 questions, 150 minutes a part, marked against the real pass
               mark of 150. A test series of 30 grand tests where every question carries a learning
-              point. Subject-wise tests, one subject at a time. And a question bank of 15,607
+              point. Subject-wise tests, one subject at a time. And a question bank of 13,934
               questions, every one with its explanation, so daily practice sits behind the mocks.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -587,7 +587,7 @@ export default function Home() {
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-[15px] leading-relaxed text-white/85">
               Twelve papers, thirty grand tests, thirty subject-wise tests and a question bank of
-              15,607 are waiting — the real window, the real pass mark. It takes under a minute to
+              13,934 are waiting — the real window, the real pass mark. It takes under a minute to
               be inside the first one.
             </p>
             <Link
