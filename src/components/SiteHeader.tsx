@@ -69,6 +69,9 @@ export function SiteHeader() {
             <Link href="/about/" className="rounded-md px-3 py-1.5 text-ink transition-colors hover:bg-mist">
               About
             </Link>
+            <Link href="/resources/" className="rounded-md px-3 py-1.5 text-ink transition-colors hover:bg-mist">
+              Resources
+            </Link>
             <Link
               href="/naitik-library/"
               className="hidden rounded-md px-3 py-1.5 text-ink transition-colors hover:bg-mist lg:inline-block"
