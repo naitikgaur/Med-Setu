@@ -851,6 +851,10 @@ console.log('10) Question bank (V3)');
   const chooseSrc = readFileSync(join(root, 'src', 'app', 'choose', 'ChooseGate.tsx'), 'utf8');
   ok(chooseSrc.includes('href="/qbank/"') && chooseSrc.includes('Question Bank'),
     'choose: third card links the Question Bank');
+  ok(chooseSrc.includes('href="/notes/"') && chooseSrc.includes('Short Notes'),
+    'choose: Short Notes card present (V6)');
+  ok(chooseSrc.includes('href="/flashcards/"') && chooseSrc.includes('Flashcards'),
+    'choose: Flashcards card present (V6)');
   const headerSrc = readFileSync(join(root, 'src', 'components', 'SiteHeader.tsx'), 'utf8');
   ok(headerSrc.includes('Question Bank') && headerSrc.includes('Complete FMGE Preparation'),
     'header: Question Bank nav item + preparation tagline');

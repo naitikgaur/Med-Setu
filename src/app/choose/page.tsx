@@ -3,9 +3,9 @@ import { SiteHeader } from '../../components/SiteHeader';
 import ChooseGate from './ChooseGate';
 
 export const metadata = {
-  title: 'Choose your practice — MedSetu by Naitik Library',
+  title: 'Choose how to prepare — MedSetu by Naitik Library',
   description:
-    'Previous-year FMGE papers as full mock tests, subject-wise tests one subject at a time, or the question bank — practise question by question. Free, on your device, nothing stored.',
+    'Grand tests, previous-year FMGE papers, subject-wise tests and the question bank — or revise fast with short notes, mind maps and flashcards. Free, on your device, nothing stored.',
   robots: { index: false, follow: false },
 };
 

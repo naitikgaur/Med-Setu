@@ -14,30 +14,30 @@ export const metadata: Metadata = {
 const HOW = [
   {
     title: 'Built from previous-year papers',
-    body: 'Every subject’s notes start from what the last five years of FMGE papers actually asked — the stems, the repeats, the favourite comparisons — then keep only the facts those questions are made of.',
+    body: 'Notes start from what the last five years of FMGE papers actually asked — then keep only the facts those questions are made of.',
   },
   {
     title: 'Facts, not paragraphs',
-    body: 'Each topic is a tight set of mark-earning lines: most commons, drugs of choice, values, signs, exceptions. If a line would not earn a mark, it is not in the notes.',
+    body: 'Tight mark-earning lines: most commons, drugs of choice, values, signs, exceptions. If a line would not earn a mark, it is not here.',
   },
   {
     title: 'Traps marked honestly',
-    body: 'Where students reliably pick the wrong option, the note says so and shows the distinction the examiner is testing. Knowing the trap is worth as much as knowing the fact.',
+    body: 'Where students reliably pick the wrong option, the note shows the distinction the examiner is testing.',
   },
   {
     title: 'A mind map per subject',
-    body: 'Every subject ends in a one-screen mind map — the whole subject as branches and leaves — so the structure is in your head before the details hang on it.',
+    body: 'Every subject ends in a one-screen mind map, so the structure is in your head before the details hang on it.',
   },
 ];
 
 const FAQ = [
   {
     q: 'Are these short notes enough to pass the FMGE on their own?',
-    a: 'They are revision notes, not a first read. They work best after you have studied a subject once: they compress it into the facts previous-year questions are built from, so your final weeks go to recall instead of re-reading. Pair them with the question bank and full mock tests for the complete preparation.',
+    a: 'They are revision notes, not a first read. Use them after studying a subject once — they compress it into the facts previous-year questions are built from. Pair them with the question bank and mock tests.',
   },
   {
     q: 'How are the topics in each subject chosen?',
-    a: 'From evidence: the topics and question styles in MedSetu’s twelve previous-year FMGE papers (December 2020 to June 2026) and the 13,934-question bank, weighted by the official NBEMS subject distribution. Topics the paper returns to every session lead each subject’s notes.',
+    a: 'From the topics and question styles in the twelve previous-year FMGE papers and the 13,934-question bank, weighted by the NBEMS distribution. Topics the paper returns to every session lead.',
   },
   {
     q: 'Can I download or print the notes?',
@@ -63,8 +63,8 @@ export default function NotesIndex() {
           <p className="mt-4 max-w-3xl text-[16px] leading-relaxed text-inksoft">
             Every FMGE subject, distilled into the topics previous-year papers actually ask —{' '}
             {totalPoints.toLocaleString('en-IN')}+ mark-earning facts, comparison tables, exam traps
-            and a mind map per subject. Made for the last weeks before the exam, when re-reading a
-            textbook is no longer an option and recall is everything.
+            and a mind map per subject. Made for the last weeks before the exam, when recall is
+            everything.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/flashcards/" className="rounded-lg bg-med px-6 py-3 text-[15px] font-bold text-white shadow-card transition-colors hover:bg-med-deep">

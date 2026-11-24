@@ -14,19 +14,19 @@ export const metadata: Metadata = {
 const WHY = [
   {
     title: 'Recall beats re-reading',
-    body: 'Testing yourself is one of the two study methods research consistently rates highest. A flashcard forces the answer out of memory before showing it — that effort is what makes it stick.',
+    body: 'A flashcard forces the answer out of memory before showing it — that effort is what makes it stick.',
   },
   {
     title: 'Asked the way the exam asks',
-    body: 'Every card is built from a previous-year question style: most common, drug of choice, nerve injured, value, sign, exception. The front is the cue the examiner gives; the back is the one fact that earns the mark.',
+    body: 'Built from previous-year question styles: most common, drug of choice, nerve injured, value, sign, exception.',
   },
   {
     title: 'The pile that shrinks',
-    body: 'Sort each card into "got it" or "still learning". Finish a deck, then re-run only the still-learning pile. Two or three rounds and a subject’s weak facts are isolated and fixed.',
+    body: 'Sort each card into "got it" or "still learning", then re-run only the still-learning pile until it is empty.',
   },
   {
     title: 'Nothing stored, ever',
-    body: 'Your sorting lives only in the tab you are using — MedSetu has no accounts and no database. Close the tab and the deck resets, ready for tomorrow’s spaced round.',
+    body: 'Your sorting lives only in this tab — no accounts, no database. Close the tab and the deck resets.',
   },
 ];
 
@@ -37,11 +37,11 @@ const FAQ = [
   },
   {
     q: 'How should I use the decks?',
-    a: 'One subject at a time. Flip each card only after you have said the answer in your head, sort honestly, then re-run the still-learning pile until it is empty. Come back the next day and do it again — the spacing is what moves facts into long-term memory.',
+    a: 'One subject at a time. Say the answer in your head before flipping, sort honestly, then re-run the still-learning pile until it is empty. Repeat the next day — the spacing moves facts into long-term memory.',
   },
   {
     q: 'Are flashcards a replacement for mock tests?',
-    a: 'No — they are the recall layer of a complete preparation. Flashcards fix individual facts; the question bank builds topic strength; full mock tests build the stamina and judgement for 300 questions. MedSetu has all three, free.',
+    a: 'No — they are the recall layer. Flashcards fix individual facts; the question bank builds topic strength; mock tests build stamina for 300 questions. MedSetu has all three, free.',
   },
 ];
 
@@ -82,8 +82,7 @@ export default function FlashcardsIndex() {
         <section className="py-14">
           <h2 className="text-[28px] font-bold tracking-tight text-ink">Pick a deck</h2>
           <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-            Ordered by weight in the paper. Each deck pairs with the same subject’s short notes —
-            read the notes, then make the facts yours here.
+            Ordered by weight in the paper. Each deck pairs with the same subject’s short notes.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {REVISE_SUBJECTS.map((s) => {

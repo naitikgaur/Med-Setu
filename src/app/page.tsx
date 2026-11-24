@@ -8,7 +8,7 @@ import HeroVisual from '../components/HeroVisual';
 export const metadata: Metadata = {
   title: 'MedSetu — Complete FMGE Preparation Platform for Medical Students',
   description:
-    'MedSetu is the complete FMGE preparation platform for medical students: twelve previous-year papers as full mock tests in the real exam window (300 questions, two parts, pass mark 150), a test series of 30 grand tests, 30 subject-wise tests, a question bank of 13,934 questions with explanations, rapid-revision short notes with mind maps for all 19 subjects, 950 flashcards, and 150 free guides. Free, no sign-up, by Naitik Library, New Delhi.',
+    'MedSetu is the complete FMGE preparation platform for medical students: previous-year papers as full mock tests in the real exam window, 30 grand tests, a 13,934-question bank with explanations, short notes with mind maps and 950 flashcards for all 19 subjects, and 150 free guides. Free, no sign-up, by Naitik Library, New Delhi.',
   alternates: { canonical: '/' },
 };
 
@@ -33,7 +33,7 @@ function Icon({ d }: { d: React.ReactNode }) {
 const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   {
     title: 'The real exam window',
-    body: 'The test opens in a window modelled on the TCS iON screen the FMGE is actually held on — the same palette symbols, the same buttons in the same order, the same two-part rhythm with a break in between. On exam day, nothing about the screen is new to you.',
+    body: 'Tests open in a window modelled on the TCS iON screen the FMGE is held on — same palette, same buttons, same two-part rhythm. On exam day, nothing about the screen is new to you.',
     icon: (
       <>
         <rect x="3" y="4" width="18" height="16" rx="2" />
@@ -44,7 +44,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'All twelve papers, complete',
-    body: 'December 2020 to June 2026, every paper a full 300 questions. Where a recall source itself runs short, the mock is completed with questions from other years’ papers — and every added question is flagged with the paper it came from.',
+    body: 'December 2020 to June 2026, every paper a full 300 questions. Where a recall source runs short, added questions are flagged with the paper they came from.',
     icon: (
       <>
         <path d="M12 3.5 21 8l-9 4.5L3 8l9-4.5Z" />
@@ -55,7 +55,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Subject-wise tests',
-    body: 'Sixteen subjects, two tests each where the series has them — 19 to 50 questions on one subject at a time, in the same exam window, every question with its full explanation. Your score is measured against the 50% mark, the FMGE pass proportion.',
+    body: 'One subject at a time — 19 to 50 questions in the same exam window, every question explained, scored against the 50% FMGE pass proportion.',
     icon: (
       <>
         <circle cx="12" cy="12" r="8.5" />
@@ -66,7 +66,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The Question Bank',
-    body: '13,934 questions across all 19 FMGE subjects, organised by topic, every one with its answer and explanation. Practise a topic at a time in sets of 20, 50 or the whole subject — the bank is where daily revision happens.',
+    body: '13,934 questions across all 19 subjects, organised by topic, every one with its answer and explanation. Practise in sets of 20, 50 or a whole subject.',
     icon: (
       <>
         <rect x="3.5" y="3.5" width="17" height="17" rx="2" />
@@ -77,7 +77,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Practice mode, and mistakes that clear',
-    body: 'In Practice mode you check each answer as you go and read the explanation straight away. Every wrong answer — in the bank or in a test — is saved to My Mistakes in this tab; replay it, answer it right, and it clears. Bookmarks work the same way.',
+    body: 'Check each answer as you go and read the explanation straight away. Wrong answers are saved to My Mistakes — replay one, answer it right, and it clears.',
     icon: (
       <>
         <circle cx="12" cy="12" r="8.5" />
@@ -87,7 +87,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The book’s explanations',
-    body: 'For the ten book papers, every question carries the explanation printed in the FMGE previous-year book — word for word, not a paraphrase and not written by a machine. The two 2026 papers carry answers only, and the site says so plainly.',
+    body: 'The ten book papers carry the explanations printed in the FMGE previous-year book — word for word. The two 2026 papers carry answers only, and say so plainly.',
     icon: (
       <>
         <path d="M12 6.5C10 5 7.5 4.5 4 4.5v13c3.5 0 6 .5 8 2 2-1.5 4.5-2 8-2v-13c-3.5 0-6 .5-8 2Z" />
@@ -97,7 +97,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Click a question, read its solution',
-    body: 'After the test, your analysis lists all 300 questions. Open any one and you see the correct option, the option you chose, and the full explanation — so revision starts from the exact questions that cost you marks.',
+    body: 'Your analysis lists all 300 questions — open any one to see the correct option, your answer, and the full explanation.',
     icon: (
       <>
         <circle cx="10.5" cy="10.5" r="6.5" />
@@ -108,7 +108,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'An answer key worth downloading',
-    body: 'The detailed answer key prints every question with the correct option, its explanation and your answer beside it — a revision document you keep, not just a score you glance at. A one-page key is there too, for a fast count.',
+    body: 'Every question with the correct option, its explanation and your answer beside it — a revision document you keep. A one-page key is there too, for a fast count.',
     icon: (
       <>
         <path d="M12 4v9.5m0 0L8.5 10M12 13.5l3.5-3.5" />
@@ -118,7 +118,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The images are in',
-    body: 'Image-based questions carry the actual X-ray, slide, ECG or diagram, reproduced from the book the paper was taken from. Where an image could not be recovered from the source, the question tells you instead of guessing.',
+    body: 'Image-based questions carry the actual X-ray, slide, ECG or diagram from the source book. Where an image could not be recovered, the question tells you instead of guessing.',
     icon: (
       <>
         <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -129,7 +129,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: '30 grand tests, one series',
-    body: 'The MedSetu Test Series deals 9,000 questions across 30 tests of 300 — no question repeats — in the official subject mix, about a third of them previous-year questions. Finish the series and you have worked through the entire syllabus, topic by topic.',
+    body: '9,000 questions across 30 tests of 300 — no repeats — in the official subject mix. Finish the series and you have covered the entire syllabus, topic by topic.',
     icon: (
       <>
         <path d="M4 20V10M10 20V4M16 20v-8M22 20H2" />
@@ -139,7 +139,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'A learning for every question',
-    body: 'Every question in the Test Series carries a short learning point drawn from its own explanation — the one fact the question was really testing. It sits inside the solution and in the printed answer key, so a finished test becomes a revision sheet.',
+    body: 'Every Test Series question carries a short learning point — the one fact it was really testing — inside the solution and the printed key.',
     icon: (
       <>
         <path d="M9 18h6M10 21h4" />
@@ -149,7 +149,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Analysis in eight parts',
-    body: 'Every attempt ends in an eight-part analysis: overview, subject-by-subject performance, the score you left on the table, how each question was attempted, your time, your topics, your question journey, and every solution. The downloadable PDF is structured the same way.',
+    body: 'Every attempt ends in an eight-part analysis — performance, time, topics, question journey and every solution — with a matching downloadable PDF.',
     icon: (
       <>
         <path d="M4 4h16M4 9.3h16M4 14.6h16M4 20h16" />
@@ -159,7 +159,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Short notes built from PYQs',
-    body: 'Rapid-revision notes for all 19 subjects, built backwards from five years of FMGE papers: the topics that actually come, as crisp fact lines with comparison tables, the classic exam traps marked, and a set of night-before golden points per subject.',
+    body: 'Rapid-revision notes for all 19 subjects, built from five years of FMGE papers — crisp fact lines, comparison tables, marked exam traps and night-before golden points.',
     icon: (
       <>
         <path d="M6 3.5h9L19 7.5v13H6v-17Z" />
@@ -169,7 +169,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Flashcards & mind maps',
-    body: '950 flashcards — 50 per subject — turn the notes into active recall: flip, answer from memory, and re-run only the cards still being learned. Every subject also ends in a one-screen mind map, so the whole subject sits in your head as one picture.',
+    body: '950 flashcards — 50 per subject — for active recall, plus a one-screen mind map per subject, so the whole subject sits in your head as one picture.',
     icon: (
       <>
         <rect x="3" y="6" width="13" height="13" rx="2" />
@@ -180,7 +180,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Guides that teach the method',
-    body: 'The MedSetu blog carries 150 free guides — preparation strategy, subject-wise study methods, book guides, MBBS abroad, research explained, careers and clinical skills — written for medical students, not for search engines alone.',
+    body: '150 free guides — preparation strategy, subject methods, books, MBBS abroad, research, careers and clinical skills.',
     icon: (
       <>
         <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z" />
@@ -203,20 +203,20 @@ const MODES: { title: string; count: string; body: string; href: string; badge?:
   {
     title: 'PYP Tests',
     count: '12 papers · 3,600 questions',
-    body: 'Previous-year FMGE papers as full mock tests in the real exam window — two parts, the real clock, marked against the real pass mark of 150.',
+    body: 'Previous-year papers as full mock tests in the real exam window — two parts, the real clock, the real pass mark of 150.',
     href: '/papers/',
   },
   {
     title: 'Test Series',
     count: '30 grand tests · 9,000 questions',
-    body: 'Grand tests built from the question bank and previous-year questions in the official subject mix. Every question carries a learning point, and together the 30 tests cover almost the entire syllabus.',
+    body: 'Grand tests in the official subject mix, every question with a learning point. Together they cover almost the entire syllabus.',
     href: '/tests/',
     badge: 'New',
   },
   {
     title: 'Subject-wise Tests',
     count: '16 subjects · 30 tests',
-    body: 'One subject at a time, in the same exam window, every question with its full explanation — measured against the 50% FMGE pass proportion.',
+    body: 'One subject at a time, in the same exam window, every question explained — measured against the 50% pass proportion.',
     href: '/subjects/',
   },
   {
@@ -228,14 +228,14 @@ const MODES: { title: string; count: string; body: string; href: string; badge?:
   {
     title: 'Short Notes',
     count: '19 subjects · rapid revision',
-    body: 'Every subject distilled into the topics previous-year papers actually ask — mark-earning facts, comparison tables, exam traps, night-before golden points and a mind map per subject.',
+    body: 'The topics previous-year papers actually ask — key facts, comparison tables, exam traps, golden points and a mind map per subject.',
     href: '/notes/',
     badge: 'New',
   },
   {
     title: 'Flashcards',
     count: '19 subjects · 950 cards',
-    body: 'Active recall, the way memory actually forms: flip, answer from memory, sort into “got it” and “still learning”, and shrink the pile round by round.',
+    body: 'Flip, answer from memory, sort into “got it” and “still learning”, and shrink the pile round by round.',
     href: '/flashcards/',
     badge: 'New',
   },
@@ -267,7 +267,7 @@ const WEIGHTAGE: [string, number][] = [
 const HOME_FAQ: { q: string; a: string }[] = [
   {
     q: 'Is MedSetu really free?',
-    a: 'Yes — every paper, test and question on MedSetu is free, with no account and no paid tier. MedSetu is made by Naitik Library, a study hall in Gautam Nagar, New Delhi, and runs on voluntary donations from students and well-wishers.',
+    a: 'Yes — everything on MedSetu is free, with no account and no paid tier. It is made by Naitik Library, New Delhi, and runs on voluntary donations.',
   },
   {
     q: 'What is the FMGE pass mark?',
@@ -275,27 +275,27 @@ const HOME_FAQ: { q: string; a: string }[] = [
   },
   {
     q: 'Are these the official FMGE question papers?',
-    a: 'No — NBEMS never releases official FMGE papers or answer keys. MedSetu’s papers are recall-based editions compiled from published compilations and student memory, and they are labelled as such wherever they appear. The explanations come from the published previous-year book the papers were compiled from.',
+    a: 'No — NBEMS never releases official papers or keys. MedSetu’s papers are recall-based editions, labelled as such wherever they appear, with explanations from the published previous-year book.',
   },
   {
     q: 'What is the MedSetu Test Series?',
-    a: 'Thirty grand tests of 300 questions each — a full FMGE paper, in two parts of 150 — built from MedSetu’s question bank and previous-year questions in the official NBEMS subject mix. Every question carries a short learning point drawn from its explanation, no question repeats across the series, and together the 30 tests touch all 697 of the question bank’s topics — the whole syllabus.',
+    a: 'Thirty grand tests of 300 questions each, in the official NBEMS subject mix, built from the question bank and previous-year questions. No question repeats, every question carries a learning point, and together they touch all 697 bank topics — the whole syllabus.',
   },
   {
     q: 'Do I need to create an account?',
-    a: 'No. You enter your name once, in this browser tab only, and start. Your name, answers, mistakes and bookmarks are stored only in your tab and disappear when you close it — MedSetu has no server and no database, and collects nothing.',
+    a: 'No. Enter your name once, in this tab only, and start. Everything stays in your tab and disappears when you close it — MedSetu has no server, no database, and collects nothing.',
   },
   {
     q: 'Who makes MedSetu?',
-    a: 'Naitik Library — a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur — built MedSetu so its students could sit previous-year papers under real exam conditions, and then put it online free for every FMGE student.',
+    a: 'Naitik Library — a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur — built MedSetu for its own students, then put it online free for every FMGE student.',
   },
   {
     q: 'What are the short notes and flashcards?',
-    a: 'A rapid-revision layer for all 19 subjects, built from what previous-year FMGE papers actually ask. Each subject has short notes — high-yield topics as crisp facts, comparison tables, exam traps and golden points — a one-screen mind map, and a deck of 50 flashcards for active recall. They are read and practised on MedSetu itself, free, and are not downloadable.',
+    a: 'Rapid revision for all 19 subjects, built from what previous-year papers actually ask: short notes with comparison tables, exam traps and golden points, a one-screen mind map, and 50 flashcards per subject. Free on the site, not downloadable.',
   },
   {
     q: 'Is MedSetu only a mock test platform?',
-    a: 'No — MedSetu is a complete preparation platform for medical students. Mock tests are one part: alongside them sit a 13,934-question bank, short notes, mind maps, flashcards and 150 study guides, so a student can learn, revise, recall and test in one place.',
+    a: 'No — MedSetu is a complete preparation platform. Alongside mock tests sit a 13,934-question bank, short notes, mind maps, flashcards and 150 guides — learn, revise, recall and test in one place.',
   },
 ];
 
@@ -303,31 +303,31 @@ const STEPS = [
   {
     n: '1',
     title: 'Let’s Start',
-    body: 'The button takes you to a short gate: your name and one quick human check. The gate creates no account, and your name stays in this tab.',
+    body: 'A short gate: your name and one quick human check. No account is created, and your name stays in this tab.',
   },
   {
     n: '2',
     title: 'Pick your preparation',
-    body: 'Choose a full previous-year paper — twelve of them, December 2020 to June 2026 — a grand test from the 30-test series, a subject-wise test, the question bank topic by topic, or the revision layer: short notes, mind maps and flashcards.',
+    body: 'A previous-year paper, a grand test, a subject-wise test, the question bank — or revise with short notes, mind maps and flashcards.',
   },
   {
     n: '3',
     title: 'Attempt it, or practise it',
-    body: 'Papers and tests open in the exam window — parts, palette, mark-for-review, the clock. In the question bank you can also choose Practice mode: check each answer and read its explanation as you go.',
+    body: 'Tests open in the exam window — parts, palette, mark-for-review, the clock. In the bank, Practice mode explains each answer as you go.',
   },
   {
     n: '4',
     title: 'Read the analysis',
-    body: 'An eight-part analysis: your score against the 150 pass mark — or the 50% benchmark for a subject test, grand test or bank set — where the marks leaked, how you spent your time, and every solution a click away, with a structured PDF to download.',
+    body: 'An eight-part analysis: your score against the pass mark, where marks leaked, how you spent your time, and every solution — with a PDF to download.',
   },
 ];
 
 const ANALYSIS_POINTS = [
   'Your score against the real pass mark of 150 — and the gap, stated plainly.',
-  'Subject-wise accuracy set against the official NBEMS blueprint, so effort goes where the marks are.',
-  'Every question classified — Perfect, Overtime, Confused, Wasted or Painful — with the reason for the label written out, so you can see exactly how marks leaked.',
-  'Your question journey: every answer you changed, what it gained or cost, and the questions you kept coming back to.',
-  'You will not be given a rank or a percentile: MedSetu has no cohort of other students to rank you against, so it does not invent one.',
+  'Subject-wise accuracy against the official NBEMS blueprint, so effort goes where the marks are.',
+  'Every question classified — Perfect, Overtime, Confused, Wasted or Painful — so you can see exactly how marks leaked.',
+  'Your question journey: every answer you changed, and what it gained or cost.',
+  'No rank or percentile: MedSetu has no cohort to rank you against, so it does not invent one.',
 ];
 
 export default function Home() {
@@ -350,10 +350,8 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-white/85">
               Everything an FMGE student needs, in one place and free: previous-year papers as full
-              mock tests in the real exam window, a 30-test grand series, a 13,934-question bank
-              with an explanation for every answer — and now rapid-revision short notes, mind maps
-              and flashcards for all 19 subjects, built from the topics previous-year papers
-              actually ask.
+              mock tests, a 30-test grand series, a 13,934-question bank with explanations — and
+              short notes, mind maps and flashcards for all 19 subjects.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
@@ -399,9 +397,7 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-4 pt-14 sm:px-6 lg:pt-16">
         <h2 className="text-[28px] font-bold tracking-tight text-ink">Prepare every way that works</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-          Learn it, revise it, recall it, then prove it under exam conditions. Pick the shape your
-          preparation needs today — a full paper, a grand test, one subject, a topic at a time, a
-          page of short notes, or a deck of flashcards.
+          Learn it, revise it, recall it, then prove it under exam conditions.
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {MODES.map((m) => (
@@ -428,10 +424,7 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
         <h2 className="text-[28px] font-bold tracking-tight text-ink">What you get</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-          MedSetu is a complete preparation platform, and everything on it is free: previous-year
-          papers sat properly and marked honestly, subject-wise tests, a question bank for daily
-          practice, short notes and flashcards for revision, and a blog of guides for the method
-          behind it all. There are no courses or paid add-ons waiting behind it.
+          Everything below is free — no courses, no paid add-ons waiting behind it.
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f) => (
@@ -454,10 +447,8 @@ export default function Home() {
               See exactly where a mark went
             </h2>
             <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-              This is a real question from the January 2024 paper, with the explanation as it is
-              printed in the book MedSetu is built from. After a test, every one of your questions
-              opens like this — and in the bank’s Practice mode, the explanation is there the
-              moment you check your answer.
+              A real question from the January 2024 paper, with the explanation as printed in the
+              book. After a test, every question opens like this.
             </p>
             <div className="mt-6 rounded-xl border border-line bg-paper p-5 sm:p-6">
               <div className="flex flex-wrap items-center justify-between gap-2">
@@ -494,8 +485,7 @@ export default function Home() {
                   appropriate denominator.”
                 </p>
                 <p className="mt-1.5 text-sm text-inksoft">
-                  The book’s note goes on to show why each of the other three options is wrong —
-                  and on MedSetu, it is all there under the question.
+                  The book’s note also shows why each of the other three options is wrong.
                 </p>
               </div>
             </div>
@@ -522,13 +512,11 @@ export default function Home() {
           The FMGE pattern — and where the marks are
         </h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-          The FMGE is a single paper of <strong className="text-ink">300 multiple-choice
-          questions</strong>, sat in two parts of 150 with a break between them. Every correct
-          answer scores +1, a wrong or skipped answer scores 0 — there is{' '}
-          <strong className="text-ink">no negative marking</strong> — and you pass at{' '}
-          <strong className="text-ink">150 out of 300</strong>. The parts are not divided by
-          subject; the table below is the official NBEMS subject distribution across the whole
-          paper, which is also the mix MedSetu’s mocks and grand tests are built to.
+          One paper of <strong className="text-ink">300 multiple-choice questions</strong> in two
+          parts of 150. Every correct answer scores +1, there is{' '}
+          <strong className="text-ink">no negative marking</strong>, and you pass at{' '}
+          <strong className="text-ink">150 out of 300</strong>. The table is the official NBEMS
+          subject distribution — the same mix MedSetu’s mocks are built to.
         </p>
         <div className="mt-8 overflow-hidden rounded-xl border border-line bg-white shadow-card">
           <table className="w-full text-sm">
@@ -555,10 +543,9 @@ export default function Home() {
           </table>
         </div>
         <p className="mt-3 text-[13px] leading-relaxed text-inksoft">
-          Subject distribution per the NBEMS FMGE information bulletin (Radiology combines
-          Radio-diagnosis and Radiotherapy). Four subjects — Medicine, Surgery, Obstetrics &amp;
-          Gynaecology and Community Medicine — carry 125 of the 300 marks between them; MedSetu’s
-          analysis measures your accuracy subject by subject against this same blueprint.
+          Per the NBEMS FMGE information bulletin (Radiology combines Radio-diagnosis and
+          Radiotherapy). Medicine, Surgery, Obstetrics &amp; Gynaecology and Community Medicine
+          alone carry 125 of the 300 marks.
         </p>
       </section>
 
@@ -569,8 +556,7 @@ export default function Home() {
       <section id="how" className="mx-auto w-full max-w-6xl scroll-mt-8 px-4 py-14 sm:px-6 lg:py-16">
         <h2 className="text-[28px] font-bold tracking-tight text-ink">How it works</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-          From this page to a marked paper in four steps — under a minute to be inside your first
-          test.
+          Four steps — under a minute to your first test.
         </p>
         <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {STEPS.map((s) => (
@@ -609,17 +595,14 @@ export default function Home() {
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-ink">
               MedSetu was made by the efforts of Naitik Library — a study hall for medical students
-              in Gautam Nagar, New Delhi, founded by Naitik Gaur. Students preparing there needed
-              previous-year papers they could sit under real exam conditions, with the book’s
-              explanations attached. MedSetu is that, put online for every FMGE student, free.
+              in Gautam Nagar, New Delhi, founded by Naitik Gaur — so its students could sit
+              previous-year papers under real exam conditions, with the book’s explanations
+              attached. It is now online for every FMGE student, free.
             </p>
             <p className="mt-3 text-[15px] leading-relaxed text-ink">
               It is built honestly: NBEMS never releases official papers, so MedSetu’s are
-              recall-based editions and are labelled as such wherever they appear. The ten book
-              papers carry the book’s own explanations; the two 2026 papers carry answers only,
-              and say so. The question bank is compiled from published FMGE and entrance-exam
-              compilations, organised by subject and topic. Nothing here is dressed up as
-              something it is not.
+              recall-based editions, labelled as such. Nothing here is dressed up as something it
+              is not.
             </p>
             <div className="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-[15px] font-semibold">
               <Link href="/about/" className="text-med hover:underline">
@@ -644,9 +627,8 @@ export default function Home() {
               Your complete preparation is one click away.
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-[15px] leading-relaxed text-white/85">
-              Twelve papers, thirty grand tests, thirty subject-wise tests, a question bank of
-              13,934, short notes and flashcards for every subject — the real window, the real pass
-              mark. It takes under a minute to be inside your first test.
+              Papers, grand tests, a 13,934-question bank, short notes and flashcards — the real
+              window, the real pass mark, under a minute to start.
             </p>
             <Link
               href="/start/"
