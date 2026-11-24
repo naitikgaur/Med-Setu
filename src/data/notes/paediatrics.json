@@ -1,0 +1,289 @@
+{
+  "goldenPoints": [
+    "Stranger anxiety appears around 6–9 months; transfer of objects hand-to-hand at about 7 months",
+    "Familial short stature: bone age equals chronological age; constitutional delay: bone age is delayed",
+    "Chest compressions in a newborn start when the heart rate stays below 60/min despite ventilation",
+    "Vitamin K at birth prevents haemorrhagic disease of the newborn",
+    "Plan B for some dehydration: ORS 75 mL/kg over 4 hours; zinc for 14 days",
+    "ASD gives a fixed, widely split second heart sound; TOF gives a boot-shaped heart",
+    "Minimal change disease is the commonest cause of childhood nephrotic syndrome — steroids first",
+    "Measles needs vitamin A; diphtheria shows a bleeding pseudomembrane and bull neck",
+    "Down syndrome is trisomy 21; cri-du-chat is a 5p deletion with a cat-like cry",
+    "Sweat chloride is the gold standard test for cystic fibrosis"
+  ],
+  "intro": "Paediatrics contributes 15 questions to every FMGE paper, drawn from a very repeatable pool: milestones with exact ages, neonatal emergencies, dehydration plans, classic syndromes and vaccine-era infections. These 12 topics are built from what the last five years of papers actually asked.",
+  "mindmap": {
+    "branches": [
+      {
+        "label": "Development & Growth",
+        "leaves": [
+          "Social smile 2 months, stranger anxiety 6–9 months",
+          "Pincer grasp 9–10 months, walks alone ~12–15 months",
+          "Bone age separates familial from constitutional short stature",
+          "Laron dwarfism: GH high, IGF-1 low"
+        ]
+      },
+      {
+        "label": "Neonate",
+        "leaves": [
+          "Compressions if heart rate below 60 despite ventilation",
+          "Term resuscitation starts with room air",
+          "Vitamin K prevents haemorrhagic disease",
+          "Meconium should pass within 24–48 hours"
+        ]
+      },
+      {
+        "label": "Surgical Neonate",
+        "leaves": [
+          "TEF: frothy saliva, tube will not pass",
+          "Omphalocele has a sac; gastroschisis does not",
+          "CHPS: olive mass, non-bilious vomiting",
+          "Hirschsprung: biopsy is the gold standard"
+        ]
+      },
+      {
+        "label": "Nutrition",
+        "leaves": [
+          "SAM: MUAC below 11.5 cm or oedema",
+          "Rickets: craniotabes, rosary, wide wrists",
+          "Acrodermatitis enteropathica = zinc deficiency",
+          "Vitamin A treats measles and xerophthalmia"
+        ]
+      },
+      {
+        "label": "Infections",
+        "leaves": [
+          "Measles: Koplik spots, rash behind ears",
+          "Diphtheria: pseudomembrane, bull neck",
+          "Kawasaki: IVIG plus aspirin",
+          "Meningitis in infants: Streptococcus pneumoniae"
+        ]
+      },
+      {
+        "label": "Systems Favourites",
+        "leaves": [
+          "ASD: fixed split S2; TOF: boot-shaped heart",
+          "Nephrotic syndrome: minimal change, steroids",
+          "Haemophilia A: aPTT up, PT normal",
+          "CF: sweat chloride is gold standard"
+        ]
+      },
+      {
+        "label": "Genetics",
+        "leaves": [
+          "Down: trisomy 21, single palmar crease",
+          "Cri-du-chat: 5p deletion, cat cry",
+          "Prader-Willi: paternal 15q deletion",
+          "Osteogenesis imperfecta: blue sclera"
+        ]
+      }
+    ],
+    "center": "Paediatrics"
+  },
+  "slug": "paediatrics",
+  "subject": "Paediatrics",
+  "tagline": "Milestones, the newborn, dehydration plans and classic syndromes — a small, very repeatable pool worth 15 questions.",
+  "topics": [
+    {
+      "askedAs": "age for the described milestone",
+      "oneLiner": "Smile 2, sit 8, stranger anxiety 6–9, transfer 7, pincer 9–10, walk 12–15, tower of six cubes at 2 years.",
+      "points": [
+        "Social smile appears by 2 months; the baby recognises and responds to the mother's face by about 3 months",
+        "Head control is achieved by 3–4 months",
+        "Sits without support by 7–8 months; sits briefly leaning on hands (tripod) around 6 months",
+        "Transfers objects from one hand to the other at about 6–7 months",
+        "Stranger anxiety appears around 6–9 months",
+        "Mature pincer grasp develops by 9–10 months; waves bye-bye around 9–12 months",
+        "Walks alone by 12–15 months; builds a tower of 6 cubes and uses pronouns ('I', 'me') by 2 years",
+        "Reflexes present from birth that never disappear: swallowing, gagging and cough",
+        "IQ 50–70 is mild intellectual disability; IQ 55 falls in the mild range"
+      ],
+      "title": "Developmental Milestones & Reflexes",
+      "trap": "Stranger anxiety is a 6–9 month milestone — students often place it at 3 months, which is social recognition, not anxiety."
+    },
+    {
+      "askedAs": "familial vs constitutional from bone age",
+      "oneLiner": "Bone age equal to age = familial; bone age behind = constitutional delay or a systemic cause.",
+      "points": [
+        "Familial short stature: height matches the parents, growth velocity normal, bone age equals chronological age",
+        "Constitutional delay: bone age is delayed, puberty is late, final height is usually normal",
+        "Upper segment : lower segment ratio is about 1.7 at birth and falls to about 1.0 by 8–10 years",
+        "A disproportionately short lower segment suggests a skeletal or endocrine cause",
+        "Laron dwarfism: growth hormone is high but IGF-1 is low (GH insensitivity)",
+        "Chronic malnutrition stunts height-for-age over time",
+        "Height below the 3rd percentile or a falling growth velocity needs evaluation",
+        "Turner syndrome is a key cause of short stature in girls"
+      ],
+      "title": "Growth & Short Stature",
+      "trap": "High GH with short stature is not GH excess — with low IGF-1 it is Laron dwarfism (GH receptor defect)."
+    },
+    {
+      "askedAs": "NRP numbers and first steps",
+      "oneLiner": "Ventilate first; compressions below 60; term babies start on room air.",
+      "points": [
+        "Preterm is born before 37 weeks; post-term at or after 42 weeks; low birth weight is below 2,500 g",
+        "Meconium normally passes within 24 hours (up to 48 hours in preterm babies)",
+        "Vitamin K is given at birth to prevent haemorrhagic disease of the newborn (VKDB)",
+        "Neonatal resuscitation starts with drying, warmth and airway positioning",
+        "Chest compressions begin when the heart rate remains below 60/min despite effective ventilation",
+        "A term newborn is resuscitated starting with room air (21% oxygen), not 100% oxygen",
+        "The spinal cord in an infant ends at a higher level than in adults (around L3 at birth)",
+        "Neonatal hypothyroidism screening sample: cord blood at birth or a heel-prick sample after 48–72 hours",
+        "Early neonatal sepsis organisms: group B Streptococcus, E. coli and Listeria"
+      ],
+      "title": "Neonatology Essentials & Resuscitation",
+      "trap": "100% oxygen for a term newborn is outdated — resuscitation begins with room air and titrates up."
+    },
+    {
+      "askedAs": "jaundice type from stool and timing",
+      "oneLiner": "Jaundice in the first 24 hours is always pathological; conjugated jaundice with pale stools means biliary atresia until disproved.",
+      "points": [
+        "Jaundice appearing within the first 24 hours of life is pathological — usually haemolysis",
+        "Physiological jaundice appears after 24 hours, peaks around day 3–5 and is unconjugated",
+        "Conjugated jaundice with dark urine and clay-coloured stools: biliary atresia — Kasai portoenterostomy works best early",
+        "Alpha-1 antitrypsin deficiency causes neonatal cholestasis; liver biopsy shows PAS-positive granules",
+        "Breast milk jaundice is prolonged unconjugated jaundice in an otherwise thriving baby",
+        "Untreated severe unconjugated hyperbilirubinaemia damages basal ganglia — kernicterus",
+        "Infant of a diabetic mother risks hypoglycaemia (treat below threshold with feeds/IV glucose), macrosomia and respiratory distress",
+        "Galactosaemia: jaundice, hepatomegaly, cataracts (oil-drop) and reducing sugar in urine"
+      ],
+      "title": "Neonatal Jaundice & Metabolic Problems",
+      "trap": "Any conjugated hyperbilirubinaemia in a newborn is abnormal — 'physiological' applies only to unconjugated jaundice."
+    },
+    {
+      "askedAs": "diagnosis from the newborn presentation",
+      "oneLiner": "Sac present = omphalocele; no sac, bowel beside the cord = gastroschisis.",
+      "points": [
+        "Tracheo-oesophageal fistula: frothy salivation, choking with feeds, nasogastric tube cannot be passed",
+        "Oesophageal atresia babies drool from birth; the commonest type has a distal fistula",
+        "Omphalocele: viscera herniate through the cord covered by a membranous sac; associated anomalies are common",
+        "Gastroschisis: bowel herniates beside the cord with no covering sac; fewer associated anomalies",
+        "Congenital diaphragmatic hernia (Bochdalek, posterolateral): scaphoid abdomen, bowel sounds in the chest",
+        "Choanal atresia: cyanosis that improves when the baby cries; a catheter cannot be passed through the nose",
+        "Congenital hypertrophic pyloric stenosis: projectile non-bilious vomiting at 3–6 weeks, palpable 'olive', hypochloraemic alkalosis",
+        "Hirschsprung disease: delayed meconium, explosive stool on rectal examination; rectal biopsy is the gold standard",
+        "Meningomyelocele: sac on the back containing cord tissue, linked to folate deficiency"
+      ],
+      "title": "The Surgical Neonate",
+      "trap": "CHPS vomiting is non-bilious — bilious vomiting in a newborn is a surgical emergency of a different kind (malrotation)."
+    },
+    {
+      "askedAs": "deficiency from signs, SAM from MUAC",
+      "oneLiner": "Rosary and wide wrists are rickets; bleeding gums are scurvy; perioral rash with diarrhoea is zinc.",
+      "points": [
+        "SAM: MUAC below 11.5 cm, weight-for-height below −3 SD, or bilateral pitting oedema",
+        "A child with MUAC 10.5 cm but a good appetite has uncomplicated SAM — community-based treatment",
+        "Shock in SAM: cautious IV fluids (e.g. Ringer lactate with glucose) — the SAM heart tolerates overload poorly",
+        "Vitamin A prophylaxis: 1,00,000 IU at 9 months, then 2,00,000 IU every 6 months up to 5 years",
+        "Vitamin A treatment of deficiency/measles: age-based dose on days 1, 2 and 14 (1,00,000 IU under 1 year; 2,00,000 IU above)",
+        "Rickets: craniotabes, rachitic rosary, Harrison sulcus, widened wrists, bowed legs",
+        "Scurvy (Barlow disease): bleeding swollen gums, petechiae, painful limbs, poor wound healing",
+        "Acrodermatitis enteropathica: perioral and perianal rash with diarrhoea — zinc deficiency",
+        "Iron deficiency in toddlers shows with pica (eating chalk, soil) and microcytic anaemia"
+      ],
+      "title": "Nutrition, SAM & Vitamin Deficiencies",
+      "trap": "The vitamin A dose halves below 1 year of age — 1,00,000 IU, not 2,00,000 IU."
+    },
+    {
+      "askedAs": "IMNCI class and plan from signs",
+      "oneLiner": "Eager to drink with a slow skin pinch is some dehydration: Plan B, 75 mL/kg ORS over 4 hours.",
+      "points": [
+        "Some dehydration: restless/irritable, sunken eyes, drinks eagerly, skin pinch returns slowly",
+        "Severe dehydration: lethargic, very sunken eyes, drinks poorly or not at all, pinch returns in over 2 seconds",
+        "Plan B (some dehydration): ORS 75 mL/kg over 4 hours, then reassess",
+        "Plan C (severe dehydration): rapid IV fluids — 100 mL/kg Ringer lactate in divided aliquots by age",
+        "Zinc is given with ORS for 14 days in childhood diarrhoea",
+        "Fast breathing cut-offs: ≥60/min under 2 months, ≥50/min at 2–12 months, ≥40/min at 1–5 years",
+        "A 3-month-old with fast breathing alone (no indrawing, no danger signs) has IMNCI pneumonia, not severe disease",
+        "General danger signs: unable to drink, vomits everything, convulsions, lethargic or unconscious",
+        "Diarrhoea lasting 14 days or more is persistent diarrhoea"
+      ],
+      "title": "Diarrhoea, Dehydration & IMNCI",
+      "trap": "Plan B is 75 mL/kg over 4 hours — the exam's '3-hour' phrasing still expects the standard Plan B volume."
+    },
+    {
+      "askedAs": "organism or feature that names the disease",
+      "oneLiner": "Koplik spots before the rash mean measles; a membrane that bleeds means diphtheria.",
+      "points": [
+        "Measles: fever, cough, coryza, conjunctivitis, Koplik spots, then a rash starting behind the ears",
+        "Vitamin A is part of measles management and prevents eye damage",
+        "Diphtheria: grey pseudomembrane that bleeds on removal, bull neck; treatment is antitoxin plus antibiotics",
+        "Mumps: parotitis with orchitis in post-pubertal boys",
+        "Hand-foot-mouth disease: vesicles on palms, soles and mouth — Coxsackie A16",
+        "Commonest cause of bacterial meningitis in a 1-year-old: Streptococcus pneumoniae",
+        "Simple febrile seizures occur at 6 months–5 years; first-line treatment of a prolonged seizure is a benzodiazepine",
+        "Kawasaki disease with coronary aneurysms: IV immunoglobulin plus aspirin",
+        "Acute rheumatic fever follows streptococcal sore throat — Jones criteria, raised ASO titre"
+      ],
+      "title": "Childhood Infections & Emergencies",
+      "trap": "Diphtheria's membrane bleeds when scraped off — that single detail separates it from candidiasis and tonsillitis in stems."
+    },
+    {
+      "askedAs": "murmur or X-ray that names the lesion",
+      "oneLiner": "Fixed split S2 is ASD; boot-shaped heart with cyanotic spells is tetralogy of Fallot.",
+      "points": [
+        "VSD is the commonest congenital heart disease overall",
+        "ASD: widely split second heart sound that is fixed — it does not vary with respiration",
+        "Tetralogy of Fallot: VSD, overriding aorta, pulmonary stenosis, right ventricular hypertrophy",
+        "Cyanotic spells in TOF are relieved by squatting (raises systemic resistance)",
+        "TOF chest X-ray: boot-shaped heart with a concave pulmonary bay",
+        "Croup (laryngotracheitis): barking cough, stridor, steeple sign on neck X-ray",
+        "Epiglottitis: drooling, thumbprint sign — do not depress the tongue to look",
+        "Foreign body inhalation: rigid bronchoscopy is the procedure of choice",
+        "Cystic fibrosis: recurrent chest infections, thick sputum, malabsorption; sweat chloride is the gold standard"
+      ],
+      "title": "Heart & Airway Favourites",
+      "trap": "A split S2 that varies with breathing is normal; ASD's split is fixed — that word decides the answer."
+    },
+    {
+      "askedAs": "syndrome from urine or blood findings",
+      "oneLiner": "Normal light microscopy with foot-process effacement on EM is minimal change disease.",
+      "points": [
+        "Nephrotic syndrome: heavy proteinuria, oedema, hypoalbuminaemia, hyperlipidaemia",
+        "Minimal change disease is the commonest cause of nephrotic syndrome in children",
+        "Electron microscopy in minimal change disease shows effacement of podocyte foot processes",
+        "First-line treatment of childhood nephrotic syndrome: oral prednisolone",
+        "RBC casts in urine mean glomerular bleeding — think post-streptococcal glomerulonephritis",
+        "Haemophilia A: prolonged aPTT, normal PT and platelet count, haemarthroses in boys",
+        "Iron is the antidote-relevant poison: deferoxamine chelates iron in iron tablet poisoning",
+        "Thalassaemia major: transfusion-dependent microcytic anaemia; HPLC/Hb electrophoresis confirms",
+        "Lead poisoning: abdominal pain, developmental delay, blue gum line, basophilic stippling"
+      ],
+      "title": "Kidney, Blood & Poisoning",
+      "trap": "Haemophilia prolongs aPTT only — a normal PT and platelet count in a bleeding boy points straight to factor deficiency."
+    },
+    {
+      "askedAs": "tumour from site, age and behaviour",
+      "oneLiner": "A flank mass that does not cross the midline is Wilms; the one that crosses and calcifies is neuroblastoma.",
+      "points": [
+        "Wilms tumour (nephroblastoma): painless abdominal mass in a 2–5-year-old, usually does not cross the midline",
+        "Neuroblastoma: commonest extracranial solid tumour of childhood; arises from adrenal/sympathetic tissue",
+        "Neuroblastoma metastasises early, can cross the midline, and may cause opsoclonus-myoclonus",
+        "ALL is the commonest leukaemia of childhood",
+        "Burkitt lymphoma: fast-growing jaw mass in children, starry-sky histology, linked to EBV",
+        "Perthes disease: avascular necrosis of the femoral head — hip pain and limp at 4–8 years, internal rotation lost first",
+        "Osteogenesis imperfecta: recurrent fractures, blue sclera, dentinogenesis imperfecta, family history",
+        "A painless jaw swelling with starry-sky biopsy in a child is Burkitt until disproved"
+      ],
+      "title": "Childhood Tumours & Orthopaedic Favourites",
+      "trap": "Multiple fractures at different healing stages in an infant suggest osteogenesis imperfecta (or abuse) — not rickets alone."
+    },
+    {
+      "askedAs": "syndrome from karyotype or deletion",
+      "oneLiner": "21 Down, 5p cri-du-chat, paternal 15q Prader-Willi, maternal inheritance for mitochondria.",
+      "points": [
+        "Down syndrome (trisomy 21): hypotonia, flat facies, upslanting palpebral fissures, single palmar crease",
+        "Down syndrome associations: duodenal atresia, Hirschsprung disease, hypothyroidism, leukaemia risk",
+        "Cri-du-chat syndrome: deletion of 5p — microcephaly and a high-pitched cat-like cry",
+        "Prader-Willi syndrome: deletion of paternal chromosome 15q11–13 — hypotonia, then hyperphagia and obesity",
+        "Angelman syndrome is the maternal 15q deletion counterpart (imprinting)",
+        "Klinefelter (47,XXY): tall boy, small testes, gynaecomastia, infertility",
+        "Mitochondrial disorders are inherited only from the mother",
+        "Congenital toxoplasmosis triad: chorioretinitis, hydrocephalus, intracranial calcifications",
+        "Bruton agammaglobulinaemia: absent B cells and all immunoglobulins low — recurrent bacterial infections after 6 months"
+      ],
+      "title": "Genetics & Classic Syndromes",
+      "trap": "Prader-Willi is the paternal deletion; the same region deleted from the mother gives Angelman."
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { SiteHeader } from '../../components/SiteHeader';
 export const metadata = {
   title: 'Terms of Use — MedSetu by Naitik Library',
   description:
-    'The terms for using MedSetu, the free FMGE practice package by Naitik Library: what the site is, what you may do with it, and the limits that apply. Last updated 16 November 2026.',
+    'The terms for using MedSetu, the complete free FMGE preparation platform by Naitik Library: what the site is, what you may do with it, and the limits that apply. Last updated 16 November 2026.',
   alternates: { canonical: '/terms/' },
 };
 

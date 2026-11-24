@@ -725,7 +725,7 @@ console.log('9) Subject-wise tests (V2)');
   const homeHtml2 = readFileSync(join(out, 'index.html'), 'utf8');
   ok(homeHtml2.includes('Subject-wise tests') && !homeHtml2.includes('/subject/'),
     'landing: subject-wise tests described, with no subject links (descriptions only)');
-  ok(homeHtml2.includes('MedSetu v4'), 'footer: "MedSetu v4" small print ships');
+  ok(homeHtml2.includes('MedSetu v6'), 'footer: "MedSetu v6" small print ships');
 
   // Analysis engine: the new detailed fields, unit-tested on synthetic data.
   const synthQ = (subject) => ({ subject, text: 'q', options: ['a', 'b', 'c', 'd'], correct: 0, explanation: '', img: false });
@@ -836,14 +836,14 @@ console.log('10) Question bank (V3)');
   const qbHtml = readFileSync(join(out, 'qbank', 'index.html'), 'utf8');
   ok(!qbHtml.includes('Mixed practice') && !qbHtml.includes('Practise by subject'),
     'qbank: exported /qbank HTML carries no bank content (name gate renders it on the device)');
-  ok(qbHtml.includes('FMGE Practice Package'), 'header: package tagline ships');
+  ok(qbHtml.includes('Complete FMGE Preparation'), 'header: package tagline ships');
   const chooseHtml = readFileSync(join(out, 'choose', 'index.html'), 'utf8');
   ok(!chooseHtml.includes('Go to the Question Bank'), 'choose: exported HTML carries no choice cards (gated)');
 
   // Landing presents the complete package (server-rendered, descriptions only).
   const homeHtml3 = readFileSync(join(out, 'index.html'), 'utf8');
-  ok(homeHtml3.includes('complete FMGE practice package') && homeHtml3.includes('The Question Bank')
-    && homeHtml3.includes('13,934'), 'landing: complete package + question bank + real bank count');
+  ok(homeHtml3.includes('complete preparation platform for medical students') && homeHtml3.includes('The Question Bank')
+    && homeHtml3.includes('13,934'), 'landing: preparation platform + question bank + real bank count');
   ok(!/href="\/(paper|subject|qbank)\/[^"]/.test(homeHtml3),
     'landing: still descriptions only — no links into gated content (paper/subject/bank pages)');
 
@@ -852,11 +852,11 @@ console.log('10) Question bank (V3)');
   ok(chooseSrc.includes('href="/qbank/"') && chooseSrc.includes('Question Bank'),
     'choose: third card links the Question Bank');
   const headerSrc = readFileSync(join(root, 'src', 'components', 'SiteHeader.tsx'), 'utf8');
-  ok(headerSrc.includes('Question Bank') && headerSrc.includes('FMGE Practice Package'),
-    'header: Question Bank nav item + package tagline');
+  ok(headerSrc.includes('Question Bank') && headerSrc.includes('Complete FMGE Preparation'),
+    'header: Question Bank nav item + preparation tagline');
   const chromeSrc = readFileSync(join(root, 'src', 'components', 'SiteChrome.tsx'), 'utf8');
-  ok(chromeSrc.includes("'/qbank/'") && chromeSrc.includes('MedSetu v4'),
-    'footer: Question Bank link + v4 small print');
+  ok(chromeSrc.includes("'/qbank/'") && chromeSrc.includes('MedSetu v6'),
+    'footer: Question Bank link + v6 small print');
   const qlib = readFileSync(join(root, 'src', 'lib', 'qbank.ts'), 'utf8');
   ok(qlib.includes("'medsetu-qb-session'") && qlib.includes("'medsetu-qb-mistakes'")
     && qlib.includes("'medsetu-qb-bookmarks'") && qlib.includes("'medsetu-qb-progress'"),
@@ -1248,7 +1248,7 @@ console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
     ok(existsSync(join(out, p)), `v4 routes: out/${p} exists`);
   }
   const homeHtml = readFileSync(join(out, 'index.html'), 'utf8');
-  ok(homeHtml.includes('Test Series') && homeHtml.includes('Four ways to practise'),
+  ok(homeHtml.includes('Test Series') && homeHtml.includes('Prepare every way that works'),
     'home: Test Series mode card present');
   ok(homeHtml.includes('Questions students ask'),
     'home: FAQ section present');
@@ -1258,7 +1258,7 @@ console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
     'home: OpenGraph image wired');
   ok(homeHtml.includes('"@type":"Organization"') || homeHtml.includes('"@type": "Organization"') ||
      homeHtml.includes('@graph'), 'home: Organization JSON-LD present');
-  ok(homeHtml.includes('MedSetu v4'), 'footer: version line updated to v4');
+  ok(homeHtml.includes('MedSetu v6'), 'footer: version line updated to v6');
   for (const h of ['href="/tests/"', 'href="/contact/"', 'href="/terms/"', 'href="/disclaimer/"', 'href="/privacy/"']) {
     ok(homeHtml.includes(h), `nav/footer: homepage carries ${h}`);
   }
@@ -1290,7 +1290,7 @@ console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
      locs.includes('https://med-setu.netlify.app/terms/') &&
      locs.includes('https://med-setu.netlify.app/disclaimer/'),
     'sitemap: test series + trust pages included');
-  ok(locs.length === 88, `sitemap: exactly 88 URLs (got ${locs.length})`);
+  ok(locs.length === 279, `sitemap: exactly 279 URLs (got ${locs.length})`);
 
   const robots = readFileSync(join(out, 'robots.txt'), 'utf8');
   ok(robots.includes('OAI-SearchBot') && robots.includes('PerplexityBot') && robots.includes('ClaudeBot'),
@@ -1320,6 +1320,47 @@ console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
   ok(contactHtml2.includes('chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07') &&
      contactHtml2.includes('instagram.com/naitiklibrary'),
     'community: contact page carries both community links');
+}
+
+// ---------- 15. Blog (V5) + Notes & Flashcards (V6) ----------
+console.log('15) Blog, short notes & flashcards');
+{
+  const blogDir = join(root, 'src/data/blog');
+  const blogFiles = readdirSync(blogDir).filter((f) => f.endsWith('.md'));
+  ok(blogFiles.length === 150, `blog: exactly 150 articles (got ${blogFiles.length})`);
+  const blogSlugs = new Set(blogFiles.map((f) => f.replace(/\.md$/, '')));
+  ok(blogSlugs.size === 150, 'blog: slugs unique');
+
+  const REVISE = ['medicine','surgery','obstetrics-gynaecology','community-medicine','anatomy','physiology','biochemistry','paediatrics','ophthalmology','ent','pathology','microbiology','pharmacology','radiology','forensic-medicine','psychiatry','dermatology','anaesthesia','orthopaedics'];
+  let cardTotal = 0;
+  for (const s of REVISE) {
+    const n = JSON.parse(readFileSync(join(root, 'src/data/notes', `${s}.json`), 'utf8'));
+    ok(n.topics.length >= 8 && n.topics.length <= 15, `notes/${s}: ${n.topics.length} topics`);
+    ok(Array.isArray(n.goldenPoints) && n.goldenPoints.length >= 8, `notes/${s}: golden points present`);
+    ok(n.mindmap && n.mindmap.branches.length >= 6, `notes/${s}: mind map branches present`);
+    ok(n.topics.every((t) => t.points.length >= 4), `notes/${s}: every topic has >= 4 points`);
+    const c = JSON.parse(readFileSync(join(root, 'src/data/flashcards', `${s}.json`), 'utf8'));
+    ok(c.cards.length === 50, `flashcards/${s}: exactly 50 cards`);
+    ok(c.cards.every((x) => x.front && x.back && x.topic), `flashcards/${s}: all cards complete`);
+    cardTotal += c.cards.length;
+  }
+  ok(cardTotal === 950, `flashcards: 950 total (got ${cardTotal})`);
+
+  if (existsSync(join(out, 'index.html'))) {
+    const home = readFileSync(join(out, 'index.html'), 'utf8');
+    ok(/complete preparation platform for medical students/i.test(home), 'home: hero uses preparation-platform wording');
+    ok(!/complete FMGE practice package/i.test(home), 'home: old practice-package wording gone');
+    ok(existsSync(join(out, 'blog/index.html')), 'export: /blog/ exists');
+    ok(existsSync(join(out, 'notes/index.html')), 'export: /notes/ exists');
+    ok(existsSync(join(out, 'flashcards/index.html')), 'export: /flashcards/ exists');
+    const medNotes = readFileSync(join(out, 'notes/medicine/index.html'), 'utf8');
+    ok(/golden points/i.test(medNotes) && /mind map/i.test(medNotes), 'export: medicine notes carry golden points + mind map');
+    ok(existsSync(join(out, 'flashcards/medicine/index.html')), 'export: /flashcards/medicine/ exists');
+    const sm = readFileSync(join(root, 'public/sitemap.xml'), 'utf8');
+    const locs = (sm.match(/<loc>/g) || []).length;
+    ok(locs === 279, `sitemap: 279 URLs (got ${locs})`);
+    ok(sm.includes('/notes/medicine/') && sm.includes('/flashcards/medicine/') && sm.includes('/blog/'), 'sitemap: notes, flashcards and blog URLs present');
+  }
 }
 
 console.log(failures === 0 ? '\nSMOKE: ALL CHECKS PASSED' : `\nSMOKE: ${failures} FAILURE(S)`);

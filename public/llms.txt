@@ -11,6 +11,15 @@ Key facts about the FMGE (per the NBEMS information bulletin): 300 multiple-choi
 - [Subject-wise Tests](https://med-setu.netlify.app/subjects/): 16 subjects, 30 tests, one subject at a time, measured against the 50% FMGE pass proportion.
 - [Question Bank](https://med-setu.netlify.app/qbank/): 13,934 questions across all 19 FMGE subjects, organised by topic, with Practice mode, Exam mode, My Mistakes and Bookmarks.
 
+## Revise
+
+- [Short Notes](https://med-setu.netlify.app/notes/): rapid-revision notes for all 19 FMGE subjects, built from previous-year papers — high-yield topics as crisp facts, comparison tables, exam traps, night-before golden points and a mind map per subject. Read online only; not downloadable.
+- [Flashcards](https://med-setu.netlify.app/flashcards/): 950 flashcards (50 per subject) for active recall — flip, sort into "got it" and "still learning", and re-run the learning pile. Nothing is stored; progress lives only in the open tab.
+
+## Blog
+
+- [MedSetu Blog](https://med-setu.netlify.app/blog/): 150 free guides for medical students — FMGE preparation strategy, subject-wise study guides, book guides, notes and revision methods, MBBS abroad and colleges, new medical research explained, exam skills and mindset, careers after FMGE/MBBS, and clinical skills.
+
 ## About
 
 - [About MedSetu](https://med-setu.netlify.app/about/): what MedSetu is, how the papers and explanations were compiled, and the honesty rules the site follows.

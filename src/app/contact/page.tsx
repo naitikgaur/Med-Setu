@@ -5,7 +5,7 @@ import { SiteHeader } from '../../components/SiteHeader';
 export const metadata = {
   title: 'Contact MedSetu — Naitik Library, Gautam Nagar, New Delhi',
   description:
-    'Contact MedSetu and Naitik Library: call or WhatsApp 8920922167, or visit the library at Gautam Nagar, New Delhi. Questions about the free FMGE practice package, a paper, or an explanation — ask us.',
+    'Contact MedSetu and Naitik Library: call or WhatsApp 8920922167, or visit the library at Gautam Nagar, New Delhi. Questions about the free FMGE preparation platform, a paper, or an explanation — ask us.',
   alternates: { canonical: '/contact/' },
 };
 

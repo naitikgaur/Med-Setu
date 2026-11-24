@@ -6,9 +6,9 @@ import { AdSenseLoader, AdUnit } from '../components/AdSense';
 import HeroVisual from '../components/HeroVisual';
 
 export const metadata: Metadata = {
-  title: 'MedSetu — the complete FMGE practice package, free',
+  title: 'MedSetu — Complete FMGE Preparation Platform for Medical Students',
   description:
-    'MedSetu is the complete FMGE practice package: twelve previous-year papers as full mock tests in the real exam window (300 questions, two parts, pass mark 150), the MedSetu Test Series of 30 grand tests with a learning point on every question, 30 subject-wise tests, and a question bank of 13,934 questions with an explanation for every answer. Free, no sign-up, by Naitik Library, New Delhi.',
+    'MedSetu is the complete FMGE preparation platform for medical students: twelve previous-year papers as full mock tests in the real exam window (300 questions, two parts, pass mark 150), a test series of 30 grand tests, 30 subject-wise tests, a question bank of 13,934 questions with explanations, rapid-revision short notes with mind maps for all 19 subjects, 950 flashcards, and 150 free guides. Free, no sign-up, by Naitik Library, New Delhi.',
   alternates: { canonical: '/' },
 };
 
@@ -157,6 +157,38 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
       </>
     ),
   },
+  {
+    title: 'Short notes built from PYQs',
+    body: 'Rapid-revision notes for all 19 subjects, built backwards from five years of FMGE papers: the topics that actually come, as crisp fact lines with comparison tables, the classic exam traps marked, and a set of night-before golden points per subject.',
+    icon: (
+      <>
+        <path d="M6 3.5h9L19 7.5v13H6v-17Z" />
+        <path d="M14.5 3.5v4.5H19M9 12h6M9 15.5h6M9 8.5h2.5" />
+      </>
+    ),
+  },
+  {
+    title: 'Flashcards & mind maps',
+    body: '950 flashcards — 50 per subject — turn the notes into active recall: flip, answer from memory, and re-run only the cards still being learned. Every subject also ends in a one-screen mind map, so the whole subject sits in your head as one picture.',
+    icon: (
+      <>
+        <rect x="3" y="6" width="13" height="13" rx="2" />
+        <path d="M8 6V4.5A1.5 1.5 0 0 1 9.5 3h9A1.5 1.5 0 0 1 20 4.5v9a1.5 1.5 0 0 1-1.5 1.5H16" />
+        <path d="M6.5 10.5h6M6.5 14h4" />
+      </>
+    ),
+  },
+  {
+    title: 'Guides that teach the method',
+    body: 'The MedSetu blog carries 150 free guides — preparation strategy, subject-wise study methods, book guides, MBBS abroad, research explained, careers and clinical skills — written for medical students, not for search engines alone.',
+    icon: (
+      <>
+        <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z" />
+        <path d="M4 18V5.5M20 18H6.5" />
+        <path d="M8.5 7.5h7M8.5 11h5" />
+      </>
+    ),
+  },
 ];
 
 const FACTS = [
@@ -192,6 +224,20 @@ const MODES: { title: string; count: string; body: string; href: string; badge?:
     count: '19 subjects · 13,934 questions',
     body: 'Topic-by-topic daily practice in sets of 20, 50 or a whole subject — with Practice mode, My Mistakes and Bookmarks.',
     href: '/qbank/',
+  },
+  {
+    title: 'Short Notes',
+    count: '19 subjects · rapid revision',
+    body: 'Every subject distilled into the topics previous-year papers actually ask — mark-earning facts, comparison tables, exam traps, night-before golden points and a mind map per subject.',
+    href: '/notes/',
+    badge: 'New',
+  },
+  {
+    title: 'Flashcards',
+    count: '19 subjects · 950 cards',
+    body: 'Active recall, the way memory actually forms: flip, answer from memory, sort into “got it” and “still learning”, and shrink the pile round by round.',
+    href: '/flashcards/',
+    badge: 'New',
   },
 ];
 
@@ -243,6 +289,14 @@ const HOME_FAQ: { q: string; a: string }[] = [
     q: 'Who makes MedSetu?',
     a: 'Naitik Library — a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur — built MedSetu so its students could sit previous-year papers under real exam conditions, and then put it online free for every FMGE student.',
   },
+  {
+    q: 'What are the short notes and flashcards?',
+    a: 'A rapid-revision layer for all 19 subjects, built from what previous-year FMGE papers actually ask. Each subject has short notes — high-yield topics as crisp facts, comparison tables, exam traps and golden points — a one-screen mind map, and a deck of 50 flashcards for active recall. They are read and practised on MedSetu itself, free, and are not downloadable.',
+  },
+  {
+    q: 'Is MedSetu only a mock test platform?',
+    a: 'No — MedSetu is a complete preparation platform for medical students. Mock tests are one part: alongside them sit a 13,934-question bank, short notes, mind maps, flashcards and 150 study guides, so a student can learn, revise, recall and test in one place.',
+  },
 ];
 
 const STEPS = [
@@ -253,8 +307,8 @@ const STEPS = [
   },
   {
     n: '2',
-    title: 'Pick your practice',
-    body: 'Choose a full previous-year paper — twelve of them, December 2020 to June 2026 — a grand test from the 30-test series, a subject-wise test on one subject at a time, or the question bank, topic by topic.',
+    title: 'Pick your preparation',
+    body: 'Choose a full previous-year paper — twelve of them, December 2020 to June 2026 — a grand test from the 30-test series, a subject-wise test, the question bank topic by topic, or the revision layer: short notes, mind maps and flashcards.',
   },
   {
     n: '3',
@@ -288,15 +342,18 @@ export default function Home() {
       <section className="bg-med-abyss text-white">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 pb-16 pt-12 sm:px-6 lg:grid-cols-[1.02fr_1fr] lg:pb-20 lg:pt-16">
           <div>
-            <h1 className="text-[40px] font-bold leading-[1.08] tracking-tight sm:text-5xl">
-              The complete FMGE practice package.
+            <p className="text-[12px] font-bold uppercase tracking-[0.16em] text-white/70">
+              For FMGE aspirants &amp; medical students
+            </p>
+            <h1 className="mt-3 text-[40px] font-bold leading-[1.08] tracking-tight sm:text-5xl">
+              The complete preparation platform for medical students.
             </h1>
             <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-white/85">
-              Twelve previous-year papers as full mock tests in the window you will face on exam
-              day — two parts of 150 questions, 150 minutes a part, marked against the real pass
-              mark of 150. A test series of 30 grand tests where every question carries a learning
-              point. Subject-wise tests, one subject at a time. And a question bank of 13,934
-              questions, every one with its explanation, so daily practice sits behind the mocks.
+              Everything an FMGE student needs, in one place and free: previous-year papers as full
+              mock tests in the real exam window, a 30-test grand series, a 13,934-question bank
+              with an explanation for every answer — and now rapid-revision short notes, mind maps
+              and flashcards for all 19 subjects, built from the topics previous-year papers
+              actually ask.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
@@ -306,17 +363,17 @@ export default function Home() {
                 Let&apos;s Start →
               </Link>
               <Link
-                href="/tests/"
-                className="text-[15px] font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white"
+                href="/notes/"
+                className="rounded-lg border border-white/40 px-6 py-3.5 text-base font-bold text-white transition-colors hover:bg-white/10"
               >
-                Explore the Test Series
+                Revise with Short Notes
               </Link>
-              <a
-                href="#how"
+              <Link
+                href="/flashcards/"
                 className="text-[15px] font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white"
               >
-                See how it works
-              </a>
+                Try the flashcards
+              </Link>
             </div>
             <p className="mt-4 text-sm text-white/70">
               Free for every student · no sign-up · your name and answers never leave this tab
@@ -340,13 +397,13 @@ export default function Home() {
 
       {/* ---------- Four ways to practise ---------- */}
       <section className="mx-auto w-full max-w-6xl px-4 pt-14 sm:px-6 lg:pt-16">
-        <h2 className="text-[28px] font-bold tracking-tight text-ink">Four ways to practise</h2>
+        <h2 className="text-[28px] font-bold tracking-tight text-ink">Prepare every way that works</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-          Pick the shape of practice your preparation needs today — a full paper, a grand test, one
-          subject, or a topic at a time. Everything opens in the same exam window and ends in the
-          same detailed analysis.
+          Learn it, revise it, recall it, then prove it under exam conditions. Pick the shape your
+          preparation needs today — a full paper, a grand test, one subject, a topic at a time, a
+          page of short notes, or a deck of flashcards.
         </p>
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {MODES.map((m) => (
             <Link
               key={m.title}
@@ -371,9 +428,10 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
         <h2 className="text-[28px] font-bold tracking-tight text-ink">What you get</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
-          MedSetu does one thing, completely: FMGE practice, sat properly and marked honestly —
-          previous-year papers as full mocks, subject-wise tests one subject at a time, and a
-          question bank for daily practice. There are no courses or add-ons waiting behind it.
+          MedSetu is a complete preparation platform, and everything on it is free: previous-year
+          papers sat properly and marked honestly, subject-wise tests, a question bank for daily
+          practice, short notes and flashcards for revision, and a blog of guides for the method
+          behind it all. There are no courses or paid add-ons waiting behind it.
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f) => (
@@ -583,12 +641,12 @@ export default function Home() {
           {/* Final call to action */}
           <div className="mt-6 rounded-2xl bg-med-deep px-6 py-10 text-center text-white sm:px-10">
             <h2 className="text-[26px] font-bold tracking-tight sm:text-3xl">
-              Your next mock is one click away.
+              Your complete preparation is one click away.
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-[15px] leading-relaxed text-white/85">
-              Twelve papers, thirty grand tests, thirty subject-wise tests and a question bank of
-              13,934 are waiting — the real window, the real pass mark. It takes under a minute to
-              be inside the first one.
+              Twelve papers, thirty grand tests, thirty subject-wise tests, a question bank of
+              13,934, short notes and flashcards for every subject — the real window, the real pass
+              mark. It takes under a minute to be inside your first test.
             </p>
             <Link
               href="/start/"

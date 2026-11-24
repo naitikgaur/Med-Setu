@@ -6,7 +6,7 @@ import GateCard from './GateCard';
 export const metadata: Metadata = {
   title: "Let's start — MedSetu",
   description:
-    'Enter your name, pass a quick human check, and the whole MedSetu FMGE practice package is open: previous-year mock papers, subject-wise tests and the question bank. No account, nothing collected.',
+    'Enter your name, pass a quick human check, and the whole MedSetu preparation platform is open: previous-year mock papers, the grand test series, subject-wise tests, the question bank, short notes and flashcards. No account, nothing collected.',
   robots: { index: false, follow: false },
 };
 

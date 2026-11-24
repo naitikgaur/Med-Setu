@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "Km is unchanged and Vmax falls — the inhibitor binds a site other than the active site.",
+      "front": "A non-competitive inhibitor changes Km and Vmax how?",
+      "topic": "Enzymes & Kinetics"
+    },
+    {
+      "back": "Oxidases — they use molecular oxygen as the hydrogen acceptor.",
+      "front": "Which enzyme class uses O2 as hydrogen acceptor, forming water or H2O2?",
+      "topic": "Enzymes & Kinetics"
+    },
+    {
+      "back": "Erythrocyte glutathione reductase activity (it needs FAD).",
+      "front": "Which enzyme activity is measured to assess riboflavin (B2) deficiency?",
+      "topic": "Enzymes & Kinetics"
+    },
+    {
+      "back": "Phosphofructokinase-1 (PFK-1).",
+      "front": "Rate-limiting enzyme of glycolysis?",
+      "topic": "Carbohydrate Metabolism: Pathways & Control"
+    },
+    {
+      "back": "Glucose-6-phosphate dehydrogenase (G6PD).",
+      "front": "Rate-limiting enzyme of the HMP pathway?",
+      "topic": "Carbohydrate Metabolism: Pathways & Control"
+    },
+    {
+      "back": "In the cytoplasm — glycolysis is entirely extramitochondrial.",
+      "front": "Which pathway occurs exclusively in the cytoplasm?",
+      "topic": "Carbohydrate Metabolism: Pathways & Control"
+    },
+    {
+      "back": "Gluconeogenesis — ethanol metabolism raises NADH and diverts pyruvate to lactate.",
+      "front": "Alcohol after fasting and exercise causes hypoglycaemia by inhibiting which process?",
+      "topic": "Carbohydrate Metabolism: Pathways & Control"
+    },
+    {
+      "back": "Sorbitol, formed by aldose reductase in the polyol pathway.",
+      "front": "Diabetic cataract is caused by accumulation of which substance in the lens?",
+      "topic": "Carbohydrate Metabolism: Pathways & Control"
+    },
+    {
+      "back": "Glucose-6-phosphatase deficiency (Von Gierke disease, GSD type I).",
+      "front": "Child with fasting hypoglycaemia, hepatomegaly and growth retardation — deficient enzyme?",
+      "topic": "Glycogen Storage, Galactose & Lysosomal Disorders"
+    },
+    {
+      "back": "Galactose-1-phosphate uridyltransferase (GALT).",
+      "front": "Classical galactosaemia is caused by deficiency of which enzyme?",
+      "topic": "Glycogen Storage, Galactose & Lysosomal Disorders"
+    },
+    {
+      "back": "Hyaluronidase deficiency (MPS IX, Natowicz disease).",
+      "front": "Which enzyme is deficient in the mucopolysaccharidosis of Natowicz disease?",
+      "topic": "Glycogen Storage, Galactose & Lysosomal Disorders"
+    },
+    {
+      "back": "HMG-CoA reductase — the target of statins.",
+      "front": "Rate-limiting enzyme of cholesterol synthesis?",
+      "topic": "Lipid Metabolism & Dyslipidaemias"
+    },
+    {
+      "back": "Type V hyperlipoproteinaemia — both chylomicrons and VLDL raised.",
+      "front": "High VLDL plus chylomicrons with eruptive xanthomas — Fredrickson type?",
+      "topic": "Lipid Metabolism & Dyslipidaemias"
+    },
+    {
+      "back": "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency — a fatty acid oxidation defect.",
+      "front": "Infant with fasting hypoglycaemia but LOW ketones and hepatomegaly — likely defect?",
+      "topic": "Lipid Metabolism & Dyslipidaemias"
+    },
+    {
+      "back": "Insulin — it is the antilipolytic hormone.",
+      "front": "All activate hormone-sensitive lipase EXCEPT: catecholamines, glucagon, cortisol, insulin?",
+      "topic": "Lipid Metabolism & Dyslipidaemias"
+    },
+    {
+      "back": "Homogentisate oxidase deficiency — alkaptonuria.",
+      "front": "Urine black on standing since childhood, black sclera and pinna — enzyme defect?",
+      "topic": "Protein & Amino Acid Metabolism Disorders"
+    },
+    {
+      "back": "Homogentisate oxidase deficiency — ochronotic pigment deposits in cartilage.",
+      "front": "Arthroscopy shows black joint cartilage — deficient enzyme?",
+      "topic": "Protein & Amino Acid Metabolism Disorders"
+    },
+    {
+      "back": "Branched-chain alpha-keto acid dehydrogenase complex.",
+      "front": "Deficient enzyme complex in maple syrup urine disease?",
+      "topic": "Protein & Amino Acid Metabolism Disorders"
+    },
+    {
+      "back": "Histidine — its imidazole group has a pKa near 7.4.",
+      "front": "Which amino acid is the principal buffer in blood at physiological pH?",
+      "topic": "Protein & Amino Acid Metabolism Disorders"
+    },
+    {
+      "back": "As glutamine — glutamine synthetase traps ammonia in the brain.",
+      "front": "In what form is ammonia transported from brain to liver?",
+      "topic": "Protein & Amino Acid Metabolism Disorders"
+    },
+    {
+      "back": "ALA synthase — in the mitochondrion, needing vitamin B6.",
+      "front": "Rate-limiting enzyme of heme synthesis?",
+      "topic": "Heme Metabolism, Porphyrias & Lead"
+    },
+    {
+      "back": "ALA dehydratase (and ferrochelatase).",
+      "front": "Lead poisoning manifests through inhibition of which heme-pathway enzyme?",
+      "topic": "Heme Metabolism, Porphyrias & Lead"
+    },
+    {
+      "back": "Methaemoglobin — it cannot carry oxygen.",
+      "front": "Haemoglobin with iron in the ferric (Fe3+) form is called?",
+      "topic": "Heme Metabolism, Porphyrias & Lead"
+    },
+    {
+      "back": "HGPRT (hypoxanthine-guanine phosphoribosyltransferase) — Lesch–Nyhan syndrome.",
+      "front": "Boy with self-mutilation, lip biting and hyperuricaemia — deficient enzyme?",
+      "topic": "Nucleotide Metabolism, Gout & Urea Cycle"
+    },
+    {
+      "back": "Adenosine deaminase (ADA) deficiency.",
+      "front": "Enzyme deficiency behind autosomal recessive SCID?",
+      "topic": "Nucleotide Metabolism, Gout & Urea Cycle"
+    },
+    {
+      "back": "Xanthine oxidase — allopurinol blocks uric acid formation.",
+      "front": "To lower uric acid in gout, which enzyme should be inhibited?",
+      "topic": "Nucleotide Metabolism, Gout & Urea Cycle"
+    },
+    {
+      "back": "Ornithine transcarbamylase (OTC) deficiency — commonest urea cycle defect.",
+      "front": "Hyperammonaemia with raised urinary orotic acid in an infant — enzyme?",
+      "topic": "Nucleotide Metabolism, Gout & Urea Cycle"
+    },
+    {
+      "back": "Glycine, aspartate and glutamine (plus CO2 and formate).",
+      "front": "Which amino acids contribute atoms to the purine ring?",
+      "topic": "Nucleotide Metabolism, Gout & Urea Cycle"
+    },
+    {
+      "back": "Niacin (vitamin B3) — pellagra: diarrhoea, dermatitis, dementia.",
+      "front": "Maize diet, chronic diarrhoea, photosensitive rash and cognitive decline — vitamin?",
+      "topic": "Vitamins: Deficiencies & Toxicities"
+    },
+    {
+      "back": "Vitamin C — collagen hydroxylation fails (prolyl/lysyl hydroxylases need it).",
+      "front": "Bleeding gums, petechiae and delayed wound healing — vitamin deficiency?",
+      "topic": "Vitamins: Deficiencies & Toxicities"
+    },
+    {
+      "back": "Thiamine (B1) — Wernicke encephalopathy progressing to Korsakoff psychosis.",
+      "front": "Alcoholic with confusion, ophthalmoplegia, ataxia and memory loss — vitamin?",
+      "topic": "Vitamins: Deficiencies & Toxicities"
+    },
+    {
+      "back": "Vitamin B12 — subacute combined degeneration of the cord.",
+      "front": "Macrocytic anaemia with loss of vibration and proprioception and ataxia — vitamin?",
+      "topic": "Vitamins: Deficiencies & Toxicities"
+    },
+    {
+      "back": "Vitamin B6 (pyridoxine) excess — a dose-related sensory neuropathy.",
+      "front": "Neuropathy after a year of high-dose multivitamins — which vitamin in excess?",
+      "topic": "Vitamins: Deficiencies & Toxicities"
+    },
+    {
+      "back": "Night blindness and xerophthalmia (with Bitot spots).",
+      "front": "Consequences of vitamin A deficiency in the eye?",
+      "topic": "Vitamins: Deficiencies & Toxicities"
+    },
+    {
+      "back": "Copper — ATP7A transport defect traps copper in the intestine (Menkes disease).",
+      "front": "Menkes kinky hair syndrome is a defect in the metabolism of which metal?",
+      "topic": "Minerals & Trace Elements"
+    },
+    {
+      "back": "Zinc deficiency — acrodermatitis enteropathica picture.",
+      "front": "Dermatitis, diarrhoea, alopecia and delayed wound healing — which mineral?",
+      "topic": "Minerals & Trace Elements"
+    },
+    {
+      "back": "Selenium — it sits in the active site of glutathione peroxidase.",
+      "front": "Cofactor element for glutathione peroxidase?",
+      "topic": "Minerals & Trace Elements"
+    },
+    {
+      "back": "Chromium — it potentiates insulin action and glucose tolerance.",
+      "front": "Which mineral is best known for stabilising insulin action?",
+      "topic": "Minerals & Trace Elements"
+    },
+    {
+      "back": "Complex IV (cytochrome c oxidase).",
+      "front": "Cyanide inhibits which complex of the electron transport chain?",
+      "topic": "Electron Transport Chain & Oxidative Phosphorylation"
+    },
+    {
+      "back": "Complex III — it blocks electron flow from cytochrome b to c1.",
+      "front": "Antimycin A inhibits which ETC complex?",
+      "topic": "Electron Transport Chain & Oxidative Phosphorylation"
+    },
+    {
+      "back": "Inner mitochondrial membrane of brown adipose tissue — it uncouples respiration to make heat.",
+      "front": "Where is thermogenin (UCP1) located, and what does it do?",
+      "topic": "Electron Transport Chain & Oxidative Phosphorylation"
+    },
+    {
+      "back": "S-adenosyl methionine (SAM).",
+      "front": "Universal methyl group donor in metabolism?",
+      "topic": "Molecular Biology Essentials"
+    },
+    {
+      "back": "Telomerase — it maintains telomeres, granting unlimited replication.",
+      "front": "Which enzyme is responsible for the immortality of cancer cells?",
+      "topic": "Molecular Biology Essentials"
+    },
+    {
+      "back": "It is pro-apoptotic — p53 triggers apoptosis when DNA damage is irreparable.",
+      "front": "Is p53 pro- or anti-apoptotic?",
+      "topic": "Molecular Biology Essentials"
+    },
+    {
+      "back": "3′-GUUCCA-5′ — complementary and antiparallel to the RNA.",
+      "front": "RNA sequence 5′-CAAGGU-3′: what is the template DNA strand?",
+      "topic": "Molecular Biology Essentials"
+    },
+    {
+      "back": "Albumin — also the chief contributor to oncotic pressure.",
+      "front": "Plasma protein found in the highest concentration?",
+      "topic": "Nutrition & Clinical Biochemistry Pearls"
+    },
+    {
+      "back": "Sodium — the dominant extracellular solute.",
+      "front": "Major determinant of serum osmolality?",
+      "topic": "Nutrition & Clinical Biochemistry Pearls"
+    },
+    {
+      "back": "Egg protein — the reference protein for biological value.",
+      "front": "Which food has the highest biological value of protein?",
+      "topic": "Nutrition & Clinical Biochemistry Pearls"
+    },
+    {
+      "back": "Kwashiorkor — protein deficiency with oedema and low albumin.",
+      "front": "Child on a rice-water diet with abdominal distension, oedema and low albumin — diagnosis?",
+      "topic": "Nutrition & Clinical Biochemistry Pearls"
+    },
+    {
+      "back": "Galactose and fructose joined by a beta-1,4 linkage.",
+      "front": "What is the composition of lactulose?",
+      "topic": "Nutrition & Clinical Biochemistry Pearls"
+    }
+  ],
+  "slug": "biochemistry",
+  "subject": "Biochemistry"
+}

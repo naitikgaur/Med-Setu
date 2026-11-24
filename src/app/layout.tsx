@@ -13,23 +13,23 @@ const SITE_URL = 'https://med-setu.netlify.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'MedSetu — Free FMGE Previous-Year Mock Tests with Detailed Analysis',
+  title: 'MedSetu — Complete FMGE Preparation Platform for Medical Students',
   description:
-    'Attempt FMGE previous-year papers (2020–2026) as full mock tests in the real exam manner — 300 questions, two parts, no negative marking — take the 30-test MedSetu Test Series, practise subject-wise, and use a question bank of 13,934 questions. Detailed eight-part analysis after every test. Free, no sign-up, no data collected. A Naitik Library effort.',
+    'MedSetu is the complete FMGE preparation platform for medical students: previous-year papers (2020–2026) as full mock tests in the real exam manner, a 30-test grand test series, subject-wise tests, a question bank of 13,934 questions, rapid-revision short notes with mind maps, 950 flashcards, and 150 free guides. Free, no sign-up, no data collected. A Naitik Library effort.',
   openGraph: {
     type: 'website',
     siteName: 'MedSetu by Naitik Library',
-    title: 'MedSetu — the complete FMGE practice package, free',
+    title: 'MedSetu — Complete FMGE Preparation Platform for Medical Students',
     description:
-      'Previous-year FMGE papers as full mocks, a 30-test grand test series, subject-wise tests and a 13,934-question bank — with a detailed analysis after every test. Free, by Naitik Library, New Delhi.',
+      'Previous-year FMGE papers as full mocks, 30 grand tests, subject-wise tests, a 13,934-question bank, short notes, mind maps and flashcards — the complete preparation, free. By Naitik Library, New Delhi.',
     url: '/',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'MedSetu — free FMGE practice by Naitik Library' }],
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'MedSetu — complete FMGE preparation by Naitik Library' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MedSetu — the complete FMGE practice package, free',
+    title: 'MedSetu — Complete FMGE Preparation Platform for Medical Students',
     description:
-      'FMGE previous-year mocks, 30 grand tests, subject-wise tests and a 13,934-question bank with detailed analysis. Free, no sign-up.',
+      'FMGE previous-year mocks, 30 grand tests, a 13,934-question bank, short notes, mind maps and flashcards. Free, no sign-up.',
     images: ['/og.png'],
   },
   robots: { index: true, follow: true },
@@ -44,7 +44,7 @@ const ORG_JSONLD = {
       name: 'Naitik Library',
       url: `${SITE_URL}/naitik-library/`,
       description:
-        'Naitik Library is a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur. It publishes MedSetu, the free FMGE practice package.',
+        'Naitik Library is a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur. It publishes MedSetu, the complete free FMGE preparation platform for medical students.',
       founder: { '@type': 'Person', name: 'Naitik Gaur' },
       sameAs: [
         'https://www.instagram.com/naitiklibrary/',
@@ -71,7 +71,7 @@ const ORG_JSONLD = {
       name: 'MedSetu',
       alternateName: 'MedSetu by Naitik Library',
       description:
-        'Free FMGE practice: previous-year papers as full mock tests, the MedSetu Test Series of 30 grand tests, subject-wise tests and a question bank of 13,934 questions, with a detailed analysis after every test.',
+        'The complete FMGE preparation platform for medical students: previous-year papers as full mock tests, the MedSetu Test Series of 30 grand tests, subject-wise tests, a question bank of 13,934 questions, short notes with mind maps, flashcards and guides — with a detailed analysis after every test.',
       publisher: { '@id': `${SITE_URL}/#organization` },
       inLanguage: 'en',
     },

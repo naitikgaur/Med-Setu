@@ -1,0 +1,380 @@
+{
+  "goldenPoints": [
+    "ASHA serves about 1,000 population in rural areas; ANM sits at the sub-centre",
+    "IMR denominator is live births; MMR is per 1,00,000 live births",
+    "PPV rises and falls with prevalence — the most-tested screening fact",
+    "Case-control gives odds ratio and suits rare diseases; cohort gives incidence and relative risk",
+    "Mode is the most frequent value; the mean is the measure wrecked by one wrong entry",
+    "Shakir tape red zone (MUAC below 11.5 cm) means severe acute malnutrition",
+    "Yellow bag: soiled and anatomical waste and expired drugs; white puncture-proof container: sharps",
+    "fIPV fractional doses are given at 6 and 14 weeks under the NIS",
+    "Tobacco-control legislation is primordial prevention; screening is secondary prevention",
+    "Quarantine began as 40 days of isolation for plague ships"
+  ],
+  "intro": "Community Medicine carries 30 of the 300 FMGE questions, and it is the most formula-driven subject in the paper: rates with exact denominators, colour bags, population norms, schedule ages, programme names. Almost every stem in these notes was asked in the last five years — learn the numbers here and this subject becomes free marks.",
+  "mindmap": {
+    "branches": [
+      {
+        "label": "Epidemiology & Studies",
+        "leaves": [
+          "Case-control: rare disease, odds ratio",
+          "Cohort: incidence, relative risk",
+          "Serial interval = primary to secondary case onset",
+          "Point-source epidemic: single peak, one incubation period"
+        ]
+      },
+      {
+        "label": "Biostatistics",
+        "leaves": [
+          "Mode = most frequent value",
+          "68–95–99.7 rule of the normal curve",
+          "Mean is most affected by outliers",
+          "Mid-year population = denominator of crude rates"
+        ]
+      },
+      {
+        "label": "Demography & Vital Statistics",
+        "leaves": [
+          "CBR = live births per 1,000 mid-year population",
+          "GFR = live births per 1,000 women 15–49",
+          "MMR per 1,00,000 live births",
+          "SRS and NFHS are the big data sources"
+        ]
+      },
+      {
+        "label": "Prevention & Health System",
+        "leaves": [
+          "Primordial: stop risk factors emerging",
+          "ASHA — 1 per 1,000 rural population",
+          "PHC covers 30,000; CHC covers 1,20,000",
+          "Eligible couple register at the sub-centre"
+        ]
+      },
+      {
+        "label": "Immunisation & Programmes",
+        "leaves": [
+          "fIPV at 6 and 14 weeks",
+          "Td at 10 and 16 years",
+          "RBSK screens 0–18 years",
+          "Anaemia Mukt Bharat runs 6×6×6"
+        ]
+      },
+      {
+        "label": "Nutrition & Environment",
+        "leaves": [
+          "Shakir tape: red below 11.5 cm MUAC",
+          "Stunting measures chronic malnutrition",
+          "Lathyrism — kesari dal; dropsy — argemone",
+          "Residual chlorine 0.5 mg/L after 1 hour"
+        ]
+      },
+      {
+        "label": "Occupational & International Health",
+        "leaves": [
+          "ESI sickness benefit: 70% wages",
+          "Silicosis is the commonest pneumoconiosis",
+          "WHO HQ Geneva; World Health Day 7 April",
+          "SDG target: global MMR below 70 by 2030"
+        ]
+      }
+    ],
+    "center": "Community Medicine"
+  },
+  "slug": "community-medicine",
+  "subject": "Community Medicine",
+  "tagline": "PSM in FMGE is denominators, colour bags, population norms and programme names — the most formula-driven 30 marks in the paper.",
+  "topics": [
+    {
+      "askedAs": "definitions and epidemic curve types",
+      "oneLiner": "Incubation period is infection-to-symptoms in one person; serial interval is onset-to-onset between linked cases.",
+      "points": [
+        "Natural history of disease runs: prepathogenesis (agent–host–environment interaction) then pathogenesis",
+        "Incubation period: entry of the agent to the first symptom",
+        "Serial interval: time between onset of the primary case and onset of the secondary case it infects",
+        "Latent period: infection to becoming infectious (used for non-communicable disease as exposure-to-detection)",
+        "Quarantine originated as 40 days of isolation for ships suspected of carrying plague",
+        "Iceberg phenomenon: diagnosed cases are the tip; hidden and subclinical cases form the submerged part",
+        "Single-exposure point-source epidemic: one peak, all cases within roughly one incubation period",
+        "Propagated epidemic: person-to-person spread with successive peaks (e.g. hepatitis A in a hostel)"
+      ],
+      "title": "Epidemiology Basics & Natural History of Disease",
+      "trap": "Serial interval is between onsets of two cases — not between infection and symptoms."
+    },
+    {
+      "askedAs": "which design for the given scenario",
+      "oneLiner": "Start with disease and look back: case-control. Start with exposure and follow forward: cohort.",
+      "points": [
+        "Case-control study: starts from cases and controls, looks back at exposure; yields the odds ratio",
+        "Case-control is the design for rare diseases and for outbreaks needing a quick answer (thalidomide–phocomelia was shown this way)",
+        "Cohort study: starts from exposed and unexposed, follows forward; yields incidence and relative risk",
+        "Cross-sectional (prevalence) study: exposure and disease measured at one point in time — a snapshot",
+        "Randomised controlled trial: randomisation is the main tool that removes selection bias",
+        "Phase III trial compares the new drug with standard treatment; marketing approval follows phase III",
+        "Ecological study uses group-level data and suffers the ecological fallacy",
+        "Recall bias is the classic weakness of case-control studies; attrition weakens cohorts"
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Case-control",
+          "Cohort"
+        ],
+        "rows": [
+          [
+            "Starts from",
+            "Disease (cases)",
+            "Exposure"
+          ],
+          [
+            "Direction",
+            "Backward",
+            "Forward"
+          ],
+          [
+            "Measure",
+            "Odds ratio",
+            "Relative risk, incidence"
+          ],
+          [
+            "Best for",
+            "Rare diseases",
+            "Rare exposures"
+          ]
+        ]
+      },
+      "title": "Study Designs",
+      "trap": "A study that collects exposure history from mothers of affected and unaffected babies is case-control, even if the records are old."
+    },
+    {
+      "askedAs": "formula pick and PPV behaviour",
+      "oneLiner": "Sensitivity finds the diseased; specificity clears the healthy; PPV obeys prevalence.",
+      "points": [
+        "Sensitivity = true positives ÷ all actually diseased × 100 — the test's ability to catch disease",
+        "Specificity = true negatives ÷ all actually healthy × 100 — the ability to clear the healthy",
+        "Positive predictive value rises as disease prevalence rises; it falls sharply for rare diseases",
+        "A highly sensitive test is best for screening (few cases missed); a specific test confirms",
+        "Screening is secondary prevention — presumptive identification of unrecognised disease",
+        "Wilson and Jungner criteria govern whether a disease is fit for screening",
+        "Lead-time bias makes survival look longer merely because diagnosis happened earlier",
+        "A good screening test must be acceptable, repeatable, valid and cheap"
+      ],
+      "title": "Screening & Evaluation of Diagnostic Tests",
+      "trap": "For a rare disease, even a good test gives a low PPV — prevalence, not sensitivity, is the biggest influence."
+    },
+    {
+      "askedAs": "which rate, which denominator",
+      "oneLiner": "Births and deaths per 1,000 mid-year population; maternal deaths per 1,00,000 live births.",
+      "points": [
+        "Crude birth rate = live births in a year ÷ mid-year population × 1,000",
+        "General fertility rate = live births per 1,000 women aged 15–49 years",
+        "Total fertility rate: average children a woman would bear through her reproductive life",
+        "Infant mortality rate denominator is live births (deaths under 1 year per 1,000 live births)",
+        "Early neonatal deaths occur in the first 7 days; late neonatal deaths from day 8 to 28",
+        "Maternal mortality ratio = maternal deaths per 1,00,000 live births in the same period",
+        "Deaths from accidents (e.g. electrocution) are excluded when calculating the MMR",
+        "Mid-year population (1 July) is the denominator for crude birth and death rates",
+        "Case fatality rate = deaths from a disease ÷ cases of that disease × 100"
+      ],
+      "title": "Rates, Ratios & Vital Statistics",
+      "trap": "Stillbirths never enter the MMR or IMR denominator — only live births do."
+    },
+    {
+      "askedAs": "measure definitions and normal curve",
+      "oneLiner": "Mean chases outliers, median resists them, mode is simply the most repeated value.",
+      "points": [
+        "Mode is the most frequently occurring value in a dataset",
+        "Median is the middle value; it is the best central measure for skewed data",
+        "A single wrongly recorded value (39 entered as 93) disturbs the mean the most",
+        "Normal distribution: mean ± 1 SD covers about 68%, ± 2 SD about 95%, ± 3 SD about 99.7% of values",
+        "In a normal curve, mean = median = mode",
+        "Blood cholesterol in mg/dL is measured on a ratio scale (true zero exists)",
+        "Histogram displays continuous data; bar charts compare discrete categories; scatter shows correlation",
+        "Chi-square test compares proportions in qualitative data",
+        "Standard deviation measures dispersion around the mean"
+      ],
+      "title": "Biostatistics Essentials",
+      "trap": "Mode is not the largest value and not the average — it is the most common value."
+    },
+    {
+      "askedAs": "stage identification and indicator meaning",
+      "oneLiner": "Birth rate stays high in stages 1–2 while the death rate falls — that gap is the population explosion.",
+      "points": [
+        "Demographic cycle stage 1 (high stationary): high birth rate and high death rate",
+        "Stage 2 (early expanding): death rate falls, birth rate stays high — fastest population growth",
+        "Stage 3 (late expanding): birth rate starts falling; India is in this stage",
+        "Stage 5 (declining): birth rate falls below death rate, population shrinks",
+        "Sex ratio above 1,000 means more females than males in the population",
+        "An eligible couple is a married couple with the wife aged 15–49; registers are kept at the sub-centre",
+        "Couple protection rate is the percentage of eligible couples effectively protected by contraception",
+        "NITI Aayog replaced the Planning Commission in 2015",
+        "The Census (Registrar General of India) is the main source of complete demographic data"
+      ],
+      "title": "Demography & Family Planning Indicators",
+      "trap": "The highest growth is in stage 2, not stage 1 — in stage 1 the high death rate cancels the high birth rate."
+    },
+    {
+      "askedAs": "level for the given intervention",
+      "oneLiner": "Legislation before risk factors appear is primordial; finding disease early is secondary.",
+      "points": [
+        "Primordial prevention: preventing risk factors from emerging — e.g. tobacco-control legislation",
+        "Primary prevention: health promotion and specific protection (immunisation, hand washing, ORS education)",
+        "Secondary prevention: early diagnosis and prompt treatment — all screening programmes",
+        "Tertiary prevention: disability limitation and rehabilitation",
+        "Sub-centre covers 5,000 population in plains (3,000 in hills); PHC 30,000 (20,000 hills)",
+        "CHC covers 1,20,000 in plains (80,000 in hills) and is the first referral unit level with specialists",
+        "One ASHA serves about 1,000 rural population; she is a link worker, not a salaried employee",
+        "Ayushman Bharat: PM-JAY gives ₹5 lakh cover per family per year for hospitalisation",
+        "Referral chain: sub-centre → PHC → CHC → district hospital"
+      ],
+      "title": "Levels of Prevention & the Health Care System",
+      "trap": "Government tobacco regulation is keyed as primordial prevention, not primary — a repeated FMGE distinction."
+    },
+    {
+      "askedAs": "vaccine at the given age",
+      "oneLiner": "Birth: BCG, OPV-0, hepatitis B. 9 months: MR. 10 years: Td.",
+      "points": [
+        "At birth: BCG, OPV zero dose and hepatitis B birth dose (within 24 hours)",
+        "6, 10 and 14 weeks: pentavalent, OPV, rotavirus; fractional IPV (fIPV) at 6 and 14 weeks",
+        "9–12 months: MR first dose, JE in endemic districts, PCV booster",
+        "16–24 months: MR second dose, DPT and OPV boosters",
+        "5–6 years: DPT booster; 10 and 16 years: Td",
+        "A 10-year-old attending for immunisation receives Td",
+        "BCG is a live vaccine; live vaccines are avoided in the severely immunocompromised",
+        "Vaccine vial monitor (VVM) reaching discard point means the vaccine must not be used",
+        "Shake test detects freeze damage in adsorbed vaccines like pentavalent and hepatitis B"
+      ],
+      "title": "Universal Immunisation Programme (NIS)",
+      "trap": "fIPV under the current schedule is at 6 and 14 weeks — not three full IPV doses."
+    },
+    {
+      "askedAs": "programme for the given condition or age",
+      "oneLiner": "Match the programme to its initials and age band: RBSK 0–18, NSSK newborns, Axshya TB.",
+      "points": [
+        "RBSK screens children 0–18 years for the 4 Ds: defects, diseases, deficiencies, developmental delays",
+        "Navjaat Shishu Suraksha Karyakram (NSSK) trains staff in essential newborn care and resuscitation",
+        "Axshya project is associated with tuberculosis control (community engagement under NTEP)",
+        "Anaemia Mukt Bharat follows a 6×6×6 strategy (6 groups, 6 interventions, 6 institutional mechanisms)",
+        "Suraksha clinics provide syndromic management of STIs/RTIs under NACP",
+        "VHND (Village Health and Nutrition Day) is held once a month at the anganwadi",
+        "National Deworming Day is observed on 10 February (with a second round on 10 August)",
+        "ICDS delivers supplementary nutrition and preschool education through anganwadi centres",
+        "IDSP runs outbreak surveillance; data flows weekly from reporting units"
+      ],
+      "title": "National Health Programmes",
+      "trap": "RBSK covers 0–18 years including out-of-school children — do not limit it to school-going children."
+    },
+    {
+      "askedAs": "bag colour for the given item",
+      "oneLiner": "Yellow burns soiled waste and expired drugs; sharps never go in a bag — they go in the white puncture-proof container.",
+      "points": [
+        "Yellow bag: human anatomical waste, soiled waste, expired medicines and cytotoxic drugs (labelled)",
+        "Red bag: contaminated recyclable plastics — tubing, catheters, gloves, IV sets",
+        "White translucent puncture-proof container: sharps — needles, blades, broken glass with sharp edges",
+        "Blue bag/box: glassware (vials, ampoules) and metallic body implants",
+        "Used cotton swabs and dressings go into the yellow bag",
+        "Needle-stick injury: wash with soap and water, report, and start HIV PEP ideally within 2 hours (up to 72 hours)",
+        "Window period of HIV: the antibody test may be negative early; nucleic acid testing detects infection earliest",
+        "Anatomical and soiled waste in yellow bags is treated by incineration or deep burial"
+      ],
+      "table": {
+        "head": [
+          "Colour",
+          "Contents",
+          "Treatment route"
+        ],
+        "rows": [
+          [
+            "Yellow",
+            "Anatomical, soiled waste, expired drugs",
+            "Incineration"
+          ],
+          [
+            "Red",
+            "Contaminated plastic tubing, gloves",
+            "Autoclave, recycle"
+          ],
+          [
+            "White",
+            "Needles and sharps",
+            "Shredding, encapsulation"
+          ],
+          [
+            "Blue",
+            "Glassware, metal implants",
+            "Disinfection, recycle"
+          ]
+        ]
+      },
+      "title": "Biomedical Waste Management",
+      "trap": "Cytotoxic drugs go in yellow (with a cytotoxic label), not in a separate black bag — the black bag is gone from the current rules."
+    },
+    {
+      "askedAs": "deficiency indicator and tape cut-offs",
+      "oneLiner": "Height-for-age tells the past (stunting), weight-for-height tells the present (wasting), MUAC below 11.5 cm is SAM.",
+      "points": [
+        "Shakir's tape measures mid-upper arm circumference (MUAC) to screen malnutrition",
+        "MUAC below 11.5 cm (red zone) indicates severe acute malnutrition (SAM)",
+        "Chronic malnutrition is best measured by stunting — low height-for-age",
+        "Acute malnutrition shows as wasting — low weight-for-height",
+        "A child with MUAC 10.5 cm who eats the appetite test well is SAM without complications — treat in the community",
+        "Epidemic dropsy is caused by argemone oil adulteration of mustard oil",
+        "Lathyrism (spastic paralysis) follows excess kesari dal (BOAA toxin)",
+        "Endemic fluorosis comes from excess fluoride in drinking water, not from adulteration",
+        "Global Hunger Index uses undernourishment, child stunting, child wasting and child mortality"
+      ],
+      "title": "Nutrition & Nutritional Assessment",
+      "trap": "MUAC is age-independent between 6 and 59 months — that is exactly why Shakir's tape works in the field."
+    },
+    {
+      "askedAs": "norms, methods and instruments",
+      "oneLiner": "0.5 mg/L free residual chlorine after one hour of contact is the disinfection benchmark.",
+      "points": [
+        "Free residual chlorine of 0.5 mg/L after 1 hour of contact indicates adequate water disinfection",
+        "Horrock's apparatus estimates the chlorine demand of water",
+        "Slow sand filtration purifies water largely by its biological layer (schmutzdecke)",
+        "Trickling filter / percolating methods purify sewage by aerobic bacterial action through media beds",
+        "Overcrowding criterion: more than 2 persons per room is overcrowding (sex separation adds stricter rules)",
+        "Recommended classroom space is about 10 sq ft per student",
+        "Hygrometer (psychrometer) measures humidity and dew point of air",
+        "Controlled tipping (trench method) needs roughly 1 acre of land per 10,000 population per year",
+        "Cholera and typhoid are the classic water-borne diseases used to judge a water supply"
+      ],
+      "title": "Environment, Water & Sanitation",
+      "trap": "A trench-method land question is a favourite arithmetic stem — remember 1 acre per 10,000 population."
+    },
+    {
+      "askedAs": "benefit percentage and disease–industry pairs",
+      "oneLiner": "ESI sickness benefit pays 70% of wages; silicosis is the pneumoconiosis that leads every list.",
+      "points": [
+        "ESI Act: sickness benefit is 70% of wages for up to 91 days (about 3 months) in a year",
+        "ESI maternity benefit is payable for 26 weeks under the amended provisions",
+        "Silicosis (silica dust, mining and stone work) is the commonest pneumoconiosis",
+        "Byssinosis strikes cotton workers — chest tightness worst on Mondays",
+        "Bagassosis comes from mouldy sugarcane fibre (thermophilic actinomycetes)",
+        "Sickness absenteeism rate is used as an indicator of workers' health status",
+        "Ergonomics is the science of fitting the job to the worker",
+        "Lead is the classic industrial poison: anaemia, blue gum line, wrist drop",
+        "The ESI scheme covers medical benefit, sickness, maternity, disablement and dependants' benefits"
+      ],
+      "title": "Occupational Health & ESI",
+      "trap": "The 70%-for-3-months fact belongs to ESI sickness benefit — stems disguise it as maternity or disablement benefit."
+    },
+    {
+      "askedAs": "method size, agency and target facts",
+      "oneLiner": "Focus group 6–12 people; WHO Geneva, 7 April 1948; SDG aims for global MMR below 70 by 2030.",
+      "points": [
+        "Focus group discussion works best with 6–12 participants plus a facilitator",
+        "Role play (sociodrama) suits demonstrating skills like ORS preparation or wound care to a group",
+        "Propaganda gives one-sided facts to push a decision; health education gives facts and lets people decide",
+        "Demonstration is the most effective single method for teaching a practical skill to a rural group",
+        "ABC analysis classifies inventory by cost: A items are few but consume most of the budget",
+        "WHO headquarters is in Geneva; the WHO constitution came into force on 7 April 1948 (World Health Day)",
+        "SDG target 3.1: reduce the global maternal mortality ratio to below 70 per 1,00,000 live births by 2030",
+        "Andaman & Nicobar and Lakshadweep are rabies-free areas of India",
+        "Disaster management cycle order: response → recovery → mitigation → preparedness (a repeating cycle)"
+      ],
+      "title": "Health Communication, Management & International Health",
+      "trap": "Health propaganda and health education are opposites in these stems — propaganda conceals and compels, education informs and frees."
+    }
+  ]
+}

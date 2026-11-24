@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "Upper trunk of brachial plexus, C5–C6 (Erb palsy).",
+      "front": "Waiter's tip hand after a difficult shoulder delivery — roots injured?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Lower trunk C8–T1 (Klumpke palsy); Horner comes from T1 sympathetic involvement.",
+      "front": "Claw hand with Horner syndrome after neck trauma — lesion level?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Axillary nerve — deltoid paralysis and sensory loss over the regimental badge area.",
+      "front": "Nerve injured in fracture of the surgical neck of the humerus?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Radial nerve in the spiral groove; triceps is spared because its branches arise proximal to the groove.",
+      "front": "Wrist drop after a mid-shaft humerus fracture — which nerve, and is the triceps weak?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Posterior interosseous nerve; extensor carpi radialis longus is spared, so the wrist still extends.",
+      "front": "Finger drop with preserved wrist extension and no sensory loss — nerve?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Median nerve compressed in the carpal tunnel.",
+      "front": "Thenar wasting with tingling in the lateral three and a half fingers — nerve and site?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Ulnar nerve — adductor pollicis is paralysed, so flexor pollicis longus compensates.",
+      "front": "Positive Froment sign (thumb IP flexion while pinching paper) — nerve?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Serratus anterior, supplied by the long thoracic nerve (C5, 6, 7).",
+      "front": "Medial winging of the scapula on pushing against a wall — muscle and nerve?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Ulnar paradox: high lesions also paralyse flexor digitorum profundus, so the fingers cannot flex into a claw.",
+      "front": "In ulnar nerve palsy, why is clawing LESS in a high lesion than a low one?",
+      "topic": "Brachial Plexus & Upper Limb Nerve Injuries"
+    },
+    {
+      "back": "Scaphoid — the bone forming the floor of the snuffbox with the trapezium.",
+      "front": "Tenderness in the anatomical snuffbox after a fall on the outstretched hand — bone?",
+      "topic": "The Hand: Spaces, Snuffbox & Motor Pearls"
+    },
+    {
+      "back": "Lateral two Lumbricals, Opponens pollicis, Abductor pollicis brevis, Flexor pollicis brevis.",
+      "front": "What do the letters of LOAF stand for in median nerve supply of the hand?",
+      "topic": "The Hand: Spaces, Snuffbox & Motor Pearls"
+    },
+    {
+      "back": "Common peroneal (fibular) nerve, winding round the neck of the fibula.",
+      "front": "Foot drop with loss of eversion after a fibular neck injury — nerve?",
+      "topic": "Lower Limb: Nerves, Gait & Bursae"
+    },
+    {
+      "back": "Left gluteus medius and minimus — superior gluteal nerve (Trendelenburg sign).",
+      "front": "Standing on the left leg makes the right side of the pelvis drop — paralysed muscles and nerve?",
+      "topic": "Lower Limb: Nerves, Gait & Bursae"
+    },
+    {
+      "back": "Vastus medialis, especially its oblique fibres pulling the patella medially.",
+      "front": "Which muscle prevents lateral displacement of the patella?",
+      "topic": "Lower Limb: Nerves, Gait & Bursae"
+    },
+    {
+      "back": "Prepatellar bursa, from repeated kneeling.",
+      "front": "Housemaid's knee — which bursa is inflamed?",
+      "topic": "Lower Limb: Nerves, Gait & Bursae"
+    },
+    {
+      "back": "Posterior tibial artery.",
+      "front": "Artery palpated between the medial malleolus and the Achilles tendon?",
+      "topic": "Lower Limb: Nerves, Gait & Bursae"
+    },
+    {
+      "back": "Afferent: ophthalmic division of trigeminal (V1, nasociliary). Efferent: facial nerve (VII).",
+      "front": "Afferent and efferent limbs of the corneal reflex?",
+      "topic": "Cranial Nerves & the Cavernous Sinus"
+    },
+    {
+      "back": "Abducens nerve (VI) — the only nerve within the sinus itself.",
+      "front": "Which cranial nerve runs inside the cavernous sinus, beside the internal carotid artery?",
+      "topic": "Cranial Nerves & the Cavernous Sinus"
+    },
+    {
+      "back": "Right hypoglossal nerve (lower motor neuron) — tongue points towards the lesion.",
+      "front": "Tongue deviates to the right on protrusion — which nerve, which side?",
+      "topic": "Cranial Nerves & the Cavernous Sinus"
+    },
+    {
+      "back": "Spinal accessory nerve (XI), supplying trapezius and sternocleidomastoid.",
+      "front": "Weak shoulder shrug and weak head turning after a neck wound — nerve?",
+      "topic": "Cranial Nerves & the Cavernous Sinus"
+    },
+    {
+      "back": "Lingual nerve, a branch of the mandibular division of trigeminal.",
+      "front": "Loss of general sensation over the anterior two-thirds of the tongue after third molar extraction — nerve?",
+      "topic": "Cranial Nerves & the Cavernous Sinus"
+    },
+    {
+      "back": "Wernicke area, posterior superior temporal gyrus of the dominant hemisphere.",
+      "front": "Fluent speech that makes no sense, with poor comprehension — lesion site?",
+      "topic": "Brain: Functional Areas & Vascular Anatomy"
+    },
+    {
+      "back": "The lower limb (and bladder control) — it is the leg area of motor and sensory cortex.",
+      "front": "Lesion of the paracentral lobule affects which body region?",
+      "topic": "Brain: Functional Areas & Vascular Anatomy"
+    },
+    {
+      "back": "Amygdala — Klüver–Bucy syndrome.",
+      "front": "Hyperorality, hypersexuality, loss of fear and visual agnosia — structure damaged bilaterally?",
+      "topic": "Brain: Functional Areas & Vascular Anatomy"
+    },
+    {
+      "back": "Middle meningeal artery, entering through the foramen spinosum.",
+      "front": "Extradural hematoma after a blow at the pterion — artery torn, and through which foramen does it enter the skull?",
+      "topic": "Brain: Functional Areas & Vascular Anatomy"
+    },
+    {
+      "back": "Caudate nucleus and putamen.",
+      "front": "Neostriatum consists of which two nuclei?",
+      "topic": "Brain: Functional Areas & Vascular Anatomy"
+    },
+    {
+      "back": "Pyramidal decussation in the lower medulla.",
+      "front": "At which site do corticospinal tract fibres cross?",
+      "topic": "Spinal Cord: Tracts & Lesion Patterns"
+    },
+    {
+      "back": "Contralateral side, beginning 1–2 segments below the lesion (Brown-Séquard syndrome).",
+      "front": "Hemisection of the cord: pain-temperature loss is on which side, starting where?",
+      "topic": "Spinal Cord: Tracts & Lesion Patterns"
+    },
+    {
+      "back": "Syringomyelia — a central cord syrinx interrupting crossing spinothalamic fibres.",
+      "front": "Cape-like loss of pain and temperature over both shoulders with touch preserved — lesion?",
+      "topic": "Spinal Cord: Tracts & Lesion Patterns"
+    },
+    {
+      "back": "Persistence of the 2nd pharyngeal cleft (cervical sinus) — a branchial cyst.",
+      "front": "Cystic neck swelling anterior to sternocleidomastoid at its upper-middle third junction — embryological cause?",
+      "topic": "Pharyngeal Arches, Clefts & Neck Embryology"
+    },
+    {
+      "back": "First pharyngeal arch (Treacher Collins syndrome).",
+      "front": "Hypoplastic mandible and zygoma with malformed ears — which arch failed?",
+      "topic": "Pharyngeal Arches, Clefts & Neck Embryology"
+    },
+    {
+      "back": "Left 6th pharyngeal (aortic) arch artery.",
+      "front": "The ductus arteriosus is the derivative of which arch artery?",
+      "topic": "Pharyngeal Arches, Clefts & Neck Embryology"
+    },
+    {
+      "back": "Monochorionic-monoamniotic twins (split at 9–12 days).",
+      "front": "A single zygote splits on day 10 after fertilisation — what type of twins?",
+      "topic": "General Embryology: Twins, Gut & Heart Defects"
+    },
+    {
+      "back": "Vitellointestinal (omphalomesenteric) duct.",
+      "front": "Newborn passing meconium from the umbilicus — persistent structure?",
+      "topic": "General Embryology: Twins, Gut & Heart Defects"
+    },
+    {
+      "back": "Membranous (perimembranous) VSD — also the commonest congenital heart defect.",
+      "front": "Most common type of ventricular septal defect?",
+      "topic": "General Embryology: Twins, Gut & Heart Defects"
+    },
+    {
+      "back": "15 cm (cricopharyngeus), 25 cm (aortic arch/left bronchus), 40 cm (diaphragm).",
+      "front": "Distances of the three oesophageal constrictions from the incisors?",
+      "topic": "Thorax: Mediastinum, Oesophagus & Diaphragm"
+    },
+    {
+      "back": "T8, T10 and T12 respectively.",
+      "front": "Vertebral levels of the vena caval, oesophageal and aortic openings of the diaphragm?",
+      "topic": "Thorax: Mediastinum, Oesophagus & Diaphragm"
+    },
+    {
+      "back": "Pouch of Douglas (rectouterine pouch) — pus and blood collect here.",
+      "front": "Which space, felt on per-rectal or per-vaginal exam, is the most dependent part of the female peritoneal cavity?",
+      "topic": "Abdomen & Pelvis: Peritoneum, Portal System, Hernia & Supports"
+    },
+    {
+      "back": "Left gastric vein (portal) with the azygos system (systemic).",
+      "front": "Which veins anastomose at the lower oesophagus to form varices?",
+      "topic": "Abdomen & Pelvis: Peritoneum, Portal System, Hernia & Supports"
+    },
+    {
+      "back": "Segments II, III and IV — the quadrate lobe (IV) belongs to the left lobe.",
+      "front": "A left hemihepatectomy removes which Couinaud segments?",
+      "topic": "Abdomen & Pelvis: Peritoneum, Portal System, Hernia & Supports"
+    },
+    {
+      "back": "Rima glottidis (the glottic opening between the vocal cords).",
+      "front": "Narrowest part of the adult larynx?",
+      "topic": "Head & Neck: Larynx, Tonsil, Glands & Triangles"
+    },
+    {
+      "back": "Internal laryngeal nerve, branch of the superior laryngeal nerve.",
+      "front": "Nerve giving sensory supply to the larynx above the vocal cords?",
+      "topic": "Head & Neck: Larynx, Tonsil, Glands & Triangles"
+    },
+    {
+      "back": "Sternocleidomastoid muscle, internal jugular vein and spinal accessory nerve.",
+      "front": "Which three structures are preserved in a modified radical neck dissection?",
+      "topic": "Head & Neck: Larynx, Tonsil, Glands & Triangles"
+    },
+    {
+      "back": "Type II collagen.",
+      "front": "Predominant collagen type in hyaline cartilage?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    },
+    {
+      "back": "Simple columnar ciliated epithelium.",
+      "front": "Epithelium lining the fallopian tube?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    },
+    {
+      "back": "Pressure epiphysis — articular, transmits body weight.",
+      "front": "Head of the femur is which type of epiphysis?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    },
+    {
+      "back": "6th month of intrauterine life.",
+      "front": "At what fetal age does the talus begin to ossify?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    },
+    {
+      "back": "Mandibular central incisor, at about 6 months.",
+      "front": "First primary tooth to erupt, and at what age?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    },
+    {
+      "back": "L3.",
+      "front": "Subcostal plane corresponds to which vertebral level?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    },
+    {
+      "back": "Radioulnar joints — proximal pivot joint (with the distal radioulnar joint).",
+      "front": "Pronation and supination of the forearm occur at which joint?",
+      "topic": "Histology, Osteology & Vertebral Levels"
+    }
+  ],
+  "slug": "anatomy",
+  "subject": "Anatomy"
+}

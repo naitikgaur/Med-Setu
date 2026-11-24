@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "About 6–7 months — the age of hand-to-hand transfer",
+      "front": "At what age does a baby transfer objects from one hand to the other?",
+      "topic": "Developmental Milestones & Reflexes"
+    },
+    {
+      "back": "A 6–7-month-old (tripod sitting, transfers objects, babbles; no pincer grasp or bye-bye yet)",
+      "front": "A baby sits leaning on her hands, transfers a cube and babbles but cannot wave bye-bye. Her age?",
+      "topic": "Developmental Milestones & Reflexes"
+    },
+    {
+      "back": "Swallowing (with gagging and cough) — these persist for life; the parachute reflex also persists",
+      "front": "Which primitive reflex never disappears?",
+      "topic": "Developmental Milestones & Reflexes"
+    },
+    {
+      "back": "Mild intellectual disability — the mild range is IQ 50–70",
+      "front": "A child has an IQ of 55. Which category of intellectual disability?",
+      "topic": "Developmental Milestones & Reflexes"
+    },
+    {
+      "back": "Familial short stature — growth matches the parents and bone age equals age",
+      "front": "Short child, height matches parents, bone age equal to chronological age. Diagnosis?",
+      "topic": "Growth & Short Stature"
+    },
+    {
+      "back": "Laron dwarfism — growth hormone receptor insensitivity",
+      "front": "Short stature with high GH but low IGF-1 means?",
+      "topic": "Growth & Short Stature"
+    },
+    {
+      "back": "Constitutional delay of growth and puberty",
+      "front": "Short 12-year-old, bone age delayed, otherwise healthy and normal exam. Most likely cause?",
+      "topic": "Growth & Short Stature"
+    },
+    {
+      "back": "Below 60/min despite effective ventilation — start chest compressions",
+      "front": "In neonatal resuscitation, compressions begin below which heart rate?",
+      "topic": "Neonatology Essentials & Resuscitation"
+    },
+    {
+      "back": "Room air (21% oxygen) — 100% oxygen is not the starting gas for term babies",
+      "front": "What oxygen concentration starts resuscitation of a term newborn?",
+      "topic": "Neonatology Essentials & Resuscitation"
+    },
+    {
+      "back": "Vitamin K prevents haemorrhagic disease of the newborn (vitamin K deficiency bleeding)",
+      "front": "Why is vitamin K injected in every newborn?",
+      "topic": "Neonatology Essentials & Resuscitation"
+    },
+    {
+      "back": "Biliary atresia — arrange early Kasai portoenterostomy",
+      "front": "Two-week-old with conjugated jaundice, dark urine and clay stools. Diagnosis?",
+      "topic": "Neonatal Jaundice & Metabolic Problems"
+    },
+    {
+      "back": "Alpha-1 antitrypsin deficiency",
+      "front": "Neonatal cholestasis with PAS-positive granules in hepatocytes on biopsy suggests?",
+      "topic": "Neonatal Jaundice & Metabolic Problems"
+    },
+    {
+      "back": "Galactosaemia — look for reducing sugar in the urine",
+      "front": "Jaundice, hepatomegaly, oil-drop cataracts and failure to thrive in a 2-month-old point to?",
+      "topic": "Neonatal Jaundice & Metabolic Problems"
+    },
+    {
+      "back": "Tracheo-oesophageal fistula with oesophageal atresia",
+      "front": "A newborn drools frothy saliva and the NG tube will not pass. Diagnosis?",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Omphalocele — the herniated organs are covered by a membranous sac",
+      "front": "Liver and bowel herniate through the umbilicus inside a shiny sac. Name it",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Gastroschisis — bowel lies outside with no sac, usually right of the cord",
+      "front": "How does gastroschisis differ from omphalocele on inspection?",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Congenital hypertrophic pyloric stenosis — correct electrolytes, then pyloromyotomy",
+      "front": "Projectile non-bilious vomiting with a palpable epigastric 'olive' at 4 weeks means?",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Hirschsprung disease — rectal biopsy showing absent ganglion cells confirms it",
+      "front": "No meconium since birth, explosive stool after rectal examination. Diagnosis and gold standard?",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Congenital diaphragmatic hernia (Bochdalek type)",
+      "front": "Cyanosed newborn, scaphoid abdomen and bowel sounds heard in the chest — diagnosis?",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Choanal atresia — the blocked nose opens when the baby cries and breathes through the mouth",
+      "front": "A newborn is cyanosed at rest but pinks up when crying. What anatomical block?",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Meningomyelocele — a sac containing spinal cord and nerves",
+      "front": "A lower-back sac containing cord tissue with weak legs in a newborn is a ___",
+      "topic": "The Surgical Neonate"
+    },
+    {
+      "back": "Severe acute malnutrition without complications — community-based management",
+      "front": "MUAC 105 mm, child eats therapeutic food eagerly. Which SAM category?",
+      "topic": "Nutrition, SAM & Vitamin Deficiencies"
+    },
+    {
+      "back": "1,00,000 IU orally for an infant under 1 year (2,00,000 IU above 1 year)",
+      "front": "Vitamin A treatment dose for an 8-month-old with deficiency?",
+      "topic": "Nutrition, SAM & Vitamin Deficiencies"
+    },
+    {
+      "back": "Rickets — vitamin D deficiency with defective bone mineralisation",
+      "front": "Beaded ribs, craniotabes and widened wrists in a toddler indicate?",
+      "topic": "Nutrition, SAM & Vitamin Deficiencies"
+    },
+    {
+      "back": "Scurvy — vitamin C deficiency (Barlow disease in infants)",
+      "front": "Bleeding gums, bone pain and petechiae in a child — which vitamin is missing?",
+      "topic": "Nutrition, SAM & Vitamin Deficiencies"
+    },
+    {
+      "back": "Zinc deficiency — acrodermatitis enteropathica",
+      "front": "Perioral and perianal rash with chronic diarrhoea in a baby — which mineral?",
+      "topic": "Nutrition, SAM & Vitamin Deficiencies"
+    },
+    {
+      "back": "Some dehydration — treat with Plan B (ORS 75 mL/kg over 4 hours)",
+      "front": "Child drinks eagerly but the skin pinch returns slowly. IMNCI dehydration class?",
+      "topic": "Diarrhoea, Dehydration & IMNCI"
+    },
+    {
+      "back": "Pneumonia by IMNCI — fast breathing alone at this age, no chest indrawing or danger signs",
+      "front": "A 3-month-old breathes fast with no indrawing and no danger signs. IMNCI class?",
+      "topic": "Diarrhoea, Dehydration & IMNCI"
+    },
+    {
+      "back": "Diphtheria — give antitoxin plus antibiotics; do not delay antitoxin",
+      "front": "Unimmunised child, fever and a grey tonsillar membrane that bleeds when removed. Diagnosis?",
+      "topic": "Childhood Infections & Emergencies"
+    },
+    {
+      "back": "Measles — give vitamin A as part of treatment",
+      "front": "Fever, cough, red eyes and a rash spreading from behind the ears in a 5-year-old. Diagnosis?",
+      "topic": "Childhood Infections & Emergencies"
+    },
+    {
+      "back": "Streptococcus pneumoniae is the commonest bacterial cause at this age",
+      "front": "Commonest cause of bacterial meningitis in a 1-year-old?",
+      "topic": "Childhood Infections & Emergencies"
+    },
+    {
+      "back": "IV immunoglobulin plus aspirin",
+      "front": "Treatment of Kawasaki disease with coronary aneurysms?",
+      "topic": "Childhood Infections & Emergencies"
+    },
+    {
+      "back": "Coxsackie A16 — hand-foot-mouth disease",
+      "front": "Vesicles on palms, soles and inside the mouth are caused by which virus?",
+      "topic": "Childhood Infections & Emergencies"
+    },
+    {
+      "back": "Atrial septal defect — the split is fixed and does not vary with respiration",
+      "front": "Widely split second heart sound that stays fixed in a 6-year-old means?",
+      "topic": "Heart & Airway Favourites"
+    },
+    {
+      "back": "Tetralogy of Fallot — boot-shaped heart on X-ray supports it",
+      "front": "Cyanotic spells, clubbing and a harsh murmur at the left upper sternal edge. Diagnosis?",
+      "topic": "Heart & Airway Favourites"
+    },
+    {
+      "back": "Croup (laryngotracheitis) — the narrow subglottis gives the steeple sign",
+      "front": "Barking cough with a steeple sign on neck X-ray — diagnosis?",
+      "topic": "Heart & Airway Favourites"
+    },
+    {
+      "back": "Sweat chloride test is the gold standard for cystic fibrosis",
+      "front": "Gold standard test to confirm cystic fibrosis?",
+      "topic": "Heart & Airway Favourites"
+    },
+    {
+      "back": "Minimal change disease — steroids (prednisolone) are first-line",
+      "front": "Childhood nephrotic syndrome with normal light microscopy and foot-process effacement — type and treatment?",
+      "topic": "Kidney, Blood & Poisoning"
+    },
+    {
+      "back": "Glomerulonephritis (post-streptococcal) — RBC casts mean a glomerular source",
+      "front": "Haematuria with red blood cell casts in a 10-year-old points to?",
+      "topic": "Kidney, Blood & Poisoning"
+    },
+    {
+      "back": "Haemophilia A — factor VIII deficiency prolongs aPTT only",
+      "front": "Boy with haemarthroses, normal platelets and PT but prolonged aPTT. Diagnosis?",
+      "topic": "Kidney, Blood & Poisoning"
+    },
+    {
+      "back": "Deferoxamine is the chelator for acute iron poisoning",
+      "front": "Antidote for iron tablet poisoning in a toddler?",
+      "topic": "Kidney, Blood & Poisoning"
+    },
+    {
+      "back": "Wilms tumour — a flank mass that classically does not cross the midline",
+      "front": "Painless abdominal mass confined to one flank in a 4-year-old. Diagnosis?",
+      "topic": "Childhood Tumours & Orthopaedic Favourites"
+    },
+    {
+      "back": "Burkitt lymphoma — an endemic African jaw tumour linked to EBV",
+      "front": "Jaw swelling in a 5-year-old with starry-sky histology is which lymphoma?",
+      "topic": "Childhood Tumours & Orthopaedic Favourites"
+    },
+    {
+      "back": "Perthes disease — avascular necrosis of the femoral head",
+      "front": "A 9-year-old limps with hip pain and lost internal rotation. Diagnosis?",
+      "topic": "Childhood Tumours & Orthopaedic Favourites"
+    },
+    {
+      "back": "Osteogenesis imperfecta — defective type I collagen",
+      "front": "Recurrent fractures, blue sclera and bad teeth in a 10-year-old suggest?",
+      "topic": "Childhood Tumours & Orthopaedic Favourites"
+    },
+    {
+      "back": "Cri-du-chat syndrome — deletion of the short arm of chromosome 5 (5p)",
+      "front": "Microcephaly with a high-pitched cat-like cry — which deletion?",
+      "topic": "Genetics & Classic Syndromes"
+    },
+    {
+      "back": "Down syndrome — trisomy 21",
+      "front": "Single palmar crease, hypotonia and a cardiac defect in a newborn suggest?",
+      "topic": "Genetics & Classic Syndromes"
+    },
+    {
+      "back": "Prader-Willi syndrome — loss of the paternal 15q11–13 region",
+      "front": "Deletion on chromosome 15 inherited from the father, with hypotonia and later obesity — syndrome?",
+      "topic": "Genetics & Classic Syndromes"
+    },
+    {
+      "back": "Only from the mother — mitochondrial DNA is maternally inherited",
+      "front": "A mitochondrial disorder is inherited from which parent?",
+      "topic": "Genetics & Classic Syndromes"
+    },
+    {
+      "back": "Bruton (X-linked) agammaglobulinaemia — B cells and all immunoglobulins are low",
+      "front": "Recurrent staphylococcal infections with absent B cells and low IgG, IgA, IgM, IgE — diagnosis?",
+      "topic": "Genetics & Classic Syndromes"
+    }
+  ],
+  "slug": "paediatrics",
+  "subject": "Paediatrics"
+}

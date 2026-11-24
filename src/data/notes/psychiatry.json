@@ -1,0 +1,320 @@
+{
+  "goldenPoints": [
+    "Schneider's first-rank symptoms: thought insertion/withdrawal/broadcast, passivity, voices commenting or arguing, delusional perception",
+    "Acute dystonia on haloperidol → IV/IM anticholinergic (benzatropine or promethazine) immediately",
+    "Delirium tremens appears 48–72 hours after stopping alcohol; benzodiazepines are the treatment",
+    "Lithium in pregnancy → Ebstein anomaly of the tricuspid valve",
+    "Aripiprazole is a D2 partial agonist — the atypical with the least metabolic and prolactin trouble",
+    "Neuroleptic malignant syndrome: lead-pipe rigidity + hyperthermia + raised CPK — stop the antipsychotic",
+    "Clozapine is for treatment-resistant schizophrenia and can cause agranulocytosis — monitor blood counts",
+    "Depression is linked to low serotonin and noradrenaline; SSRIs are first-line drugs, CBT first for mild depression",
+    "Capgras syndrome: a familiar person is believed replaced by an identical imposter",
+    "Rett syndrome: a girl who develops normally, then regresses with hand-wringing stereotypies"
+  ],
+  "intro": "Psychiatry carries 5 questions per FMGE paper, drawn from a small, very repeatable pool: first-rank symptoms, delusion types, antipsychotic side effects and their antidotes, alcohol withdrawal timing, and childhood disorders. Stems are short vignettes — learn to map each vignette phrase to its named phenomenon.",
+  "mindmap": {
+    "branches": [
+      {
+        "label": "Psychopathology",
+        "leaves": [
+          "First-rank symptoms",
+          "Capgras = imposter",
+          "Erotomania = de Clerambault",
+          "Pseudohallucination: insight kept",
+          "Flat affect = negative symptom"
+        ]
+      },
+      {
+        "label": "Schizophrenia",
+        "leaves": [
+          "Bleuler's 4 As",
+          "Auditory hallucinations commonest",
+          "Hebephrenic: worst prognosis",
+          "Clozapine if resistant"
+        ]
+      },
+      {
+        "label": "Mood Disorders",
+        "leaves": [
+          "Depression: 5-HT + NA low",
+          "Mania: ↓ need for sleep",
+          "Lithium → Ebstein anomaly",
+          "Recurrent = 2+ episodes"
+        ]
+      },
+      {
+        "label": "Antipsychotics",
+        "leaves": [
+          "Dystonia → anticholinergic IV",
+          "NMS: rigidity + fever + CPK",
+          "Aripiprazole: least metabolic",
+          "Risperidone: ↑ prolactin most"
+        ]
+      },
+      {
+        "label": "Anxiety & OCD",
+        "leaves": [
+          "GAD: worry > 6 months",
+          "Panic peaks in minutes",
+          "Acrophobia = heights",
+          "OCD: SSRI + ERP"
+        ]
+      },
+      {
+        "label": "Substance Use",
+        "leaves": [
+          "Withdrawal tremor first",
+          "DT at 48–72 hours",
+          "Wernicke: eye, gait, mind",
+          "Cocaine: formication"
+        ]
+      },
+      {
+        "label": "Child & Eating",
+        "leaves": [
+          "ADHD: methylphenidate",
+          "Rett: hand-wringing girl",
+          "Fragile X: macroorchidism",
+          "Bulimia: normal weight"
+        ]
+      }
+    ],
+    "center": "Psychiatry"
+  },
+  "slug": "psychiatry",
+  "subject": "Psychiatry",
+  "tagline": "FMGE asks named phenomena — first-rank symptoms, delusion types, drug side effects and withdrawal timings",
+  "topics": [
+    {
+      "askedAs": "name the phenomenon in the vignette",
+      "oneLiner": "Passivity = 'my thoughts/actions are controlled from outside'; Capgras = imposter; erotomania = 'he loves me' without evidence.",
+      "points": [
+        "A delusion is a fixed, false, unshakable belief, out of keeping with the person's culture and education",
+        "A hallucination is a perception without a stimulus; an illusion is a misinterpretation of a real stimulus",
+        "Pseudohallucination: experienced in inner subjective space, with insight retained — the patient knows it is not real perception",
+        "Schneider's first-rank symptoms: thought insertion, withdrawal and broadcasting; passivity phenomena (made acts, feelings, impulses); voices commenting or arguing; audible thoughts; delusional perception",
+        "Passivity phenomenon: the patient believes his thoughts, feelings or actions are controlled by an external agency",
+        "Capgras syndrome: a familiar person is believed to have been replaced by an identical-looking imposter",
+        "De Clerambault syndrome (erotomania): the false belief that another person, usually of higher status, is in love with the patient",
+        "Persecutory (paranoid) delusions are the commonest type of delusion overall",
+        "Flat (blunted) affect — poverty of emotional expression — is a negative symptom, seen in schizophrenia",
+        "Formication is a tactile hallucination of insects crawling on the skin, classic in cocaine use and delirium tremens",
+        "Sudden confusion with hallucinations hours after surgery or in a sick patient is delirium until proved otherwise: acute onset, fluctuating course, disorientation"
+      ],
+      "title": "Basics & Psychopathology: Delusions, Hallucinations, Defence Mechanisms",
+      "trap": "Pseudohallucination is NOT a 'false hallucination' to dismiss — its defining features are inner-space location and preserved insight."
+    },
+    {
+      "askedAs": "first-rank symptoms; subtype and prognosis",
+      "oneLiner": "Third-person auditory hallucinations + first-rank symptoms + a young patient = schizophrenia; disorganised (hebephrenic) type fares worst.",
+      "points": [
+        "Bleuler's four As: autism (withdrawal), ambivalence, affective blunting, and loosening of associations",
+        "Auditory hallucinations are the commonest hallucinations in schizophrenia; third-person and running-commentary voices are characteristic",
+        "Negative symptoms (the 5 As of deficit): alogia, avolition, anhedonia, asociality and affective flattening",
+        "Catatonic features: stupor, mutism, negativism, posturing and waxy flexibility",
+        "Disorganised (hebephrenic) schizophrenia has the worst prognosis; paranoid schizophrenia the relatively best among classic subtypes",
+        "Good prognostic factors: acute onset, late onset, obvious precipitating stress, affective symptoms, female sex, good premorbid adjustment",
+        "Treatment rests on dopamine D2-blocking antipsychotics; clozapine is reserved for treatment-resistant illness",
+        "Delusional disorder: a single, non-bizarre delusion with otherwise preserved personality and functioning",
+        "Schizophrenia typically begins in late adolescence or early adult life"
+      ],
+      "title": "Schizophrenia & Other Psychotic Disorders",
+      "trap": "Voices discussing the patient in the third person are a first-rank symptom — do not label every auditory hallucination in a vignette as 'just schizophrenia' without checking for delirium or mood disorder with psychotic features."
+    },
+    {
+      "askedAs": "diagnosis from symptom cluster; first drug/class",
+      "oneLiner": "Low mood + anhedonia + early-morning waking for over 2 weeks = depression; think serotonin and noradrenaline.",
+      "points": [
+        "Core symptoms of depression: persistently low mood, anhedonia (loss of interest/pleasure) and fatigability, lasting at least 2 weeks",
+        "Biological features: early-morning awakening, appetite and weight loss, loss of libido, psychomotor retardation, mood worst in the morning",
+        "Depression is classically linked to reduced serotonin and noradrenaline activity",
+        "Beck's cognitive triad: negative views of the self, the world and the future",
+        "Recurrent depressive disorder means two or more separate depressive episodes",
+        "Mild depression: psychological treatment (CBT) is the recommended first step before antidepressants",
+        "SSRIs are the first-line drug class for moderate–severe depression",
+        "Tricyclics are dangerous in overdose (cardiotoxicity) and strongly anticholinergic; MAO inhibitors can trigger a tyramine ('cheese') hypertensive crisis",
+        "Atypical depression shows hypersomnia, increased appetite and mood reactivity",
+        "Postpartum blues are mild and self-limiting in days; postpartum psychosis is a psychiatric emergency"
+      ],
+      "table": {
+        "head": [
+          "Class",
+          "Exam hook"
+        ],
+        "rows": [
+          [
+            "SSRI",
+            "First line; safer in overdose"
+          ],
+          [
+            "TCA",
+            "Cardiotoxic in overdose"
+          ],
+          [
+            "MAOI",
+            "Tyramine cheese reaction"
+          ],
+          [
+            "SNRI",
+            "Venlafaxine; BP can rise"
+          ]
+        ]
+      },
+      "title": "Depression & Antidepressants",
+      "trap": "A depressed patient who suddenly becomes energetic in the first weeks of treatment carries a high suicide risk — energy returns before mood lifts."
+    },
+    {
+      "askedAs": "mood stabiliser choice; lithium in pregnancy",
+      "oneLiner": "Decreased NEED for sleep separates mania from mere insomnia; lithium's fetal signature is Ebstein anomaly.",
+      "points": [
+        "Mania: elevated, expansive or irritable mood with increased energy for at least 1 week, causing marked impairment",
+        "Signature manic features: decreased need for sleep, pressured speech, flight of ideas, grandiosity, distractibility and reckless spending",
+        "Hypomania is the same picture in milder form for at least 4 days, without psychosis or marked impairment",
+        "Lithium is the classic first-line mood stabiliser for bipolar disorder and for mania prophylaxis",
+        "Lithium in pregnancy is associated with Ebstein anomaly — downward displacement of the tricuspid valve",
+        "Lithium has a narrow therapeutic index; toxicity gives coarse tremor, ataxia, vomiting and confusion",
+        "Long-term lithium effects: hypothyroidism, nephrogenic diabetes insipidus, and hyperparathyroidism with hypercalcaemia (fatigue, constipation, stones, polyuria)",
+        "Valproate in pregnancy is linked to neural tube defects; it is avoided in women of childbearing age where possible",
+        "Rapid cycling bipolar disorder means four or more mood episodes in a year"
+      ],
+      "title": "Mania, Bipolar Disorder & Mood Stabilisers",
+      "trap": "Polyuria, constipation, stones and low mood in a patient on lithium point to hypercalcaemia from hyperparathyroidism — check calcium before blaming the depression."
+    },
+    {
+      "askedAs": "which side effect, and its immediate treatment",
+      "oneLiner": "Dystonia in hours, parkinsonism in weeks, dyskinesia in years — and rigidity with fever is NMS until proved otherwise.",
+      "points": [
+        "Extrapyramidal side effects follow a time order: acute dystonia (hours–days) → akathisia → drug-induced parkinsonism (days–weeks) → tardive dyskinesia (months–years)",
+        "Acute dystonia on haloperidol: treat immediately with an IV/IM anticholinergic such as benzatropine or promethazine",
+        "Neuroleptic malignant syndrome: lead-pipe rigidity, high fever, autonomic instability and raised CPK — stop the antipsychotic at once and give supportive care (dantrolene/bromocriptine are the named drugs)",
+        "Haloperidol is a potent typical antipsychotic with high EPS risk and QT prolongation",
+        "Clozapine can cause agranulocytosis, so regular blood-count monitoring is mandatory",
+        "Aripiprazole is a dopamine D2 partial agonist — it has the least metabolic disturbance and minimal prolactin rise among atypicals",
+        "Risperidone raises prolactin the most among commonly used atypicals",
+        "Olanzapine and clozapine cause the most weight gain and metabolic syndrome",
+        "Anticholinergics used for drug-induced parkinsonism (e.g. trihexyphenidyl) themselves cause dry mouth, blurred vision, constipation and urinary retention"
+      ],
+      "table": {
+        "head": [
+          "Side effect",
+          "Timing",
+          "Action"
+        ],
+        "rows": [
+          [
+            "Acute dystonia",
+            "Hours–days",
+            "IV/IM anticholinergic"
+          ],
+          [
+            "Parkinsonism",
+            "Days–weeks",
+            "Anticholinergic / reduce dose"
+          ],
+          [
+            "Tardive dyskinesia",
+            "Months–years",
+            "Stop/reduce drug; no anticholinergic"
+          ],
+          [
+            "NMS",
+            "Any time",
+            "Stop drug; ICU support"
+          ]
+        ]
+      },
+      "title": "Antipsychotics & Their Side Effects",
+      "trap": "Anticholinergics help dystonia and parkinsonism but WORSEN tardive dyskinesia — timing of the movement disorder decides the treatment."
+    },
+    {
+      "askedAs": "match the anxiety syndrome to the vignette",
+      "oneLiner": "Worry about everything for years = GAD; a 10-minute surge of doom = panic; a feared object = phobia — name the phobia by its object.",
+      "points": [
+        "Generalised anxiety disorder: excessive, hard-to-control worry about many everyday things for at least 6 months, with restlessness, fatigue, poor concentration, muscle tension and disturbed sleep",
+        "A panic attack is an abrupt surge of intense fear peaking within minutes: palpitations, sweating, choking sensation, chest pain and fear of dying",
+        "Panic disorder treatment: SSRIs plus cognitive behavioural therapy; benzodiazepines only short term",
+        "Acrophobia is fear of heights; other named phobias: claustrophobia (closed spaces), agoraphobia (crowds/open places, fear of being trapped), social anxiety disorder (scrutiny by others)",
+        "Specific phobias are treated by exposure-based therapy (systematic desensitisation)",
+        "Adjustment disorder: emotional/behavioural symptoms arising within about 3 months of an identifiable stressor, out of proportion but below the threshold of a major disorder",
+        "Anxiety symptoms can be secondary — always think of hyperthyroidism, pheochromocytoma and substance withdrawal in a vignette"
+      ],
+      "title": "Anxiety Disorders, Panic & Phobias",
+      "trap": "A first 'panic attack' in an older patient with chest pain is a medical emergency first — rule out cardiac causes before calling it panic disorder."
+    },
+    {
+      "askedAs": "OCD vs conversion vs fugue vignettes",
+      "oneLiner": "Intrusive thought + ritual = OCD; a lost function with a calm patient = conversion; travel + lost identity = fugue.",
+      "points": [
+        "Obsessions are intrusive, unwanted, ego-dystonic thoughts; compulsions are rituals performed to neutralise them",
+        "Contamination fears with repeated hand-washing are the commonest OCD presentation",
+        "OCD treatment: SSRIs (often at higher doses) and CBT with exposure and response prevention (ERP); clomipramine is the classic alternative drug",
+        "Conversion (functional neurological) disorder: loss of a neurological function (e.g. aphonia, paralysis) with no organic lesion, often with la belle indifférence — a striking lack of concern",
+        "Dissociative fugue: sudden travel away from home with amnesia for one's identity, usually after severe trauma or stress",
+        "Somatisation disorder: many physical complaints across systems over years, with repeated medical consultations and no adequate organic cause",
+        "Illness anxiety disorder (hypochondriasis): preoccupation with having a serious disease despite normal investigations and reassurance",
+        "Body dysmorphic disorder: preoccupation with a perceived appearance defect that others barely notice"
+      ],
+      "title": "OCD, Conversion & Dissociative Disorders",
+      "trap": "OCD thoughts are ego-DYSTONIC (the patient knows they are senseless); the fixed beliefs of psychosis are ego-syntonic — that distinction is the favourite discriminator."
+    },
+    {
+      "askedAs": "withdrawal day-count; DT features and treatment",
+      "oneLiner": "Tremor first, fits next, delirium tremens at 48–72 hours — benzodiazepines treat all of it; thiamine before glucose, always.",
+      "points": [
+        "Alcohol withdrawal timeline: tremulousness and anxiety within 6–12 hours; withdrawal seizures at 12–48 hours; delirium tremens at 48–72 hours",
+        "The earliest (initial) sign of alcohol withdrawal is tremor, with sweating and anxiety",
+        "Delirium tremens: global confusion, disorientation, vivid visual hallucinations (animals, insects), fever and autonomic hyperactivity — it can kill if untreated",
+        "Benzodiazepines are the treatment of choice for alcohol withdrawal and delirium tremens; lorazepam is preferred in liver disease",
+        "Wernicke's encephalopathy triad: ophthalmoplegia, gait ataxia and confusion — caused by thiamine deficiency",
+        "Give thiamine BEFORE glucose in a malnourished alcoholic, or glucose alone can precipitate Wernicke's",
+        "Korsakoff's syndrome: severe anterograde amnesia with confabulation, after Wernicke's",
+        "Formication — insects crawling on the skin — is seen in delirium tremens and in cocaine use",
+        "Relapse-prevention drugs: disulfiram (aversive), naltrexone and acamprosate",
+        "Jet-black discoloration of the tongue with tactile hallucinations is a classic cocaine-abuse picture"
+      ],
+      "table": {
+        "head": [
+          "Time after last drink",
+          "Withdrawal feature"
+        ],
+        "rows": [
+          [
+            "6–12 hours",
+            "Tremor, anxiety, sweating"
+          ],
+          [
+            "12–48 hours",
+            "Generalised seizures"
+          ],
+          [
+            "~48 hours",
+            "Alcoholic hallucinosis"
+          ],
+          [
+            "48–72 hours",
+            "Delirium tremens"
+          ]
+        ]
+      },
+      "title": "Alcohol & Substance Use Disorders",
+      "trap": "Hallucinations at 72 hours with confusion and fever are delirium tremens, not 'alcoholic hallucinosis' — hallucinosis has a clear sensorium and appears earlier."
+    },
+    {
+      "askedAs": "name the childhood disorder; IQ band",
+      "oneLiner": "Hand-wringing girl = Rett; long face + big ears + macroorchidism = Fragile X; binge–purge at normal weight = bulimia.",
+      "points": [
+        "ADHD: inattention, hyperactivity and impulsivity beginning before 12 years and present in more than one setting; first-line drug is methylphenidate, with atomoxetine as the non-stimulant option",
+        "Autism spectrum disorder: persistent deficits in social communication plus restricted, repetitive patterns of behaviour",
+        "Rett syndrome: girls who develop normally for the first months, then regress — losing speech and hand skills, with hand-wringing stereotypies and microcephaly",
+        "Fragile X syndrome is the commonest inherited cause of intellectual disability: long face, large ears, macroorchidism; a CGG trinucleotide repeat disorder",
+        "IQ bands: mild intellectual disability 50–69, moderate 35–49, severe 20–34, profound below 20 — an IQ of 45 is moderate",
+        "Specific learning disorder affects one domain (e.g. dyscalculia — mathematics) despite normal overall intelligence and schooling",
+        "Bulimia nervosa: recurrent binge eating with compensatory vomiting or laxatives, at a NORMAL body weight; repeated vomiting causes hypokalaemic metabolic alkalosis",
+        "Anorexia nervosa: significantly low weight, intense fear of fatness, body-image distortion, amenorrhoea, lanugo hair and bradycardia",
+        "Conduct disorder: a repetitive pattern of violating others' rights and social norms; oppositional defiant disorder lacks the rights-violating aggression"
+      ],
+      "title": "Child Psychiatry & Eating Disorders",
+      "trap": "Bulimia patients are usually normal weight — a low BMI with binge–purge behaviour points to the binge–purge subtype of anorexia nervosa instead."
+    }
+  ]
+}

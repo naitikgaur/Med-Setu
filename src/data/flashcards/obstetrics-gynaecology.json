@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "The first stage of labour — it runs from onset of true pains to full dilatation (10 cm)",
+      "front": "Cervix is 7 cm dilated and fully effaced in a primigravida. Which stage of labour?",
+      "topic": "Normal Labour & Its Stages"
+    },
+    {
+      "back": "At least 1 cm of cervical dilatation per hour",
+      "front": "What dilatation rate is satisfactory in the active phase for a primigravida?",
+      "topic": "Normal Labour & Its Stages"
+    },
+    {
+      "back": "Persistent brow presentation — it needs caesarean section",
+      "front": "A brow presentation fails to convert as labour progresses. What is the management?",
+      "topic": "Malpresentations & Obstructed Labour"
+    },
+    {
+      "back": "Bandl's ring — the retraction ring of obstructed labour",
+      "front": "A visible groove between the upper and lower uterine segments in prolonged labour is called?",
+      "topic": "Malpresentations & Obstructed Labour"
+    },
+    {
+      "back": "Preterm babies (below 34 weeks) and face or brow presentation",
+      "front": "Ventouse delivery is contraindicated in which two situations?",
+      "topic": "Malpresentations & Obstructed Labour"
+    },
+    {
+      "back": "McRoberts manoeuvre — hyperflexion of the mother's thighs, with suprapubic pressure",
+      "front": "First manoeuvre to try in shoulder dystocia?",
+      "topic": "Shoulder Dystocia & Operative Delivery"
+    },
+    {
+      "back": "Wrigley's forceps are the outlet forceps; Kielland forceps rotate the head",
+      "front": "Outlet forceps vs rotational forceps — name one of each",
+      "topic": "Shoulder Dystocia & Operative Delivery"
+    },
+    {
+      "back": "Uterine atony — failure of the uterus to contract (Tone, of the 4 Ts)",
+      "front": "Commonest cause of postpartum haemorrhage?",
+      "topic": "Postpartum Haemorrhage"
+    },
+    {
+      "back": "Carboprost (15-methyl PGF2α) — contraindicated in asthma",
+      "front": "PPH continues despite oxytocin and ergometrine. Which prostaglandin is used, and when is it banned?",
+      "topic": "Postpartum Haemorrhage"
+    },
+    {
+      "back": "Methylergometrine is contraindicated in hypertension and heart disease",
+      "front": "Which uterotonic must be avoided in a hypertensive woman with PPH?",
+      "topic": "Postpartum Haemorrhage"
+    },
+    {
+      "back": "Magnesium sulphate",
+      "front": "Drug of choice to prevent and treat eclamptic convulsions?",
+      "topic": "Hypertensive Disorders in Pregnancy"
+    },
+    {
+      "back": "Calcium gluconate",
+      "front": "Antidote for magnesium sulphate toxicity?",
+      "topic": "Hypertensive Disorders in Pregnancy"
+    },
+    {
+      "back": "ACE inhibitors (and ARBs) are contraindicated in pregnancy",
+      "front": "Which antihypertensive class must never be prescribed in pregnancy?",
+      "topic": "Hypertensive Disorders in Pregnancy"
+    },
+    {
+      "back": "HELLP syndrome — haemolysis, elevated liver enzymes, low platelets",
+      "front": "Pre-eclampsia plus haemolysis, raised liver enzymes and low platelets is called?",
+      "topic": "Hypertensive Disorders in Pregnancy"
+    },
+    {
+      "back": "Digital vaginal examination — it can provoke torrential bleeding",
+      "front": "What examination is absolutely forbidden in placenta previa?",
+      "topic": "Antepartum Haemorrhage: Previa vs Abruption"
+    },
+    {
+      "back": "Abruptio placentae — with Couvelaire uterus and DIC as feared complications",
+      "front": "Painful third-trimester bleeding with a tense, woody-hard uterus points to?",
+      "topic": "Antepartum Haemorrhage: Previa vs Abruption"
+    },
+    {
+      "back": "GDM by the DIPSI single-step test (75 g glucose)",
+      "front": "Fasting 110 and 2-hour 180 mg/dL on OGTT in pregnancy — diagnosis?",
+      "topic": "Medical Disorders in Pregnancy"
+    },
+    {
+      "back": "100 mg elemental iron with 500 micrograms of folic acid daily",
+      "front": "How much iron and folic acid does the national programme give a pregnant woman?",
+      "topic": "Medical Disorders in Pregnancy"
+    },
+    {
+      "back": "Eisenmenger syndrome carries the worst maternal prognosis",
+      "front": "Which cardiac lesion is most dangerous for a pregnant woman?",
+      "topic": "Medical Disorders in Pregnancy"
+    },
+    {
+      "back": "Aortocaval (supine hypotension) syndrome — turn her to the left lateral position",
+      "front": "A woman faints lying flat in late pregnancy and recovers on sitting up. Cause?",
+      "topic": "Medical Disorders in Pregnancy"
+    },
+    {
+      "back": "Live vaccines, e.g. rubella/MMR, are contraindicated; toxoids are safe",
+      "front": "Which type of vaccine is contraindicated in pregnancy?",
+      "topic": "Medical Disorders in Pregnancy"
+    },
+    {
+      "back": "Missed abortion — the os is closed and the uterus is smaller than dates",
+      "front": "Dead fetus retained in utero with a closed cervical os is a ___ abortion",
+      "topic": "Early Pregnancy: Abortion & MTP"
+    },
+    {
+      "back": "Suction evacuation, up to 12 weeks of gestation",
+      "front": "Surgical method of choice for first-trimester evacuation?",
+      "topic": "Early Pregnancy: Abortion & MTP"
+    },
+    {
+      "back": "Mifepristone, followed 24–48 hours later by misoprostol",
+      "front": "Which two drugs make up standard medical abortion?",
+      "topic": "Early Pregnancy: Abortion & MTP"
+    },
+    {
+      "back": "Ampulla of the fallopian tube",
+      "front": "Commonest site of implantation in ectopic pregnancy?",
+      "topic": "Ectopic Pregnancy & Molar Pregnancy"
+    },
+    {
+      "back": "Complete mole is 46XX (all paternal) with no fetus; partial mole is 69XXY and may have fetal parts",
+      "front": "Complete vs partial mole — karyotypes?",
+      "topic": "Ectopic Pregnancy & Molar Pregnancy"
+    },
+    {
+      "back": "Pregnancies occurring per 100 woman-years of contraceptive exposure",
+      "front": "What does the Pearl index measure?",
+      "topic": "Contraception"
+    },
+    {
+      "back": "10 years",
+      "front": "How long does a Cu-T 380A remain effective?",
+      "topic": "Contraception"
+    },
+    {
+      "back": "Copper IUD — effective up to 5 days after unprotected intercourse",
+      "front": "Most effective form of emergency contraception?",
+      "topic": "Contraception"
+    },
+    {
+      "back": "About 3 months — until semen analysis confirms azoospermia",
+      "front": "After vasectomy, for how long must a couple keep using another method?",
+      "topic": "Contraception"
+    },
+    {
+      "back": "Cervical cancer (and sexually transmitted infections)",
+      "front": "Combined OCPs protect against ovarian and endometrial cancer but NOT against ___",
+      "topic": "Contraception"
+    },
+    {
+      "back": "Nonoxynol-9",
+      "front": "Which spermicide is used in the TODAY contraceptive sponge?",
+      "topic": "Contraception"
+    },
+    {
+      "back": "Sustained high oestrogen switching to positive feedback on the pituitary",
+      "front": "What triggers the mid-cycle LH surge?",
+      "topic": "Menstrual Physiology, Puberty & Amenorrhoea"
+    },
+    {
+      "back": "Oestrogen — it produces ferning; progesterone abolishes it",
+      "front": "Ferning of dried cervical mucus is produced by which hormone?",
+      "topic": "Menstrual Physiology, Puberty & Amenorrhoea"
+    },
+    {
+      "back": "Asherman syndrome — intrauterine adhesions after curettage",
+      "front": "Amenorrhoea after D&C with completely normal hormone levels suggests?",
+      "topic": "Menstrual Physiology, Puberty & Amenorrhoea"
+    },
+    {
+      "back": "Thelarche — breast budding is the first sign of female puberty",
+      "front": "What is the first sign of puberty in a girl?",
+      "topic": "Menstrual Physiology, Puberty & Amenorrhoea"
+    },
+    {
+      "back": "Letrozole is the first-line ovulation-induction drug in PCOS",
+      "front": "First-line drug for ovulation induction in PCOS?",
+      "topic": "PCOS, Endometriosis, Fibroids & AUB"
+    },
+    {
+      "back": "Laparoscopy with biopsy is the gold standard for endometriosis",
+      "front": "Gold standard investigation for endometriosis?",
+      "topic": "PCOS, Endometriosis, Fibroids & AUB"
+    },
+    {
+      "back": "Hyaline degeneration is the commonest; red degeneration occurs in pregnancy",
+      "front": "Commonest degeneration of a fibroid — and the one typical of pregnancy?",
+      "topic": "PCOS, Endometriosis, Fibroids & AUB"
+    },
+    {
+      "back": "Radical (Wertheim) hysterectomy",
+      "front": "Stage IB carcinoma cervix is usually treated by which operation?",
+      "topic": "Gynaecological Oncology & Screening"
+    },
+    {
+      "back": "Endometrial carcinoma involving the vagina is FIGO stage III disease",
+      "front": "Endometrial cancer that has spread to the vagina is which FIGO stage group?",
+      "topic": "Gynaecological Oncology & Screening"
+    },
+    {
+      "back": "CA-125 — raised in serous epithelial ovarian cancer",
+      "front": "Tumour marker most associated with serous ovarian carcinoma?",
+      "topic": "Gynaecological Oncology & Screening"
+    },
+    {
+      "back": "HPV types 16 and 18",
+      "front": "Cervarix vaccine protects against which HPV types?",
+      "topic": "Gynaecological Oncology & Screening"
+    },
+    {
+      "back": "Semen analysis — always test the male partner first",
+      "front": "First investigation in an infertile couple?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    },
+    {
+      "back": "Anti-Müllerian hormone (AMH)",
+      "front": "Best single test of ovarian reserve?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    },
+    {
+      "back": "The fallopian tube is the commonest site of genital tuberculosis",
+      "front": "Which organ does genital TB infect most often?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    },
+    {
+      "back": "Vesicovaginal fistula, classically after obstructed labour",
+      "front": "Continuous dribbling of urine a week after a difficult delivery means?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    },
+    {
+      "back": "Marsupialisation of the Bartholin cyst/abscess",
+      "front": "Treatment of choice for a Bartholin gland cyst?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    },
+    {
+      "back": "HPV types 6 and 11 cause condyloma acuminata",
+      "front": "Commonest cause of genital warts (condyloma acuminata)?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    },
+    {
+      "back": "Bacterial vaginosis — Amsel criteria, treated with metronidazole",
+      "front": "Fishy discharge, clue cells and a positive whiff test — diagnosis and drug?",
+      "topic": "Infertility, Prolapse, Fistula & Common Gynae Problems"
+    }
+  ],
+  "slug": "obstetrics-gynaecology",
+  "subject": "Obstetrics & Gynaecology"
+}

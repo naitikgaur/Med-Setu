@@ -58,9 +58,9 @@ export default function Privacy() {
               carry no advertising.
             </p>
             <p>
-              Google and other third-party vendors use cookies to serve ads based on a
-              visitor&apos;s prior visits to this website and other websites. Google&apos;s use
-              of advertising cookies enables it and its partners to serve ads based on visits to
+              Third party vendors, including Google, use cookies to serve ads based on a
+              user&apos;s prior visits to your website or other websites. Google&apos;s use of
+              advertising cookies enables it and its partners to serve ads based on visits to
               this site and/or other sites on the internet. Depending on your settings and
               choices, ads may be personalised or non-personalised.
             </p>

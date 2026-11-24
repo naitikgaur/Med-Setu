@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "Hyperkalaemia — the classic ECG triad of high potassium",
+      "front": "ECG shows tall peaked T waves, widened QRS and absent P waves. Diagnosis?",
+      "topic": "ECG Patterns & Arrhythmias"
+    },
+    {
+      "back": "Atrial fibrillation — absent P waves with an irregularly irregular rhythm",
+      "front": "Which arrhythmia has absent P waves and an irregularly irregular pulse?",
+      "topic": "ECG Patterns & Arrhythmias"
+    },
+    {
+      "back": "Complete (third-degree) heart block",
+      "front": "ECG: P waves at 75/min and QRS complexes at 35/min, independent of each other. Diagnosis?",
+      "topic": "ECG Patterns & Arrhythmias"
+    },
+    {
+      "back": "Inferior wall MI — right coronary artery territory",
+      "front": "STEMI in leads II, III and aVF localises to which wall and artery?",
+      "topic": "ECG Patterns & Arrhythmias"
+    },
+    {
+      "back": "IV magnesium sulphate",
+      "front": "First-line treatment of torsades de pointes?",
+      "topic": "ECG Patterns & Arrhythmias"
+    },
+    {
+      "back": "Atrial septal defect",
+      "front": "Wide, fixed split of the second heart sound in a young asymptomatic patient suggests what?",
+      "topic": "Valvular Lesions, Murmurs & Heart Sounds"
+    },
+    {
+      "back": "Severe aortic regurgitation (Traube sign)",
+      "front": "Pistol-shot sound heard over the femoral arteries indicates what?",
+      "topic": "Valvular Lesions, Murmurs & Heart Sounds"
+    },
+    {
+      "back": "Aortic regurgitation — classically acute rheumatic valvulitis in this setting",
+      "front": "Water-hammer pulse after a recent streptococcal throat infection: which valve lesion?",
+      "topic": "Valvular Lesions, Murmurs & Heart Sounds"
+    },
+    {
+      "back": "Pulmonary regurgitation secondary to pulmonary hypertension",
+      "front": "What is the Graham Steell murmur?",
+      "topic": "Valvular Lesions, Murmurs & Heart Sounds"
+    },
+    {
+      "back": "Mitral stenosis",
+      "front": "Mid-diastolic rumbling murmur with an opening snap and loud S1: diagnosis?",
+      "topic": "Valvular Lesions, Murmurs & Heart Sounds"
+    },
+    {
+      "back": "Class II — comfortable at rest, dyspnoea on ordinary activity",
+      "front": "NYHA class: comfortable at rest but breathless on ordinary activity?",
+      "topic": "Heart Failure, Tamponade & Constrictive Pericarditis"
+    },
+    {
+      "back": "Beta-blockers, ACE inhibitors/ARNI, mineralocorticoid antagonists and SGLT2 inhibitors",
+      "front": "Name the drug groups proven to reduce mortality in HFrEF.",
+      "topic": "Heart Failure, Tamponade & Constrictive Pericarditis"
+    },
+    {
+      "back": "Hypotension, muffled heart sounds and raised JVP (Beck triad of tamponade)",
+      "front": "Muffled heart sounds with low blood pressure: what JVP finding completes the triad?",
+      "topic": "Heart Failure, Tamponade & Constrictive Pericarditis"
+    },
+    {
+      "back": "Constrictive pericarditis (Kussmaul sign present)",
+      "front": "JVP rises paradoxically during inspiration in which condition — tamponade or constriction?",
+      "topic": "Heart Failure, Tamponade & Constrictive Pericarditis"
+    },
+    {
+      "back": "Primary percutaneous coronary intervention (PCI)",
+      "front": "A young man has STEMI at a multispecialty hospital with a cath lab. Best treatment?",
+      "topic": "Acute Coronary Syndrome & Hypertension"
+    },
+    {
+      "back": "Conn syndrome — primary aldosteronism",
+      "front": "Hypertension with hypernatraemia, hypokalaemia and metabolic alkalosis: diagnosis?",
+      "topic": "Acute Coronary Syndrome & Hypertension"
+    },
+    {
+      "back": "Rate and BP control with esmolol first, then emergency surgery for type A",
+      "front": "Tearing chest pain to the back with CT showing aortic dissection: first management principle?",
+      "topic": "Acute Coronary Syndrome & Hypertension"
+    },
+    {
+      "back": "Non-invasive ventilation (BiPAP)",
+      "front": "COPD exacerbation with ABG pH 7.24 and PaCO2 60: most appropriate treatment?",
+      "topic": "Asthma, COPD & Blood Gas Interpretation"
+    },
+    {
+      "back": "Obstructive airway disease (COPD/asthma pattern)",
+      "front": "Reduced FEV1/FVC ratio with morning wheeze and breathlessness indicates what pattern?",
+      "topic": "Asthma, COPD & Blood Gas Interpretation"
+    },
+    {
+      "back": "CT pulmonary angiography",
+      "front": "Sudden chest pain and dyspnoea with suspected pulmonary embolism: investigation to confirm?",
+      "topic": "Pleural Effusion, Pulmonary Embolism & Occupational Lung Disease"
+    },
+    {
+      "back": "Mesothelioma",
+      "front": "Which malignancy is most strongly associated with asbestos exposure?",
+      "topic": "Pleural Effusion, Pulmonary Embolism & Occupational Lung Disease"
+    },
+    {
+      "back": "Silicosis predisposing to tuberculosis (silicotuberculosis)",
+      "front": "A sandblasting worker has a TB-like chest X-ray. Which occupational lung disease underlies it?",
+      "topic": "Pleural Effusion, Pulmonary Embolism & Occupational Lung Disease"
+    },
+    {
+      "back": "Tuberculous meningitis",
+      "front": "Child's CSF: lymphocytes, glucose 30 mg%, protein 300 mg%. Most likely diagnosis?",
+      "topic": "Meningitis & CSF Interpretation"
+    },
+    {
+      "back": "Bacterial meningitis",
+      "front": "CSF with neutrophil predominance, low glucose and high protein indicates what?",
+      "topic": "Meningitis & CSF Interpretation"
+    },
+    {
+      "back": "Viral meningitis",
+      "front": "CSF: lymphocytic predominance, normal glucose, raised protein. Most likely type?",
+      "topic": "Meningitis & CSF Interpretation"
+    },
+    {
+      "back": "Myasthenia gravis",
+      "front": "Ptosis and weakness worse by evening, better after rest and neostigmine: diagnosis?",
+      "topic": "Weakness, Seizures & Localising Signs"
+    },
+    {
+      "back": "Guillain–Barré syndrome",
+      "front": "Ascending flaccid weakness with absent reflexes 4 weeks after a respiratory infection: diagnosis?",
+      "topic": "Weakness, Seizures & Localising Signs"
+    },
+    {
+      "back": "Brown–Séquard syndrome (cord hemisection)",
+      "front": "Ipsilateral loss of vibration/proprioception with contralateral pain-temperature loss below a cord lesion: name it.",
+      "topic": "Weakness, Seizures & Localising Signs"
+    },
+    {
+      "back": "Ethosuximide",
+      "front": "First-line drug for a 9-year-old with frequent brief staring spells (absence seizures)?",
+      "topic": "Weakness, Seizures & Localising Signs"
+    },
+    {
+      "back": "It is completely absent (reduced/abnormal in Becker dystrophy)",
+      "front": "In Duchenne muscular dystrophy, what is the state of the dystrophin protein?",
+      "topic": "Weakness, Seizures & Localising Signs"
+    },
+    {
+      "back": "HbA1c ≥6.5%",
+      "front": "According to ADA criteria, what HbA1c value diagnoses diabetes mellitus?",
+      "topic": "Diabetes Mellitus & DKA"
+    },
+    {
+      "back": "Cerebral oedema",
+      "front": "Most common cause of death in a child with diabetic ketoacidosis?",
+      "topic": "Diabetes Mellitus & DKA"
+    },
+    {
+      "back": "Glucagonoma",
+      "front": "Diabetic patient with DVT and a necrolytic migratory rash: which tumour?",
+      "topic": "Diabetes Mellitus & DKA"
+    },
+    {
+      "back": "VIPoma (Verner–Morrison syndrome)",
+      "front": "Profuse watery diarrhoea, hypokalaemia and achlorhydria point to which tumour?",
+      "topic": "Diabetes Mellitus & DKA"
+    },
+    {
+      "back": "Phaeochromocytoma",
+      "front": "Episodic headache, palpitations, sweating and raised urinary metanephrines: diagnosis?",
+      "topic": "Thyroid, Adrenal & Pituitary Disorders"
+    },
+    {
+      "back": "Central diabetes insipidus",
+      "front": "Urine output 7 L/day, low urine osmolality, low ADH and absent pituitary bright spot: diagnosis?",
+      "topic": "Thyroid, Adrenal & Pituitary Disorders"
+    },
+    {
+      "back": "DiGeorge syndrome (22q11.2 deletion)",
+      "front": "Hypocalcaemia, thymic hypoplasia and cardiac defects with a 22q11.2 deletion: syndrome?",
+      "topic": "Thyroid, Adrenal & Pituitary Disorders"
+    },
+    {
+      "back": "Primary hypothyroidism",
+      "front": "Cold intolerance, delayed ankle jerk, TSH 15 with low T3/T4: diagnosis?",
+      "topic": "Thyroid, Adrenal & Pituitary Disorders"
+    },
+    {
+      "back": "Metabolic alkalosis",
+      "front": "ABG pH 7.5, PaCO2 48, HCO3 30 in a patient with recurrent vomiting: which disorder?",
+      "topic": "Kidney Disease & Acid–Base Disorders"
+    },
+    {
+      "back": "Small kidney size on imaging (anaemia and calcium–phosphate changes also help)",
+      "front": "Most helpful factor differentiating CKD from AKI?",
+      "topic": "Kidney Disease & Acid–Base Disorders"
+    },
+    {
+      "back": "Coeliac disease",
+      "front": "Villous atrophy with positive anti-endomysial and anti-tTG antibodies: diagnosis?",
+      "topic": "GI & Liver High-Yield"
+    },
+    {
+      "back": "Acute pancreatitis",
+      "front": "Most common complication of ERCP?",
+      "topic": "GI & Liver High-Yield"
+    },
+    {
+      "back": "Bradykinin accumulation from an ACE inhibitor",
+      "front": "Persistent dry cough after starting an antihypertensive: most likely drug mechanism?",
+      "topic": "GI & Liver High-Yield"
+    },
+    {
+      "back": "Systemic lupus erythematosus",
+      "front": "Malar rash, oral ulcers, polyarthralgia, thrombocytopenia and positive ANA: diagnosis?",
+      "topic": "Rheumatology, Vasculitis & SLE"
+    },
+    {
+      "back": "Buerger disease (thromboangiitis obliterans)",
+      "front": "Young male smoker with gangrenous finger ulcers but normal glucose and lipids: diagnosis?",
+      "topic": "Rheumatology, Vasculitis & SLE"
+    },
+    {
+      "back": "Kartagener syndrome (primary ciliary dyskinesia)",
+      "front": "Situs inversus, chronic sinusitis and bronchiectasis in an infertile man: syndrome?",
+      "topic": "Rheumatology, Vasculitis & SLE"
+    },
+    {
+      "back": "Thiamine (vitamin B1) deficiency — Wernicke encephalopathy",
+      "front": "Chronic alcoholic with confusion, tremor, ataxia and ophthalmoplegia: which deficiency?",
+      "topic": "Infections, Vitamins & Classic Syndromes"
+    },
+    {
+      "back": "Scrub typhus",
+      "front": "Fever, generalised rash and an eschar after a mite bite: diagnosis?",
+      "topic": "Infections, Vitamins & Classic Syndromes"
+    },
+    {
+      "back": "Glucocerebrosidase",
+      "front": "Which enzyme is deficient in Gaucher disease?",
+      "topic": "Infections, Vitamins & Classic Syndromes"
+    },
+    {
+      "back": "Niacin (vitamin B3) deficiency — pellagra",
+      "front": "Itchy eczematous rash on the neck and backs of the hands in a chronic alcoholic: which deficiency?",
+      "topic": "Infections, Vitamins & Classic Syndromes"
+    }
+  ],
+  "slug": "medicine",
+  "subject": "Medicine"
+}

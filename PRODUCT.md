@@ -219,3 +219,16 @@ and in TEST-SERIES-REPORT.md). Papers keep their recall-edition notes
 (133 questions) — a paper's contents are not edited. Smoke pins the
 new baselines (bank total 13,934, topic hash, exclusion count 1,673,
 no missing-image questions shipped).
+
+## V5 — Blog (2026-11-24)
+
+150 original articles in src/data/blog/ across 9 categories (FMGE preparation, subject guides, books & resources, notes & revision, colleges & MBBS abroad, research explained, exam skills & mindset, career, clinical skills), each with meta title/description, canonical, OG/Twitter, BlogPosting + Breadcrumb + FAQPage JSON-LD, FAQ section, practice CTA and related posts. /blog index + /blog/[slug] pages; header/footer links; sitemap grew 88 → 239 URLs. Accuracy law held: verified FMGE facts only, no invented statistics/fees/rankings, no competitor brands. Validator: ~/workspace/medsetu-data/blog/validate.mjs (all pass; residual flags hand-verified false positives).
+
+## V6 — Short Notes, Flashcards & Mind Maps + homepage repositioning (2026-11-24)
+
+- NEW /notes + /notes/[subject] for all 19 subjects: rapid-revision short notes built backwards from 5 years of FMGE PYQ evidence (per-subject briefs in ~/workspace/medsetu-data/notes-research/briefs/, from the 12 papers + bank topic weights; coaching rapid-revision PDFs supplied by the founder guided topic emphasis — all wording original). Each subject: 9–14 topics (crisp fact points, comparison tables, "Remember this line", marked exam traps), night-before golden points, and a one-screen mind map (src/components/MindMap.tsx). 2,064 note points total. Data: src/data/notes/<slug>.json via src/lib/notes.ts.
+- NEW /flashcards + /flashcards/[subject]: 950 flashcards (exactly 50/subject), client deck (src/components/FlashDeck.tsx) — flip, Got it / Still learning sorting, still-learning re-rounds, shuffle, keyboard; state lives only in the tab.
+- WEB-ONLY by design (founder order): notes/flashcards carry no download/print path — @media print hides .web-only content and shows only a pointer note (.print-note in globals.css).
+- Homepage repositioned (founder order): top Naitik Library headline strip REMOVED from SiteHeader; hero = "The complete preparation platform for medical students"; "practice package / mock test platform" positioning swept sitewide (layout, about, start, contact, terms, header tagline now "Complete FMGE Preparation"); homepage modes grid now 6 cards (adds Short Notes + Flashcards); features +3 cards; FAQs +2; footer gains a "Revise & Learn" column; version line v6.
+- AdSense readiness: privacy page now carries Google's required cookie sentence verbatim; ads.txt + robots (Mediapartners-Google allowed) re-verified; content depth now 150 articles + 38 revision pages + rich landings. Submission remains the founder's step (with slot creation after approval).
+- Sitemap 239 → 279 URLs. Smoke section 15 added (blog count, notes/flashcards shape, hero wording, sitemap count); stale v4 baselines re-baselined. Full smoke: ALL PASS.

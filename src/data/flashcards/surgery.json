@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "14G (orange) — the widest standard cannula for rapid large-volume infusion",
+      "front": "Which cannula gauge is best for rapid large-volume fluid resuscitation in a bleeding trauma patient?",
+      "topic": "Trauma & ATLS Priorities"
+    },
+    {
+      "back": "Immediate needle decompression, followed by an intercostal drain",
+      "front": "Trauma patient: RR 25, BP 80/45, hyper-resonant left chest. Immediate management?",
+      "topic": "Trauma & ATLS Priorities"
+    },
+    {
+      "back": "Hypotonic fluids — they worsen cerebral oedema",
+      "front": "Which type of IV fluid is avoided in a hypotensive head-injury patient?",
+      "topic": "Trauma & ATLS Priorities"
+    },
+    {
+      "back": "Emergency laparotomy",
+      "front": "FAST-positive abdomen with persistent hypotension despite fluids: next step?",
+      "topic": "Trauma & ATLS Priorities"
+    },
+    {
+      "back": "Suprapubic catheterisation — never force a per-urethral catheter",
+      "front": "Pelvic fracture with confirmed membranous urethral rupture: first-line bladder drainage?",
+      "topic": "Trauma & ATLS Priorities"
+    },
+    {
+      "back": "Small bowel and its mesentery",
+      "front": "In a seat-belt injury, which organ is most commonly injured?",
+      "topic": "Trauma & ATLS Priorities"
+    },
+    {
+      "back": "Haemorrhagic (hypovolaemic) shock",
+      "front": "Profuse bleeding, cold extremities and reduced CVP indicate which type of shock?",
+      "topic": "Shock, Fluids & Transfusion"
+    },
+    {
+      "back": "Hypokalaemia — stored blood causes hyperkalaemia, hypocalcaemia and hypothermia",
+      "front": "Which electrolyte abnormality is usually NOT seen after massive blood transfusion?",
+      "topic": "Shock, Fluids & Transfusion"
+    },
+    {
+      "back": "No verbal response at all (incomprehensible sounds score 2)",
+      "front": "On the Glasgow Coma Scale, what does a verbal score of 1 mean?",
+      "topic": "Head Injury & GCS"
+    },
+    {
+      "back": "Extradural (epidural) haematoma",
+      "front": "Head injury, brief unconsciousness, lucid interval, then rapid deterioration: diagnosis?",
+      "topic": "Head Injury & GCS"
+    },
+    {
+      "back": "Bruising over the mastoid process — a sign of basal skull fracture",
+      "front": "What is the Battle sign?",
+      "topic": "Head Injury & GCS"
+    },
+    {
+      "back": "Emergency surgical evacuation (craniotomy)",
+      "front": "Acute subdural haematoma larger than 30 mL with deterioration: immediate step?",
+      "topic": "Head Injury & GCS"
+    },
+    {
+      "back": "About 32 mmHg — capillary closing pressure",
+      "front": "Pressure sores occur when interface pressure exceeds roughly what value?",
+      "topic": "Burns & Pressure Sores"
+    },
+    {
+      "back": "Reduced pain sensation, slow healing over weeks, and hypertrophic scarring",
+      "front": "Which finding is typical of deep partial-thickness (deep second-degree) burns?",
+      "topic": "Burns & Pressure Sores"
+    },
+    {
+      "back": "Myoglobinuria from rhabdomyolysis",
+      "front": "Electrical burns with red urine: which blood/urine abnormality is expected?",
+      "topic": "Burns & Pressure Sores"
+    },
+    {
+      "back": "Phyllodes tumour",
+      "front": "A 9 × 10 cm breast lump with leaf-like architecture and cellular stroma: diagnosis?",
+      "topic": "Breast Diseases & Cancer"
+    },
+    {
+      "back": "Fibroadenoma — observe/reassure after benign confirmation in a young woman",
+      "front": "Firm, mobile, benign breast lump in a 23-year-old: most likely diagnosis and approach?",
+      "topic": "Breast Diseases & Cancer"
+    },
+    {
+      "back": "Tubular carcinoma",
+      "front": "Which breast cancer subtype carries the most favourable prognosis?",
+      "topic": "Breast Diseases & Cancer"
+    },
+    {
+      "back": "Anthracyclines (e.g. doxorubicin) — cardiotoxic",
+      "front": "Which chemotherapy drug class should be avoided in a breast cancer patient with heart failure?",
+      "topic": "Breast Diseases & Cancer"
+    },
+    {
+      "back": "Stewart–Treves syndrome — lymphangiosarcoma in a lymphoedematous arm",
+      "front": "Purple vascular nodules on a swollen arm 10 years after mastectomy: diagnosis?",
+      "topic": "Breast Diseases & Cancer"
+    },
+    {
+      "back": "Papillary carcinoma of the thyroid",
+      "front": "Thyroid cancer linked to radiation exposure with RET/PTC and BRAF mutations: which type?",
+      "topic": "Thyroid & Parathyroid Surgery"
+    },
+    {
+      "back": "Radioactive iodine ablation with TSH suppression",
+      "front": "After total thyroidectomy for papillary cancer, what is the standard post-operative strategy?",
+      "topic": "Thyroid & Parathyroid Surgery"
+    },
+    {
+      "back": "Surgical excision of the adenoma (parathyroidectomy)",
+      "front": "Preferred treatment for a parathyroid adenoma causing primary hyperparathyroidism?",
+      "topic": "Thyroid & Parathyroid Surgery"
+    },
+    {
+      "back": "Acute cholangitis",
+      "front": "Pain, fever with rigors and jaundice form the classical triad of which condition?",
+      "topic": "Hepatobiliary & Gallstone Disease"
+    },
+    {
+      "back": "Mirizzi syndrome",
+      "front": "A cystic-duct stone compressing the common hepatic duct causing jaundice is called what?",
+      "topic": "Hepatobiliary & Gallstone Disease"
+    },
+    {
+      "back": "Acute haemorrhagic pancreatitis",
+      "front": "Grey Turner sign (flank discoloration) is observed in which condition?",
+      "topic": "Hepatobiliary & Gallstone Disease"
+    },
+    {
+      "back": "Longitudinal pancreaticojejunostomy for chronic pancreatitis with a dilated duct",
+      "front": "What is the Puestow procedure?",
+      "topic": "Pancreas & Spleen"
+    },
+    {
+      "back": "Non-operative (conservative) management with observation",
+      "front": "Grade II splenic injury in a stable child with no active bleeding: appropriate management?",
+      "topic": "Pancreas & Spleen"
+    },
+    {
+      "back": "Achalasia cardia",
+      "front": "Dysphagia worse for liquids than solids with a bird-beak barium swallow: diagnosis?",
+      "topic": "Oesophagus, Stomach & Peptic Ulcer"
+    },
+    {
+      "back": "Barrett oesophagus",
+      "front": "Endoscopy shows the squamocolumnar junction displaced proximally: which condition?",
+      "topic": "Oesophagus, Stomach & Peptic Ulcer"
+    },
+    {
+      "back": "Highly selective vagotomy",
+      "front": "Which vagotomy procedure has the highest duodenal ulcer recurrence rate?",
+      "topic": "Oesophagus, Stomach & Peptic Ulcer"
+    },
+    {
+      "back": "Vitamin B12 deficiency causing megaloblastic anaemia",
+      "front": "After gastrectomy, which nutritional deficiency complication is most likely?",
+      "topic": "Oesophagus, Stomach & Peptic Ulcer"
+    },
+    {
+      "back": "Rule of 2s: 2% prevalence, 2 feet from the ileocaecal valve, 2 inches long",
+      "front": "Meckel diverticulum is remembered by which rule?",
+      "topic": "Intestine, Colorectal & Meckel Diverticulum"
+    },
+    {
+      "back": "Ulcerative colitis",
+      "front": "Continuous rectal inflammation with crypt abscesses on biopsy: diagnosis?",
+      "topic": "Intestine, Colorectal & Meckel Diverticulum"
+    },
+    {
+      "back": "Mesenteric cyst",
+      "front": "Child with abdominal distension and a cyst mobile perpendicular to the mesenteric attachment line: diagnosis?",
+      "topic": "Intestine, Colorectal & Meckel Diverticulum"
+    },
+    {
+      "back": "Serosanguineous (salmon-coloured) discharge from the wound",
+      "front": "What is the surest sign of abdominal wound dehiscence?",
+      "topic": "Hernia & Abdominal Wall"
+    },
+    {
+      "back": "MRI pelvis — the most accurate investigation for fistula-in-ano",
+      "front": "Investigation of choice to map a fistula-in-ano before surgery?",
+      "topic": "Perianal Disease & Appendix"
+    },
+    {
+      "back": "Fistula-in-ano",
+      "front": "Intermittent pus and blood discharge from a perianal external opening: diagnosis?",
+      "topic": "Perianal Disease & Appendix"
+    },
+    {
+      "back": "Calcium oxalate",
+      "front": "What is the most common type of renal calculus?",
+      "topic": "Urology: Stones, Prostate, Testis & Bladder"
+    },
+    {
+      "back": "Batson venous plexus",
+      "front": "Prostate cancer spreads to the lumbar vertebrae via which route?",
+      "topic": "Urology: Stones, Prostate, Testis & Bladder"
+    },
+    {
+      "back": "Para-aortic (lumbar) lymph nodes",
+      "front": "Which lymph node group is involved first in testicular cancer spread?",
+      "topic": "Urology: Stones, Prostate, Testis & Bladder"
+    },
+    {
+      "back": "Radical cystectomy",
+      "front": "Muscle-invasive bladder cancer: most appropriate definitive management?",
+      "topic": "Urology: Stones, Prostate, Testis & Bladder"
+    },
+    {
+      "back": "Varicocele",
+      "front": "Scrotal 'bag of worms' on palpation in an infertile man: diagnosis?",
+      "topic": "Urology: Stones, Prostate, Testis & Bladder"
+    },
+    {
+      "back": "Popliteal artery aneurysm",
+      "front": "What is the most common site of a peripheral arterial aneurysm?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    },
+    {
+      "back": "Isograft",
+      "front": "A graft transplanted between genetically identical twins is called what?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    },
+    {
+      "back": "Gas gangrene (Clostridium perfringens)",
+      "front": "Crush injury, crepitus and a reddish-brown wound within 3 days: diagnosis?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    },
+    {
+      "back": "Venous (varicose) ulcer",
+      "front": "Healed ulcer on the medial lower leg with bilateral varicose veins in a barber: which ulcer type?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    },
+    {
+      "back": "Facial nerve (marginal mandibular branch most vulnerable)",
+      "front": "Which nerve is most at risk during parotid surgery?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    },
+    {
+      "back": "Branchial cyst",
+      "front": "Painless, soft, fluctuant mass on the lateral neck of a child under 5: diagnosis?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    },
+    {
+      "back": "Zenker diverticulum (pharyngeal pouch)",
+      "front": "Dohlman procedure is used to treat which condition?",
+      "topic": "Vascular, Grafts & Surgical Favourites"
+    }
+  ],
+  "slug": "surgery",
+  "subject": "Surgery"
+}

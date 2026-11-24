@@ -1,0 +1,325 @@
+{
+ "goldenPoints": [
+  "Tuning fork for clinical testing is 512 Hz; Rinne negative means conductive loss.",
+  "Scanty, foul, blood-stained discharge = cholesteatoma = unsafe CSOM = mastoid surgery.",
+  "Little's area (Kiesselbach plexus) on the anteroinferior septum is the commonest epistaxis site.",
+  "Posterior cricoarytenoid is the only abductor of the vocal cords.",
+  "External laryngeal nerve injury after thyroid surgery = singer cannot raise pitch.",
+  "Type B flat tympanogram = middle-ear effusion; in an adult think nasopharyngeal carcinoma.",
+  "Beta-2 transferrin is the most specific confirmation of CSF rhinorrhoea.",
+  "Meniere's disease is endolymphatic hydrops: vertigo, fluctuating SNHL, tinnitus, fullness.",
+  "JNA occurs in adolescent boys — diagnose on imaging, never biopsy.",
+  "Commonest cause of stridor in a newborn/infant is laryngomalacia."
+ ],
+ "intro": "ENT carries 15 questions in every FMGE paper. The stems repeat around hearing tests and tympanometry, safe vs unsafe CSOM, Meniere's disease, Little's area, vocal cord palsy and classic syndromes like Gradenigo and Samter. Revise these 12 topics and you cover most of what the last five years actually asked.",
+ "mindmap": {
+  "branches": [
+   {
+    "label": "Hearing tests",
+    "leaves": [
+     "512 Hz fork",
+     "Rinne −ve = CHL",
+     "Weber to worse ear = CHL",
+     "Type B = effusion",
+     "Carhart notch 2 kHz"
+    ]
+   },
+   {
+    "label": "Middle ear",
+    "leaves": [
+     "Unsafe CSOM = cholesteatoma",
+     "Glue ear = type B",
+     "Otosclerosis = stapedotomy",
+     "Mastoiditis commonest complication"
+    ]
+   },
+   {
+    "label": "Vertigo",
+    "leaves": [
+     "Meniere = hydrops",
+     "BPPV = Dix–Hallpike / Epley",
+     "Tullio phenomenon",
+     "Acoustic neuroma = CN VIII"
+    ]
+   },
+   {
+    "label": "Nose bleeds",
+    "leaves": [
+     "Little's area",
+     "Kiesselbach plexus",
+     "Woodruff = posterior",
+     "Trotter first aid"
+    ]
+   },
+   {
+    "label": "Nasal masses",
+    "leaves": [
+     "JNA — never biopsy",
+     "Inverted papilloma can turn malignant",
+     "Samter triad",
+     "Mucormycosis black eschar"
+    ]
+   },
+   {
+    "label": "Nasopharynx",
+    "leaves": [
+     "NPC = fossa of Rosenmüller",
+     "EBV link",
+     "Radiotherapy is treatment",
+     "Beta-2 transferrin for CSF"
+    ]
+   },
+   {
+    "label": "Larynx",
+    "leaves": [
+     "PCA only abductor",
+     "RLN all but cricothyroid",
+     "External LN = pitch",
+     "Laryngomalacia = infant stridor"
+    ]
+   },
+   {
+    "label": "Syndromes",
+    "leaves": [
+     "Gradenigo = V + VI + otorrhoea",
+     "Ramsay Hunt = zoster + LMN VII",
+     "Frey = gustatory sweating",
+     "Samter = polyps + asthma + aspirin"
+    ]
+   }
+  ],
+  "center": "ENT"
+ },
+ "slug": "ent",
+ "subject": "ENT",
+ "tagline": "Tuning forks, CSOM, vertigo, epistaxis and vocal-cord palsy — ENT marks come from a small set of repeat patterns.",
+ "topics": [
+  {
+   "askedAs": "Rinne/Weber interpretation in a clinical stem",
+   "oneLiner": "Rinne negative + Weber to same ear = conductive loss in that ear.",
+   "points": [
+    "Tuning fork used for routine testing: 512 Hz",
+    "Rinne positive (AC > BC) = normal ear or sensorineural loss",
+    "Rinne negative (BC > AC) = conductive hearing loss",
+    "Weber lateralises to the worse ear in conductive loss, to the better ear in sensorineural loss",
+    "Absolute bone conduction (ABC) is reduced only in sensorineural loss",
+    "Schwabach: patient's BC compared with examiner's — shortened in SNHL, lengthened in CHL",
+    "Stapedial reflex arc: afferent CN VIII, efferent CN VII (stapedius)",
+    "BERA is an objective test — used in infants, malingerers and retrocochlear lesions",
+    "Otoacoustic emissions (OAE) is the most common newborn hearing screening test"
+   ],
+   "table": {
+    "head": [
+     "Test",
+     "Conductive loss",
+     "Sensorineural loss"
+    ],
+    "rows": [
+     [
+      "Rinne",
+      "Negative (BC > AC)",
+      "Positive (AC > BC)"
+     ],
+     [
+      "Weber",
+      "To affected ear",
+      "To normal ear"
+     ],
+     [
+      "ABC",
+      "Normal",
+      "Reduced"
+     ]
+    ]
+   },
+   "title": "Tuning Fork Tests & Hearing Assessment",
+   "trap": "In severe unilateral SNHL, a false Rinne negative appears because bone conduction is heard by the opposite cochlea."
+  },
+  {
+   "askedAs": "Type B / As / Ad curve — name the condition",
+   "oneLiner": "Flat type B = fluid; shallow As = otosclerosis; Carhart notch at 2 kHz confirms it.",
+   "points": [
+    "Type A: normal middle ear pressure and compliance",
+    "Type As (shallow peak at 0 daPa): otosclerosis / stiff ossicular chain",
+    "Type Ad (deep, high peak): ossicular discontinuity",
+    "Type B (flat curve): fluid in middle ear — otitis media with effusion, glue ear",
+    "Type C (peak at negative pressure): Eustachian tube dysfunction, retracted drum",
+    "Nasopharyngeal carcinoma classically presents with unilateral serous otitis media (type B) in an adult",
+    "Carhart notch: dip at 2000 Hz in bone conduction — signature of otosclerosis",
+    "Meniere's disease: low-frequency sensorineural loss on audiogram",
+    "Presbyacusis: bilateral high-frequency SNHL in the elderly with poor speech discrimination"
+   ],
+   "title": "Tympanometry & Audiogram Patterns",
+   "trap": "Type B also occurs with a perforated drum with discharge — read the stem for effusion clues before answering glue ear."
+  },
+  {
+   "askedAs": "Foul scanty discharge + complication = atticoantral disease",
+   "oneLiner": "Scanty + foul + blood-stained = cholesteatoma = unsafe ear = surgery.",
+   "points": [
+    "Tubotympanic (safe) type: central perforation, mucoid odourless discharge, no cholesteatoma",
+    "Atticoantral (unsafe) type: marginal/attic perforation with cholesteatoma",
+    "Cholesteatoma: scanty, foul-smelling, blood-stained discharge that never fully clears",
+    "Most common complication overall: mastoiditis",
+    "Most common intracranial complication: meningitis; most common extracranial: mastoid abscess",
+    "Brain abscess from CSOM most often involves the temporal lobe (then cerebellum)",
+    "Labyrinthine fistula most commonly erodes the lateral semicircular canal",
+    "Gradenigo syndrome: retro-orbital pain (CN V), diplopia (CN VI) + otorrhoea — petrous apicitis",
+    "Modified radical mastoidectomy is the treatment of choice for cholesteatoma"
+   ],
+   "title": "CSOM — Safe vs Unsafe Ear",
+   "trap": "Profuse mucoid discharge points to the SAFE ear; examiners swap 'scanty' and 'profuse' to trap you."
+  },
+  {
+   "askedAs": "Pregnant woman with hearing loss / child with dull drum",
+   "oneLiner": "Young woman, worse hearing in pregnancy, Schwartz sign = otosclerosis; stapedotomy cures.",
+   "points": [
+    "Otosclerosis: fixation of stapes footplate; commoner in women, worsens in pregnancy",
+    "Schwartz sign: flamingo-pink blush of the promontory seen through the drum",
+    "Paracusis Willisii: patient hears better in noisy surroundings",
+    "Treatment of choice for otosclerosis: stapedectomy / stapedotomy",
+    "Glue ear (OME): dull, retracted drum with fluid level/air bubbles; type B tympanogram",
+    "Adenoid hypertrophy is the commonest cause of OME in children; high-arched palate is a clue",
+    "Symptomatic adenoid hypertrophy: adenoidectomy ± grommet (ventilation tube)",
+    "Acute otitis media: bulging red drum, severe pain; most common organism Streptococcus pneumoniae",
+    "Insect in the ear: kill it first with oil/water instillation, then remove"
+   ],
+   "title": "Otosclerosis, Glue Ear & Otitis Media",
+   "trap": "Otosclerosis causes conductive loss, not sensorineural — the cochlea is normal early on."
+  },
+  {
+   "askedAs": "Vertigo + tinnitus + fluctuating loss triad",
+   "oneLiner": "Hydrops gives vertigo + fullness + roaring tinnitus; Dix–Hallpike is for BPPV, not Meniere's.",
+   "points": [
+    "Meniere's disease = endolymphatic hydrops of the inner ear",
+    "Classic tetrad: episodic vertigo, fluctuating SNHL, tinnitus, aural fullness",
+    "Vertigo lasts 20 minutes to 12 hours; low-frequency roaring tinnitus",
+    "Tullio phenomenon: vertigo induced by loud sound",
+    "NOT a feature: loss of consciousness / post-aural pain — pick the odd one out carefully",
+    "Dix–Hallpike manoeuvre diagnoses BPPV — posterior canal is the commonest site",
+    "BPPV is treated by the Epley canalith repositioning manoeuvre",
+    "Vestibular neuronitis: vertigo after viral illness, hearing normal",
+    "Acoustic neuroma: unilateral SNHL with poor speech discrimination, tinnitus; arises from vestibular division of CN VIII"
+   ],
+   "title": "Meniere's Disease & Vertigo",
+   "trap": "Meniere's vertigo is episodic with ear symptoms; continuous vertigo without ear symptoms points elsewhere."
+  },
+  {
+   "askedAs": "Diabetic with severe ear pain + granulations",
+   "oneLiner": "Diabetic + Pseudomonas + skull-base granulations = malignant otitis externa.",
+   "points": [
+    "Malignant (necrotising) otitis externa: elderly diabetic, severe otalgia, granulations in canal floor",
+    "Causative organism: Pseudomonas aeruginosa in most cases",
+    "It is an osteomyelitis of the skull base — can involve CN VII, then IX–XII",
+    "Ramsay Hunt syndrome: herpes zoster oticus — vesicles in the ear canal + LMN facial palsy",
+    "Bell palsy: idiopathic LMN facial palsy; whole face including forehead involved",
+    "Frey syndrome: gustatory sweating after parotidectomy — auriculotemporal nerve fibres misdirected",
+    "Referred otalgia after tonsillectomy travels via the glossopharyngeal nerve (CN IX)",
+    "Syncopal attack during ear syringing: stimulation of the vagus nerve (Arnold's branch)"
+   ],
+   "title": "Malignant Otitis Externa & Ramsay Hunt",
+   "trap": "Facial palsy with forehead sparing is UMN (stroke); Bell/Ramsay Hunt involve the forehead — LMN."
+  },
+  {
+   "askedAs": "Site of bleeding / Kiesselbach plexus stem",
+   "oneLiner": "Anterior septum, Little's area, Kiesselbach plexus — the most tested address in ENT.",
+   "points": [
+    "Little's area lies on the anteroinferior nasal septum — commonest site of epistaxis",
+    "Kiesselbach plexus: anastomosis of septal branches in Little's area",
+    "Woodruff plexus (posterior, venous) causes posterior epistaxis in elderly hypertensives",
+    "Retrocolumellar vein is the usual source of bleeding in children",
+    "First aid: sit up, lean forward, pinch the soft nose (Trotter's method)",
+    "Anterior bleed uncontrolled → anterior nasal packing; posterior bleed → posterior pack / Foley catheter",
+    "Ligation options: sphenopalatine artery (endoscopic), anterior ethmoidal, external carotid, maxillary",
+    "Hereditary haemorrhagic telangiectasia (Osler–Weber–Rendu): recurrent epistaxis + telangiectasia",
+    "Long-term topical decongestant abuse causes rhinitis medicamentosa with rebound congestion"
+   ],
+   "title": "Epistaxis & Little's Area",
+   "trap": "Posterior epistaxis is venous (Woodruff) in the elderly; don't label every bleed arterial."
+  },
+  {
+   "askedAs": "Adolescent boy with epistaxis + posterior choanal mass",
+   "oneLiner": "Teenage boy + epistaxis + choanal mass = JNA — image it, never biopsy it.",
+   "points": [
+    "Juvenile nasopharyngeal angiofibroma: adolescent males only, recurrent severe epistaxis",
+    "JNA arises from the sphenopalatine foramen area; staged by Radkowski system",
+    "Never biopsy a suspected JNA — it bleeds torrentially; diagnose on imaging, treat by excision",
+    "Inverted papilloma: benign but locally aggressive, recurs, can turn malignant (squamous cell carcinoma)",
+    "Antrochoanal polyp: single, arises from maxillary antrum, exits via choana; seen in the young",
+    "Ethmoidal polyps: multiple, bilateral, allergic; Samter triad = polyps + asthma + aspirin sensitivity",
+    "Mucormycosis: diabetic/immunosuppressed, black necrotic eschar, invades vessels, erodes palate and orbit",
+    "Rhinoscleroma: Klebsiella rhinoscleromatis; Mikulicz cells and Russell bodies",
+    "Atrophic rhinitis (ozaena): foul greenish crusts, anosmia, roomy nasal cavity; Klebsiella ozaenae"
+   ],
+   "title": "Nasal Masses: JNA, Inverted Papilloma, Polyps, Mucormycosis",
+   "trap": "Antrochoanal polyp is single and unilateral; ethmoidal polyps are multiple and bilateral."
+  },
+  {
+   "askedAs": "Posterior triangle nodes + unilateral ear effusion",
+   "oneLiner": "Fossa of Rosenmüller + EBV + radiotherapy; beta-2 transferrin proves CSF.",
+   "points": [
+    "Commonest site of nasopharyngeal carcinoma: fossa of Rosenmüller",
+    "NPC is associated with Epstein–Barr virus; common in South-East Asia / Nagaland belt stems",
+    "Presents with posterior triangle cervical nodes, unilateral serous otitis media, epistaxis, CN palsies",
+    "Trotter triad in NPC: conductive deafness, palatal immobility, trigeminal neuralgia",
+    "Treatment of choice for NPC: radiotherapy (tumour is radiosensitive)",
+    "CSF rhinorrhoea: clear watery discharge, salty taste, increases on bending/straining",
+    "Beta-2 transferrin is the most specific test confirming CSF in nasal discharge",
+    "Commonest cause of CSF rhinorrhoea: trauma (cribriform plate fracture → anosmia too)",
+    "Initial management of traumatic CSF leak: conservative — head elevation, avoid straining; most stop spontaneously"
+   ],
+   "title": "Nasopharyngeal Carcinoma & CSF Rhinorrhoea",
+   "trap": "Glucose oxidase strips are unreliable for CSF — beta-2 transferrin is the answer examiners want."
+  },
+  {
+   "askedAs": "Hoarseness after thyroid surgery / singer losing high notes",
+   "oneLiner": "PCA abducts alone; recurrent laryngeal does everything except cricothyroid.",
+   "points": [
+    "Posterior cricoarytenoid is the ONLY abductor of the vocal cords",
+    "All intrinsic laryngeal muscles are supplied by the recurrent laryngeal nerve except cricothyroid",
+    "Cricothyroid is supplied by the external branch of the superior laryngeal nerve — the pitch/tension nerve",
+    "Singer who cannot hit high notes after thyroid surgery: external laryngeal nerve injury",
+    "Internal laryngeal nerve injury: loss of cough reflex above the cords → aspiration risk",
+    "Commonest cause of unilateral vocal cord palsy: malignant tumours (lung apex, thyroid, oesophagus)",
+    "Bilateral abductor palsy: cords sit in median position → stridor, airway emergency, needs tracheostomy",
+    "Unilateral palsy: cord in paramedian position, hoarseness with a breathy voice",
+    "Killian dehiscence: gap between thyropharyngeus and cricopharyngeus — site of Zenker diverticulum"
+   ],
+   "title": "Larynx: Vocal Cord Palsy & Nerves",
+   "trap": "Bilateral palsy threatens the AIRWAY (cords together); unilateral palsy mainly spoils the voice."
+  },
+  {
+   "askedAs": "Teacher/singer with hoarseness — pick the lesion",
+   "oneLiner": "Nodules are bilateral in voice abusers; laryngomalacia is the infant stridor answer.",
+   "points": [
+    "Vocal nodules: bilateral, at junction of anterior 1/3 and posterior 2/3 of cords — singers and teachers",
+    "Vocal polyp: usually unilateral, follows voice abuse or a single shouting episode",
+    "Reinke oedema: diffuse swelling of Reinke space in smokers; husky, low-pitched voice",
+    "Laryngomalacia: commonest cause of stridor in infants; omega-shaped epiglottis; self-limiting",
+    "Laryngeal cancer T1b: tumour involving BOTH vocal cords with normal mobility",
+    "Glottis is the commonest subsite of laryngeal carcinoma; hoarseness is its earliest symptom",
+    "HPV is most strongly linked to oropharyngeal (tonsil/base of tongue) squamous carcinoma",
+    "Contact ulcer: posterior cord, from acid reflux and throat clearing",
+    "Rhinolalia clausa (closed nasality) is NOT seen in cleft palate — that gives open nasality (aperta)"
+   ],
+   "title": "Laryngeal & Voice Disorders",
+   "trap": "Cleft palate causes rhinolalia APERTA (open), never clausa — a favourite 'not seen in' stem."
+  },
+  {
+   "askedAs": "Trismus + abscess / foreign body level stem",
+   "oneLiner": "Trismus near a throat abscess = medial pterygoid spasm; cricopharyngeus traps the fish bone.",
+   "points": [
+    "Parapharyngeal abscess: trismus from spasm of the medial pterygoid muscle",
+    "Peritonsillar abscess (quinsy): uvula pushed to opposite side, hot-potato voice, trismus",
+    "Crypta magna is the remnant of the second pharyngeal pouch (in the tonsil)",
+    "Ludwig angina: cellulitis of the submandibular space, usually dental in origin — airway first",
+    "Commonest site of fish-bone impaction: the tonsil; oesophageal narrowing at cricopharyngeus (~15 cm from incisors) is the commonest oesophageal site",
+    "Aortic arch crossing is at ~25 cm from incisors; cardia at ~40 cm",
+    "Laryngocele: trumpet players / glass blowers; neck swelling that gurgles on compression",
+    "Blow-out fracture of orbit floor: enophthalmos, diplopia, infraorbital anaesthesia after a ball injury",
+    "Bleeding from the ear after head injury: HRCT temporal bone is the investigation of choice"
+   ],
+   "title": "Deep Neck Spaces, Tonsils & Obstructions",
+   "trap": "Quinsy pushes the uvula AWAY from the affected side — stems test the direction."
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+  "goldenPoints": [
+    "MgSO4 is the drug of choice for eclampsia; calcium gluconate is its antidote",
+    "Atony is the commonest cause of PPH; oxytocin is the first drug",
+    "Never do a digital PV examination in placenta previa",
+    "Cu-T 380A works for 10 years; Pearl index counts failures per 100 woman-years",
+    "OCPs protect against ovarian and endometrial cancer — not cervical cancer",
+    "CRL in the first trimester is the most accurate measure of gestational age",
+    "Complete mole is 46XX with no fetus; partial mole is 69XXY and may have one",
+    "Letrozole is first-line for ovulation induction in PCOS",
+    "AMH is the best single test of ovarian reserve; semen analysis is the first infertility test",
+    "After vasectomy, contraception is still needed for about 3 months"
+  ],
+  "intro": "OBG is one of the two heaviest clinical subjects in FMGE (30 of 300 questions). The stems are short clinical vignettes: a stage of labour to name, a contraceptive fact, a FIGO stage, a drug to avoid. Revise these 14 topics and you cover the great majority of what the last five years actually asked.",
+  "mindmap": {
+    "branches": [
+      {
+        "label": "Pregnancy & Antenatal Care",
+        "leaves": [
+          "CRL is the most accurate dating parameter in the first trimester",
+          "Quadruple test at 15–20 weeks screens for Down syndrome",
+          "Live vaccines contraindicated; toxoids safe",
+          "Supine hypotension — turn left lateral"
+        ]
+      },
+      {
+        "label": "Labour & Delivery",
+        "leaves": [
+          "Active phase from 4 cm, ≥1 cm/hour progress",
+          "AMTSL: oxytocin 10 IU IM prevents PPH",
+          "McRoberts first for shoulder dystocia",
+          "Wrigley = outlet forceps, Kielland = rotational"
+        ]
+      },
+      {
+        "label": "Obstetric Emergencies",
+        "leaves": [
+          "PPH: atony commonest of the 4 Ts",
+          "Eclampsia: MgSO4, antidote calcium gluconate",
+          "Abruption: painful, woody uterus, DIC",
+          "Previa: painless, never do a PV exam"
+        ]
+      },
+      {
+        "label": "Medical Disorders in Pregnancy",
+        "leaves": [
+          "DIPSI: 2-hour ≥140 mg/dL = GDM",
+          "Iron 100 mg + folic acid 500 µg daily",
+          "Eisenmenger has the worst prognosis",
+          "Labetalol, methyldopa, nifedipine are safe"
+        ]
+      },
+      {
+        "label": "Contraception",
+        "leaves": [
+          "Pearl index = failures per 100 woman-years",
+          "Cu-T 380A lasts 10 years",
+          "Copper IUD is the best emergency method",
+          "Vasectomy effective after ~3 months"
+        ]
+      },
+      {
+        "label": "Gynae Oncology",
+        "leaves": [
+          "HPV 16/18 — cervical cancer",
+          "Stage IB cervix — radical hysterectomy",
+          "CA-125 — serous ovarian cancer",
+          "Unopposed oestrogen — endometrial cancer"
+        ]
+      },
+      {
+        "label": "Benign Gynae & Infertility",
+        "leaves": [
+          "PCOS — Rotterdam 2 of 3",
+          "Endometriosis — laparoscopy is gold standard",
+          "Semen analysis is the first infertility test",
+          "Genital TB — fallopian tube first"
+        ]
+      }
+    ],
+    "center": "Obstetrics & Gynaecology"
+  },
+  "slug": "obstetrics-gynaecology",
+  "subject": "Obstetrics & Gynaecology",
+  "tagline": "Labour, contraception, gynae oncology and medical disorders in pregnancy carry the paper — 30 questions every session.",
+  "topics": [
+    {
+      "askedAs": "stage identification from PV findings",
+      "oneLiner": "Dilatation tells the stage: 7 cm and fully effaced is still the first stage, however strong the pains.",
+      "points": [
+        "First stage: onset of true labour pains to full cervical dilatation (10 cm)",
+        "Latent phase ends and active phase begins at 4 cm dilatation (WHO labour care guide)",
+        "Satisfactory active-phase progress: cervix dilates at least 1 cm/hour in a primigravida",
+        "Second stage: full dilatation to delivery of the baby; up to 2 hours in a primigravida",
+        "Third stage: delivery of baby to expulsion of placenta and membranes, about 15–30 minutes",
+        "Fourth stage: first hour after delivery — the hour of close observation",
+        "Signs of placental separation: cord lengthening, fresh gush of blood, uterus rises and becomes globular",
+        "Ritgen manoeuvre controls delivery of the head and protects the perineum",
+        "Immediately after delivery the fundus lies at about the level of 20–22 weeks size"
+      ],
+      "title": "Normal Labour & Its Stages",
+      "trap": "Full effacement is not full dilatation — a 7 cm cervix is first stage, not second."
+    },
+    {
+      "askedAs": "presentation diagnosis and safest delivery route",
+      "oneLiner": "A brow that stays a brow and a transverse lie that stays transverse both belong to the operating theatre.",
+      "points": [
+        "Face presentation: head fully extended, denominator is the mentum; mento-anterior can deliver vaginally",
+        "Brow presentation usually converts to face or vertex; persistent brow needs caesarean section",
+        "Transverse lie with a live term fetus: caesarean section is the delivery of choice",
+        "Most common cause of occipito-posterior position problems is a deflexed head",
+        "Breech: frank breech is the commonest type; footling breech has the highest cord prolapse risk",
+        "Obstructed labour signs: Bandl's ring, oedematous cervix, maternal exhaustion, fetal distress",
+        "Neglected obstructed labour ends in uterine rupture, fistula and sepsis",
+        "Trial of labour is done only with adequate pelvis, vertex presentation and full monitoring backup"
+      ],
+      "title": "Malpresentations & Obstructed Labour",
+      "trap": "Vacuum (ventouse) is contraindicated in preterm babies and in face or brow presentation."
+    },
+    {
+      "askedAs": "next manoeuvre after McRoberts fails",
+      "oneLiner": "McRoberts first, suprapubic pressure with it, fundal pressure never.",
+      "points": [
+        "Shoulder dystocia: head-to-shoulder delivery interval prolonged; turtle sign is classic",
+        "First manoeuvre: McRoberts (hyperflex the mother's thighs) with suprapubic pressure",
+        "If McRoberts fails: internal manoeuvres — Rubin, Woods corkscrew, delivery of posterior arm",
+        "Fundal pressure is never applied — it worsens impaction and risks rupture",
+        "Wrigley's forceps are the outlet forceps; Kielland forceps are rotational",
+        "Vacuum is contraindicated below 34 weeks and in face, brow or breech presentation",
+        "Commonest indication for caesarean section in India: previous caesarean section",
+        "Least risk for successful TOLAC: previous lower-segment transverse scar with a prior vaginal birth"
+      ],
+      "title": "Shoulder Dystocia & Operative Delivery",
+      "trap": "Students pick fundal pressure — it is the one manoeuvre that is always wrong here."
+    },
+    {
+      "askedAs": "drug sequence when the uterus stays atonic",
+      "oneLiner": "Tone is the commonest T; oxytocin first, ergometrine never in hypertension, carboprost never in asthma.",
+      "points": [
+        "PPH: blood loss ≥500 mL after vaginal birth, ≥1000 mL after caesarean section",
+        "Four causes — the 4 Ts: Tone (atony, commonest), Trauma, Tissue (retained placenta), Thrombin",
+        "First-line drug for atony: oxytocin; AMTSL uses oxytocin 10 IU IM within a minute of birth",
+        "If oxytocin fails: methylergometrine — contraindicated in hypertension and heart disease",
+        "Carboprost (15-methyl PGF2α) is the next drug — contraindicated in bronchial asthma",
+        "Misoprostol is the heat-stable backup where refrigeration is unavailable",
+        "Retained placenta beyond 30 minutes needs manual removal under anaesthesia",
+        "Acute uterine inversion presents with shock out of proportion and no palpable fundus",
+        "Bluish perineal swelling with hypotension after forceps delivery: vulvovaginal haematoma"
+      ],
+      "title": "Postpartum Haemorrhage",
+      "trap": "Ergometrine in a pre-eclamptic woman — the classic wrong pairing the paper loves."
+    },
+    {
+      "askedAs": "drug of choice and drugs to avoid",
+      "oneLiner": "MgSO4 for fits, calcium gluconate for MgSO4, delivery for cure.",
+      "points": [
+        "Pre-eclampsia: BP ≥140/90 after 20 weeks with proteinuria ≥300 mg/24 hours",
+        "Severe features: BP ≥160/110, platelets <1 lakh, raised transaminases, creatinine >1.1, visual symptoms",
+        "Eclampsia is pre-eclampsia plus generalised tonic-clonic convulsions",
+        "Drug of choice to prevent and treat eclamptic fits: magnesium sulphate",
+        "MgSO4 toxicity is monitored by knee jerks, respiratory rate and urine output; antidote is calcium gluconate",
+        "Safe antihypertensives in pregnancy: labetalol, methyldopa, nifedipine, hydralazine",
+        "ACE inhibitors, ARBs and atenolol are avoided in pregnancy",
+        "HELLP syndrome: haemolysis, elevated liver enzymes, low platelets",
+        "Definitive treatment of severe pre-eclampsia and eclampsia is delivery, whatever the gestation"
+      ],
+      "title": "Hypertensive Disorders in Pregnancy",
+      "trap": "Phenytoin and diazepam are not the answer for eclampsia — magnesium sulphate is."
+    },
+    {
+      "askedAs": "painless vs painful bleeding comparison",
+      "oneLiner": "Painless and soft is previa; painful and woody is abruption.",
+      "points": [
+        "Placenta previa: painless, bright red bleeding; uterus soft and relaxed; fetal parts easily felt",
+        "Digital vaginal examination is contraindicated in placenta previa",
+        "A marginal placenta on mid-pregnancy scan is re-scanned around 32–36 weeks before deciding the route",
+        "Placenta accreta risk is highest with placenta previa over a previous caesarean scar",
+        "Abruptio placentae: painful bleeding, tense tender woody uterus, fetal parts difficult to feel",
+        "Abruption is the APH most associated with DIC and Couvelaire uterus",
+        "Concealed abruption can present with shock and a tense abdomen with little visible bleeding",
+        "APH is bleeding from the genital tract after 28 weeks (viability) and before birth"
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Placenta previa",
+          "Abruptio placentae"
+        ],
+        "rows": [
+          [
+            "Pain",
+            "Painless",
+            "Painful"
+          ],
+          [
+            "Uterus",
+            "Soft, relaxed",
+            "Tense, tender, woody"
+          ],
+          [
+            "Bleeding",
+            "Bright red, revealed",
+            "Dark, may be concealed"
+          ],
+          [
+            "DIC risk",
+            "Low",
+            "High"
+          ]
+        ]
+      },
+      "title": "Antepartum Haemorrhage: Previa vs Abruption",
+      "trap": "Doing a PV examination in suspected previa can trigger catastrophic bleeding — never."
+    },
+    {
+      "askedAs": "GDM values, anaemia doses, safe drugs",
+      "oneLiner": "DIPSI 140 at 2 hours, iron 100 mg with folic acid 500 µg — two numbers FMGE repeats.",
+      "points": [
+        "DIPSI criteria: single-step 75 g OGTT; 2-hour value ≥140 mg/dL diagnoses GDM in India",
+        "GDM risks: macrosomia, shoulder dystocia, neonatal hypoglycaemia after birth",
+        "Pregnancy iron prophylaxis under the national programme: 100 mg elemental iron with 500 µg folic acid",
+        "Women on antiepileptic drugs need high-dose folic acid (5 mg/day) from before conception",
+        "Anaemia in pregnancy (WHO): haemoglobin below 11 g/dL",
+        "Heart disease with the worst maternal prognosis: Eisenmenger syndrome",
+        "Supine hypotension syndrome: aortocaval compression by the gravid uterus; turn the woman left lateral",
+        "Live vaccines are contraindicated in pregnancy; toxoids and killed vaccines are allowed",
+        "Physiological changes: plasma volume and GFR rise, haemoglobin concentration falls by dilution"
+      ],
+      "title": "Medical Disorders in Pregnancy",
+      "trap": "Rubella and other live vaccines in pregnancy — contraindicated; only killed/toxoid vaccines are safe."
+    },
+    {
+      "askedAs": "abortion type from findings, MTP limits",
+      "oneLiner": "Os open or closed, fetus alive or dead — two questions classify almost every abortion stem.",
+      "points": [
+        "Threatened abortion: bleeding with a closed os and a live fetus — pregnancy can continue",
+        "Inevitable abortion: os open, membranes ruptured or products not yet expelled",
+        "Missed abortion: fetus dead, os closed, uterus smaller than dates",
+        "Septic abortion follows instrumentation with unsterile technique; can progress to septic shock",
+        "Suction evacuation is the surgical method of choice in the first trimester (up to 12 weeks)",
+        "MTP Amendment 2021: up to 20 weeks on one doctor's opinion; 20–24 weeks needs two, for notified categories",
+        "Medical abortion: mifepristone followed 24–48 hours later by misoprostol",
+        "Recurrent pregnancy loss workup includes antiphospholipid antibody syndrome and parental karyotyping",
+        "Cervical incompetence: painless mid-trimester loss; treated with cervical cerclage (McDonald stitch)"
+      ],
+      "title": "Early Pregnancy: Abortion & MTP",
+      "trap": "Missed abortion has a closed os; inevitable has an open os — the stems swap them deliberately."
+    },
+    {
+      "askedAs": "site, methotrexate criteria, mole karyotypes",
+      "oneLiner": "Ampulla for ectopic; 46XX and no fetus for complete mole, 69XXY with fetus for partial.",
+      "points": [
+        "Commonest site of ectopic pregnancy: ampulla of the fallopian tube",
+        "Risk factors: PID, previous ectopic, tubal surgery, IUCD failure, assisted reproduction",
+        "Pregnancy of unknown location: serial β-hCG — a subnormal rise suggests ectopic or failing pregnancy",
+        "Methotrexate is used only in a haemodynamically stable, unruptured ectopic meeting size and hCG criteria",
+        "Ruptured ectopic with shock: resuscitate and operate — salpingectomy if the tube is destroyed",
+        "Complete mole: 46XX, entirely paternal (androgenetic), no fetal parts, p57 negative",
+        "Partial mole: triploid 69XXY, fetal parts may be present, p57 positive",
+        "Mole on ultrasound: snowstorm / bunch-of-grapes appearance; follow-up is serial β-hCG",
+        "Choriocarcinoma can follow a mole, abortion or even a normal pregnancy and spreads by blood"
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Complete mole",
+          "Partial mole"
+        ],
+        "rows": [
+          [
+            "Karyotype",
+            "46XX (all paternal)",
+            "69XXY (triploid)"
+          ],
+          [
+            "Fetal parts",
+            "Absent",
+            "May be present"
+          ],
+          [
+            "p57 stain",
+            "Negative",
+            "Positive"
+          ]
+        ]
+      },
+      "title": "Ectopic Pregnancy & Molar Pregnancy",
+      "trap": "An XY complete mole is a distractor — complete moles are 46XX (or 46XY rarely); XY edematous villi point elsewhere."
+    },
+    {
+      "askedAs": "Pearl index, durations, emergency options",
+      "oneLiner": "Pearl index measures failure; copper IUD is the best emergency method; vasectomy works only after 3 months.",
+      "points": [
+        "Pearl index: pregnancies per 100 woman-years of exposure — lower means more effective",
+        "Cu-T 380A is effective for 10 years; LNG-IUS (52 mg) for up to 5–8 years by type",
+        "Commonest side effect after Cu-IUD insertion: increased menstrual bleeding and pain",
+        "Emergency contraception: levonorgestrel 1.5 mg single dose, best within 72 hours",
+        "Most effective emergency contraception: copper IUD, usable up to 5 days after intercourse",
+        "Ulipristal acetate is effective up to 120 hours (5 days)",
+        "Combined pills protect against ovarian and endometrial cancer and PID — not against cervical cancer or STIs",
+        "After vasectomy, another method is needed until azoospermia is confirmed, about 3 months",
+        "Absolute contraindications to combined pills include migraine with aura and past thromboembolism"
+      ],
+      "title": "Contraception",
+      "trap": "OCPs do NOT protect against cervical cancer — that is the recurring 'except' answer."
+    },
+    {
+      "askedAs": "hormone responsible, primary amenorrhoea cause",
+      "oneLiner": "Oestrogen ferns and triggers the LH surge; progesterone runs the secretory phase.",
+      "points": [
+        "First sign of puberty in girls: thelarche (breast budding); menarche comes later",
+        "LH surge is triggered by sustained high oestrogen exerting positive feedback",
+        "Ferning of dried cervical mucus is an oestrogen effect; progesterone makes mucus thick and scanty",
+        "Progesterone acts on the post-ovulatory endometrium to make it secretory",
+        "Primary amenorrhoea with cyclical pain and a bulging bluish membrane: imperforate hymen with haematocolpos",
+        "Asherman syndrome: intrauterine adhesions after curettage — amenorrhoea with normal hormone levels",
+        "Asherman on HSG gives a honeycomb / filling-defect picture",
+        "Turner syndrome (45,XO): short stature, webbed neck, widely spaced nipples, streak ovaries",
+        "Prolactinoma: amenorrhoea, galactorrhoea, bitemporal hemianopia; first test is serum prolactin"
+      ],
+      "title": "Menstrual Physiology, Puberty & Amenorrhoea",
+      "trap": "Amenorrhoea after D&C with normal hormones is Asherman — an uterine cause, not ovarian failure."
+    },
+    {
+      "askedAs": "diagnosis from USG and symptoms",
+      "oneLiner": "Rotterdam 2-of-3 for PCOS; laparoscopy is gold standard for endometriosis; hyaline is the fibroid's commonest degeneration.",
+      "points": [
+        "PCOS: Rotterdam criteria — any 2 of oligo-anovulation, hyperandrogenism, polycystic ovaries on USG",
+        "First-line management of PCOS: weight loss and lifestyle change",
+        "Letrozole is the first-line drug for ovulation induction in PCOS",
+        "Ovarian drilling is a surgical option for clomiphene/letrozole-resistant PCOS",
+        "Endometriosis: dysmenorrhoea, dyspareunia, infertility, fixed retroverted uterus, uterosacral nodules",
+        "Gold standard for diagnosing endometriosis: laparoscopy with biopsy",
+        "Endometrioma on USG: ground-glass 'chocolate cyst' appearance",
+        "Fibroid: commonest benign tumour of the uterus; commonest degeneration is hyaline",
+        "Red degeneration of fibroid occurs in pregnancy and presents with acute pain"
+      ],
+      "title": "PCOS, Endometriosis, Fibroids & AUB",
+      "trap": "A simple 6 cm unilocular ovarian cyst with normal markers in an asymptomatic woman needs observation, not surgery."
+    },
+    {
+      "askedAs": "FIGO stage, screening, tumour markers",
+      "oneLiner": "HPV 16/18 for the cervix, CA-125 for serous ovarian, radical hysterectomy for stage IB cervix.",
+      "points": [
+        "Cervical cancer: HPV 16 is the commonest oncogenic type; 16 and 18 cause most cases",
+        "Postcoital bleeding with a friable cervical growth: carcinoma cervix until proved otherwise",
+        "Stage IB cervical cancer is commonly treated with radical (Wertheim) hysterectomy",
+        "Point A in cervical brachytherapy lies 2 cm above and 2 cm lateral to the external os",
+        "Cervarix covers HPV 16 and 18; Gardasil also covers 6 and 11 (wart types)",
+        "Endometrial cancer risk rises with unopposed oestrogen, obesity, diabetes and nulliparity",
+        "Endometrial carcinoma reaching the vagina or parametrium is FIGO stage III disease",
+        "Hyperplasia without atypia is managed with progestins; with atypia, hysterectomy is preferred",
+        "Commonest ovarian malignancy: serous cystadenocarcinoma (epithelial); marker CA-125"
+      ],
+      "title": "Gynaecological Oncology & Screening",
+      "trap": "Postmenopausal bleeding is least likely from fibroids — always exclude endometrial cancer first."
+    },
+    {
+      "askedAs": "first test, best test, cause of fistula",
+      "oneLiner": "Semen first, AMH for reserve, tube for genital TB, obstructed labour for fistula.",
+      "points": [
+        "First investigation in infertility: semen analysis — simplest and rules out the male factor",
+        "Best test of ovarian reserve: anti-Müllerian hormone (AMH)",
+        "HSG showing bilateral fluid-filled S-shaped tubes: hydrosalpinx",
+        "Commonest site of genital tuberculosis: the fallopian tube",
+        "Klinefelter syndrome (47,XXY): tall stature, gynaecomastia, small testes, azoospermia",
+        "Low count + poor motility + abnormal forms together is called oligoasthenoteratozoospermia",
+        "Grade 3 uterovaginal prolapse with a pressure (decubitus) ulcer: heal the ulcer before surgery",
+        "Continuous dribbling of urine days after obstructed labour or caesarean: vesicovaginal fistula",
+        "Bartholin cyst sits at the posterolateral vaginal opening; marsupialisation is the treatment of choice"
+      ],
+      "title": "Infertility, Prolapse, Fistula & Common Gynae Problems",
+      "trap": "Bacterial vaginosis is not an STI and shows clue cells — do not confuse it with trichomonas (frothy green discharge, strawberry cervix)."
+    }
+  ]
+}

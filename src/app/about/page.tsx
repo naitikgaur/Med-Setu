@@ -5,7 +5,7 @@ import { SiteHeader } from '../../components/SiteHeader';
 export const metadata = {
   title: 'About MedSetu — Naitik Library',
   description:
-    'MedSetu is made by the efforts of Naitik Library, founded by Naitik Gaur, Gautam Nagar, New Delhi — the complete free FMGE practice package: previous-year mock papers, subject-wise tests and a question bank, for every student.',
+    'MedSetu is made by the efforts of Naitik Library, founded by Naitik Gaur, Gautam Nagar, New Delhi — the complete FMGE preparation platform for medical students: previous-year mock papers, a grand test series, subject-wise tests, a question bank, short notes, flashcards and guides, for every student.',
   alternates: { canonical: '/about/' },
 };
 
@@ -29,7 +29,7 @@ export default function About() {
             question palette) and afterwards understand <em>properly</em> how they did: which
             subjects held up, where time leaked, which guesses paid off, and which wrong answers are
             worth the most marks to fix. And around the mocks, a way to practise one subject, one
-            topic, one question at a time. MedSetu is that complete practice package, open to every
+            topic, one question at a time. MedSetu is that complete preparation platform, open to every
             FMGE student anywhere, not just our own.
           </p>
           <div className="mt-6 rounded-xl border border-line bg-white px-5 py-4 shadow-card">
@@ -51,6 +51,8 @@ export default function About() {
             <li>Pick any of the 12 previous-year papers (December 2020 – June 2026) and write it as a mock: Part I, a break, then Part II — 150 minutes per part, exactly the FMGE manner.</li>
             <li><strong className="text-ink">Subject-wise tests:</strong> 30 tests across 16 subjects (19–50 questions each), one subject at a time in a single sitting, every question with its full explanation. The analysis measures your score against the 50% mark — the FMGE pass proportion — as a benchmark; a subject test has no official pass.</li>
             <li><strong className="text-ink">New in MedSetu v3 — the Question Bank:</strong> 13,934 questions across all 19 subjects, organised by topic, every one with its answer and explanation. In Practice mode you check each answer as you go; in Exam mode a set is locked until you submit and then analysed like a test. Wrong answers collect in My Mistakes — replay one, answer it right, and it clears — and any question can be bookmarked for revision. All of it lives only in your browser tab.</li>
+            <li><strong className="text-ink">New in MedSetu v6 — Short Notes, Flashcards &amp; Mind Maps:</strong> a rapid-revision layer for all 19 subjects, built backwards from five years of previous-year papers. Each subject’s short notes compress its high-yield topics into crisp facts, comparison tables, marked exam traps and night-before golden points; a one-screen mind map holds the whole subject; and 50 flashcards per subject turn it into active recall. The notes and flashcards are read and practised on MedSetu itself — they are not downloadable, which is part of how they stay free and current for every student.</li>
+            <li><strong className="text-ink">The MedSetu Blog (v5):</strong> 150 free guides for medical students — FMGE preparation strategy, subject guides, books, notes and revision methods, MBBS abroad, research explained, careers and clinical skills.</li>
             <li>Marking is FMGE marking: <strong className="text-ink">+1 for a correct answer, 0 for wrong or skipped. There is no negative marking</strong>, and the pass mark is a fixed 150 of 300.</li>
             <li>After Part II you get a detailed analysis: pass verdict, subject-wise table, time and behaviour reports (answer changes, guesses, rushed mistakes), your biggest mark-recovery pools, a solutions explorer where every question opens its full book explanation, and the complete answer key.</li>
             <li>The full report and the detailed answer key &amp; solutions can be downloaded as print-ready PDFs, generated in your browser.</li>

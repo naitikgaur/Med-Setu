@@ -1,0 +1,256 @@
+{
+  "cards": [
+    {
+      "back": "Carbon monoxide poisoning",
+      "front": "Cherry-red postmortem lividity is seen in which poisoning?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "Cadaveric spasm (instantaneous rigor)",
+      "front": "A dead man is found tightly gripping the murder weapon. This phenomenon is called?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "It becomes fixed (does not blanch) in about 6–12 hours",
+      "front": "By what time does postmortem lividity usually become fixed?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "The heart (involuntary muscle stiffens first)",
+      "front": "Rigor mortis begins earliest in which muscle?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "Greenish discoloration over the right iliac fossa",
+      "front": "What is the first external sign of putrefaction?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "Larynx and trachea putrefy first; prostate and uterus last",
+      "front": "Which organs putrefy first and which resist longest?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "Minimum about 3 weeks, in a moist anaerobic setting",
+      "front": "How long does adipocere formation take at minimum?",
+      "topic": "Postmortem Changes: Lividity, Rigor & Putrefaction"
+    },
+    {
+      "back": "Tissue bridging in the depth of the wound",
+      "front": "One finding that proves a wound is a laceration, not an incised wound?",
+      "topic": "Mechanical Injuries: Blunt, Sharp & Defence Wounds"
+    },
+    {
+      "back": "Around 5–6 days (haemosiderin)",
+      "front": "A bruise turns green at about what age?",
+      "topic": "Mechanical Injuries: Blunt, Sharp & Defence Wounds"
+    },
+    {
+      "back": "A depressed 'pond' fracture of the skull",
+      "front": "A hammer blow to the head classically produces which skull fracture?",
+      "topic": "Mechanical Injuries: Blunt, Sharp & Defence Wounds"
+    },
+    {
+      "back": "Multiple superficial parallel cuts suggesting hesitation/suicide",
+      "front": "What are hesitation cuts and what do they suggest?",
+      "topic": "Mechanical Injuries: Blunt, Sharp & Defence Wounds"
+    },
+    {
+      "back": "Hands, forearms and palms",
+      "front": "Where are defence wounds typically found on a victim?",
+      "topic": "Mechanical Injuries: Blunt, Sharp & Defence Wounds"
+    },
+    {
+      "back": "Contact shot — gas expansion splits the skin over bone",
+      "front": "A stellate (star-shaped) entry wound over the skull indicates what range of fire?",
+      "topic": "Firearm & Blast Injuries"
+    },
+    {
+      "back": "A close (intermediate-range) shot, beyond blackening range",
+      "front": "Tattooing is present around an entry wound but there is no blackening or burning. The range was?",
+      "topic": "Firearm & Blast Injuries"
+    },
+    {
+      "back": "Exit wound margins are everted; entry margins are inverted",
+      "front": "How do entry and exit wound margins differ?",
+      "topic": "Firearm & Blast Injuries"
+    },
+    {
+      "back": "Between two opposite lands of the rifling",
+      "front": "Calibre of a rifled firearm is measured between what?",
+      "topic": "Firearm & Blast Injuries"
+    },
+    {
+      "back": "Tympanic membrane (eardrum) rupture",
+      "front": "What is the most common primary blast injury?",
+      "topic": "Firearm & Blast Injuries"
+    },
+    {
+      "back": "Secondary blast injury",
+      "front": "Wounds caused by flying glass and debris in an explosion are which type of blast injury?",
+      "topic": "Firearm & Blast Injuries"
+    },
+    {
+      "back": "Fracture-dislocation of the C2–C3 vertebrae (hangman's fracture)",
+      "front": "What actually kills in judicial hanging?",
+      "topic": "Asphyxia: Hanging, Strangulation & Drowning"
+    },
+    {
+      "back": "Even the weight of the head alone can constrict the neck",
+      "front": "In partial hanging, what acts as the constricting force?",
+      "topic": "Asphyxia: Hanging, Strangulation & Drowning"
+    },
+    {
+      "back": "Fine, tenacious white froth at the nose and mouth",
+      "front": "Most characteristic external sign of antemortem drowning?",
+      "topic": "Asphyxia: Hanging, Strangulation & Drowning"
+    },
+    {
+      "back": "Paltauf's haemorrhages",
+      "front": "Subpleural haemorrhages in the lungs of a drowned body are called?",
+      "topic": "Asphyxia: Hanging, Strangulation & Drowning"
+    },
+    {
+      "back": "The pelvis",
+      "front": "Which single bone is most reliable for determining sex?",
+      "topic": "Identification of the Dead & the Living"
+    },
+    {
+      "back": "Brachycephalic (short, broad skull — classically Mongoloid)",
+      "front": "A skull has a cephalic index of 85. It is classified as?",
+      "topic": "Identification of the Dead & the Living"
+    },
+    {
+      "back": "Superimposition technique",
+      "front": "Which technique matches a recovered skull to a photograph of a missing person?",
+      "topic": "Identification of the Dead & the Living"
+    },
+    {
+      "back": "Examine the regional lymph nodes for retained tattoo pigment",
+      "front": "A tattoo is not visible on a decomposed body. How can its presence still be proved?",
+      "topic": "Identification of the Dead & the Living"
+    },
+    {
+      "back": "IPC 304A — death by a rash or negligent act",
+      "front": "Which IPC section covers death caused by medical negligence?",
+      "topic": "Medical Law: IPC Sections FMGE Loves"
+    },
+    {
+      "back": "IPC 320 (fracture is listed as grievous hurt)",
+      "front": "A fracture legally amounts to which category of hurt, under which section?",
+      "topic": "Medical Law: IPC Sections FMGE Loves"
+    },
+    {
+      "back": "IPC 304B",
+      "front": "Dowry death is punishable under which IPC section?",
+      "topic": "Medical Law: IPC Sections FMGE Loves"
+    },
+    {
+      "back": "The McNaughten rule (IPC 84)",
+      "front": "An accused who could not know the nature or wrongness of his act due to insanity is protected by which rule?",
+      "topic": "Medical Law: IPC Sections FMGE Loves"
+    },
+    {
+      "back": "The President of India and the State Governor",
+      "front": "Who can commute a death sentence in India?",
+      "topic": "Medical Law: IPC Sections FMGE Loves"
+    },
+    {
+      "back": "A Magistrate (CrPC 176)",
+      "front": "Who conducts the inquest in a dowry death or a custodial death?",
+      "topic": "Inquest, Courts & Medical Evidence"
+    },
+    {
+      "back": "The criminal court summons takes priority",
+      "front": "A doctor gets a civil and a criminal summons for the same day. Which does he attend first?",
+      "topic": "Inquest, Courts & Medical Evidence"
+    },
+    {
+      "back": "In cross-examination",
+      "front": "Leading questions are freely allowed during which stage of trial?",
+      "topic": "Inquest, Courts & Medical Evidence"
+    },
+    {
+      "back": "The doctor certifies the patient is compos mentis (of sound mind)",
+      "front": "What must a doctor certify before recording a dying declaration?",
+      "topic": "Inquest, Courts & Medical Evidence"
+    },
+    {
+      "back": "Two RMPs, and only for the specified categories of women",
+      "front": "For MTP at 22 weeks, whose opinion is needed and under what condition?",
+      "topic": "MTP Act & Sexual Jurisprudence"
+    },
+    {
+      "back": "A state-level Medical Board, for substantial fetal abnormality",
+      "front": "Who authorises termination beyond 24 weeks, and for what reason?",
+      "topic": "MTP Act & Sexual Jurisprudence"
+    },
+    {
+      "back": "Written consent of her guardian",
+      "front": "A mentally ill adult woman needs an MTP. Whose consent is legally required?",
+      "topic": "MTP Act & Sexual Jurisprudence"
+    },
+    {
+      "back": "The two-finger test",
+      "front": "Which examination in rape cases has been banned by the Supreme Court?",
+      "topic": "MTP Act & Sexual Jurisprudence"
+    },
+    {
+      "back": "Satyriasis",
+      "front": "Excessive, uncontrollable sexual desire in a man is termed?",
+      "topic": "MTP Act & Sexual Jurisprudence"
+    },
+    {
+      "back": "Atropine (mainstay), with pralidoxime given early",
+      "front": "Drug of choice in organophosphorus poisoning?",
+      "topic": "Toxicology I: Pesticides & Agricultural Poisons"
+    },
+    {
+      "back": "It is contraindicated — risk of perforation",
+      "front": "Why is gastric lavage avoided in corrosive poisoning?",
+      "topic": "Toxicology I: Pesticides & Agricultural Poisons"
+    },
+    {
+      "back": "Kerosene/hydrocarbon ingestion (aspiration pneumonitis risk)",
+      "front": "Name another poisoning where gastric lavage is contraindicated.",
+      "topic": "Toxicology I: Pesticides & Agricultural Poisons"
+    },
+    {
+      "back": "A body packer (drug courier who swallowed packets)",
+      "front": "A traveller with abdominal pain has laxatives and an enema kit; X-ray shows multiple packets in the gut. Diagnosis?",
+      "topic": "Toxicology I: Pesticides & Agricultural Poisons"
+    },
+    {
+      "back": "Naloxone",
+      "front": "Pinpoint pupils, coma and respiratory depression — what is the antidote?",
+      "topic": "Toxicology II: Drugs of Abuse, Metals & Snake Bite"
+    },
+    {
+      "back": "Cocaine (Magnan's sign — 'cocaine bugs')",
+      "front": "Tactile hallucinations of insects crawling on the skin, with a blackened tongue, point to abuse of which drug?",
+      "topic": "Toxicology II: Drugs of Abuse, Metals & Snake Bite"
+    },
+    {
+      "back": "Physostigmine",
+      "front": "Antidote for datura poisoning?",
+      "topic": "Toxicology II: Drugs of Abuse, Metals & Snake Bite"
+    },
+    {
+      "back": "Sodium fluoride (it prevents fermentation)",
+      "front": "Which preservative is added to blood collected for alcohol estimation?",
+      "topic": "Toxicology II: Drugs of Abuse, Metals & Snake Bite"
+    },
+    {
+      "back": "Reassure the patient and immobilise the bitten limb; rush to hospital",
+      "front": "What is the correct first aid for snake bite?",
+      "topic": "Toxicology II: Drugs of Abuse, Metals & Snake Bite"
+    },
+    {
+      "back": "Barberio's test — yellow needle-shaped spermine picrate crystals",
+      "front": "Which test confirms semen by forming yellow needle-shaped crystals?",
+      "topic": "Specimens, Preservation & Forensic Tests"
+    }
+  ],
+  "slug": "forensic-medicine",
+  "subject": "Forensic Medicine"
+}

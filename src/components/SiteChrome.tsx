@@ -42,9 +42,9 @@ export function DonateBlock({ id = 'donate' }: { id?: string }) {
         <div className="max-w-2xl">
           <h2 className="text-lg font-bold text-ink">Donate something if you like</h2>
           <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
-            MedSetu is free — every paper, every test, every question in the bank, no sign-up, no
-            ads. If MedSetu helped your preparation, a small contribution helps Naitik Library keep
-            it free for the next student. Voluntary only; the site works fully whether you donate
+            MedSetu is free — every paper, every test, every question in the bank, every note and
+            flashcard, no sign-up. If MedSetu helped your preparation, a small contribution helps
+            Naitik Library keep it free for the next student. Voluntary only; the site works fully whether you donate
             or not.
           </p>
         </div>
@@ -86,7 +86,7 @@ export function DonateStrip() {
 
 const FOOTER_COLS: { title: string; links: [string, string][] }[] = [
   {
-    title: 'Practise',
+    title: 'Prepare',
     links: [
       ['Test Series — 30 grand tests', '/tests/'],
       ['PYP Tests — previous-year papers', '/papers/'],
@@ -96,11 +96,21 @@ const FOOTER_COLS: { title: string; links: [string, string][] }[] = [
     ],
   },
   {
+    title: 'Revise & Learn',
+    links: [
+      ['Short Notes — rapid revision', '/notes/'],
+      ['Flashcards — active recall', '/flashcards/'],
+      ['Blog — guides for medical students', '/blog/'],
+      ['Resources', '/resources/'],
+    ],
+  },
+  {
     title: 'MedSetu',
     links: [
       ['About MedSetu', '/about/'],
       ['Naitik Library', '/naitik-library/'],
       ['Contact us', '/contact/'],
+      ['Privacy Policy', '/privacy/'],
     ],
   },
   {
@@ -150,7 +160,7 @@ export function SiteFooter() {
               </div>
             </div>
           </div>
-          <nav className="grid grid-cols-2 gap-8 sm:grid-cols-3" aria-label="Footer">
+          <nav className="grid grid-cols-2 gap-8 lg:grid-cols-4" aria-label="Footer">
             {FOOTER_COLS.map((col) => (
               <div key={col.title}>
                 <p className="text-xs font-bold uppercase tracking-[0.12em] text-white/60">{col.title}</p>
@@ -170,13 +180,13 @@ export function SiteFooter() {
         <p className="mt-8 max-w-3xl text-xs leading-relaxed text-white/65">
           Disclaimer: MedSetu is not affiliated with NBEMS or NMC. NBEMS never releases official
           FMGE question papers; the papers here are recall-based editions for practice only.
-          MedSetu is a free practice resource — it is not medical advice and not a substitute for
+          MedSetu is a free preparation resource — it is not medical advice and not a substitute for
           your own teachers and textbooks.
         </p>
         <div className="mt-4 border-t border-white/15 pt-4 text-xs text-white/65">
           Your name and answers never leave your device. No accounts, no tracking of your practice,
           no data collected.
-          <span className="mt-1 block">MedSetu v4 · Made by Naitik Library, Gautam Nagar, New Delhi</span>
+          <span className="mt-1 block">MedSetu v6 · Made by Naitik Library, Gautam Nagar, New Delhi</span>
         </div>
       </div>
     </footer>

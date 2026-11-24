@@ -1,0 +1,390 @@
+{
+ "goldenPoints": [
+  "Goldmann applanation tonometry is the gold standard for IOP.",
+  "Acute angle closure: painful red eye, fixed mid-dilated vertically oval pupil, shallow chamber — emergency.",
+  "Cherry-red spot at the macula = central retinal artery occlusion.",
+  "Leukocoria in a child = retinoblastoma until proved otherwise; Flexner–Wintersteiner rosettes.",
+  "Bitemporal hemianopia = lesion at the optic chiasma (pituitary tumour).",
+  "Homonymous hemianopia with macular sparing = occipital (posterior cerebral artery) lesion.",
+  "Kayser–Fleischer ring = copper in Descemet membrane = Wilson disease.",
+  "Posterior subcapsular cataract = long-term steroid use (also diabetes, radiation).",
+  "Nd:YAG laser capsulotomy treats posterior capsular opacification.",
+  "Most common primary intraocular malignancy in adults = uveal (choroidal) melanoma."
+ ],
+ "intro": "Ophthalmology carries 15 questions in every FMGE paper and is one of the most image-driven subjects. The stems circle glaucoma emergencies, cataract types and their causes, retinal vascular signs, visual-field localisation, retinoblastoma and classic rings and spots. These 12 topics are built exactly around those repeats.",
+ "mindmap": {
+  "branches": [
+   {
+    "label": "Glaucoma",
+    "leaves": [
+     "Goldmann = gold standard IOP",
+     "Acute angle closure emergency",
+     "Mid-dilated oval pupil",
+     "Pilocarpine after pressure falls",
+     "Congenital: Haab striae"
+    ]
+   },
+   {
+    "label": "Cataract",
+    "leaves": [
+     "Steroid = posterior subcapsular",
+     "Galactosaemia = oil drop",
+     "Rubella = salt & pepper retina",
+     "Rosette = blunt trauma",
+     "Second sight = nuclear sclerosis"
+    ]
+   },
+   {
+    "label": "Retina",
+    "leaves": [
+     "CRAO cherry-red spot",
+     "CRVO blood & thunder",
+     "4-2-1 rule severe NPDR",
+     "CME petaloid pattern",
+     "Retinal detachment curtain"
+    ]
+   },
+   {
+    "label": "Visual pathway",
+    "leaves": [
+     "Chiasma = bitemporal",
+     "Occipital = macular sparing",
+     "RAPD = optic nerve",
+     "Argyll Robertson pupil",
+     "Horner = miosis ptosis anhidrosis"
+    ]
+   },
+   {
+    "label": "Cornea",
+    "leaves": [
+     "HSV dendritic ulcer",
+     "Fungal = satellite lesions",
+     "Dermatan sulfate = transparency",
+     "KF ring = Wilson",
+     "Acanthamoeba = contact lens"
+    ]
+   },
+   {
+    "label": "Child's eye",
+    "leaves": [
+     "Leukocoria = retinoblastoma",
+     "Amblyopia = patch good eye",
+     "Vitamin A = Bitot spots",
+     "Congenital dacryocystitis massage",
+     "Marcus Gunn jaw-winking"
+    ]
+   },
+   {
+    "label": "Lids & lacrimal",
+    "leaves": [
+     "Stye = Zeis gland",
+     "Chalazion = meibomian gland",
+     "Recurrent chalazion = sebaceous carcinoma",
+     "DCR for dacryocystitis",
+     "Lagophthalmos = CN VII"
+    ]
+   },
+   {
+    "label": "Orbit & nerves",
+    "leaves": [
+     "SOF syndrome = III IV V1 VI",
+     "CN IV palsy = head tilt",
+     "Myasthenia evening ptosis",
+     "Proptosis on bending = varix",
+     "Thickest sclera at posterior pole"
+    ]
+   }
+  ],
+  "center": "Ophthalmology"
+ },
+ "slug": "ophthalmology",
+ "subject": "Ophthalmology",
+ "tagline": "Glaucoma emergencies, cataract causes, retinal signs and visual-field localisation dominate the ophthalmology paper.",
+ "topics": [
+  {
+   "askedAs": "Painful red eye, oval mid-dilated pupil, shallow chamber",
+   "oneLiner": "Painful + mid-dilated fixed pupil + shallow chamber + high IOP = acute angle closure — treat as an emergency.",
+   "points": [
+    "Normal IOP is 10–21 mmHg; Goldmann applanation tonometry is the gold standard measurement",
+    "Acute angle-closure: sudden severe pain, redness, haloes, nausea; cornea hazy, anterior chamber shallow",
+    "Pupil in acute angle closure: fixed, mid-dilated and vertically oval",
+    "Primary open-angle glaucoma: painless, progressive peripheral field loss, cupping of the disc",
+    "First-line drug class for chronic open-angle glaucoma: prostaglandin analogues (e.g. latanoprost)",
+    "Acute attack is broken with IV acetazolamide and hyperosmotics, then pilocarpine once pressure falls",
+    "Definitive treatment of angle closure: peripheral iridotomy (laser) — also in the fellow eye",
+    "Pilocarpine is contraindicated in secondary glaucomas from inflammation/lens displacement — know the primary angle-closure context",
+    "Normal-tension glaucoma: field loss and cupping despite IOP in the normal range"
+   ],
+   "table": {
+    "head": [
+     "Feature",
+     "Open-angle",
+     "Acute angle-closure"
+    ],
+    "rows": [
+     [
+      "Onset",
+      "Slow, painless",
+      "Sudden, painful"
+     ],
+     [
+      "Pupil",
+      "Normal",
+      "Mid-dilated, fixed, oval"
+     ],
+     [
+      "Anterior chamber",
+      "Deep / normal",
+      "Shallow"
+     ],
+     [
+      "IOP",
+      "Moderately raised",
+      "Very high (50-80)"
+     ]
+    ]
+   },
+   "title": "Glaucoma: Open-Angle vs Angle-Closure",
+   "trap": "A mid-dilated pupil in angle closure must NOT be dilated further — and pilocarpine works only after IOP is lowered enough for the iris sphincter to respond."
+  },
+  {
+   "askedAs": "Which cataract in which condition — matching stem",
+   "oneLiner": "Steroid = posterior subcapsular; galactosaemia = oil drop; trauma = rosette; diabetes = snowflake.",
+   "points": [
+    "Posterior subcapsular cataract: long-term corticosteroids, diabetes, radiation, chronic uveitis",
+    "Oil-drop cataract: galactosaemia — early sign, reversible if diet started early",
+    "Snowflake cataract: young diabetics; sorbitol accumulation drives diabetic cataract (aldose reductase pathway)",
+    "Rosette-shaped cataract: blunt trauma",
+    "Sunflower cataract: Wilson disease (copper deposition); chalcosis from a copper foreign body",
+    "Second sight: nuclear sclerosis increases lens power — presbyope reads without glasses again",
+    "Congenital rubella: cataract + salt-and-pepper retinopathy + PDA and deafness",
+    "Most common complication of cataract surgery in follow-up clinics: posterior capsular opacification",
+    "PCO is treated by Nd:YAG laser capsulotomy"
+   ],
+   "table": {
+    "head": [
+     "Cataract type",
+     "Cause / association"
+    ],
+    "rows": [
+     [
+      "Posterior subcapsular",
+      "Steroids, diabetes"
+     ],
+     [
+      "Oil drop",
+      "Galactosaemia"
+     ],
+     [
+      "Rosette",
+      "Blunt trauma"
+     ],
+     [
+      "Sunflower",
+      "Wilson disease / copper"
+     ],
+     [
+      "Snowflake",
+      "Young diabetic"
+     ]
+    ]
+   },
+   "title": "Cataract: Types & Causes",
+   "trap": "'Second sight' sounds like improvement — it is worsening nuclear sclerosis and a cataract clue."
+  },
+  {
+   "askedAs": "Sudden painless loss of vision — name the vessel event",
+   "oneLiner": "CRAO = cherry-red spot + boxcar segmentation; CRVO = blood-and-thunder fundus.",
+   "points": [
+    "Central retinal artery occlusion: sudden painless monocular blindness, pale retina, cherry-red spot at macula",
+    "Cherry-red spot also appears in storage disorders (Tay–Sachs, Niemann–Pick) — context decides",
+    "Retinal veins look segmented ('boxcar' / cattle-truck) in CRAO; the eye has roughly 100 minutes before damage is permanent",
+    "Amaurosis fugax: transient monocular blindness lasting minutes — emboli from carotid disease",
+    "Central retinal vein occlusion: painless loss with widespread flame haemorrhages — 'blood and thunder' fundus",
+    "Hypertensive retinopathy (Keith–Wagener grade IV): haemorrhages, cotton-wool spots, disc oedema (papilloedema)",
+    "Severe NPDR by the 4-2-1 rule: haemorrhages in 4 quadrants, venous beading in 2, IRMA in 1",
+    "Cystoid macular oedema after cataract surgery: petaloid / honeycomb pattern on angiography (Irvine–Gass)",
+    "Retinal detachment: flashes, floaters, curtain falling over vision — commoner in myopes"
+   ],
+   "title": "Retina: Vascular Occlusions & Diabetic Eye",
+   "trap": "Flashes + floaters + curtain = detachment (surgical); cherry-red spot = artery occlusion — do not swap them."
+  },
+  {
+   "askedAs": "Field defect shown — localise the lesion",
+   "oneLiner": "Chiasma cuts the temporal fields; occipital lesions spare the macula.",
+   "points": [
+    "Pituitary tumour compressing the chiasma: bitemporal hemianopia",
+    "Homonymous hemianopia with macular sparing: occipital lobe / posterior cerebral artery stroke",
+    "Homonymous hemianopia with macular splitting: optic radiation or tract lesion",
+    "Optic nerve lesion: monocular vision loss with a relative afferent pupillary defect (RAPD)",
+    "Retrobulbar neuritis: painful eye movements, RAPD, normal-looking disc, central scotoma",
+    "Papillitis: same symptoms but the disc is swollen — the disc appearance separates them",
+    "Argyll Robertson pupil: light reflex absent, near reflex present — classically neurosyphilis; lesion in midbrain/pretectal area",
+    "Horner syndrome: miosis, partial ptosis, anhidrosis, pupil stays small in the dark",
+    "Superior orbital fissure syndrome: CN III, IV, V1 and VI — ophthalmoplegia with ptosis"
+   ],
+   "table": {
+    "head": [
+     "Lesion site",
+     "Field defect"
+    ],
+    "rows": [
+     [
+      "Optic nerve",
+      "Monocular loss, RAPD"
+     ],
+     [
+      "Optic chiasma",
+      "Bitemporal hemianopia"
+     ],
+     [
+      "Optic tract/radiation",
+      "Homonymous, macula split"
+     ],
+     [
+      "Occipital cortex",
+      "Homonymous, macula spared"
+     ]
+    ]
+   },
+   "title": "Neuro-Ophthalmology: Fields, Pupils & Pathways",
+   "trap": "Macular sparing points BEHIND the radiation to the occipital pole — a favourite localisation trap."
+  },
+  {
+   "askedAs": "Branching / satellite / ring — identify the ulcer",
+   "oneLiner": "Dendrite = herpes; satellites = fungus; ring infiltrate + lens wear = Acanthamoeba.",
+   "points": [
+    "Corneal transparency is maintained by dermatan sulfate (the key glycosaminoglycan of corneal stroma)",
+    "Herpes simplex keratitis: dendritic (branching) ulcer with terminal bulbs; painless relative to its look",
+    "Fungal keratitis: vegetative-matter injury, feathery margins, satellite lesions, hypopyon",
+    "Aspergillus shows septate hyphae branching at acute angles on microscopy",
+    "Acanthamoeba keratitis: contact-lens wearer, severe pain out of proportion, ring infiltrate",
+    "Pseudomonas: rapid, grey-white serpiginous ulcer in lens wearers — can melt the cornea",
+    "A corneal opacity improves vision with a pinhole when irregular astigmatism is the problem",
+    "Descemetocele: deep ulcer with Descemet membrane bulging through — perforation threatens",
+    "Trypan blue dye stains the anterior capsule to visualise it during cataract surgery"
+   ],
+   "title": "Cornea: Ulcers, Keratitis & Transparency",
+   "trap": "Steroids worsen herpes and fungal ulcers — stems often hide steroid use in the history."
+  },
+  {
+   "askedAs": "Golden-brown ring at the corneal periphery",
+   "oneLiner": "KF ring = copper in Descemet membrane = Wilson disease; sunflower cataract keeps it company.",
+   "points": [
+    "Kayser–Fleischer ring: golden to greenish-brown copper ring at the corneal periphery (Descemet membrane)",
+    "It signals Wilson disease — check liver enzymes and neurology in the same patient",
+    "Hudson–Stahli line, Fleischer ring (keratoconus) and KF ring are three different 'rings' — read the stem",
+    "Siderosis bulbi: iron foreign body deposits iron — rusty discoloration, cataract, retinal damage",
+    "Chalcosis: copper foreign body — sunflower cataract and KF-like ring",
+    "HLA association asked with eye stems: HLA-B27 with acute anterior uveitis",
+    "Koeppe nodules sit at the pupillary margin of the iris in granulomatous uveitis (sarcoidosis)",
+    "CMV retinitis in AIDS: ganciclovir is the drug of choice; fundus looks like 'pizza pie' / ketchup-and-cheese",
+    "Shield ulcer is seen in vernal keratoconjunctivitis (spring catarrh)"
+   ],
+   "title": "Rings, Deposits & Uveitis Clues",
+   "trap": "Fleischer ring belongs to keratoconus; Kayser–Fleischer belongs to Wilson — the examiners count on the shared surname."
+  },
+  {
+   "askedAs": "Child with white reflex / rosettes on histology",
+   "oneLiner": "Leukocoria + Flexner–Wintersteiner rosettes = retinoblastoma — never biopsy an intraocular tumour.",
+   "points": [
+    "Retinoblastoma: commonest intraocular malignancy of childhood; leukocoria and strabismus are the presenting signs",
+    "Flexner–Wintersteiner rosettes on histopathology confirm retinoblastoma",
+    "Gene: RB1 on chromosome 13q14; bilateral cases are heritable",
+    "Most common primary intraocular malignancy in ADULTS: uveal (choroidal) melanoma",
+    "Amblyopia: reduced vision with a normal-looking eye; commonest cause is strabismus / unequal refraction",
+    "Anisometropia: different refractive power in the two eyes — a silent amblyopia cause",
+    "Amblyopia treatment: correct refraction and PATCH the good (normal) eye; atropine penalisation is an alternative",
+    "Accommodative esotropia: full hypermetropic correction with glasses is the main treatment",
+    "Marcus Gunn jaw-winking: lid rises when the child sucks/chews — trigemino-oculomotor synkinesis"
+   ],
+   "title": "Paediatric Eye: Leukocoria, Amblyopia & Squint",
+   "trap": "Patch the GOOD eye in amblyopia — patching the lazy eye is the classic reversed answer."
+  },
+  {
+   "askedAs": "Bitot spot / xerosis grade in a malnourished child",
+   "oneLiner": "Bitot spots = X1B; xerophthalmia is a public-health problem above 0.5% Bitot prevalence.",
+   "points": [
+    "Vitamin A deficiency causes xerophthalmia: night blindness is the earliest symptom",
+    "Conjunctival xerosis and Bitot spots (foamy, triangular, at the limbus) follow night blindness",
+    "WHO grade X1B = Bitot spots; corneal xerosis/ulceration come later and scar",
+    "Xerophthalmia is a public-health problem if Bitot spot prevalence exceeds 0.5% in children",
+    "Vitamin A deficiency is the leading cause of preventable childhood blindness",
+    "Vernal keratoconjunctivitis: seasonal itching, ropy discharge, Horner–Trantas dots, shield ulcer — mast-cell mediated",
+    "Phlyctenular keratoconjunctivitis: yellowish nodules at the limbus in undernourished children — hypersensitivity to tubercular/staphylococcal antigen",
+    "Pterygium: fleshy growth from conjunctiva onto cornea; recurrent pterygium is managed with excision + conjunctival autograft",
+    "Normal conjunctival flora most commonly includes Staphylococcus epidermidis"
+   ],
+   "title": "Vitamin A, Conjunctiva & Community Eye Health",
+   "trap": "Night blindness precedes Bitot spots — 'earliest' and 'most common sign asked' are different answers."
+  },
+  {
+   "askedAs": "Swelling at inner canthus / pus point at a lash",
+   "oneLiner": "Dacryocystitis → DCR; stye = Zeis; chalazion = meibomian; recurrent chalazion — rule out sebaceous carcinoma.",
+   "points": [
+    "Chronic dacryocystitis: watering, discharge, swelling at the medial canthus; treatment of choice is dacryocystorhinostomy (DCR)",
+    "External DCR removes lacrimal and frontal-process-of-maxilla bone to open the sac into the nose",
+    "Stye (hordeolum externum): painful pus point at a lash base — gland of Zeis (or Moll)",
+    "Chalazion: painless, firm, away from the lid margin — meibomian gland lipogranuloma",
+    "Multiple recurrent chalazia: suspect sebaceous gland carcinoma of the lid",
+    "Lagophthalmos (inability to close the eye) follows facial nerve (CN VII) palsy",
+    "Angular dermoid cyst sits at the external angular (frontozygomatic) region — excise completely",
+    "Proptosis that increases on bending forwards / Valsalva: orbital varix (venous malformation)",
+    "Dry eye with poor Schirmer test despite normal acuity explains reading strain in stems"
+   ],
+   "title": "Lids, Lacrimal System & Orbit",
+   "trap": "Stye is Zeis; chalazion is meibomian — stems describe both as 'lid swelling' and expect the gland."
+  },
+  {
+   "askedAs": "Down-and-out eye / diplopia on stairs / evening ptosis",
+   "oneLiner": "Down-and-out + dilated pupil = CN III; stairs + head tilt = CN IV; evening ptosis = myasthenia.",
+   "points": [
+    "CN III palsy: eye down and out, ptosis, pupil dilated (surgical/third-nerve) — diabetes usually spares the pupil",
+    "CN IV palsy: vertical diplopia worst on descending stairs/reading; head tilts away from the lesion",
+    "CN VI palsy: horizontal diplopia, eye cannot abduct; common in raised intracranial pressure (false localising sign)",
+    "Yoke muscle of the right lateral rectus is the left medial rectus",
+    "Levo-depression is produced by left inferior rectus + right superior oblique",
+    "Myasthenia gravis: ptosis and diplopia worsening with exertion and towards evening; edrophonium (Tensilon) test improves it",
+    "Cover–uncover test detects tropias (manifest squint) — it cannot detect refractive error / field defects",
+    "Superior oblique is supplied by CN IV, lateral rectus by CN VI, all others by CN III (LR6 SO4 rule)",
+    "Total ophthalmoplegia localises to the cavernous sinus / orbital apex region"
+   ],
+   "title": "Extraocular Muscles & Cranial Nerve Palsies",
+   "trap": "Pupil involvement in CN III palsy points to compression (aneurysm); pupil sparing points to diabetes."
+  },
+  {
+   "askedAs": "Aphakia signs / myopia correction / anisometropia",
+   "oneLiner": "Deep chamber + black pupil + +12 D glasses = aphakia; myopia takes a concave lens.",
+   "points": [
+    "Aphakia: deep anterior chamber, jet-black pupil, iridodonesis; corrected with about +10 to +12 D spectacles",
+    "Myopia: concave (minus) lenses; child holds books close and squints at the board",
+    "Hypermetropia: convex (plus) lenses; can cause accommodative esotropia in children",
+    "Astigmatism: rays focus at different points in different meridians — cylindrical lens corrects it",
+    "Posterior staphyloma on indirect ophthalmoscopy = pathological (degenerative) myopia",
+    "Indirect ophthalmoscopy gives an inverted, magnified image with a wide field — good for the periphery",
+    "High myopes are prone to retinal detachment — deep anterior chamber with flashes/floaters is the stem",
+    "Blindness category: vision worse than 3/60 but better than 1/60 in the better eye (with field <10°) is classified as blindness per Indian/WHO-based definitions used in stems",
+    "Pinhole improves vision in refractive error and irregular corneal astigmatism, not in retinal disease"
+   ],
+   "title": "Refractive Errors & Aphakia",
+   "trap": "Aphakia needs a strong PLUS lens; pseudophakia means an IOL is in place — opposite stem pictures."
+  },
+  {
+   "askedAs": "Sudden painless blindness / post-op endophthalmitis",
+   "oneLiner": "No fundus glow + painless sudden loss = vitreous haemorrhage; hand-movement vision + endophthalmitis = vitrectomy pathway.",
+   "points": [
+    "Sudden painless vision loss with absent fundus glow and no trauma: vitreous haemorrhage (diabetes, Eales disease)",
+    "Post-cataract endophthalmitis with vision of hand movements only: needs vitreous tap/intravitreal antibiotics ± vitrectomy per EVS logic",
+    "Curtain-falling sign is the classic description of retinal detachment",
+    "CRAO causes sudden painless loss; painful sudden loss with RAPD and normal disc = retrobulbar neuritis",
+    "Siderosis from an iron foreign body changes colour vision early and damages the retina",
+    "Trypan blue is the dye used to stain the anterior capsule in cataract surgery",
+    "IOL power in infants under 1 year accounts for the eye's future growth — deliberate under-correction is planned",
+    "Congenital glaucoma: photophobia, watering, large clear cornea (buphthalmos) with Haab striae",
+    "Haab striae are breaks in Descemet membrane from corneal stretching in congenital glaucoma"
+   ],
+   "title": "Sudden Vision Loss & Surgical Emergencies",
+   "trap": "Haab striae = congenital glaucoma; they are horizontal/curved Descemet breaks, not corneal ulcers."
+  }
+ ]
+}
