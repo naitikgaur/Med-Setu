@@ -37,7 +37,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
           FMGE {meta.label}
         </h1>
-        <p className="mt-1.5 text-[15px] text-inksoft">
+        <p className="mt-1.5 text-body2 text-inksoft">
           {meta.session} · held {meta.examDate}
         </p>
 
@@ -50,7 +50,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
             [meta.hasExplanations ? 'Yes' : 'No', 'explanations included'],
           ].map(([big, small]) => (
             <div key={small} className="bg-white px-4 py-3.5 text-center">
-              <p className="text-[22px] font-bold tabular-nums text-med-deep">{big}</p>
+              <p className="text-h3 font-bold tabular-nums text-med-deep">{big}</p>
               <p className="mt-0.5 text-xs font-medium text-inksoft">{small}</p>
             </div>
           ))}
@@ -59,7 +59,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
         {/* What's inside */}
         <section className="mt-6 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
           <h2 className="text-lg font-bold text-ink">What&apos;s inside</h2>
-          <ul className="mt-3 space-y-2.5 text-[15px] leading-relaxed text-inksoft">
+          <ul className="mt-3 space-y-2.5 text-body2 leading-relaxed text-inksoft">
             <li>
               <strong className="text-ink">This is a recall-based edition.</strong> NBEMS never
               releases official FMGE papers; this paper was reconstructed from candidate recall
@@ -125,7 +125,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
         {meta.addedCount > 0 && (
           <section className="mt-6 rounded-xl border border-med-line bg-med-soft/40 p-5 shadow-card sm:p-6">
             <h2 className="text-lg font-bold text-ink">Completed to 300 questions</h2>
-            <p className="mt-2.5 text-[15px] leading-relaxed text-inksoft">
+            <p className="mt-2.5 text-body2 leading-relaxed text-inksoft">
               This session&apos;s own recall source has <strong className="text-ink">{meta.ownTotal} questions</strong>
               {meta.dropped > 0
                 ? <> (one further question could not be used: its options were missing or image-only in the source)</>
@@ -138,7 +138,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
               )}
               . No question was invented, and no question already in this paper was repeated.
             </p>
-            <p className="mt-2.5 text-[15px] leading-relaxed text-inksoft">
+            <p className="mt-2.5 text-body2 leading-relaxed text-inksoft">
               How they were chosen: <strong className="text-ink">subject-weightage equalisation</strong>.
               The subjects furthest below their official NBEMS blueprint share in this paper were
               filled first, taking questions from the nearest sessions. Every added question is
@@ -152,7 +152,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
         {/* Instructions summary */}
         <section className="mt-6 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
           <h2 className="text-lg font-bold text-ink">Before you start</h2>
-          <ol className="mt-3 list-decimal space-y-2.5 pl-5 text-[15px] leading-relaxed text-inksoft">
+          <ol className="mt-3 list-decimal space-y-2.5 pl-5 text-body2 leading-relaxed text-inksoft">
             <li>
               The test has <strong className="text-ink">two parts</strong>: Part I ({meta.part1}{' '}
               questions) and Part II ({meta.part2} questions), <strong className="text-ink">150
@@ -186,7 +186,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
               </div>
             ))}
           </div>
-          <ol start={5} className="mt-3 list-decimal space-y-2.5 pl-5 text-[15px] leading-relaxed text-inksoft">
+          <ol start={5} className="mt-3 list-decimal space-y-2.5 pl-5 text-body2 leading-relaxed text-inksoft">
             <li>
               Optional but valuable: mark <strong className="text-ink">Sure / Unsure / Guessed</strong>{' '}
               under any question to record how confident you were. Your analysis uses it to show how

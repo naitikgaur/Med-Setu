@@ -38,7 +38,7 @@ export function SiteHeader() {
   ];
 
   return (
-    <header className="no-print sticky top-0 z-40 border-b border-line/70 bg-white/85 shadow-[0_1px_16px_rgba(16,42,50,0.06)] backdrop-blur-md">
+    <header className="no-print sticky top-0 z-40 border-b border-line/70 bg-white/85 shadow-header backdrop-blur-md">
       <a
         href="#content"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-white focus:px-5 focus:py-2.5 focus:text-sm focus:font-bold focus:text-med-deep focus:shadow-lift"
@@ -53,7 +53,7 @@ export function SiteHeader() {
             </svg>
           </span>
           <BrandLockup />
-          <span className="hidden border-l border-line pl-2.5 text-[11px] font-medium uppercase tracking-[0.12em] text-inksoft sm:inline">
+          <span className="hidden border-l border-line pl-2.5 text-micro font-medium uppercase tracking-[0.12em] text-inksoft sm:inline">
             Complete FMGE Preparation
           </span>
         </Link>
@@ -116,7 +116,7 @@ export function SiteHeader() {
               key={href}
               href={href}
               onClick={() => setOpen(false)}
-              className="block rounded-xl px-4 py-3 text-[15px] font-semibold text-ink transition-colors hover:bg-med-soft hover:text-med-deep"
+              className="block rounded-xl px-4 py-3 text-body2 font-semibold text-ink transition-colors hover:bg-med-soft hover:text-med-deep"
             >
               {label}
             </Link>
@@ -124,7 +124,7 @@ export function SiteHeader() {
           <a
             href="#donate"
             onClick={() => setOpen(false)}
-            className="mt-1 block rounded-xl bg-accent-soft px-4 py-3 text-[15px] font-semibold text-accent-deep"
+            className="mt-1 block rounded-xl bg-accent-soft px-4 py-3 text-body2 font-semibold text-accent-deep"
           >
             Donate
           </a>

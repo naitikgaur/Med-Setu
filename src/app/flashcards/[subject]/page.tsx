@@ -39,20 +39,20 @@ export default function SubjectFlashcardsPage({ params }: { params: { subject: s
       </div>
       <main id="content" className="web-only mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="pt-10 lg:pt-14">
-          <nav aria-label="Breadcrumb" className="text-[13px] font-medium text-inksoft">
+          <nav aria-label="Breadcrumb" className="text-caption font-medium text-inksoft">
             <Link href="/flashcards/" className="text-med hover:underline">Flashcards</Link>
             <span aria-hidden> / </span>
             <span className="text-ink">{meta.name}</span>
           </nav>
           <div className="mt-3 flex flex-wrap items-center gap-3">
-            <h1 className="text-[32px] font-bold leading-tight tracking-tight text-ink sm:text-[40px]">
+            <h1 className="text-4xl text-ink sm:text-h1">
               {meta.name} flashcards
             </h1>
-            <span className="rounded bg-med-soft px-2.5 py-1 text-[13px] font-bold tabular-nums text-med-deep">
+            <span className="rounded bg-med-soft px-2.5 py-1 text-caption font-bold tabular-nums text-med-deep">
               {deck.cards.length} cards
             </span>
           </div>
-          <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-3 max-w-2xl text-body2 leading-relaxed text-inksoft">
             Say the answer in your head <em>before</em> you flip — the effort of recalling is the
             whole point. Sort honestly: a card you nearly knew is still learning.
             {notes && (
@@ -74,7 +74,7 @@ export default function SubjectFlashcardsPage({ params }: { params: { subject: s
         <section className="mb-14 grid gap-4 sm:grid-cols-2">
           {notes && (
             <Link href={`/notes/${params.subject}/`} className="group rounded-xl border border-line bg-white p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-med/40">
-              <h3 className="text-[17px] font-bold text-ink group-hover:text-med-deep">Back to the notes</h3>
+              <h3 className="text-subtitle font-bold text-ink group-hover:text-med-deep">Back to the notes</h3>
               <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
                 Re-read the {meta.name} short notes — topics, tables, traps and the mind map.
               </p>
@@ -82,7 +82,7 @@ export default function SubjectFlashcardsPage({ params }: { params: { subject: s
             </Link>
           )}
           <Link href={`/qbank/${params.subject}/`} className="group rounded-xl bg-med-deep p-6 text-white shadow-card transition-all hover:-translate-y-0.5">
-            <h3 className="text-[17px] font-bold">Prove it in questions</h3>
+            <h3 className="text-subtitle font-bold">Prove it in questions</h3>
             <p className="mt-1.5 text-sm leading-relaxed text-white/85">
               {meta.name} questions from the bank with full explanations — recall under exam conditions.
             </p>

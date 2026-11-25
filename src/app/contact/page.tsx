@@ -29,7 +29,7 @@ export default function ContactPage() {
         <section className="grid gap-4 py-8 sm:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-xl border border-line bg-white p-6 shadow-card">
             <h2 className="text-lg font-bold text-ink">Call or WhatsApp</h2>
-            <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+            <p className="mt-2 text-body2 leading-relaxed text-inksoft">
               The fastest way to reach us — for a question about a paper, an explanation you think
               is wrong, or help with a test that is not opening.
             </p>
@@ -43,11 +43,11 @@ export default function ContactPage() {
           </div>
           <div className="rounded-xl border border-line bg-white p-6 shadow-card">
             <h2 className="text-lg font-bold text-ink">Visit the library</h2>
-            <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+            <p className="mt-2 text-body2 leading-relaxed text-inksoft">
               Naitik Library is a physical study hall for medical students. If you are preparing
               for FMGE in Delhi, you are welcome to come and study with us.
             </p>
-            <p className="mt-3 text-[15px] font-semibold leading-relaxed text-ink">
+            <p className="mt-3 text-body2 font-semibold leading-relaxed text-ink">
               Naitik Library
               <br />
               Gautam Nagar, New Delhi, India
@@ -61,11 +61,11 @@ export default function ContactPage() {
           </div>
           <div className="rounded-xl border border-line bg-white p-6 shadow-card sm:col-span-2 lg:col-span-1">
             <h2 className="text-lg font-bold text-ink">Join the community</h2>
-            <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+            <p className="mt-2 text-body2 leading-relaxed text-inksoft">
               Students preparing with MedSetu share papers, doubts and updates in our WhatsApp
               group, and Naitik Library posts on Instagram.
             </p>
-            <p className="mt-3 flex flex-col gap-2 text-[15px] font-semibold">
+            <p className="mt-3 flex flex-col gap-2 text-body2 font-semibold">
               <a
                 href="https://chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07"
                 target="_blank"
@@ -88,7 +88,7 @@ export default function ContactPage() {
 
         <section className="pb-12">
           <h2 className="text-xl font-bold text-ink">What to write to us about</h2>
-          <ul className="mt-3 list-disc space-y-2 pl-5 text-[15px] leading-relaxed text-inksoft">
+          <ul className="mt-3 list-disc space-y-2 pl-5 text-body2 leading-relaxed text-inksoft">
             <li>
               <strong className="text-ink">A wrong answer or explanation.</strong> Tell us the
               paper or test and the question number — we check it against the source and fix it.

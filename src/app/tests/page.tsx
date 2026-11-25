@@ -71,7 +71,7 @@ export default function TestsPage() {
             ['697 / 697', 'syllabus topics covered'],
           ].map(([big, small]) => (
             <div key={small} className="bg-white px-4 py-3.5 text-center">
-              <p className="text-[22px] font-bold tabular-nums text-med-deep">{big}</p>
+              <p className="text-h3 font-bold tabular-nums text-med-deep">{big}</p>
               <p className="mt-0.5 text-xs font-medium text-inksoft">{small}</p>
             </div>
           ))}
@@ -89,7 +89,7 @@ export default function TestsPage() {
             {FAQS.map((f) => (
               <div key={f.q} className="rounded-xl border border-line bg-white p-5 shadow-card">
                 <h3 className="font-bold text-ink">{f.q}</h3>
-                <p className="mt-1.5 text-[15px] leading-relaxed text-inksoft">{f.a}</p>
+                <p className="mt-1.5 text-body2 leading-relaxed text-inksoft">{f.a}</p>
               </div>
             ))}
           </div>

@@ -4,6 +4,7 @@
 // and paragraph breaks are added. Pure component, safe for print views.
 
 import type { ExplBlock } from '../lib/types';
+import { imgDims } from '../lib/imgdims';
 
 export function explanationParagraphs(text: string): string[] {
   const raw = String(text || '');
@@ -81,6 +82,8 @@ export function ExplanationBlocks({
               src={b.src}
               alt="Figure from the source explanation"
               loading="lazy"
+              width={imgDims(b.src)?.width}
+              height={imgDims(b.src)?.height}
               className="mt-3 max-h-[440px] w-auto max-w-full rounded-md border border-line bg-white object-contain"
             />
           );

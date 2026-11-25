@@ -23,7 +23,7 @@ export default function PapersPage() {
           <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             FMGE previous-year papers, as full mock tests
           </h1>
-          <p className="mt-3 text-[15px] leading-relaxed text-inksoft sm:text-base">
+          <p className="mt-3 text-body2 leading-relaxed text-inksoft sm:text-base">
             Twelve papers, December 2020 to June 2026 — every one a complete{' '}
             <strong className="text-ink">300 questions</strong> in the real FMGE manner: two parts
             of 150, 150 minutes a part, no negative marking, marked against the real pass mark of{' '}
@@ -31,7 +31,7 @@ export default function PapersPage() {
             explanations; the two 2026 papers carry answers only, and say so. After each paper you
             get an eight-part analysis and a downloadable answer key.
           </p>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft sm:text-base">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft sm:text-base">
             NBEMS never releases official FMGE papers, so these are recall-based editions —
             labelled as such on every paper page. Where a recall source runs short of 300, the
             mock is completed with questions from other years’ papers, and every added question is

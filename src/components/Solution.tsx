@@ -45,7 +45,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
       </div>
 
       {q.img && (
-        <p className="mt-3 rounded-md bg-accent-soft px-3 py-2 text-[13px] font-medium text-accent-deep">
+        <p className="mt-3 rounded-md bg-accent-soft px-3 py-2 text-caption font-medium text-accent-deep">
           {imgNote ??
             (isSubject
               ? 'This question refers to an image from the source test. The image could not be recovered for this edition.'
@@ -53,7 +53,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
         </p>
       )}
 
-      <p className="mt-3 whitespace-pre-wrap text-[15.5px] leading-relaxed text-ink">{q.text}</p>
+      <p className="mt-3 whitespace-pre-wrap text-body2 leading-relaxed text-ink">{q.text}</p>
 
       {q.images && q.images.length > 0 && (
         <div className="mt-3 space-y-3">
@@ -85,7 +85,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
               }`}
             >
               <span
-                className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border text-[11px] font-bold ${
+                className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border text-micro font-bold ${
                   isCorrect
                     ? 'border-ok bg-ok text-white'
                     : isYours
@@ -120,7 +120,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
         </p>
       )}
 
-      <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 rounded-md bg-paper px-3.5 py-3 text-[13px] tabular-nums sm:grid-cols-4">
+      <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 rounded-md bg-paper px-3.5 py-3 text-caption tabular-nums sm:grid-cols-4">
         <div>
           <dt className="font-semibold text-inksoft">Time spent</dt>
           <dd className="mt-0.5 font-semibold text-ink">{fmtClock(row.timeSec)}</dd>
@@ -147,7 +147,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
         </div>
       </dl>
       {row.change && (
-        <p className="mt-2 text-[13px] text-inksoft">
+        <p className="mt-2 text-caption text-inksoft">
           You first answered {LETTERS[row.change.firstFrom]} and finally saved{' '}
           {row.yours !== null ? LETTERS[row.yours] : '—'}.
         </p>
@@ -158,7 +158,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
           <p className="text-xs font-bold uppercase tracking-wide text-med-deep">
             Learning from this question
           </p>
-          <p className="mt-1 text-[14.5px] font-medium leading-relaxed text-ink">{q.learning}</p>
+          <p className="mt-1 text-body2 font-medium leading-relaxed text-ink">{q.learning}</p>
         </div>
       )}
 
@@ -169,12 +169,12 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
             <ExplanationBlocks
               text={q.explanation}
               blocks={q.explBlocks}
-              className="mt-2 text-[14.5px] leading-relaxed text-ink"
+              className="mt-2 text-body2 leading-relaxed text-ink"
             />
           ) : (
             <ExplanationText
               text={q.explanation}
-              className="mt-2 text-[14.5px] leading-relaxed text-ink"
+              className="mt-2 text-body2 leading-relaxed text-ink"
             />
           )
         ) : (
@@ -184,7 +184,7 @@ export function SolutionBody({ paper, row, isSubject = false, imgNote, noExplNot
           </p>
         )}
         {row.added && (
-          <p className="mt-3 text-[13px] leading-relaxed text-inksoft">
+          <p className="mt-3 text-caption leading-relaxed text-inksoft">
             This is a completion question, added from FMGE {row.fromLabel} to bring this paper to a
             full 300. Its explanation is the book explanation from that paper.
           </p>

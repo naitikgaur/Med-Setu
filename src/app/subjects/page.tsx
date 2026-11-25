@@ -27,14 +27,14 @@ export default function SubjectsPage() {
           <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             Subject-wise FMGE tests
           </h1>
-          <p className="mt-3 text-[15px] leading-relaxed text-inksoft sm:text-base">
+          <p className="mt-3 text-body2 leading-relaxed text-inksoft sm:text-base">
             {SUBJECTS_META.length} subjects, {TOTAL_TESTS} tests, {TOTAL_QS.toLocaleString('en-IN')}{' '}
             questions — one subject at a time, in the same exam window as the full papers, every
             question with its full explanation. Your score is measured against the{' '}
             <strong className="text-ink">50% mark</strong>, the FMGE pass proportion, and every
             test ends in the same eight-part analysis as a full paper.
           </p>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft sm:text-base">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft sm:text-base">
             Use these to find the subject that is quietly costing you marks: a weak subject at 17
             or 30 questions in the paper is worth more than a strong one at 5.
           </p>

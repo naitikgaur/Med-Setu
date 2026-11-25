@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: 'MedSetu — Complete FMGE Preparation for Medical Students',
   description:
-    'Free FMGE preparation by Naitik Library: previous-year papers as full mocks in the real exam window, 30 grand tests, 13,934 explained questions, notes and 950 flashcards.',
+    'Free FMGE preparation by Naitik Library: previous-year papers as full mocks, 30 grand tests, 13,934 explained questions, short notes and 950 flashcards.',
   openGraph: {
     type: 'website',
     siteName: 'MedSetu by Naitik Library',

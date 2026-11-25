@@ -22,7 +22,7 @@ export default function ChooseGate() {
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-ink">How will you prepare today?</h1>
-          <p className="mt-1.5 text-[15px] text-inksoft">
+          <p className="mt-1.5 text-body2 text-inksoft">
             {name ? (
               <>
                 Hi, <span className="font-semibold text-ink">{name}</span> — practise with tests and
@@ -49,14 +49,14 @@ export default function ChooseGate() {
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">New · Grand tests</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Test Series</h2>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             30 full-syllabus grand tests — 300 questions each in the official NBEMS mix, with a
             learning for every question and an eight-part analysis.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             30 tests · 9,000 questions
           </p>
-          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+          <span className="mt-auto pt-5 text-body2 font-bold text-med group-hover:underline">
             Go to the Test Series →
           </span>
         </Link>
@@ -67,14 +67,14 @@ export default function ChooseGate() {
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">Full mocks</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">PYP Tests</h2>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             Complete previous-year papers as full mock tests — 300 questions, two parts, the fixed
             pass mark of 150.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             12 papers · 3,600 questions
           </p>
-          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+          <span className="mt-auto pt-5 text-body2 font-bold text-med group-hover:underline">
             Go to PYP Tests →
           </span>
         </Link>
@@ -85,14 +85,14 @@ export default function ChooseGate() {
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">One subject at a time</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Subject-wise Tests</h2>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             One subject per test — 19 to 50 questions in the same exam window, with a full analysis
             against the 50% mark.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             16 subjects · 30 tests · 1,059 questions
           </p>
-          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+          <span className="mt-auto pt-5 text-body2 font-bold text-med group-hover:underline">
             Go to Subject-wise Tests →
           </span>
         </Link>
@@ -103,14 +103,14 @@ export default function ChooseGate() {
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">Question by question</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Question Bank</h2>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             Question by question, by subject and topic. Practice mode explains each answer straight
             away; Exam mode locks answers until you submit. Mistakes and bookmarks are kept.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             19 subjects · {QBANK_META.total.toLocaleString('en-IN')} questions
           </p>
-          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+          <span className="mt-auto pt-5 text-body2 font-bold text-med group-hover:underline">
             Go to the Question Bank →
           </span>
         </Link>
@@ -121,14 +121,14 @@ export default function ChooseGate() {
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">New · Rapid revision</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Short Notes</h2>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             Every subject condensed to what the exam actually asks — fact lines, comparison tables,
             exam traps, golden points and a mind map per subject.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             19 subjects · 2,064 must-know points
           </p>
-          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+          <span className="mt-auto pt-5 text-body2 font-bold text-med group-hover:underline">
             Revise with Short Notes →
           </span>
         </Link>
@@ -139,14 +139,14 @@ export default function ChooseGate() {
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">New · Active recall</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Flashcards</h2>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             Flip, answer from memory, mark what you know — missed cards come back in the same
             sitting until they stick. Fifty per subject.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             19 subjects · 950 cards
           </p>
-          <span className="mt-auto pt-5 text-[15px] font-bold text-med group-hover:underline">
+          <span className="mt-auto pt-5 text-body2 font-bold text-med group-hover:underline">
             Practise with Flashcards →
           </span>
         </Link>

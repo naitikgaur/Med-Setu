@@ -23,7 +23,7 @@ export default function QBankPage() {
           <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             The FMGE question bank
           </h1>
-          <p className="mt-3 text-[15px] leading-relaxed text-inksoft sm:text-base">
+          <p className="mt-3 text-body2 leading-relaxed text-inksoft sm:text-base">
             <strong className="text-ink">{QBANK_META.total.toLocaleString('en-IN')} questions</strong>{' '}
             across all 19 FMGE subjects, organised by topic, every question with its answer and
             explanation. Practise a topic at a time in sets of 20, 50 or the whole subject — in{' '}
@@ -31,7 +31,7 @@ export default function QBankPage() {
             explanation straight away; in <strong className="text-ink">Exam mode</strong> the set
             opens in the real exam window and ends in the eight-part analysis.
           </p>
-          <p className="mt-2 text-[15px] leading-relaxed text-inksoft sm:text-base">
+          <p className="mt-2 text-body2 leading-relaxed text-inksoft sm:text-base">
             Every wrong answer is saved to <strong className="text-ink">My Mistakes</strong> in
             this tab — replay it, answer it right, and it clears. Nothing is uploaded anywhere:
             the bank, your mistakes and your bookmarks all live on your own device.

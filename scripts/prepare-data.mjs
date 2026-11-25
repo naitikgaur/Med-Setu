@@ -67,6 +67,15 @@ const bimgSrc = join(root, 'src', 'data', 'bimg');
 const bimgDst = join(root, 'public', 'bimg');
 copyLinked(bimgSrc, bimgDst);
 
+// Real pixel dimensions for every shipped figure, so the runners can set
+// width/height on <img> and the browser reserves the box before load (CLS).
+{
+  const { scanDirs } = await import('./imgdims.mjs');
+  const { out, found, missed } = scanDirs(root, ['qimg', 'simg', 'bimg']);
+  writeFileSync(join(root, 'src', 'data', 'imgdims.json'), JSON.stringify(out));
+  console.log(`imgdims: ${found} measured, ${missed} skipped`);
+}
+
 // Real-session pass percentages (NBEMS-published results, from FMGE-RESEARCH.md).
 // dec-2020 is approximate in the sources and labelled as such wherever shown.
 const PASS_PCT = {

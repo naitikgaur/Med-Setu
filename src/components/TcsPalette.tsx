@@ -52,7 +52,7 @@ export function PaletteTile({
   size?: 'sm' | 'md';
   onClick?: () => void;
 }) {
-  const dims = size === 'sm' ? 'h-6 w-6 text-[10px]' : 'h-9 w-9 text-[13px]';
+  const dims = size === 'sm' ? 'h-6 w-6 text-tiny' : 'h-9 w-9 text-caption';
   const inner = (
     <span
       className={`relative flex ${dims} items-center justify-center font-semibold transition hover:brightness-110 ${STATE_BG[state]} ${STATE_SHAPE[state]}`}

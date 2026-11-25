@@ -22,7 +22,7 @@ export default function TestsGate() {
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h2 className="text-2xl font-bold tracking-tight text-ink">The 30 grand tests</h2>
-          <p className="mt-1.5 text-[15px] text-inksoft">
+          <p className="mt-1.5 text-body2 text-inksoft">
             {name ? (
               <>
                 Hi, <span className="font-semibold text-ink">{name}</span> — pick a grand test.

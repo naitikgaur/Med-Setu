@@ -11,7 +11,7 @@ export function MindMap({ notes }: { notes: SubjectNotes }) {
     <div>
       <div className="flex justify-center">
         <div className="rounded-2xl bg-med-deep px-8 py-4 text-center text-white shadow-lift">
-          <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-white/70">Mind map</p>
+          <p className="text-micro font-bold uppercase tracking-[0.14em] text-white/70">Mind map</p>
           <p className="mt-0.5 text-xl font-bold">{mindmap.center}</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ export function MindMap({ notes }: { notes: SubjectNotes }) {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {mindmap.branches.map((b) => (
           <div key={b.label} className="rounded-xl border border-med/25 bg-white p-5 shadow-card">
-            <h3 className="flex items-center gap-2 text-[15px] font-bold text-med-deep">
+            <h3 className="flex items-center gap-2 text-body2 font-bold text-med-deep">
               <span aria-hidden className="h-2 w-2 shrink-0 rounded-full bg-med" />
               {b.label}
             </h3>

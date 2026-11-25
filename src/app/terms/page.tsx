@@ -14,7 +14,7 @@ function H2({ children }: { children: React.ReactNode }) {
 }
 
 function P({ children }: { children: React.ReactNode }) {
-  return <p className="mt-2.5 text-[15px] leading-relaxed text-inksoft">{children}</p>;
+  return <p className="mt-2.5 text-body2 leading-relaxed text-inksoft">{children}</p>;
 }
 
 export default function TermsPage() {

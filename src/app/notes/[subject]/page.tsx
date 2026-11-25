@@ -43,21 +43,21 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
       <main id="content" className="web-only mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
         {/* header */}
         <section className="pt-10 lg:pt-14">
-          <nav aria-label="Breadcrumb" className="text-[13px] font-medium text-inksoft">
+          <nav aria-label="Breadcrumb" className="text-caption font-medium text-inksoft">
             <Link href="/notes/" className="text-med hover:underline">Short Notes</Link>
             <span aria-hidden> / </span>
             <span className="text-ink">{meta.name}</span>
           </nav>
           <div className="mt-3 flex flex-wrap items-center gap-3">
-            <h1 className="text-[32px] font-bold leading-tight tracking-tight text-ink sm:text-[40px]">
+            <h1 className="text-4xl text-ink sm:text-h1">
               {meta.name} — short notes
             </h1>
-            <span className="rounded bg-med-soft px-2.5 py-1 text-[13px] font-bold tabular-nums text-med-deep">
+            <span className="rounded bg-med-soft px-2.5 py-1 text-caption font-bold tabular-nums text-med-deep">
               {meta.weight} of 300 questions
             </span>
           </div>
-          <p className="mt-2 text-[17px] font-semibold text-med-deep">{notes.tagline}</p>
-          <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-inksoft">{notes.intro}</p>
+          <p className="mt-2 text-subtitle font-semibold text-med-deep">{notes.tagline}</p>
+          <p className="pretty mt-3 max-w-[46rem] text-body2 leading-relaxed text-inksoft">{notes.intro}</p>
           <div className="mt-5 flex flex-wrap gap-3">
             {cards > 0 && (
               <Link href={`/flashcards/${params.subject}/`} className="rounded-lg bg-med px-5 py-2.5 text-sm font-bold text-white shadow-card transition-colors hover:bg-med-deep">
@@ -74,15 +74,15 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
               <a
                 key={t.title}
                 href={`#topic-${i + 1}`}
-                className="rounded-full border border-line bg-white px-3 py-1.5 text-[13px] font-semibold text-ink transition-colors hover:border-med/50 hover:text-med-deep"
+                className="rounded-full border border-line bg-white px-3 py-1.5 text-caption font-semibold text-ink transition-colors hover:border-med/50 hover:text-med-deep"
               >
                 {t.title}
               </a>
             ))}
-            <a href="#mindmap" className="rounded-full bg-med-deep px-3 py-1.5 text-[13px] font-semibold text-white">
+            <a href="#mindmap" className="rounded-full bg-med-deep px-3 py-1.5 text-caption font-semibold text-white">
               Mind map ↓
             </a>
-            <a href="#golden" className="rounded-full bg-accent px-3 py-1.5 text-[13px] font-semibold text-white">
+            <a href="#golden" className="rounded-full bg-accent px-3 py-1.5 text-caption font-semibold text-white">
               Golden points ↓
             </a>
           </div>
@@ -90,13 +90,13 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
 
         {/* golden points */}
         <section id="golden" className="mt-12 scroll-mt-8 rounded-2xl bg-med-abyss p-6 text-white sm:p-8">
-          <h2 className="text-[22px] font-bold tracking-tight">Night-before golden points</h2>
+          <h2 className="text-h3 font-bold tracking-tight">Night-before golden points</h2>
           <p className="mt-1 text-sm text-white/75">
             If you read nothing else in {meta.name}, read these — the highest-yield lines in the subject.
           </p>
           <ul className="mt-5 grid gap-x-8 gap-y-2.5 md:grid-cols-2">
             {notes.goldenPoints.map((g) => (
-              <li key={g} className="flex gap-2.5 text-[15px] leading-relaxed">
+              <li key={g} className="flex gap-2.5 text-body2 leading-relaxed">
                 <span aria-hidden className="mt-[8px] h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
                 <span>{g}</span>
               </li>
@@ -109,17 +109,17 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
           {notes.topics.map((t, i) => (
             <article key={t.title} id={`topic-${i + 1}`} className="scroll-mt-8 rounded-2xl border border-line bg-white p-6 shadow-card sm:p-8">
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <span className="text-[13px] font-bold tabular-nums text-med">{String(i + 1).padStart(2, '0')}</span>
-                <h2 className="text-[21px] font-bold tracking-tight text-ink">{t.title}</h2>
+                <span className="text-caption font-bold tabular-nums text-med">{String(i + 1).padStart(2, '0')}</span>
+                <h2 className="text-h3 font-bold tracking-tight text-ink">{t.title}</h2>
                 {t.askedAs && (
-                  <span className="rounded bg-mist px-2 py-0.5 text-[12px] font-semibold text-inksoft">
+                  <span className="rounded bg-mist px-2 py-0.5 text-xs font-semibold text-inksoft">
                     Asked as: {t.askedAs}
                   </span>
                 )}
               </div>
               <ul className="mt-4 grid gap-x-8 gap-y-2 lg:grid-cols-2">
                 {t.points.map((p) => (
-                  <li key={p} className="flex gap-2.5 text-[15px] leading-relaxed text-ink">
+                  <li key={p} className="flex gap-2.5 text-body2 leading-relaxed text-ink">
                     <svg viewBox="0 0 12 12" className="mt-[7px] h-3 w-3 shrink-0" fill="none" aria-hidden>
                       <path d="M2 6.5 4.8 9 10 3" stroke="#006D77" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
@@ -152,14 +152,14 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
               <div className="mt-5 grid gap-3 md:grid-cols-2">
                 {t.oneLiner && (
                   <div className="rounded-xl bg-med-soft px-4 py-3.5">
-                    <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-med-deep">Remember this line</p>
-                    <p className="mt-1 text-[15px] font-semibold leading-relaxed text-ink">{t.oneLiner}</p>
+                    <p className="text-micro font-bold uppercase tracking-[0.1em] text-med-deep">Remember this line</p>
+                    <p className="mt-1 text-body2 font-semibold leading-relaxed text-ink">{t.oneLiner}</p>
                   </div>
                 )}
                 {t.trap && (
                   <div className="rounded-xl bg-accent-soft px-4 py-3.5">
-                    <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-accent-deep">Exam trap</p>
-                    <p className="mt-1 text-[15px] leading-relaxed text-ink">{t.trap}</p>
+                    <p className="text-micro font-bold uppercase tracking-[0.1em] text-accent-deep">Exam trap</p>
+                    <p className="mt-1 text-body2 leading-relaxed text-ink">{t.trap}</p>
                   </div>
                 )}
               </div>
@@ -169,8 +169,8 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
 
         {/* mind map */}
         <section id="mindmap" className="mt-14 scroll-mt-8">
-          <h2 className="text-[28px] font-bold tracking-tight text-ink">{meta.name} on one screen</h2>
-          <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
+          <h2 className="text-title font-bold tracking-tight text-ink">{meta.name} on one screen</h2>
+          <p className="pretty mt-2 max-w-[46rem] text-body2 leading-relaxed text-inksoft">
             The whole subject as a map. Read each branch, say its leaves out loud from memory, and
             the ones that will not come are the topics to reopen above.
           </p>
@@ -183,7 +183,7 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
         <section className="my-14 grid gap-4 sm:grid-cols-3">
           {cards > 0 && (
             <Link href={`/flashcards/${params.subject}/`} className="group rounded-xl bg-med-deep p-6 text-white shadow-card transition-all hover:-translate-y-0.5">
-              <h3 className="text-[17px] font-bold">Now recall it</h3>
+              <h3 className="text-subtitle font-bold">Now recall it</h3>
               <p className="mt-1.5 text-sm leading-relaxed text-white/85">
                 {cards} {meta.name} flashcards — flip, sort, and shrink the still-learning pile.
               </p>
@@ -191,14 +191,14 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
             </Link>
           )}
           <Link href={`/qbank/${params.subject}/`} className="group rounded-xl border border-line bg-white p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-med/40">
-            <h3 className="text-[17px] font-bold text-ink group-hover:text-med-deep">Then test it</h3>
+            <h3 className="text-subtitle font-bold text-ink group-hover:text-med-deep">Then test it</h3>
             <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
               {meta.name} questions from the bank, topic by topic, with full explanations.
             </p>
             <p className="mt-3 text-sm font-bold text-med">Open the question bank →</p>
           </Link>
           <Link href={`/notes/${next.slug}/`} className="group rounded-xl border border-line bg-white p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-med/40">
-            <h3 className="text-[17px] font-bold text-ink group-hover:text-med-deep">Next subject</h3>
+            <h3 className="text-subtitle font-bold text-ink group-hover:text-med-deep">Next subject</h3>
             <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
               Continue the revision circuit with {next.name} — {next.weight} of 300 questions.
             </p>

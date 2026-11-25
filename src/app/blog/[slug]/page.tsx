@@ -30,6 +30,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       title: post.metaTitle,
       description: post.metaDescription,
       type: 'article',
+      images: [{ url: `/og/${post.slug}.png`, width: 1200, height: 630, alt: post.title }],
       publishedTime: post.datePublished,
       modifiedTime: post.dateModified,
       section: getCategory(post.category).name,
@@ -39,6 +40,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       card: 'summary_large_image',
       title: post.metaTitle,
       description: post.metaDescription,
+      images: [`/og/${post.slug}.png`],
     },
   };
 }
@@ -90,7 +92,7 @@ export default function BlogArticle({ params }: { params: { slug: string } }) {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-[46rem] flex-1 px-4 sm:px-6">
         <article className="pb-4 pt-8 sm:pt-10">
           <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">
             <Link href="/blog/" className="hover:underline">Blog</Link> · {cat.name}
@@ -103,7 +105,7 @@ export default function BlogArticle({ params }: { params: { slug: string } }) {
             By Naitik Library · {formatBlogDate(post.datePublished)} · {readingMinutes(post)} min read
           </p>
 
-          <div className="pt-2" dangerouslySetInnerHTML={{ __html: renderMarkdown(post.bodyMd) }} />
+          <div className="pretty pt-2" dangerouslySetInnerHTML={{ __html: renderMarkdown(post.bodyMd) }} />
 
           {post.faqs.length > 0 && (
             <section className="mt-10">

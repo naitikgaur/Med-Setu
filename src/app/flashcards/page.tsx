@@ -60,33 +60,39 @@ export default function FlashcardsIndex() {
           <h1 className="mt-2 max-w-3xl text-4xl text-ink sm:text-h1">
             Flashcards that make it stick.
           </h1>
-          <p className="mt-4 max-w-3xl text-[16px] leading-relaxed text-inksoft">
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft">
             {totalCards().toLocaleString('en-IN')} cards, 50 per subject, each one a fact the FMGE
             has asked before in some form. Flip, recall, sort — and watch the still-learning pile
             shrink round by round.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link href="/notes/" className="btn-primary rounded-full px-7 py-3.5 text-[15px] font-bold text-white">
+            <Link href="/notes/" className="btn-primary rounded-full px-7 py-3.5 text-body2 font-bold text-white">
               Read the short notes first →
             </Link>
-            <Link href="/tests/" className="rounded-full border border-line/80 bg-white px-7 py-3.5 text-[15px] font-bold text-med-deep shadow-card transition hover:bg-mist">
+            <Link href="/tests/" className="rounded-full border border-line/80 bg-white px-7 py-3.5 text-body2 font-bold text-med-deep shadow-card transition hover:bg-mist">
               Sit a full grand test
             </Link>
           </div>
         </section>
 
-        <section className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {WHY.map((h) => (
-            <article key={h.title} className="rounded-2xl border border-line/70 bg-white p-6 shadow-card">
-              <h2 className="text-[16px] font-bold text-ink">{h.title}</h2>
-              <p className="mt-1.5 text-sm leading-relaxed text-inksoft">{h.body}</p>
-            </article>
-          ))}
+        <section className="mt-12">
+          <article className="rounded-2xl border border-line/70 bg-white p-6 shadow-card sm:p-8">
+            <h2 className="text-h3 text-ink">{WHY[0].title}</h2>
+            <p className="mt-2 max-w-3xl text-body2 leading-relaxed text-inksoft">{WHY[0].body}</p>
+          </article>
+          <div className="mt-4 divide-y divide-line/70 rounded-2xl border border-line/70 bg-white px-6 shadow-card sm:px-8">
+            {WHY.slice(1).map((h) => (
+              <article key={h.title} className="py-5">
+                <h2 className="text-base font-bold text-ink">{h.title}</h2>
+                <p className="mt-1 max-w-3xl text-sm leading-relaxed text-inksoft">{h.body}</p>
+              </article>
+            ))}
+          </div>
         </section>
 
         <section className="py-14">
           <h2 className="text-h2 text-ink">Pick a deck</h2>
-          <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
+          <p className="mt-2 max-w-3xl text-body2 leading-relaxed text-inksoft">
             Ordered by weight in the paper. Each deck pairs with the same subject’s short notes.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -100,13 +106,13 @@ export default function FlashcardsIndex() {
                   className="group rounded-2xl border border-line/70 bg-white p-6 shadow-card transition-all duration-200 hover:-translate-y-1 hover:border-med/40 hover:shadow-lift"
                 >
                   <div className="flex items-start justify-between gap-3">
-                    <h3 className="text-[17px] font-bold text-ink group-hover:text-med-deep">{s.name}</h3>
-                    <span className="shrink-0 rounded-full bg-med-soft px-2.5 py-0.5 text-[12px] font-bold tabular-nums text-med-deep">
+                    <h3 className="text-subtitle font-bold text-ink group-hover:text-med-deep">{s.name}</h3>
+                    <span className="shrink-0 rounded-full bg-med-soft px-2.5 py-0.5 text-xs font-bold tabular-nums text-med-deep">
                       {s.weight} / 300
                     </span>
                   </div>
                   <p className="mt-1.5 text-sm leading-relaxed text-inksoft">{notes ? notes.tagline : s.blurb}</p>
-                  <p className="mt-3 text-[13px] font-semibold tabular-nums text-med-deep">{n} flashcards</p>
+                  <p className="mt-3 text-caption font-semibold tabular-nums text-med-deep">{n} flashcards</p>
                   <span aria-hidden className="mt-4 block h-1.5 overflow-hidden rounded-full bg-mist">
                     <span className="block h-full rounded-full bg-gradient-to-r from-med-bright to-med-deep" style={{ width: `${(s.weight / 33) * 100}%` }} />
                   </span>
@@ -122,8 +128,8 @@ export default function FlashcardsIndex() {
           <div className="mt-8 grid gap-x-10 gap-y-8 md:grid-cols-2">
             {FAQ.map((f) => (
               <div key={f.q}>
-                <h3 className="text-[16px] font-bold text-ink">{f.q}</h3>
-                <p className="mt-1.5 text-[15px] leading-relaxed text-inksoft">{f.a}</p>
+                <h3 className="text-base font-bold text-ink">{f.q}</h3>
+                <p className="mt-1.5 text-body2 leading-relaxed text-inksoft">{f.a}</p>
               </div>
             ))}
           </div>

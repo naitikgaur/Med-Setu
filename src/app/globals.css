@@ -11,7 +11,7 @@ body {
 }
 
 ::selection {
-  background: #006d77;
+  background: var(--med);
   color: #ffffff;
 }
 
@@ -19,13 +19,13 @@ body {
    control that does not define its own focus treatment (elements with
    explicit focus: utilities keep precedence). */
 :focus-visible {
-  outline: 2px solid #006d77;
+  outline: 2px solid var(--med);
   outline-offset: 2px;
 }
 
 input,
 textarea {
-  caret-color: #006d77;
+  caret-color: var(--med);
 }
 
 /* ---------- premium surfaces (v3 design system) ---------- */
@@ -39,6 +39,9 @@ h1,
 h2,
 h3 {
   text-wrap: balance;
+}
+.pretty {
+  text-wrap: pretty;
 }
 /* Dark teal band with a soft aqua glow and a fine dot grid — hero + CTA. */
 .hero-band {
@@ -79,16 +82,16 @@ h3 {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #bfd9db;
+  background: var(--med-line-soft);
   border-radius: 8px;
   border: 2px solid #f4f7f9;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #006d77;
+  background: var(--med);
 }
 html {
   scrollbar-width: thin;
-  scrollbar-color: #bfd9db transparent;
+  scrollbar-color: var(--med-line-soft) transparent;
 }
 
 /* TCS-iON palette tile shapes (verified against TCS iON / digialm

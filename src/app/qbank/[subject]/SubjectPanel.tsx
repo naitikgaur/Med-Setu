@@ -72,7 +72,7 @@ export default function SubjectPanel({ slug }: { slug: string }) {
       <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-ink">{meta.name}</h1>
-          <p className="mt-1.5 text-[15px] text-inksoft">
+          <p className="mt-1.5 text-body2 text-inksoft">
             {meta.total.toLocaleString('en-IN')} questions · {meta.topics.length} topics · every question
             with its answer and explanation{name ? <>, {name.split(' ')[0]}</> : null}.
           </p>
@@ -121,7 +121,7 @@ export default function SubjectPanel({ slug }: { slug: string }) {
             </button>
           ))}
         </div>
-        <p className="w-full text-[13px] leading-relaxed text-inksoft">
+        <p className="w-full text-caption leading-relaxed text-inksoft">
           {mode === 'practice'
             ? 'Practice mode: check each answer as you go — the explanation appears straight away, and wrong answers are saved to My Mistakes.'
             : 'Exam mode: answers stay locked until you submit, in the exam window, then you get the full analysis with the 50% benchmark.'}
@@ -157,8 +157,8 @@ export default function SubjectPanel({ slug }: { slug: string }) {
             return (
               <div key={t.name} className="flex flex-wrap items-center gap-3 px-5 py-3.5">
                 <p className="min-w-0 flex-1">
-                  <span className="block truncate text-[15px] font-semibold text-ink" title={t.name}>{t.name}</span>
-                  <span className="text-[13px] tabular-nums text-inksoft">
+                  <span className="block truncate text-body2 font-semibold text-ink" title={t.name}>{t.name}</span>
+                  <span className="text-caption tabular-nums text-inksoft">
                     {t.count} question{t.count === 1 ? '' : 's'}
                     {size !== 0 && t.count > size ? ` · this set takes the first ${n}` : ''}
                   </span>
@@ -176,7 +176,7 @@ export default function SubjectPanel({ slug }: { slug: string }) {
           })}
         </div>
       )}
-      <p className="mt-4 text-[13px] leading-relaxed text-inksoft">
+      <p className="mt-4 text-caption leading-relaxed text-inksoft">
         A topic set takes its questions in the order they appear in the source compilation; a
         whole-subject set interleaves topics so the mix stays even. Nothing here leaves your device.
       </p>

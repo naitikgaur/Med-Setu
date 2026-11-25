@@ -23,7 +23,7 @@ export default function LibraryGate() {
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-ink">PYP Tests</h1>
-          <p className="mt-1.5 text-[15px] text-inksoft">
+          <p className="mt-1.5 text-body2 text-inksoft">
             {name ? (
               <>
                 Hi, <span className="font-semibold text-ink">{name}</span> — pick a paper to

@@ -107,7 +107,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
         <h2 className="mt-2 text-2xl font-bold text-ink">
           {subject}: {known.size} of {order.length} cards known
         </h2>
-        <p className="mx-auto mt-2 max-w-md text-[15px] leading-relaxed text-inksoft">
+        <p className="mx-auto mt-2 max-w-md text-body2 leading-relaxed text-inksoft">
           {learning.size === 0
             ? 'Every card in this round is in the "got it" pile. A short re-run tomorrow is what moves them into long-term memory.'
             : `${learning.size} card${learning.size === 1 ? ' is' : 's are'} still being learned — run one more round with only those, and the pile shrinks fast.`}
@@ -166,20 +166,20 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
         >
           <div className={`fc-card relative h-[320px] sm:h-[300px] ${flipped ? 'flipped' : ''}`}>
             <div className="fc-face absolute inset-0 flex flex-col rounded-2xl border border-med/25 bg-white p-7 shadow-lift ring-1 ring-med-line/40 sm:p-9">
-              <span className="self-start rounded bg-med-soft px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.1em] text-med-deep">
+              <span className="self-start rounded bg-med-soft px-2.5 py-1 text-micro font-bold uppercase tracking-[0.1em] text-med-deep">
                 {card.topic}
               </span>
               <span className="flex flex-1 items-center">
-                <span className="text-[22px] font-semibold leading-snug text-ink sm:text-[26px]">{card.front}</span>
+                <span className="text-h3 font-semibold leading-snug text-ink sm:text-title">{card.front}</span>
               </span>
               <span className="text-sm font-semibold text-med">Tap to reveal the answer →</span>
             </div>
             <div className="fc-face fc-back absolute inset-0 flex flex-col rounded-2xl bg-gradient-to-br from-med to-med-abyss p-7 text-white shadow-lift sm:p-9">
-              <span className="self-start rounded bg-white/15 px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.1em] text-white/90">
+              <span className="self-start rounded bg-white/15 px-2.5 py-1 text-micro font-bold uppercase tracking-[0.1em] text-white/90">
                 {card.topic}
               </span>
               <span className="flex flex-1 items-center">
-                <span className="text-[20px] font-semibold leading-snug sm:text-[24px]">{card.back}</span>
+                <span className="text-xl font-semibold leading-snug sm:text-2xl">{card.back}</span>
               </span>
               <span className="text-sm font-semibold text-white/75">Tap to see the question again</span>
             </div>
@@ -191,13 +191,13 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
       <div className="mt-6 grid grid-cols-2 gap-3">
         <button
           onClick={() => mark(false)}
-          className="rounded-lg border border-accent/50 bg-accent-soft px-4 py-3.5 text-[15px] font-bold text-accent-deep transition-colors hover:bg-accent hover:text-white"
+          className="rounded-lg border border-accent/50 bg-accent-soft px-4 py-3.5 text-body2 font-bold text-accent-deep transition-colors hover:bg-accent hover:text-white"
         >
           Still learning
         </button>
         <button
           onClick={() => mark(true)}
-          className="btn-primary rounded-full px-6 py-3.5 text-[15px] font-bold text-white"
+          className="btn-primary rounded-full px-6 py-3.5 text-body2 font-bold text-white"
         >
           Got it ✓
         </button>
@@ -210,7 +210,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
         >
           ← Previous
         </button>
-        <p className="hidden text-[13px] text-inksoft sm:block">Space to flip · arrow keys to move</p>
+        <p className="hidden text-caption text-inksoft sm:block">Space to flip · arrow keys to move</p>
         <div className="flex gap-1">
           <button onClick={shuffle} className="rounded-md px-3 py-2 font-semibold text-med-deep transition-colors hover:bg-mist">
             Shuffle
@@ -221,7 +221,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
         </div>
       </div>
 
-      <p className="mt-6 text-[13px] leading-relaxed text-inksoft">
+      <p className="mt-6 text-caption leading-relaxed text-inksoft">
         This deck covers {topics.length} high-yield topics in {subject}. Your sorting lives only in
         this tab — close it and the deck starts fresh, which is exactly how spaced repetition is
         meant to feel.

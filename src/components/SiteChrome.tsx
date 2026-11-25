@@ -19,8 +19,8 @@ export function BrandLockup({
   size?: 'sm' | 'md' | 'lg';
   className?: string;
 }) {
-  const big = size === 'lg' ? 'text-[26px]' : size === 'sm' ? 'text-[17px]' : 'text-[19px]';
-  const small = size === 'lg' ? 'text-xs' : 'text-[11px]';
+  const big = size === 'lg' ? 'text-title' : size === 'sm' ? 'text-subtitle' : 'text-lg';
+  const small = size === 'lg' ? 'text-xs' : 'text-micro';
   return (
     <span data-brand-lockup className={`inline-flex flex-col leading-none ${className}`}>
       <span className={`${big} font-bold tracking-tight ${light ? 'text-white' : 'text-med-deep'}`}>
@@ -140,7 +140,7 @@ export function SiteFooter() {
                 href="https://chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block py-1.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+                className="inline-block py-2.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
               >
                 WhatsApp group
               </a>
@@ -148,7 +148,7 @@ export function SiteFooter() {
                 href="https://www.instagram.com/naitiklibrary/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block py-1.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+                className="inline-block py-2.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
               >
                 Instagram — @naitiklibrary
               </a>
@@ -167,7 +167,7 @@ export function SiteFooter() {
                 <ul className="mt-2 space-y-0.5 text-sm font-medium">
                   {col.links.map(([label, href]) => (
                     <li key={href}>
-                      <Link href={href} className="block py-2 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
+                      <Link href={href} className="block py-2.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
                         {label}
                       </Link>
                     </li>

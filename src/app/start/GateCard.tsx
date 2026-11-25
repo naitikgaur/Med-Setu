@@ -59,14 +59,14 @@ export default function GateCard() {
     return (
       <div className="rounded-2xl border border-line bg-white p-6 shadow-lift sm:p-8">
         <h1 className="text-2xl font-bold tracking-tight text-ink">Welcome back</h1>
-        <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+        <p className="mt-2 text-body2 leading-relaxed text-inksoft">
           You entered as <span className="font-semibold text-ink">{existing}</span> in this tab.
           Your papers, subject tests, the question bank and any test in progress are waiting.
         </p>
         <button
           type="button"
           onClick={() => router.push(next)}
-          className="mt-6 w-full rounded-md bg-med px-6 py-3 text-base font-bold text-white transition-colors hover:bg-med-deep"
+          className="btn-primary mt-6 w-full rounded-full px-6 py-3.5 text-base font-bold text-white"
         >
           Continue as {existing}
         </button>
@@ -88,7 +88,7 @@ export default function GateCard() {
   return (
     <div className="rounded-2xl border border-line bg-white p-6 shadow-lift sm:p-8">
       <h1 className="text-2xl font-bold tracking-tight text-ink">Let&apos;s start</h1>
-      <p className="mt-2 text-[15px] leading-relaxed text-inksoft">
+      <p className="mt-2 text-body2 leading-relaxed text-inksoft">
         Tell us the name to put on your test screen, pass one quick human check, and the whole
         package — twelve previous-year papers, thirty subject-wise tests and the question bank —
         is yours. No account, no password, nothing leaves this device.
@@ -112,9 +112,9 @@ export default function GateCard() {
           autoComplete="name"
           onChange={(e) => setLocalName(e.target.value)}
           placeholder="e.g. Dr. Aisha Khan"
-          className="mt-1.5 w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-[15px] outline-none placeholder:text-[#5F737E] focus:border-med focus:ring-2 focus:ring-med/20"
+          aria-describedby="gate-name-help" className="mt-1.5 w-full rounded-xl border border-line bg-white px-4 py-3 text-body2 outline-none placeholder:text-[#5F737E] focus:border-med focus:ring-2 focus:ring-med/20"
         />
-        <p className="mt-1.5 text-xs leading-relaxed text-inksoft">
+        <p id="gate-name-help" className="mt-1.5 text-xs leading-relaxed text-inksoft">
           Shown on your test screen and your printed report. It stays in this browser tab.
         </p>
 
@@ -137,8 +137,8 @@ export default function GateCard() {
                 </svg>
               )}
             </button>
-            <span className="text-[15px] font-medium text-ink">I&apos;m not a robot</span>
-            <span className="ml-auto text-right text-[11px] leading-tight text-inksoft">
+            <span className="text-body2 font-medium text-ink">I&apos;m not a robot</span>
+            <span className="ml-auto text-right text-micro leading-tight text-inksoft">
               quick human check,
               <br />
               done on your device
@@ -168,7 +168,7 @@ export default function GateCard() {
                 }}
                 placeholder="Your answer"
                 aria-invalid={showSumError}
-                className="w-32 rounded-lg border border-line bg-white px-3.5 py-2.5 text-[15px] tabular-nums outline-none placeholder:text-[#5F737E] focus:border-med focus:ring-2 focus:ring-med/20"
+                className="w-32 rounded-lg border border-line bg-white px-3.5 py-2.5 text-body2 tabular-nums outline-none placeholder:text-[#5F737E] focus:border-med focus:ring-2 focus:ring-med/20"
               />
               <button
                 type="button"

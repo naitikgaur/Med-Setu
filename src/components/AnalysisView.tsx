@@ -253,7 +253,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               <a
                 key={id}
                 href={`#${id}`}
-                className="shrink-0 rounded-md px-2 py-1.5 text-[13px] font-semibold text-inksoft transition-colors hover:bg-mist hover:text-ink"
+                className="shrink-0 rounded-md px-2 py-1.5 text-caption font-semibold text-inksoft transition-colors hover:bg-mist hover:text-ink"
               >
                 {label}
               </a>
@@ -266,7 +266,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
           <p className="mt-5 text-sm">
             <Link href={desc.backHref} className="font-semibold text-med hover:underline">← {desc.backLabel}</Link>
           </p>
-          <p className="mt-1.5 text-[15px] font-semibold text-med-deep">
+          <p className="mt-1.5 text-body2 font-semibold text-med-deep">
             👋 Hey {attempt.name}, here is your analysis
           </p>
           <h1 className="mt-1 text-2xl font-bold tracking-tight text-ink sm:text-3xl">
@@ -291,7 +291,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
             <ol className="mt-4 grid gap-x-8 gap-y-2 sm:grid-cols-2">
               {sectionList.map(([id, label], i) => (
                 <li key={id}>
-                  <a href={`#${id}`} className="group flex items-baseline gap-3 text-[15px]">
+                  <a href={`#${id}`} className="group flex items-baseline gap-3 text-body2">
                     <span className="font-bold tabular-nums text-med">{i + 1}.</span>
                     <span className="font-medium text-ink group-hover:underline">{label}</span>
                   </a>
@@ -368,7 +368,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                       style={{ width: `${Math.min(100, (v.score / v.total) * 100)}%` }}
                     />
                   </div>
-                  <p className="mt-1 text-[11px] font-medium text-inksoft">
+                  <p className="mt-1 text-micro font-medium text-inksoft">
                     {isBenchmark ? 'Bar midpoint = the 50% mark' : 'Bar midpoint = pass mark (50%)'}
                   </p>
                 </div>
@@ -395,8 +395,8 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                 [`${a.accuracy}%`, 'accuracy (of attempted)'],
               ].map(([big, small]) => (
                 <div key={small} className="bg-white px-3 py-3">
-                  <p className="text-[22px] font-bold leading-tight tabular-nums text-ink">{big}</p>
-                  <p className="text-[11px] font-medium text-inksoft">{small}</p>
+                  <p className="text-h3 font-bold leading-tight tabular-nums text-ink">{big}</p>
+                  <p className="text-micro font-medium text-inksoft">{small}</p>
                 </div>
               ))}
             </div>
@@ -405,7 +405,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               <span className="block h-full bg-bad" style={{ width: `${(a.wrong / a.total) * 100}%` }} />
               <span className="block h-full bg-cbt-grey" style={{ width: `${(a.skipped / a.total) * 100}%` }} />
             </div>
-            <p className="mt-1.5 flex flex-wrap gap-x-4 text-[11px] font-medium tabular-nums text-inksoft">
+            <p className="mt-1.5 flex flex-wrap gap-x-4 text-micro font-medium tabular-nums text-inksoft">
               <span><span className="mr-1 inline-block h-2 w-2 rounded-sm bg-ok" />Correct {a.correct}</span>
               <span><span className="mr-1 inline-block h-2 w-2 rounded-sm bg-bad" />Wrong {a.wrong}</span>
               <span><span className="mr-1 inline-block h-2 w-2 rounded-sm bg-cbt-grey" />Skipped {a.skipped}</span>
@@ -428,7 +428,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
             </h2>
             {!isSingle && a.hasSubjects && (
               <>
-                <h3 className="mt-5 text-[15px] font-bold text-ink">Test breakdown</h3>
+                <h3 className="mt-5 text-body2 font-bold text-ink">Test breakdown</h3>
                 <div className="mt-2 overflow-x-auto">
                   <table className="w-full min-w-[640px] text-left text-sm">
                     <thead>
@@ -474,13 +474,13 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                       [fmtClock(subjectRow.avgTimeSec), 'avg time / attempted Q'],
                     ].map(([big, small]) => (
                       <div key={small} className="bg-white px-3 py-3">
-                        <p className="text-[22px] font-bold leading-tight tabular-nums text-ink">{big}</p>
-                        <p className="text-[11px] font-medium text-inksoft">{small}</p>
+                        <p className="text-h3 font-bold leading-tight tabular-nums text-ink">{big}</p>
+                        <p className="text-micro font-medium text-inksoft">{small}</p>
                       </div>
                     ))}
                   </div>
                 )}
-                <h3 className="mt-5 text-[15px] font-bold text-ink">Accuracy by time taken</h3>
+                <h3 className="mt-5 text-body2 font-bold text-ink">Accuracy by time taken</h3>
                 <div className="mt-2 overflow-x-auto">
                   <table className="w-full min-w-[440px] text-left text-sm">
                     <thead>
@@ -596,7 +596,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                           <div key={label} className="rounded-lg bg-paper px-4 py-4">
                             <p className="text-sm font-semibold text-ink">{label}</p>
                             <div className="mt-3">
-                              <div className="flex justify-between text-[11px] font-medium text-inksoft">
+                              <div className="flex justify-between text-micro font-medium text-inksoft">
                                 <span>Accuracy — {r.correct} of {r.attempted} attempted</span>
                                 <span>{r.accuracy}%</span>
                               </div>
@@ -605,7 +605,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                               </div>
                             </div>
                             <div className="mt-3">
-                              <div className="flex justify-between text-[11px] font-medium text-inksoft">
+                              <div className="flex justify-between text-micro font-medium text-inksoft">
                                 <span>Share of this paper — {r.total} questions</span>
                                 <span>{paperShare}% · blueprint {blueprintShare}%</span>
                               </div>
@@ -613,7 +613,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                                 <div className="h-full bg-med/50" style={{ width: `${paperShare}%` }} />
                                 <span className="absolute inset-y-0 w-0.5 bg-ink" style={{ left: `${blueprintShare}%` }} aria-hidden />
                               </div>
-                              <p className="mt-1 text-[11px] text-inksoft">Black tick = official blueprint share ({r.blueprint} of 300)</p>
+                              <p className="mt-1 text-micro text-inksoft">Black tick = official blueprint share ({r.blueprint} of 300)</p>
                             </div>
                           </div>
                         );
@@ -731,7 +731,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                 ) : (
                   <>
                     {v.full && !v.passed && (
-                      <p className="mt-3 text-[15px] text-ink">
+                      <p className="mt-3 text-body2 text-ink">
                         You need <strong>{v.gapToPass} more marks</strong> to reach 150.
                         {a.topPoolMarks >= v.gapToPass
                           ? ' Your biggest recovery pools below hold more than that on their own.'
@@ -769,7 +769,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
             )}
             {a.wrong > 0 && (
               <div className="mt-5 border-t border-line pt-4">
-                <h3 className="text-[15px] font-bold text-ink">Improved score by error reduction</h3>
+                <h3 className="text-body2 font-bold text-ink">Improved score by error reduction</h3>
                 <p className="mt-1 text-sm text-inksoft">
                   If you had fixed a share of your {a.wrong} wrong answers, this is where your score
                   would stand — the same arithmetic, applied to this attempt only:
@@ -782,10 +782,10 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                     ['Fix every mistake', v.score + a.wrong],
                   ].map(([label, val]) => (
                     <div key={label} className="bg-white px-3 py-3">
-                      <p className="text-[22px] font-bold leading-tight tabular-nums text-med-deep">
+                      <p className="text-h3 font-bold leading-tight tabular-nums text-med-deep">
                         {val} <span className="text-sm font-semibold text-inksoft">/ {v.total}</span>
                       </p>
-                      <p className="text-[11px] font-medium text-inksoft">{label}</p>
+                      <p className="text-micro font-medium text-inksoft">{label}</p>
                     </div>
                   ))}
                 </div>
@@ -805,10 +805,10 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               {classGroups.map(({ cls, items }) => (
                 <div key={cls} className="rounded-lg border border-line bg-paper px-4 py-4">
                   <div className="flex items-baseline justify-between gap-2">
-                    <p className="text-[15px] font-bold text-ink">{CLASS_META[cls].label}</p>
+                    <p className="text-body2 font-bold text-ink">{CLASS_META[cls].label}</p>
                     <p className="text-xl font-bold tabular-nums text-med-deep">{items.length}</p>
                   </div>
-                  <p className="mt-1 text-[13px] leading-relaxed text-inksoft">{CLASS_META[cls].blurb}</p>
+                  <p className="mt-1 text-caption leading-relaxed text-inksoft">{CLASS_META[cls].blurb}</p>
                   {items.length > 0 ? (
                     <div className="mt-3 flex flex-wrap gap-1.5">
                       {items.map(({ row }) => (
@@ -824,16 +824,16 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                       ))}
                     </div>
                   ) : (
-                    <p className="mt-3 text-[13px] text-inksoft">None in this attempt.</p>
+                    <p className="mt-3 text-caption text-inksoft">None in this attempt.</p>
                   )}
                 </div>
               ))}
               <div className="rounded-lg border border-dashed border-line px-4 py-4">
                 <div className="flex items-baseline justify-between gap-2">
-                  <p className="text-[15px] font-bold text-ink">Everything else</p>
+                  <p className="text-body2 font-bold text-ink">Everything else</p>
                   <p className="text-xl font-bold tabular-nums text-inksoft">{unclassified}</p>
                 </div>
-                <p className="mt-1 text-[13px] leading-relaxed text-inksoft">
+                <p className="mt-1 text-caption leading-relaxed text-inksoft">
                   Questions that fall outside the five labels — answered at a normal pace without
                   drama, or skipped quickly. Not every question needs a story.
                 </p>
@@ -841,7 +841,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
             </div>
             {classGroups.some(({ cls, items }) => cls !== 'perfect' && items.length > 0) && (
               <div className="mt-5">
-                <h3 className="text-[15px] font-bold text-ink">Why each label was given</h3>
+                <h3 className="text-body2 font-bold text-ink">Why each label was given</h3>
                 <ul className="mt-2 space-y-1.5">
                   {classGroups
                     .filter(({ cls }) => cls !== 'perfect')
@@ -892,7 +892,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
 
             <div className="mt-5 grid gap-4 md:grid-cols-2">
               <div className="rounded-lg bg-paper px-4 py-4">
-                <p className="text-[15px] font-bold text-ink">Fastest answers</p>
+                <p className="text-body2 font-bold text-ink">Fastest answers</p>
                 {a.timeDetail.fastest.length ? (
                   <table className="mt-2 w-full text-sm tabular-nums">
                     <tbody>
@@ -908,7 +908,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                 ) : <p className="mt-1 text-sm text-inksoft">No attempted questions.</p>}
               </div>
               <div className="rounded-lg bg-paper px-4 py-4">
-                <p className="text-[15px] font-bold text-ink">Slowest answers</p>
+                <p className="text-body2 font-bold text-ink">Slowest answers</p>
                 {a.timeDetail.slowest.length ? (
                   <table className="mt-2 w-full text-sm tabular-nums">
                     <tbody>
@@ -925,7 +925,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               </div>
             </div>
 
-            <h3 className="mt-5 text-[15px] font-bold text-ink">Questions by time taken</h3>
+            <h3 className="mt-5 text-body2 font-bold text-ink">Questions by time taken</h3>
             <div className="mt-3 space-y-2.5">
               {a.buckets.map((b) => (
                 <div key={b.key} className="flex items-center gap-3">
@@ -942,7 +942,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
 
             <div className="mt-5 grid gap-4 md:grid-cols-2">
               <div className="rounded-lg bg-paper px-4 py-4">
-                <p className="text-[15px] font-bold text-ink">Answer changes</p>
+                <p className="text-body2 font-bold text-ink">Answer changes</p>
                 <table className="mt-2 w-full text-sm tabular-nums">
                   <tbody>
                     {[
@@ -961,7 +961,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                 </table>
               </div>
               <div className="rounded-lg bg-paper px-4 py-4">
-                <p className="text-[15px] font-bold text-ink">Confidence</p>
+                <p className="text-body2 font-bold text-ink">Confidence</p>
                 <table className="mt-2 w-full text-sm tabular-nums">
                   <thead>
                     <tr className="text-left text-xs uppercase tracking-wide text-inksoft">
@@ -992,7 +992,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                 </p>
               </div>
               <div className="rounded-lg bg-med-soft/50 px-4 py-4">
-                <p className="text-[15px] font-bold text-med-deep">Skipped &amp; rushed</p>
+                <p className="text-body2 font-bold text-med-deep">Skipped &amp; rushed</p>
                 <table className="mt-2 w-full text-sm tabular-nums">
                   <tbody>
                     {[
@@ -1052,7 +1052,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               </table>
             </div>
 
-            <h3 className="mt-5 text-[15px] font-bold text-ink">
+            <h3 className="mt-5 text-body2 font-bold text-ink">
               Accuracy per block of {a.paceBlocks[0] ? a.paceBlocks[0].to - a.paceBlocks[0].from : 0} questions
             </h3>
             <div className="mt-3 space-y-2">
@@ -1147,7 +1147,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                   key={r.idx}
                   type="button"
                   onClick={() => openSolution(r.idx, a.perQ)}
-                  className={`rounded-md px-1.5 py-1.5 text-center text-[11px] font-medium leading-tight tabular-nums transition hover:ring-2 hover:ring-med/50 ${
+                  className={`rounded-md px-1.5 py-1.5 text-center text-micro font-medium leading-tight tabular-nums transition hover:ring-2 hover:ring-med/50 ${
                     r.status === 'correct'
                       ? 'bg-ok/10 text-ink'
                       : r.status === 'wrong'
@@ -1165,7 +1165,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
             </div>
             <div className="mt-5 grid gap-4 md:grid-cols-2">
               <div className="rounded-lg bg-paper px-4 py-4">
-                <p className="text-[15px] font-bold text-ink">
+                <p className="text-body2 font-bold text-ink">
                   Answer changes ({journey.length})
                 </p>
                 {journey.length ? (
@@ -1200,7 +1200,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
               </div>
               <div className="space-y-4">
                 <div className="rounded-lg bg-paper px-4 py-4">
-                  <p className="text-[15px] font-bold text-ink">Marked for review</p>
+                  <p className="text-body2 font-bold text-ink">Marked for review</p>
                   {a.perQ.filter((r) => r.marked).length ? (
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {a.perQ
@@ -1221,7 +1221,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                   )}
                 </div>
                 <div className="rounded-lg bg-paper px-4 py-4">
-                  <p className="text-[15px] font-bold text-ink">Visited 3+ times</p>
+                  <p className="text-body2 font-bold text-ink">Visited 3+ times</p>
                   {a.perQ.filter((r) => r.visits >= 3).length ? (
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {a.perQ
@@ -1293,7 +1293,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                   role="tab"
                   aria-selected={filter === f}
                   onClick={() => setFilter(f)}
-                  className={`rounded-full px-3.5 py-1.5 text-[13px] font-semibold tabular-nums transition ${
+                  className={`rounded-full px-3.5 py-1.5 text-caption font-semibold tabular-nums transition ${
                     filter === f
                       ? 'bg-med text-white'
                       : 'border border-line bg-white text-inksoft hover:border-med hover:text-med'
@@ -1319,7 +1319,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                     aria-label={`Open solution for question ${r.idx + 1}`}
                   >
                     <span
-                      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-[13px] font-bold tabular-nums text-white ${
+                      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-caption font-bold tabular-nums text-white ${
                         r.status === 'correct' ? 'bg-ok' : r.status === 'wrong' ? 'bg-bad' : 'bg-cbt-grey'
                       }`}
                     >
@@ -1360,7 +1360,7 @@ export default function AnalysisView({ desc }: { desc: TestDescriptor }) {
                   key={ki}
                   type="button"
                   onClick={() => openSolution(ki, a.perQ)}
-                  className={`rounded-md px-1.5 py-1.5 text-center text-[11px] font-medium leading-tight tabular-nums transition hover:ring-2 hover:ring-med/50 ${
+                  className={`rounded-md px-1.5 py-1.5 text-center text-micro font-medium leading-tight tabular-nums transition hover:ring-2 hover:ring-med/50 ${
                     k.status === 'correct'
                       ? 'bg-ok/10 text-ink'
                       : k.status === 'wrong'

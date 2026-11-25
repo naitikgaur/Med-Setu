@@ -87,7 +87,7 @@ export default function QBankGate() {
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-ink">Question Bank</h1>
-          <p className="mt-1.5 text-[15px] text-inksoft">
+          <p className="mt-1.5 text-body2 text-inksoft">
             {name ? (
               <>
                 Hi, <span className="font-semibold text-ink">{name}</span> — {QBANK_META.total.toLocaleString('en-IN')}{' '}
@@ -129,7 +129,7 @@ export default function QBankGate() {
       {/* Session strip: progress, mistakes, bookmarks, mixed */}
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col rounded-xl border border-line bg-white p-5 shadow-card">
-          <h2 className="text-[15px] font-bold text-ink">This tab&apos;s progress</h2>
+          <h2 className="text-body2 font-bold text-ink">This tab&apos;s progress</h2>
           {totalAttempted > 0 ? (
             <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
               <strong className="tabular-nums text-ink">{totalAttempted}</strong> questions checked ·{' '}
@@ -148,7 +148,7 @@ export default function QBankGate() {
         </div>
 
         <div className="flex flex-col rounded-xl border border-line bg-white p-5 shadow-card">
-          <h2 className="text-[15px] font-bold text-ink">My Mistakes</h2>
+          <h2 className="text-body2 font-bold text-ink">My Mistakes</h2>
           <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
             {mistakes > 0 ? (
               <>
@@ -172,7 +172,7 @@ export default function QBankGate() {
         </div>
 
         <div className="flex flex-col rounded-xl border border-line bg-white p-5 shadow-card">
-          <h2 className="text-[15px] font-bold text-ink">My Bookmarks</h2>
+          <h2 className="text-body2 font-bold text-ink">My Bookmarks</h2>
           <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
             {bookmarks > 0 ? (
               <>
@@ -196,7 +196,7 @@ export default function QBankGate() {
         </div>
 
         <div className="flex flex-col rounded-xl border border-med-line bg-med-deep p-5 text-white shadow-card">
-          <h2 className="text-[15px] font-bold">Mixed practice</h2>
+          <h2 className="text-body2 font-bold">Mixed practice</h2>
           <p className="mt-1.5 text-sm leading-relaxed text-white/80">
             50 questions drawn across all 19 subjects, topic by topic — the closest thing to the real
             paper&apos;s mix, one question at a time.
@@ -229,14 +229,14 @@ export default function QBankGate() {
               className="group flex flex-col rounded-xl border border-line bg-white p-5 shadow-card transition hover:border-med-line hover:shadow-lift"
             >
               <span className="flex items-baseline justify-between gap-2">
-                <span className="text-[16px] font-bold text-ink group-hover:text-med-deep">{s.name}</span>
+                <span className="text-base font-bold text-ink group-hover:text-med-deep">{s.name}</span>
                 <span className="text-sm font-bold tabular-nums text-med">{s.total.toLocaleString('en-IN')}</span>
               </span>
-              <span className="mt-1 text-[13px] text-inksoft">
+              <span className="mt-1 text-caption text-inksoft">
                 {s.topics.length} topic{s.topics.length === 1 ? '' : 's'} · questions with explanations
               </span>
               {p && p.attempted > 0 && (
-                <span className="mt-2 text-[13px] font-medium tabular-nums text-ink">
+                <span className="mt-2 text-caption font-medium tabular-nums text-ink">
                   This tab: {p.attempted} checked · {p.correct} correct ({Math.round((p.correct / p.attempted) * 1000) / 10}%)
                 </span>
               )}

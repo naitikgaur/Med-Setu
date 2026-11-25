@@ -44,7 +44,7 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
           {subject.name}
         </h1>
         {subject.descriptor && (
-          <p className="mt-1.5 text-[15px] text-inksoft">{subject.descriptor}</p>
+          <p className="mt-1.5 text-body2 text-inksoft">{subject.descriptor}</p>
         )}
 
         {/* Facts */}
@@ -56,7 +56,7 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
             ['Yes', 'explanation for every question'],
           ].map(([big, small]) => (
             <div key={small} className="bg-white px-4 py-3.5 text-center">
-              <p className="text-[22px] font-bold tabular-nums text-med-deep">{big}</p>
+              <p className="text-h3 font-bold tabular-nums text-med-deep">{big}</p>
               <p className="mt-0.5 text-xs font-medium text-inksoft">{small}</p>
             </div>
           ))}
@@ -65,7 +65,7 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
         {/* What's inside */}
         <section className="mt-6 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
           <h2 className="text-lg font-bold text-ink">What&apos;s inside</h2>
-          <ul className="mt-3 space-y-2.5 text-[15px] leading-relaxed text-inksoft">
+          <ul className="mt-3 space-y-2.5 text-body2 leading-relaxed text-inksoft">
             <li>
               <strong className="text-ink">One subject, one sitting.</strong> Each test below is{' '}
               {subject.name} only, in the same exam-style window as the full papers — one part, the
@@ -105,7 +105,7 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
         {/* Before you start */}
         <section className="mt-6 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
           <h2 className="text-lg font-bold text-ink">Before you start</h2>
-          <ol className="mt-3 list-decimal space-y-2.5 pl-5 text-[15px] leading-relaxed text-inksoft">
+          <ol className="mt-3 list-decimal space-y-2.5 pl-5 text-body2 leading-relaxed text-inksoft">
             <li>
               When you start a test, you will first see the full exam-style instructions screen,
               exactly as in the real test window; the clock starts only when the test opens.
@@ -130,7 +130,7 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
               </div>
             ))}
           </div>
-          <ol start={4} className="mt-3 list-decimal space-y-2.5 pl-5 text-[15px] leading-relaxed text-inksoft">
+          <ol start={4} className="mt-3 list-decimal space-y-2.5 pl-5 text-body2 leading-relaxed text-inksoft">
             <li>
               Optional but valuable: mark <strong className="text-ink">Sure / Unsure / Guessed</strong>{' '}
               under any question. Your analysis uses it to show how your guesses actually performed.

@@ -11,6 +11,7 @@ import {
 } from '../lib/store';
 import type { Attempt, Confidence, TestData, TestDescriptor } from '../lib/types';
 import { PaletteTile, LEGEND_ITEMS, type QState } from './TcsPalette';
+import { imgDims } from '../lib/imgdims';
 
 export default function Runner({ desc }: { desc: TestDescriptor }) {
   const router = useRouter();
@@ -642,6 +643,8 @@ export default function Runner({ desc }: { desc: TestDescriptor }) {
                       src={src}
                       alt={`Figure for question ${idx + 1}`}
                       loading="lazy"
+                      width={imgDims(src)?.width}
+                      height={imgDims(src)?.height}
                       className="max-h-[420px] w-auto max-w-full rounded-sm border border-line bg-white object-contain"
                     />
                     <span className="mt-1 block text-left text-[11px] text-inksoft">Click the image to enlarge</span>
@@ -681,6 +684,8 @@ export default function Runner({ desc }: { desc: TestDescriptor }) {
                         src={q.optionImages[oi]}
                         alt={`Option ${oi + 1}`}
                         loading="lazy"
+                        width={imgDims(q.optionImages[oi])?.width}
+                        height={imgDims(q.optionImages[oi])?.height}
                         className="max-h-44 w-auto max-w-full rounded-sm border border-line bg-white object-contain"
                       />
                     ) : (

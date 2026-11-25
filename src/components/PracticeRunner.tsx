@@ -13,6 +13,7 @@ import type { Attempt, QBankPracticeState, QBankSessionDef, Question, TestData }
 import { PaletteTile, type QState } from './TcsPalette';
 import ExplanationText, { ExplanationBlocks } from './Explanation';
 import { SolutionSheet } from './Solution';
+import { imgDims } from '../lib/imgdims';
 import { BrandLockup } from './SiteChrome';
 
 const QB_IMG_NOTE =
@@ -366,6 +367,8 @@ export default function PracticeRunner({ def }: { def: QBankSessionDef }) {
                       src={src}
                       alt={`Figure for question ${idx + 1}`}
                       loading="lazy"
+                      width={imgDims(src)?.width}
+                      height={imgDims(src)?.height}
                       className="max-h-[420px] w-auto max-w-full rounded-sm border border-line bg-white object-contain"
                     />
                     <span className="mt-1 block text-left text-[11px] text-inksoft">Click the image to enlarge</span>

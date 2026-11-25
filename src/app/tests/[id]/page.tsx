@@ -41,7 +41,7 @@ export default function SeriesTestPage({ params }: { params: { id: string } }) {
           <h1 className="mt-1 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             {test.title}
           </h1>
-          <p className="mt-1.5 text-[15px] text-inksoft">
+          <p className="mt-1.5 text-body2 text-inksoft">
             A full FMGE paper — all 19 subjects in the official NBEMS proportions, in two parts of 150 with a break between them.
           </p>
 
@@ -53,7 +53,7 @@ export default function SeriesTestPage({ params }: { params: { id: string } }) {
               [`${bankCount}`, 'from the question bank'],
             ].map(([big, small]) => (
               <div key={small} className="bg-white px-4 py-3.5 text-center">
-                <p className="text-[22px] font-bold tabular-nums text-med-deep">{big}</p>
+                <p className="text-h3 font-bold tabular-nums text-med-deep">{big}</p>
                 <p className="mt-0.5 text-xs font-medium text-inksoft">{small}</p>
               </div>
             ))}
@@ -61,7 +61,7 @@ export default function SeriesTestPage({ params }: { params: { id: string } }) {
 
           <section className="mt-6 rounded-xl border border-line bg-white p-5 shadow-card sm:p-6">
             <h2 className="text-lg font-bold text-ink">What&apos;s inside</h2>
-            <ul className="mt-3 space-y-2.5 text-[15px] leading-relaxed text-inksoft">
+            <ul className="mt-3 space-y-2.5 text-body2 leading-relaxed text-inksoft">
               <li>
                 <strong className="text-ink">The real exam&apos;s mix.</strong> Subjects follow the
                 official NBEMS blueprint for a 300-question paper — Medicine, Surgery, Obstetrics &amp; Gynaecology
