@@ -8,8 +8,15 @@
 export default function HeroVisual() {
   return (
     <div role="img" aria-label="The MedSetu exam window and a sample analysis verdict" className="relative">
+      {/* Soft glow behind the composition */}
+      <div aria-hidden className="absolute -inset-6 rounded-[36px] bg-med-bright/25 blur-3xl" />
+      {/* Floating flashcard chip */}
+      <div aria-hidden className="absolute -top-7 right-2 z-20 hidden w-[218px] rotate-[4deg] rounded-2xl bg-gradient-to-br from-med-deep to-med-abyss p-3.5 text-white shadow-lift ring-1 ring-white/25 sm:block">
+        <p className="text-[9.5px] font-bold uppercase tracking-[0.14em] text-med-glow">Flashcard · Microbiology</p>
+        <p className="mt-1 text-[12px] font-semibold leading-snug">Bubo is seen in… <span className="text-med-glow">LGV</span></p>
+      </div>
       {/* Exam window */}
-      <div className="overflow-hidden rounded-xl bg-white shadow-lift ring-1 ring-black/20">
+      <div className="relative overflow-hidden rounded-2xl bg-white shadow-lift ring-1 ring-black/20">
         <div className="flex items-center justify-between gap-3 bg-cbt-head px-4 py-2.5 text-white">
           <p className="truncate text-[12px] font-semibold leading-snug">
             Foreign Medical Graduate Examination (FMGE)
@@ -74,7 +81,7 @@ export default function HeroVisual() {
       </div>
 
       {/* Analysis verdict, overlapping */}
-      <div className="relative z-10 ml-auto -mt-5 w-[270px] max-w-[85%] rounded-xl border border-line bg-white p-4 shadow-lift">
+      <div className="relative z-10 ml-auto -mt-5 w-[270px] max-w-[85%] -rotate-1 rounded-2xl border border-line bg-white p-4 shadow-lift">
         <div className="flex items-center justify-between">
           <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-inksoft">Your analysis</p>
           <span className="rounded bg-ok px-2 py-0.5 text-[11px] font-bold text-white">PASS</span>
@@ -83,7 +90,7 @@ export default function HeroVisual() {
           161 <span className="text-[15px] font-semibold text-inksoft">/ 300</span>
         </p>
         <div className="mt-2.5 h-2 overflow-hidden rounded-full bg-mist">
-          <div className="h-full w-[54%] rounded-full bg-ok" />
+          <div className="h-full w-[54%] rounded-full bg-gradient-to-r from-med-bright to-ok" />
         </div>
         <p className="mt-2 text-[11.5px] leading-snug text-inksoft">
           11 marks clear of the 150 pass mark · subject-wise breakdown, every solution, full answer key

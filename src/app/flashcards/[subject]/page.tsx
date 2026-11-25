@@ -37,7 +37,7 @@ export default function SubjectFlashcardsPage({ params }: { params: { subject: s
           med-setu.netlify.app/flashcards/{params.subject}/, so printing keeps only this pointer.
         </p>
       </div>
-      <main className="web-only mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
+      <main id="content" className="web-only mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="pt-10 lg:pt-14">
           <nav aria-label="Breadcrumb" className="text-[13px] font-medium text-inksoft">
             <Link href="/flashcards/" className="text-med hover:underline">Flashcards</Link>
@@ -91,6 +91,20 @@ export default function SubjectFlashcardsPage({ params }: { params: { subject: s
         </section>
       </main>
       <SiteFooter />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'MedSetu', item: 'https://med-setu.netlify.app/' },
+              { '@type': 'ListItem', position: 2, name: 'Flashcards', item: 'https://med-setu.netlify.app/flashcards/' },
+              { '@type': 'ListItem', position: 3, name: `${meta.name} flashcards`, item: `https://med-setu.netlify.app/flashcards/${params.subject}/` },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

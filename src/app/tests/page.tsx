@@ -42,7 +42,7 @@ export default function TestsPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
         <p className="text-xs font-bold uppercase tracking-wide text-med">MedSetu Test Series</p>
         <h1 className="mt-1.5 max-w-3xl text-3xl font-bold leading-tight tracking-tight text-ink sm:text-4xl">
           30 grand tests. The whole FMGE syllabus, one paper at a time.

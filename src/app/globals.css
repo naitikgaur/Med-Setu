@@ -28,6 +28,48 @@ textarea {
   caret-color: #006d77;
 }
 
+/* ---------- premium surfaces (v3 design system) ---------- */
+:root {
+  --med: #006d77;
+  --med-deep: #004f58;
+  --med-bright-btn: #0b8382;
+  --med-line-soft: #bfd9db;
+}
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+/* Dark teal band with a soft aqua glow and a fine dot grid — hero + CTA. */
+.hero-band {
+  background-color: #03363d;
+  background-image:
+    radial-gradient(720px 340px at 85% -10%, rgba(14, 149, 148, 0.42), rgba(14, 149, 148, 0) 62%),
+    radial-gradient(560px 300px at 8% 115%, rgba(0, 109, 119, 0.5), rgba(0, 109, 119, 0) 60%),
+    radial-gradient(rgba(255, 255, 255, 0.075) 1px, transparent 1.4px);
+  background-size: auto, auto, 22px 22px;
+}
+/* Light revision band — soft teal wash with a faint dot grid. */
+.soft-band {
+  background-color: #eef4f5;
+  background-image:
+    radial-gradient(640px 260px at 90% -20%, rgba(14, 149, 148, 0.16), rgba(14, 149, 148, 0) 60%),
+    radial-gradient(rgba(0, 79, 88, 0.07) 1px, transparent 1.4px);
+  background-size: auto, 22px 22px;
+}
+/* Primary action: teal gradient with a coloured shadow. The bright stop is
+   kept deep enough that the white label holds WCAG AA across the button. */
+.btn-primary {
+  background-image: linear-gradient(135deg, var(--med-bright-btn) 0%, var(--med) 55%, var(--med-deep) 100%);
+  box-shadow: 0 10px 24px -8px rgba(0, 109, 119, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+.btn-primary:hover {
+  filter: brightness(1.07);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px -8px rgba(0, 109, 119, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
 /* Thin themed scrollbar so the browser surface matches the palette. */
 ::-webkit-scrollbar {
   width: 10px;

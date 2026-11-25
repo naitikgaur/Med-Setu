@@ -18,7 +18,7 @@ export default function QBankPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 pb-4 pt-8 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 pb-4 pt-8 sm:px-6">
         <section className="max-w-3xl">
           <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             The FMGE question bank

@@ -725,7 +725,7 @@ console.log('9) Subject-wise tests (V2)');
   const homeHtml2 = readFileSync(join(out, 'index.html'), 'utf8');
   ok(homeHtml2.includes('Subject-wise tests') && !homeHtml2.includes('/subject/'),
     'landing: subject-wise tests described, with no subject links (descriptions only)');
-  ok(homeHtml2.includes('MedSetu v6'), 'footer: "MedSetu v6" small print ships');
+  ok(homeHtml2.includes('MedSetu v7'), 'footer: "MedSetu v7" small print ships');
 
   // Analysis engine: the new detailed fields, unit-tested on synthetic data.
   const synthQ = (subject) => ({ subject, text: 'q', options: ['a', 'b', 'c', 'd'], correct: 0, explanation: '', img: false });
@@ -859,7 +859,7 @@ console.log('10) Question bank (V3)');
   ok(headerSrc.includes('Question Bank') && headerSrc.includes('Complete FMGE Preparation'),
     'header: Question Bank nav item + preparation tagline');
   const chromeSrc = readFileSync(join(root, 'src', 'components', 'SiteChrome.tsx'), 'utf8');
-  ok(chromeSrc.includes("'/qbank/'") && chromeSrc.includes('MedSetu v6'),
+  ok(chromeSrc.includes("'/qbank/'") && chromeSrc.includes('MedSetu v7'),
     'footer: Question Bank link + v6 small print');
   const qlib = readFileSync(join(root, 'src', 'lib', 'qbank.ts'), 'utf8');
   ok(qlib.includes("'medsetu-qb-session'") && qlib.includes("'medsetu-qb-mistakes'")
@@ -1262,7 +1262,7 @@ console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
     'home: OpenGraph image wired');
   ok(homeHtml.includes('"@type":"Organization"') || homeHtml.includes('"@type": "Organization"') ||
      homeHtml.includes('@graph'), 'home: Organization JSON-LD present');
-  ok(homeHtml.includes('MedSetu v6'), 'footer: version line updated to v6');
+  ok(homeHtml.includes('MedSetu v7'), 'footer: version line updated to v7');
   for (const h of ['href="/tests/"', 'href="/contact/"', 'href="/terms/"', 'href="/disclaimer/"', 'href="/privacy/"']) {
     ok(homeHtml.includes(h), `nav/footer: homepage carries ${h}`);
   }

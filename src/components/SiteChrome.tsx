@@ -37,7 +37,7 @@ export function BrandLockup({
 
 export function DonateBlock({ id = 'donate' }: { id?: string }) {
   return (
-    <section id={id} className="no-print rounded-xl border border-line bg-white px-6 py-6 shadow-card sm:px-8">
+    <section id={id} className="no-print rounded-2xl border border-line/70 bg-white px-6 py-6 shadow-card sm:px-8">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div className="max-w-2xl">
           <h2 className="text-lg font-bold text-ink">Donate something if you like</h2>
@@ -66,7 +66,7 @@ export function DonateStrip() {
     <section
       id="donate-top"
       aria-label="Support MedSetu"
-      className="no-print flex flex-wrap items-center justify-between gap-4 rounded-xl border border-accent/40 bg-accent-soft px-6 py-5"
+      className="no-print flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-accent/40 bg-accent-soft px-6 py-5 shadow-card"
     >
       <div className="max-w-2xl">
         <h2 className="text-lg font-bold text-accent-deep">Support MedSetu</h2>
@@ -140,7 +140,7 @@ export function SiteFooter() {
                 href="https://chat.whatsapp.com/BAxhL36HFnvC3o8Rqp7q07"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+                className="inline-block py-1.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
               >
                 WhatsApp group
               </a>
@@ -148,7 +148,7 @@ export function SiteFooter() {
                 href="https://www.instagram.com/naitiklibrary/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+                className="inline-block py-1.5 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
               >
                 Instagram — @naitiklibrary
               </a>
@@ -164,10 +164,10 @@ export function SiteFooter() {
             {FOOTER_COLS.map((col) => (
               <div key={col.title}>
                 <p className="text-xs font-bold uppercase tracking-[0.12em] text-white/60">{col.title}</p>
-                <ul className="mt-3 space-y-2 text-sm font-medium">
+                <ul className="mt-2 space-y-0.5 text-sm font-medium">
                   {col.links.map(([label, href]) => (
                     <li key={href}>
-                      <Link href={href} className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
+                      <Link href={href} className="block py-2 text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline">
                         {label}
                       </Link>
                     </li>
@@ -186,7 +186,7 @@ export function SiteFooter() {
         <div className="mt-4 border-t border-white/15 pt-4 text-xs text-white/65">
           Your name and answers never leave your device. No accounts, no tracking of your practice,
           no data collected.
-          <span className="mt-1 block">MedSetu v6 · Made by Naitik Library, Gautam Nagar, New Delhi</span>
+          <span className="mt-1 block">MedSetu v7 · Made by Naitik Library, Gautam Nagar, New Delhi</span>
         </div>
       </div>
     </footer>

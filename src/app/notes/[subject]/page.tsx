@@ -40,7 +40,7 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
           tests, so printing keeps only this pointer.
         </p>
       </div>
-      <main className="web-only mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
+      <main id="content" className="web-only mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
         {/* header */}
         <section className="pt-10 lg:pt-14">
           <nav aria-label="Breadcrumb" className="text-[13px] font-medium text-inksoft">
@@ -217,6 +217,20 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
             description: notes.tagline,
             author: { '@type': 'Organization', name: 'MedSetu by Naitik Library' },
             about: meta.name,
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'MedSetu', item: 'https://med-setu.netlify.app/' },
+              { '@type': 'ListItem', position: 2, name: 'Short Notes', item: 'https://med-setu.netlify.app/notes/' },
+              { '@type': 'ListItem', position: 3, name: `${meta.name} short notes`, item: `https://med-setu.netlify.app/notes/${params.subject}/` },
+            ],
           }),
         }}
       />

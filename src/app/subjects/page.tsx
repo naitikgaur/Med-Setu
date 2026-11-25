@@ -22,7 +22,7 @@ export default function SubjectsPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
         <section className="max-w-3xl">
           <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             Subject-wise FMGE tests

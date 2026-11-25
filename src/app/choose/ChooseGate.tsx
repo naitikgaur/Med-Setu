@@ -45,7 +45,7 @@ export default function ChooseGate() {
       <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         <Link
           href="/tests/"
-          className="group flex flex-col rounded-xl border border-med-line bg-med-soft/40 p-6 shadow-card transition hover:border-med hover:shadow-lift"
+          className="group flex flex-col rounded-2xl border border-med-line bg-med-soft/40 p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med hover:shadow-lift"
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">New · Grand tests</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Test Series</h2>
@@ -63,7 +63,7 @@ export default function ChooseGate() {
 
         <Link
           href="/papers/"
-          className="group flex flex-col rounded-xl border border-line bg-white p-6 shadow-card transition hover:border-med-line hover:shadow-lift"
+          className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">Full mocks</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">PYP Tests</h2>
@@ -81,7 +81,7 @@ export default function ChooseGate() {
 
         <Link
           href="/subjects/"
-          className="group flex flex-col rounded-xl border border-line bg-white p-6 shadow-card transition hover:border-med-line hover:shadow-lift"
+          className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">One subject at a time</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Subject-wise Tests</h2>
@@ -99,7 +99,7 @@ export default function ChooseGate() {
 
         <Link
           href="/qbank/"
-          className="group flex flex-col rounded-xl border border-line bg-white p-6 shadow-card transition hover:border-med-line hover:shadow-lift"
+          className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">Question by question</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Question Bank</h2>
@@ -117,7 +117,7 @@ export default function ChooseGate() {
 
         <Link
           href="/notes/"
-          className="group flex flex-col rounded-xl border border-med-line bg-med-soft/40 p-6 shadow-card transition hover:border-med hover:shadow-lift"
+          className="group flex flex-col rounded-2xl border border-med-line bg-med-soft/40 p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med hover:shadow-lift"
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">New · Rapid revision</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Short Notes</h2>
@@ -135,7 +135,7 @@ export default function ChooseGate() {
 
         <Link
           href="/flashcards/"
-          className="group flex flex-col rounded-xl border border-line bg-white p-6 shadow-card transition hover:border-med-line hover:shadow-lift"
+          className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
           <p className="text-xs font-bold uppercase tracking-wide text-med">New · Active recall</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Flashcards</h2>

@@ -29,7 +29,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
        <RequireName>
         <Link href="/papers/" className="mt-6 inline-block text-sm font-semibold text-med hover:underline">
           ← All papers

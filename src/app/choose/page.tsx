@@ -13,7 +13,7 @@ export default function ChoosePage() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 sm:px-6">
         <ChooseGate />
       </main>
       <SiteFooter />

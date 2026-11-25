@@ -6,9 +6,9 @@ import { AdSenseLoader, AdUnit } from '../components/AdSense';
 import HeroVisual from '../components/HeroVisual';
 
 export const metadata: Metadata = {
-  title: 'MedSetu — Complete FMGE Preparation Platform for Medical Students',
+  title: 'MedSetu — Complete FMGE Preparation for Medical Students',
   description:
-    'MedSetu is the complete FMGE preparation platform for medical students: previous-year papers as full mock tests in the real exam window, 30 grand tests, a 13,934-question bank with explanations, short notes with mind maps and 950 flashcards for all 19 subjects, and 150 free guides. Free, no sign-up, by Naitik Library, New Delhi.',
+    'Free FMGE preparation by Naitik Library: previous-year papers as full mocks in the real exam window, 30 grand tests, 13,934 explained questions, notes and 950 flashcards.',
   alternates: { canonical: '/' },
 };
 
@@ -30,9 +30,11 @@ function Icon({ d }: { d: React.ReactNode }) {
   );
 }
 
-const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
+const FEATURES: { title: string; body: string; icon: React.ReactNode; cluster: number; lead?: boolean }[] = [
   {
     title: 'The real exam window',
+    cluster: 0,
+    lead: true,
     body: 'Tests open in a window modelled on the TCS iON screen the FMGE is held on — same palette, same buttons, same two-part rhythm. On exam day, nothing about the screen is new to you.',
     icon: (
       <>
@@ -44,6 +46,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'All twelve papers, complete',
+    cluster: 0,
     body: 'December 2020 to June 2026, every paper a full 300 questions. Where a recall source runs short, added questions are flagged with the paper they came from.',
     icon: (
       <>
@@ -55,6 +58,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Subject-wise tests',
+    cluster: 0,
     body: 'One subject at a time — 19 to 50 questions in the same exam window, every question explained, scored against the 50% FMGE pass proportion.',
     icon: (
       <>
@@ -66,6 +70,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The Question Bank',
+    cluster: 2,
     body: '13,934 questions across all 19 subjects, organised by topic, every one with its answer and explanation. Practise in sets of 20, 50 or a whole subject.',
     icon: (
       <>
@@ -77,6 +82,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Practice mode, and mistakes that clear',
+    cluster: 2,
     body: 'Check each answer as you go and read the explanation straight away. Wrong answers are saved to My Mistakes — replay one, answer it right, and it clears.',
     icon: (
       <>
@@ -87,6 +93,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The book’s explanations',
+    cluster: 1,
     body: 'The ten book papers carry the explanations printed in the FMGE previous-year book — word for word. The two 2026 papers carry answers only, and say so plainly.',
     icon: (
       <>
@@ -97,6 +104,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Click a question, read its solution',
+    cluster: 1,
     body: 'Your analysis lists all 300 questions — open any one to see the correct option, your answer, and the full explanation.',
     icon: (
       <>
@@ -108,6 +116,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'An answer key worth downloading',
+    cluster: 1,
     body: 'Every question with the correct option, its explanation and your answer beside it — a revision document you keep. A one-page key is there too, for a fast count.',
     icon: (
       <>
@@ -118,6 +127,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'The images are in',
+    cluster: 1,
     body: 'Image-based questions carry the actual X-ray, slide, ECG or diagram from the source book. Where an image could not be recovered, the question tells you instead of guessing.',
     icon: (
       <>
@@ -129,6 +139,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: '30 grand tests, one series',
+    cluster: 0,
     body: '9,000 questions across 30 tests of 300 — no repeats — in the official subject mix. Finish the series and you have covered the entire syllabus, topic by topic.',
     icon: (
       <>
@@ -139,6 +150,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'A learning for every question',
+    cluster: 1,
     body: 'Every Test Series question carries a short learning point — the one fact it was really testing — inside the solution and the printed key.',
     icon: (
       <>
@@ -149,6 +161,8 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Analysis in eight parts',
+    cluster: 1,
+    lead: true,
     body: 'Every attempt ends in an eight-part analysis — performance, time, topics, question journey and every solution — with a matching downloadable PDF.',
     icon: (
       <>
@@ -159,6 +173,8 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Short notes built from PYQs',
+    cluster: 2,
+    lead: true,
     body: 'Rapid-revision notes for all 19 subjects, built from five years of FMGE papers — crisp fact lines, comparison tables, marked exam traps and night-before golden points.',
     icon: (
       <>
@@ -169,6 +185,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Flashcards & mind maps',
+    cluster: 2,
     body: '950 flashcards — 50 per subject — for active recall, plus a one-screen mind map per subject, so the whole subject sits in your head as one picture.',
     icon: (
       <>
@@ -180,6 +197,7 @@ const FEATURES: { title: string; body: string; icon: React.ReactNode }[] = [
   },
   {
     title: 'Guides that teach the method',
+    cluster: 2,
     body: '150 free guides — preparation strategy, subject methods, books, MBBS abroad, research, careers and clinical skills.',
     icon: (
       <>
@@ -299,6 +317,12 @@ const HOME_FAQ: { q: string; a: string }[] = [
   },
 ];
 
+const CLUSTERS = [
+  { name: 'Sit the exam before the exam', line: 'The full paper, in the real window, on the real clock.' },
+  { name: 'Know where every mark went', line: 'After every test, the analysis shows exactly how your marks moved.' },
+  { name: 'Revise until it sticks', line: 'Short notes, flashcards and guided practice for daily revision.' },
+];
+
 const STEPS = [
   {
     n: '1',
@@ -339,13 +363,10 @@ export default function Home() {
       <AdSenseLoader />
 
       {/* ---------- Hero: deep teal band, the product shown, one CTA ---------- */}
-      <section className="bg-med-abyss text-white">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 pb-16 pt-12 sm:px-6 lg:grid-cols-[1.02fr_1fr] lg:pb-20 lg:pt-16">
-          <div>
-            <p className="text-[12px] font-bold uppercase tracking-[0.16em] text-white/70">
-              For FMGE aspirants &amp; medical students
-            </p>
-            <h1 className="mt-3 text-[40px] font-bold leading-[1.08] tracking-tight sm:text-5xl">
+      <section id="content" className="hero-band text-white">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 pb-28 pt-14 sm:px-6 lg:grid-cols-[1.02fr_1fr] lg:pb-32 lg:pt-20">
+          <div className="rise-in">
+            <h1 className="text-display text-white">
               The complete preparation platform for medical students.
             </h1>
             <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-white/85">
@@ -356,13 +377,13 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
                 href="/start/"
-                className="rounded-lg bg-white px-7 py-3.5 text-base font-bold text-med-deep shadow-lift transition-colors hover:bg-med-soft"
+                className="rounded-full bg-white px-8 py-4 text-base font-bold text-med-deep shadow-lift transition hover:-translate-y-0.5 hover:bg-med-soft"
               >
                 Let&apos;s Start →
               </Link>
               <Link
                 href="/notes/"
-                className="rounded-lg border border-white/40 px-6 py-3.5 text-base font-bold text-white transition-colors hover:bg-white/10"
+                className="rounded-full border border-white/35 bg-white/10 px-7 py-4 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
               >
                 Revise with Short Notes
               </Link>
@@ -377,16 +398,16 @@ export default function Home() {
               Free for every student · no sign-up · your name and answers never leave this tab
             </p>
           </div>
-          <HeroVisual />
+          <div className="rise-in"><HeroVisual /></div>
         </div>
       </section>
 
       {/* ---------- Facts strip ---------- */}
-      <section aria-label="The FMGE pattern" className="border-b border-line bg-white">
-        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-4 gap-y-6 px-4 py-7 sm:px-6 md:grid-cols-5">
+      <section aria-label="The FMGE pattern" className="relative z-10 mx-auto -mt-16 w-full max-w-6xl px-4 sm:px-6">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-6 rounded-3xl border border-line/60 bg-white px-6 py-7 shadow-lift md:grid-cols-5">
           {FACTS.map(([big, small]) => (
             <div key={small}>
-              <p className="text-[26px] font-bold tabular-nums leading-none text-med-deep">{big}</p>
+              <p className="text-[30px] font-extrabold tabular-nums leading-none tracking-tight text-med-deep">{big}</p>
               <p className="mt-1.5 text-[13px] leading-snug text-inksoft">{small}</p>
             </div>
           ))}
@@ -395,7 +416,7 @@ export default function Home() {
 
       {/* ---------- Four ways to practise ---------- */}
       <section className="mx-auto w-full max-w-6xl px-4 pt-14 sm:px-6 lg:pt-16">
-        <h2 className="text-[28px] font-bold tracking-tight text-ink">Prepare every way that works</h2>
+        <h2 className="text-h2 text-ink">Prepare every way that works</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
           Learn it, revise it, recall it, then prove it under exam conditions.
         </p>
@@ -404,10 +425,11 @@ export default function Home() {
             <Link
               key={m.title}
               href={m.href}
-              className="group relative rounded-xl border border-line bg-white p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-med/40 hover:shadow-lift"
+              className="group relative overflow-hidden rounded-2xl border border-line/70 bg-white p-6 shadow-card transition-all duration-200 hover:-translate-y-1 hover:border-med/40 hover:shadow-lift"
             >
+              <span aria-hidden className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-med-bright via-med to-med-deep opacity-0 transition-opacity duration-200 group-hover:opacity-100" />
               {m.badge && (
-                <span className="absolute right-4 top-4 rounded bg-accent px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-white">
+                <span className="absolute right-4 top-4 rounded-full bg-accent px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wide text-white shadow-card">
                   {m.badge}
                 </span>
               )}
@@ -422,19 +444,40 @@ export default function Home() {
 
       {/* ---------- What you get ---------- */}
       <section className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
-        <h2 className="text-[28px] font-bold tracking-tight text-ink">What you get</h2>
+        <h2 className="text-h2 text-ink">What you get</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
           Everything below is free — no courses, no paid add-ons waiting behind it.
         </p>
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {FEATURES.map((f) => (
-            <article key={f.title} className="rounded-xl border border-line bg-white p-6 shadow-card">
-              <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-med-soft text-med-deep">
-                <Icon d={f.icon} />
-              </span>
-              <h3 className="mt-4 text-[17px] font-bold text-ink">{f.title}</h3>
-              <p className="mt-1.5 text-sm leading-relaxed text-inksoft">{f.body}</p>
-            </article>
+        <div className="mt-10 space-y-12">
+          {CLUSTERS.map((c, ci) => (
+            <div key={c.name}>
+              <h3 className="text-h3 text-ink">{c.name}</h3>
+              <p className="mt-1 text-[15px] text-inksoft">{c.line}</p>
+              <div className="mt-5 grid items-start gap-4 lg:grid-cols-2">
+                {FEATURES.filter((f) => f.cluster === ci && f.lead).map((f) => (
+                  <article key={f.title} className="rounded-2xl border border-med-line/70 bg-med-soft/30 p-6 shadow-card sm:p-7">
+                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-med-deep shadow-card ring-1 ring-med-line/60">
+                      <Icon d={f.icon} />
+                    </span>
+                    <h4 className="mt-4 text-lg font-bold text-ink">{f.title}</h4>
+                    <p className="mt-1.5 text-[15px] leading-relaxed text-inksoft">{f.body}</p>
+                  </article>
+                ))}
+                <ul className="divide-y divide-line/70 rounded-2xl border border-line/70 bg-white px-6 shadow-card">
+                  {FEATURES.filter((f) => f.cluster === ci && !f.lead).map((f) => (
+                    <li key={f.title} className="flex gap-4 py-4">
+                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-med-soft text-med-deep ring-1 ring-med-line/50">
+                        <Icon d={f.icon} />
+                      </span>
+                      <span>
+                        <span className="block text-[15px] font-bold text-ink">{f.title}</span>
+                        <span className="mt-0.5 block text-sm leading-relaxed text-inksoft">{f.body}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           ))}
         </div>
       </section>
@@ -443,14 +486,14 @@ export default function Home() {
       <section className="border-y border-line bg-white">
         <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-16">
           <div>
-            <h2 className="text-[28px] font-bold tracking-tight text-ink">
+            <h2 className="text-h2 text-ink">
               See exactly where a mark went
             </h2>
             <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
               A real question from the January 2024 paper, with the explanation as printed in the
               book. After a test, every question opens like this.
             </p>
-            <div className="mt-6 rounded-xl border border-line bg-paper p-5 sm:p-6">
+            <div className="mt-6 rounded-2xl border border-line/70 bg-paper p-5 shadow-card sm:p-6">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <p className="text-xs font-bold uppercase tracking-[0.08em] text-inksoft">
                   FMGE January 2024 · Question 115 · Community Medicine
@@ -508,7 +551,7 @@ export default function Home() {
 
       {/* ---------- The FMGE pattern & subject weightage ---------- */}
       <section className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
-        <h2 className="text-[28px] font-bold tracking-tight text-ink">
+        <h2 className="text-h2 text-ink">
           The FMGE pattern — and where the marks are
         </h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
@@ -518,7 +561,7 @@ export default function Home() {
           <strong className="text-ink">150 out of 300</strong>. The table is the official NBEMS
           subject distribution — the same mix MedSetu’s mocks are built to.
         </p>
-        <div className="mt-8 overflow-hidden rounded-xl border border-line bg-white shadow-card">
+        <div className="mt-8 overflow-hidden rounded-2xl border border-line/70 bg-white shadow-card">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-line bg-mist text-left">
@@ -534,7 +577,7 @@ export default function Home() {
                   <td className="px-4 py-2.5 text-right font-semibold tabular-nums text-med-deep">{n}</td>
                   <td className="hidden px-4 py-2.5 sm:table-cell">
                     <span className="block h-2 rounded bg-med-soft">
-                      <span className="block h-2 rounded bg-med" style={{ width: `${(n / 33) * 100}%` }} />
+                      <span className="block h-2 rounded bg-gradient-to-r from-med-bright to-med-deep" style={{ width: `${(n / 33) * 100}%` }} />
                     </span>
                   </td>
                 </tr>
@@ -554,14 +597,14 @@ export default function Home() {
 
       {/* ---------- How it works ---------- */}
       <section id="how" className="mx-auto w-full max-w-6xl scroll-mt-8 px-4 py-14 sm:px-6 lg:py-16">
-        <h2 className="text-[28px] font-bold tracking-tight text-ink">How it works</h2>
+        <h2 className="text-h2 text-ink">How it works</h2>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-inksoft">
           Four steps — under a minute to your first test.
         </p>
         <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {STEPS.map((s) => (
-            <li key={s.n} className="rounded-xl border border-line bg-white p-6 shadow-card">
-              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-med text-[15px] font-bold tabular-nums text-white">
+            <li key={s.n} className="rounded-2xl border border-line/70 bg-white p-6 shadow-card">
+              <span className="btn-primary flex h-9 w-9 items-center justify-center rounded-full text-[15px] font-bold tabular-nums text-white">
                 {s.n}
               </span>
               <h3 className="mt-4 text-[16px] font-bold text-ink">{s.title}</h3>
@@ -574,7 +617,7 @@ export default function Home() {
       {/* ---------- Questions students ask ---------- */}
       <section className="border-t border-line bg-white">
         <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
-          <h2 className="text-[28px] font-bold tracking-tight text-ink">Questions students ask</h2>
+          <h2 className="text-h2 text-ink">Questions students ask</h2>
           <div className="mt-8 grid gap-x-10 gap-y-8 md:grid-cols-2">
             {HOME_FAQ.map((f) => (
               <div key={f.q}>
@@ -590,7 +633,7 @@ export default function Home() {
       <section className="border-t border-line bg-white">
         <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
           <div className="max-w-3xl">
-            <h2 className="text-[28px] font-bold tracking-tight text-ink">
+            <h2 className="text-h2 text-ink">
               Built by a study hall in Gautam Nagar
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-ink">
@@ -622,7 +665,7 @@ export default function Home() {
           </div>
 
           {/* Final call to action */}
-          <div className="mt-6 rounded-2xl bg-med-deep px-6 py-10 text-center text-white sm:px-10">
+          <div className="hero-band mt-6 rounded-[28px] px-6 py-12 text-center text-white shadow-lift sm:px-10">
             <h2 className="text-[26px] font-bold tracking-tight sm:text-3xl">
               Your complete preparation is one click away.
             </h2>
@@ -632,7 +675,7 @@ export default function Home() {
             </p>
             <Link
               href="/start/"
-              className="mt-6 inline-block rounded-lg bg-white px-8 py-3.5 text-base font-bold text-med-deep shadow-lift transition-colors hover:bg-med-soft"
+              className="mt-6 inline-block rounded-full bg-white px-9 py-4 text-base font-bold text-med-deep shadow-lift transition hover:-translate-y-0.5 hover:bg-med-soft"
             >
               Let&apos;s Start →
             </Link>

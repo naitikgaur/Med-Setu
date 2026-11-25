@@ -40,10 +40,9 @@ export default function BlogIndex() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
-        <section className="border-b border-line pb-8 pt-8 sm:pt-10">
-          <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">MedSetu · Blog</p>
-          <h1 className="mt-3 max-w-3xl text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+      <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
+        <section className="soft-band mt-8 rounded-[28px] px-6 py-10 shadow-card ring-1 ring-med-line/40 sm:px-10 lg:mt-10">
+          <h1 className="mt-1 max-w-3xl text-4xl text-ink sm:text-h1">
             Guides for FMGE aspirants &amp; medical students
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft sm:text-lg">
@@ -57,7 +56,7 @@ export default function BlogIndex() {
               <a
                 key={cat.slug}
                 href={`#${cat.slug}`}
-                className="rounded-full border border-line bg-white px-3.5 py-1.5 text-sm font-medium text-ink shadow-card transition-colors hover:border-med hover:text-med-deep"
+                className="rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink shadow-card transition-colors hover:border-med hover:text-med-deep"
               >
                 {cat.name} <span className="text-inksoft">({ps.length})</span>
               </a>
@@ -67,17 +66,16 @@ export default function BlogIndex() {
 
         {byCategory.map(({ cat, posts: ps }) => (
           <section key={cat.slug} id={cat.slug} className="scroll-mt-24 border-b border-line py-10">
-            <h2 className="text-2xl font-bold tracking-tight text-ink">{cat.name}</h2>
+            <h2 className="text-h3 text-ink">{cat.name}</h2>
             <p className="mt-2 max-w-3xl leading-relaxed text-inksoft">{cat.blurb}</p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {ps.map((p) => (
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}/`}
-                  className="group flex flex-col rounded-xl border border-line bg-white p-5 shadow-card transition-colors hover:border-med"
+                  className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med/50 hover:shadow-lift"
                 >
-                  <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">{cat.name}</p>
-                  <h3 className="mt-2 font-semibold leading-snug text-ink group-hover:text-med-deep">
+                  <h3 className="font-semibold leading-snug text-ink group-hover:text-med-deep">
                     {p.title}
                   </h3>
                   <p className="mt-2 flex-1 text-sm leading-relaxed text-inksoft">{p.excerpt}</p>

@@ -116,20 +116,20 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
           {learning.size > 0 && (
             <button
               onClick={reviewLearning}
-              className="rounded-lg bg-med px-6 py-3 text-sm font-bold text-white shadow-card transition-colors hover:bg-med-deep"
+              className="btn-primary rounded-full px-6 py-3 text-sm font-bold text-white"
             >
               Review the {learning.size} still-learning cards →
             </button>
           )}
           <button
             onClick={restart}
-            className="rounded-lg border border-line bg-white px-6 py-3 text-sm font-bold text-med-deep transition-colors hover:bg-mist"
+            className="rounded-full border border-line bg-white px-6 py-3 text-sm font-bold text-med-deep shadow-card transition hover:bg-mist"
           >
             Restart the full deck
           </button>
           <button
             onClick={shuffle}
-            className="rounded-lg border border-line bg-white px-6 py-3 text-sm font-bold text-med-deep transition-colors hover:bg-mist"
+            className="rounded-full border border-line bg-white px-6 py-3 text-sm font-bold text-med-deep shadow-card transition hover:bg-mist"
           >
             Shuffle &amp; restart
           </button>
@@ -153,7 +153,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
         </p>
       </div>
       <div className="mt-2 h-2 overflow-hidden rounded bg-med-soft" role="progressbar" aria-valuenow={marked} aria-valuemax={order.length}>
-        <div className="h-full rounded bg-med transition-all" style={{ width: `${(marked / order.length) * 100}%` }} />
+        <div className="h-full rounded bg-gradient-to-r from-med-bright to-med-deep transition-all" style={{ width: `${(marked / order.length) * 100}%` }} />
       </div>
 
       {/* the card */}
@@ -165,7 +165,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
           className="block w-full text-left"
         >
           <div className={`fc-card relative h-[320px] sm:h-[300px] ${flipped ? 'flipped' : ''}`}>
-            <div className="fc-face absolute inset-0 flex flex-col rounded-2xl border border-med/30 bg-white p-7 shadow-lift sm:p-9">
+            <div className="fc-face absolute inset-0 flex flex-col rounded-2xl border border-med/25 bg-white p-7 shadow-lift ring-1 ring-med-line/40 sm:p-9">
               <span className="self-start rounded bg-med-soft px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.1em] text-med-deep">
                 {card.topic}
               </span>
@@ -174,7 +174,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
               </span>
               <span className="text-sm font-semibold text-med">Tap to reveal the answer →</span>
             </div>
-            <div className="fc-face fc-back absolute inset-0 flex flex-col rounded-2xl bg-med-deep p-7 text-white shadow-lift sm:p-9">
+            <div className="fc-face fc-back absolute inset-0 flex flex-col rounded-2xl bg-gradient-to-br from-med to-med-abyss p-7 text-white shadow-lift sm:p-9">
               <span className="self-start rounded bg-white/15 px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.1em] text-white/90">
                 {card.topic}
               </span>
@@ -197,7 +197,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
         </button>
         <button
           onClick={() => mark(true)}
-          className="rounded-lg bg-med px-4 py-3.5 text-[15px] font-bold text-white shadow-card transition-colors hover:bg-med-deep"
+          className="btn-primary rounded-full px-6 py-3.5 text-[15px] font-bold text-white"
         >
           Got it ✓
         </button>

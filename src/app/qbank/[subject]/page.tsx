@@ -25,7 +25,7 @@ export default function QBankSubjectPage({ params }: { params: { subject: string
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 pb-4 pt-8 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 pb-4 pt-8 sm:px-6">
         <SubjectPanel slug={s.slug} />
       </main>
       <SiteFooter />

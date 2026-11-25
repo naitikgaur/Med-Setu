@@ -13,7 +13,7 @@ export default function ThirtyDayRevisionPlan() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
+      <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="border-b border-line pb-8 pt-8 sm:pt-10">
           <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">
             <Link href="/resources/" className="hover:underline">Resources</Link> \u00b7 Study guide

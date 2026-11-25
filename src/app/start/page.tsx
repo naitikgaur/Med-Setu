@@ -14,7 +14,7 @@ export default function StartPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="flex flex-1 items-start justify-center px-4 py-10 sm:py-14">
+      <main id="content" className="flex flex-1 items-start justify-center px-4 py-10 sm:py-14">
         <div className="w-full max-w-md">
           <div className="mb-5 flex justify-center text-center">
             <BrandLockup size="lg" />
