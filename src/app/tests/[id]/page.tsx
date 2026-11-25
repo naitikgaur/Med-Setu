@@ -35,10 +35,7 @@ export default function SeriesTestPage({ params }: { params: { id: string } }) {
           <Link href="/tests/" className="mt-6 inline-block text-sm font-semibold text-med hover:underline">
             ← All grand tests
           </Link>
-          <p className="mt-3 text-xs font-bold uppercase tracking-wide text-med">
-            MedSetu Test Series
-          </p>
-          <h1 className="mt-1 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h1 className="mt-1 text-4xl font-bold tracking-tight text-ink sm:text-h1">
             {test.title}
           </h1>
           <p className="mt-1.5 text-body2 text-inksoft">
@@ -78,8 +75,7 @@ export default function SeriesTestPage({ params }: { params: { id: string } }) {
                 question-by-question review — downloadable as a structured report.
               </li>
               <li>
-                <strong className="text-ink">Measured against the pass proportion.</strong> FMGE
-                passes at 150 of 300 — and this full-length test is measured against that same real pass mark of 150.
+                <strong className="text-ink">Measured against the real pass mark.</strong> 150 of 300.
               </li>
             </ul>
           </section>

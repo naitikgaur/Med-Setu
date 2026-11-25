@@ -66,15 +66,12 @@ export default function SubjectPanel({ slug }: { slug: string }) {
 
   return (
     <RequireName>
-      <p className="text-sm">
-        <Link href="/qbank/" className="font-semibold text-med hover:underline">← Question Bank</Link>
-      </p>
       <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-ink">{meta.name}</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-h1">{meta.name}</h1>
           <p className="mt-1.5 text-body2 text-inksoft">
             {meta.total.toLocaleString('en-IN')} questions · {meta.topics.length} topics · every question
-            with its answer and explanation{name ? <>, {name.split(' ')[0]}</> : null}.
+            with its answer and explanation.
           </p>
         </div>
         {progress && progress.attempted > 0 && (

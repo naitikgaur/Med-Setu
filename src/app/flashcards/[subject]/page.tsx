@@ -33,8 +33,7 @@ export default function SubjectFlashcardsPage({ params }: { params: { subject: s
       <div className="print-note">
         <p><strong>MedSetu — {meta.name} flashcards</strong></p>
         <p>
-          Flashcards work by recalling on screen — they are free to use any time at
-          med-setu.netlify.app/flashcards/{params.subject}/, so printing keeps only this pointer.
+          Flashcards work by recalling on screen — free to use any time at med-setu.netlify.app/flashcards/{params.subject}/ — printing keeps only this pointer.
         </p>
       </div>
       <main id="content" className="web-only mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">

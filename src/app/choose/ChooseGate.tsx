@@ -47,7 +47,6 @@ export default function ChooseGate() {
           href="/tests/"
           className="group flex flex-col rounded-2xl border border-med-line bg-med-soft/40 p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med hover:shadow-lift"
         >
-          <p className="text-xs font-bold uppercase tracking-wide text-med">New · Grand tests</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Test Series</h2>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             30 full-syllabus grand tests — 300 questions each in the official NBEMS mix, with a
@@ -65,7 +64,6 @@ export default function ChooseGate() {
           href="/papers/"
           className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
-          <p className="text-xs font-bold uppercase tracking-wide text-med">Full mocks</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">PYP Tests</h2>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             Complete previous-year papers as full mock tests — 300 questions, two parts, the fixed
@@ -83,7 +81,6 @@ export default function ChooseGate() {
           href="/subjects/"
           className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
-          <p className="text-xs font-bold uppercase tracking-wide text-med">One subject at a time</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Subject-wise Tests</h2>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             One subject per test — 19 to 50 questions in the same exam window, with a full analysis
@@ -101,11 +98,9 @@ export default function ChooseGate() {
           href="/qbank/"
           className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
-          <p className="text-xs font-bold uppercase tracking-wide text-med">Question by question</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Question Bank</h2>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft">
-            Question by question, by subject and topic. Practice mode explains each answer straight
-            away; Exam mode locks answers until you submit. Mistakes and bookmarks are kept.
+            Question by question, by subject and topic — Practice mode explains as you go; Exam mode locks answers until you submit.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             19 subjects · {QBANK_META.total.toLocaleString('en-IN')} questions
@@ -119,7 +114,6 @@ export default function ChooseGate() {
           href="/notes/"
           className="group flex flex-col rounded-2xl border border-med-line bg-med-soft/40 p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med hover:shadow-lift"
         >
-          <p className="text-xs font-bold uppercase tracking-wide text-med">New · Rapid revision</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Short Notes</h2>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft">
             Every subject condensed to what the exam actually asks — fact lines, comparison tables,
@@ -137,11 +131,9 @@ export default function ChooseGate() {
           href="/flashcards/"
           className="group flex flex-col rounded-2xl border border-line/70 bg-white p-6 shadow-card transition duration-200 hover:-translate-y-1 hover:border-med-line hover:shadow-lift"
         >
-          <p className="text-xs font-bold uppercase tracking-wide text-med">New · Active recall</p>
           <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-ink">Flashcards</h2>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft">
-            Flip, answer from memory, mark what you know — missed cards come back in the same
-            sitting until they stick. Fifty per subject.
+            Flip, answer from memory, mark what you know — missed cards come back until they stick.
           </p>
           <p className="mt-4 text-sm font-semibold tabular-nums text-inksoft">
             19 subjects · 950 cards

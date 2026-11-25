@@ -22,7 +22,7 @@ export default function LibraryGate() {
     <RequireName>
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-ink">PYP Tests</h1>
+          <h2 className="text-3xl font-bold tracking-tight text-ink">PYP Tests</h2>
           <p className="mt-1.5 text-body2 text-inksoft">
             {name ? (
               <>
@@ -41,20 +41,11 @@ export default function LibraryGate() {
           Change name
         </Link>
       </div>
-      <p className="mt-4 max-w-3xl text-sm leading-relaxed text-inksoft">
-        NBEMS never releases official FMGE papers, so every paper here is a recall-based edition
-        built from candidate memory and published compilations, labelled honestly. Where a source
-        itself is short of 300, the mock is completed with questions from other years&apos; papers,
-        and the card says how many were added.
-      </p>
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {PAPERS_META.map((p) => (
           <PaperCard key={p.paperId} p={p} />
         ))}
       </div>
-      <p className="mt-6 text-sm text-inksoft">
-        12 papers · December 2020 – June 2026 · every paper a full 300 questions.
-      </p>
     </RequireName>
   );
 }

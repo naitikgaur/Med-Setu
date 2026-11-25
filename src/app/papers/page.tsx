@@ -8,7 +8,7 @@ import LibraryGate from './LibraryGate';
 export const metadata: Metadata = {
   title: 'FMGE Previous Year Papers as Mock Tests (PYP Tests) — MedSetu',
   description:
-    'All twelve FMGE previous-year papers on MedSetu as full mock tests, December 2020 to June 2026 — each a complete 300 questions in the real two-part exam manner, with the book’s explanations, a detailed eight-part analysis and a downloadable answer key. Free, no sign-up.',
+    'All twelve FMGE previous-year papers as full mock tests — 300 questions in the real two-part manner, with explanations, analysis and an answer key. Free.',
   alternates: { canonical: '/papers/' },
 };
 
@@ -20,7 +20,7 @@ export default function PapersPage() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 pb-4 pt-8 sm:px-6">
         <section className="max-w-3xl">
-          <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-h1">
             FMGE previous-year papers, as full mock tests
           </h1>
           <p className="mt-3 text-body2 leading-relaxed text-inksoft sm:text-base">

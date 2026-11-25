@@ -7,7 +7,7 @@ import { REVISE_SUBJECTS, getNotes, notesStats, totalNotePoints } from '../../li
 export const metadata: Metadata = {
   title: 'FMGE Short Notes — Rapid Revision Notes for All 19 Subjects | MedSetu',
   description:
-    'Free FMGE short notes for rapid revision: every subject distilled into the topics previous-year papers actually ask, with comparison tables, exam traps, mind maps and night-before golden points. Read online on MedSetu — no sign-up.',
+    'Free FMGE short notes for rapid revision: every subject distilled into the topics previous-year papers ask, with tables, traps, mind maps and golden points.',
   alternates: { canonical: '/notes/' },
   openGraph: {
     title: 'FMGE Short Notes — Rapid Revision for All 19 Subjects | MedSetu',
@@ -47,7 +47,7 @@ const FAQ = [
   },
   {
     q: 'Can I download or print the notes?',
-    a: 'No — the notes and flashcards are made to be read and revised on MedSetu itself, free, as often as you like. Keeping them on the site is what keeps them free for every student and always up to date.',
+    a: 'No — the notes live on MedSetu, free to read as often as you like; keeping them here keeps them free and up to date.',
   },
   {
     q: 'Do the notes cover all 19 FMGE subjects?',
@@ -63,7 +63,7 @@ export default function NotesIndex() {
       <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
         <section className="soft-band mt-8 rounded-[28px] px-6 py-10 shadow-card ring-1 ring-med-line/40 sm:px-10 lg:mt-10 lg:py-12">
           <h1 className="mt-2 max-w-3xl text-4xl text-ink sm:text-h1">
-            Short notes that remember the subject for you.
+            FMGE short notes that remember the subject for you.
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft">
             Every FMGE subject, distilled into the topics previous-year papers actually ask —{' '}
@@ -160,22 +160,6 @@ export default function NotesIndex() {
               position: i + 1,
               url: `https://med-setu.netlify.app/notes/${s.slug}/`,
               name: `${s.name} — FMGE short notes`,
-            })),
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'ItemList',
-            name: 'FMGE Short Notes by Subject',
-            itemListElement: REVISE_SUBJECTS.map((s, i) => ({
-              '@type': 'ListItem',
-              position: i + 1,
-              name: `${s.name} — FMGE short notes`,
-              url: `https://med-setu.netlify.app/notes/${s.slug}/`,
             })),
           }),
         }}

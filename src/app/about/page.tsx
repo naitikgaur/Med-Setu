@@ -5,7 +5,7 @@ import { SiteHeader } from '../../components/SiteHeader';
 export const metadata = {
   title: 'About MedSetu — Naitik Library',
   description:
-    'MedSetu is made by the efforts of Naitik Library, founded by Naitik Gaur, Gautam Nagar, New Delhi — the complete FMGE preparation platform for medical students: previous-year mock papers, a grand test series, subject-wise tests, a question bank, short notes, flashcards and guides, for every student.',
+    'MedSetu is made by Naitik Library, founded by Naitik Gaur in Gautam Nagar, New Delhi — free, complete FMGE preparation for medical students.',
   alternates: { canonical: '/about/' },
 };
 
@@ -15,7 +15,7 @@ export default function About() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="border-b border-line pb-8 pt-8 sm:pt-10">
-          <h1 className="max-w-2xl text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+          <h1 className="max-w-2xl text-4xl font-bold leading-snug tracking-tight text-ink sm:text-h1">
             A library&apos;s effort, for every FMGE student.
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft sm:text-lg">
@@ -50,12 +50,9 @@ export default function About() {
           <ul className="mt-3 max-w-3xl list-disc space-y-2 pl-5 leading-relaxed text-inksoft">
             <li>Pick any of the 12 previous-year papers (December 2020 – June 2026) and write it as a mock: Part I, a break, then Part II — 150 minutes per part, exactly the FMGE manner.</li>
             <li><strong className="text-ink">Subject-wise tests:</strong> 30 tests across 16 subjects (19–50 questions each), one subject at a time in a single sitting, every question with its full explanation. The analysis measures your score against the 50% mark — the FMGE pass proportion — as a benchmark; a subject test has no official pass.</li>
-            <li><strong className="text-ink">New in MedSetu v3 — the Question Bank:</strong> 13,934 questions across all 19 subjects, organised by topic, every one with its answer and explanation. In Practice mode you check each answer as you go; in Exam mode a set is locked until you submit and then analysed like a test. Wrong answers collect in My Mistakes — replay one, answer it right, and it clears — and any question can be bookmarked for revision. All of it lives only in your browser tab.</li>
-            <li><strong className="text-ink">New in MedSetu v6 — Short Notes, Flashcards &amp; Mind Maps:</strong> a rapid-revision layer for all 19 subjects, built backwards from five years of previous-year papers. Each subject’s short notes compress its high-yield topics into crisp facts, comparison tables, marked exam traps and night-before golden points; a one-screen mind map holds the whole subject; and 50 flashcards per subject turn it into active recall. The notes and flashcards are read and practised on MedSetu itself — they are not downloadable, which is part of how they stay free and current for every student.</li>
-            <li><strong className="text-ink">The MedSetu Blog (v5):</strong> 150 free guides for medical students — FMGE preparation strategy, subject guides, books, notes and revision methods, MBBS abroad, research explained, careers and clinical skills.</li>
-            <li>Marking is FMGE marking: <strong className="text-ink">+1 for a correct answer, 0 for wrong or skipped. There is no negative marking</strong>, and the pass mark is a fixed 150 of 300.</li>
-            <li>After Part II you get a detailed analysis: pass verdict, subject-wise table, time and behaviour reports (answer changes, guesses, rushed mistakes), your biggest mark-recovery pools, a solutions explorer where every question opens its full book explanation, and the complete answer key.</li>
-            <li>The full report and the detailed answer key &amp; solutions can be downloaded as print-ready PDFs, generated in your browser.</li>
+            <li><strong className="text-ink">The Question Bank:</strong> 13,934 questions across all 19 subjects, organised by topic, every one with its answer and explanation. In Practice mode you check each answer as you go; in Exam mode a set is locked until you submit and then analysed like a test. Wrong answers collect in My Mistakes — replay one, answer it right, and it clears — and any question can be bookmarked for revision. All of it lives only in your browser tab.</li>
+            <li><strong className="text-ink">Short Notes, Flashcards &amp; Mind Maps:</strong> a rapid-revision layer for all 19 subjects, built backwards from five years of previous-year papers. Each subject’s short notes compress its high-yield topics into crisp facts, comparison tables, marked exam traps and night-before golden points; a one-screen mind map holds the whole subject; and 50 flashcards per subject turn it into active recall. The notes and flashcards are read and practised on MedSetu itself — they are not downloadable, which is part of how they stay free and current for every student.</li>
+            <li>Marking is FMGE marking: <strong className="text-ink">+1 for a correct answer, 0 for wrong or skipped — no negative marking</strong> — and the pass mark is a fixed 150 of 300. After Part II you get a detailed analysis and the complete answer key, both downloadable as print-ready PDFs.</li>
           </ul>
         </section>
 
@@ -94,15 +91,10 @@ export default function About() {
             <p>
               <strong className="text-ink">Completed papers.</strong> So that every mock is a
               full-size FMGE practice test, each short paper is completed to 300 with questions
-              taken from other years&apos; papers in this same library. The added questions are
-              chosen by subject-weightage equalisation: the subjects furthest below their official
-              NBEMS blueprint share in that paper are filled first, with questions from the nearest
-              sessions, never duplicating a question already in the paper, and no donor question is
-              used in more than one paper. Each added question is flagged with its source paper in
-              the review, the paper page states how many were added and from which years, and the
-              analysis separately reports your score on the paper&apos;s own questions alone. Every
-              paper is therefore scored against the real pass mark of 150.
-            </p>
+              taken from other years' papers in this same library, chosen to equalise subject
+              weightage against the official NBEMS blueprint. Each added question is flagged
+              with its source paper in the review, and the analysis separately reports your
+              score on the paper's own questions alone. </p>
             <p>
               <strong className="text-ink">Image questions.</strong> Some questions refer to an image
               from the original exam (an X-ray, a slide, a marked diagram). For the book papers,

@@ -40,7 +40,7 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
         <Link href="/subjects/" className="mt-6 inline-block text-sm font-semibold text-med hover:underline">
           ← All subjects
         </Link>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+        <h1 className="mt-2 text-4xl font-bold tracking-tight text-ink sm:text-h1">
           {subject.name}
         </h1>
         {subject.descriptor && (
@@ -94,11 +94,6 @@ export default function SubjectPage({ params }: { params: { slug: string } }) {
                 )}
               </li>
             )}
-            <li>
-              <strong className="text-ink">Your data stays on this device.</strong> Your name and
-              answers live only in this browser tab; a refresh resumes your test, and closing the
-              tab erases everything. Nothing is uploaded, ever.
-            </li>
           </ul>
         </section>
 

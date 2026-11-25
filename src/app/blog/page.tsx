@@ -7,7 +7,7 @@ import { BLOG_CATEGORIES, formatBlogDate, getAllPosts, readingMinutes } from '..
 export const metadata: Metadata = {
   title: 'Blog — Guides for FMGE & Medical Students — MedSetu',
   description:
-    'The MedSetu blog: 150 free guides for FMGE aspirants and medical students — preparation plans, subject-wise strategy, standard books, revision science, MBBS abroad, new medical research explained, and clinical skills. By Naitik Library, New Delhi.',
+    '150 free guides for FMGE aspirants and medical students — preparation plans, subject strategy, revision science, MBBS abroad and research explained.',
   alternates: { canonical: '/blog/' },
   openGraph: {
     title: 'MedSetu Blog — Guides for FMGE & Medical Students',
@@ -46,10 +46,8 @@ export default function BlogIndex() {
             Guides for FMGE aspirants &amp; medical students
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft sm:text-lg">
-            {posts.length} free, in-depth guides from Naitik Library — preparation plans built on the
-            real FMGE pattern, subject-by-subject strategy, the standard textbooks explained, revision
-            methods backed by research, honest MBBS-abroad guidance, and new medical research made
-            readable. No hype, no invented numbers — and every guide points you to free practice.
+            {posts.length} free guides from Naitik Library — preparation plans, subject strategy,
+            revision methods, MBBS abroad and research explained, each pointing to free practice.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
             {byCategory.map(({ cat, posts: ps }) => (

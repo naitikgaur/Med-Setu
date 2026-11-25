@@ -15,21 +15,18 @@ const ARTICLES = [
     title: 'FMGE Subject-Wise Weightage: What 9,000 Practice Questions Reveal',
     description:
       'The exact subject-wise split behind MedSetu\u2019s 9,000-question FMGE grand-test bank \u2014 all 19 subjects counted, so you can plan revision by weight, not by guesswork.',
-    tag: 'Plan by weight',
   },
   {
     href: '/resources/how-to-attempt-grand-test/',
     title: 'How to Attempt a 300-Question FMGE Grand Test: A Two-Part Strategy Guide',
     description:
       'A practical, minute-by-minute strategy for attempting a 300-question FMGE grand test \u2014 pacing for Part A and Part B, when to guess, and how to mine the analysis afterwards.',
-    tag: 'Attempt strategy',
   },
   {
     href: '/resources/fmge-30-day-revision-plan/',
     title: 'FMGE Next Sitting: A 30-Day Revision Plan Using Grand Tests',
     description:
       'A week-by-week 30-day FMGE revision plan for the next sitting \u2014 grand tests as the spine, subject weightage as the map, and Topic Analysis as the steering wheel.',
-    tag: '30-day plan',
   },
 ];
 
@@ -39,7 +36,7 @@ export default function Resources() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="border-b border-line pb-8 pt-8 sm:pt-10">
-          <h1 className="max-w-2xl text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+          <h1 className="max-w-2xl text-4xl font-bold leading-snug tracking-tight text-ink sm:text-h1">
             Resources for the FMGE.
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft sm:text-lg">
@@ -54,7 +51,6 @@ export default function Resources() {
           <div className="mt-4 space-y-4">
             {ARTICLES.map((a) => (
               <article key={a.href} className="rounded-xl border border-line bg-white px-5 py-5 shadow-card">
-                <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">{a.tag}</p>
                 <h3 className="mt-1.5 text-lg font-bold leading-snug text-ink">
                   <Link href={a.href} className="hover:text-med hover:underline">
                     {a.title}

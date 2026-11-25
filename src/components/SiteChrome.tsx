@@ -42,10 +42,7 @@ export function DonateBlock({ id = 'donate' }: { id?: string }) {
         <div className="max-w-2xl">
           <h2 className="text-lg font-bold text-ink">Donate something if you like</h2>
           <p className="mt-1.5 text-sm leading-relaxed text-inksoft">
-            MedSetu is free — every paper, every test, every question in the bank, every note and
-            flashcard, no sign-up. If MedSetu helped your preparation, a small contribution helps
-            Naitik Library keep it free for the next student. Voluntary only; the site works fully whether you donate
-            or not.
+            MedSetu is free — every paper, test, note and flashcard. If it helped you, a small contribution helps Naitik Library keep it free for the next student. Voluntary only.
           </p>
         </div>
         <div className="flex items-center gap-2 pt-1">
@@ -110,7 +107,6 @@ const FOOTER_COLS: { title: string; links: [string, string][] }[] = [
       ['About MedSetu', '/about/'],
       ['Naitik Library', '/naitik-library/'],
       ['Contact us', '/contact/'],
-      ['Privacy Policy', '/privacy/'],
     ],
   },
   {
@@ -153,7 +149,7 @@ export function SiteFooter() {
                 Instagram — @naitiklibrary
               </a>
             </p>
-            <div className="mt-5 text-sm leading-relaxed text-white/75">
+            <div id="donate" className="mt-5 scroll-mt-28 text-sm leading-relaxed text-white/75">
               <p className="font-semibold text-white">Support Naitik Library</p>
               <div className="mt-2">
                 <CopyUpi dark />
@@ -181,12 +177,11 @@ export function SiteFooter() {
           Disclaimer: MedSetu is not affiliated with NBEMS or NMC. NBEMS never releases official
           FMGE question papers; the papers here are recall-based editions for practice only.
           MedSetu is a free preparation resource — it is not medical advice and not a substitute for
-          your own teachers and textbooks.
+          your own teachers and textbooks. Your name and answers never leave your device: no
+          accounts, no tracking of your practice, no data collected.
         </p>
         <div className="mt-4 border-t border-white/15 pt-4 text-xs text-white/65">
-          Your name and answers never leave your device. No accounts, no tracking of your practice,
-          no data collected.
-          <span className="mt-1 block">MedSetu v7 · Made by Naitik Library, Gautam Nagar, New Delhi</span>
+          MedSetu v7 · Made by Naitik Library
         </div>
       </div>
     </footer>

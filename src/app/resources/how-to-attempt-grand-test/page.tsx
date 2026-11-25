@@ -24,7 +24,7 @@ export default function HowToAttemptGrandTest() {
           <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">
             <Link href="/resources/" className="hover:underline">Resources</Link> \u00b7 Study guide
           </p>
-          <h1 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+          <h1 className="mt-3 max-w-2xl text-4xl font-bold leading-snug tracking-tight text-ink sm:text-h1">
             How to Attempt a 300-Question FMGE Grand Test: A Two-Part Strategy Guide
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft sm:text-lg">
@@ -249,12 +249,6 @@ export default function HowToAttemptGrandTest() {
         </section>
 
         <section className="mt-10 border-t border-line pt-6">
-          <p className="text-sm leading-relaxed text-inksoft">
-            <strong className="text-ink">Study resource note:</strong> This article is an educational
-            study resource published by MedSetu by Naitik Library to help FMGE aspirants plan and
-            analyse their practice. It is not medical advice, and nothing here is guidance for the
-            diagnosis or treatment of any patient.
-          </p>
           <p className="mt-3 text-sm leading-relaxed text-inksoft">
             <strong className="text-ink">Sources:</strong> NBEMS, FMGE Information Bulletin (300
             questions in two parts of 150; no negative marking; qualifying score 150/300); MedSetu

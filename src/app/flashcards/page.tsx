@@ -58,7 +58,7 @@ export default function FlashcardsIndex() {
       <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
         <section className="soft-band mt-8 rounded-[28px] px-6 py-10 shadow-card ring-1 ring-med-line/40 sm:px-10 lg:mt-10 lg:py-12">
           <h1 className="mt-2 max-w-3xl text-4xl text-ink sm:text-h1">
-            Flashcards that make it stick.
+            FMGE flashcards that make it stick.
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft">
             {totalCards().toLocaleString('en-IN')} cards, 50 per subject, each one a fact the FMGE

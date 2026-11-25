@@ -223,8 +223,7 @@ export function FlashDeck({ cards, subject }: { cards: FlashCard[]; subject: str
 
       <p className="mt-6 text-caption leading-relaxed text-inksoft">
         This deck covers {topics.length} high-yield topics in {subject}. Your sorting lives only in
-        this tab — close it and the deck starts fresh, which is exactly how spaced repetition is
-        meant to feel.
+        this tab — close it and the deck starts fresh.
       </p>
     </div>
   );

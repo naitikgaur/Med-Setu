@@ -35,9 +35,7 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
       <div className="print-note">
         <p><strong>MedSetu — {meta.name} short notes</strong></p>
         <p>
-          These notes are free to read and revise online at med-setu.netlify.app/notes/{params.subject}/ —
-          they are designed to be used on the site, alongside the flashcards, question bank and mock
-          tests, so printing keeps only this pointer.
+          These notes are free to read and revise online at med-setu.netlify.app/notes/{params.subject}/ — printing keeps only this pointer.
         </p>
       </div>
       <main id="content" className="web-only mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
@@ -74,7 +72,7 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
               <a
                 key={t.title}
                 href={`#topic-${i + 1}`}
-                className="rounded-full border border-line bg-white px-3 py-1.5 text-caption font-semibold text-ink transition-colors hover:border-med/50 hover:text-med-deep"
+                className="rounded-full border border-line bg-white px-3 py-2.5 text-caption font-semibold text-ink transition-colors hover:border-med/50 hover:text-med-deep"
               >
                 {t.title}
               </a>
@@ -171,8 +169,7 @@ export default function SubjectNotesPage({ params }: { params: { subject: string
         <section id="mindmap" className="mt-14 scroll-mt-8">
           <h2 className="text-title font-bold tracking-tight text-ink">{meta.name} on one screen</h2>
           <p className="pretty mt-2 max-w-[46rem] text-body2 leading-relaxed text-inksoft">
-            The whole subject as a map. Read each branch, say its leaves out loud from memory, and
-            the ones that will not come are the topics to reopen above.
+            The whole subject as a map — the branches that won't come back from memory are the topics to reopen above.
           </p>
           <div className="mt-8">
             <MindMap notes={notes} />

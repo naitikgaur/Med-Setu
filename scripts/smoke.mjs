@@ -1132,6 +1132,10 @@ console.log('12) AdSense (homepage only)');
   // CSP: the strict audited policy stays global; ONLY the homepage ("/")
   // rule may extend it, and only with Google's ad domains (2026-11-15) —
   // without this the AdSense loader is blocked by script-src 'self'.
+  // GTM exception (founder order 2026-11-25): the Google Tag Manager
+  // container GTM-NQQV54GJ loads on EVERY page, so the global rule also
+  // allows googletagmanager.com (+ google-analytics.com beacons) — but
+  // still NO ad domains; those remain homepage-only.
   const headersTxt = readFileSync(join(out, '_headers'), 'utf8');
   const headerBlocks = {};
   {
@@ -1153,6 +1157,8 @@ console.log('12) AdSense (homepage only)');
     'csp: global /* rule keeps the strict audited policy (script-src \'self\')');
   ok(!/googlesyndication|doubleclick|googleadservices|googletagservices/.test(globalCsp),
     'csp: global /* rule contains NO Google ad domains (every non-homepage keeps the strict policy)');
+  ok(globalCsp.includes('https://www.googletagmanager.com'),
+    'csp: global /* rule allows the GTM container on every page (founder order 2026-11-25)');
   const homeCsp = cspOf('/');
   ok(homeCsp.length > 0, 'csp: a homepage-scoped (/) rule with its own CSP exists in _headers');
   const scriptDir = directiveOf(homeCsp, 'script-src');
@@ -1267,7 +1273,10 @@ console.log('14) V4 — Test Series, analysis structure, site overhaul, SEO');
     ok(homeHtml.includes(h), `nav/footer: homepage carries ${h}`);
   }
   const testsHtml = readFileSync(join(out, 'tests/index.html'), 'utf8');
-  ok(testsHtml.includes('Grand Test 30') && testsHtml.includes('What is the MedSetu Test Series?'),
+  // FAQ Q1 ("What is the MedSetu Test Series?") was deleted 2026-11-25 — it
+  // restated the page intro (founder copy-trim order); the surviving Q2
+  // question now proves the FAQ renders.
+  ok(testsHtml.includes('Grand Test 30') && testsHtml.includes('Where do the questions come from?'),
     'tests index: 30 tests listed with FAQ content');
 
   // trust pages carry only the approved phone number

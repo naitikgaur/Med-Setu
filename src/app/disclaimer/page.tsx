@@ -23,7 +23,7 @@ export default function DisclaimerPage() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="border-b border-line pb-8 pt-8 sm:pt-10">
-          <h1 className="text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+          <h1 className="text-4xl font-bold leading-snug tracking-tight text-ink sm:text-h1">
             Disclaimer
           </h1>
           <p className="mt-3 text-sm text-inksoft">Last updated: 16 November 2026</p>

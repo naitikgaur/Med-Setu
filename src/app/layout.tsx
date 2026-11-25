@@ -86,6 +86,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={sans.variable}>
       <body>
+        {/* Google Tag (GTM-NQQV54GJ) — founder order 2026-11-25, pasted as
+            given, first thing in <body> on every page (plain script tags:
+            in a static export next/script only injects at runtime). */}
+        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NQQV54GJ" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());`,
+          }}
+        />
         {children}
         <script
           type="application/ld+json"

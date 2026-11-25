@@ -11,7 +11,6 @@ export function MindMap({ notes }: { notes: SubjectNotes }) {
     <div>
       <div className="flex justify-center">
         <div className="rounded-2xl bg-med-deep px-8 py-4 text-center text-white shadow-lift">
-          <p className="text-micro font-bold uppercase tracking-[0.14em] text-white/70">Mind map</p>
           <p className="mt-0.5 text-xl font-bold">{mindmap.center}</p>
         </div>
       </div>

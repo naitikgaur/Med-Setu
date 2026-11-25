@@ -97,7 +97,7 @@ export default function BlogArticle({ params }: { params: { slug: string } }) {
           <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">
             <Link href="/blog/" className="hover:underline">Blog</Link> · {cat.name}
           </p>
-          <h1 className="mt-3 text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+          <h1 className="mt-3 text-4xl font-bold leading-snug tracking-tight text-ink sm:text-h1">
             {post.title}
           </h1>
           <p className="mt-4 text-base leading-relaxed text-inksoft sm:text-lg">{post.excerpt}</p>
@@ -126,9 +126,7 @@ export default function BlogArticle({ params }: { params: { slug: string } }) {
           <section className="mt-10 rounded-xl border border-med/40 bg-mist/60 px-5 py-5">
             <h2 className="text-xl font-semibold text-ink">Practise free on MedSetu</h2>
             <p className="mt-2 leading-relaxed text-inksoft">
-              Reading is only half of preparation. MedSetu gives you previous-year FMGE papers as full
-              mock tests, a 30-test grand series, subject-wise tests and a 13,934-question bank — free,
-              no sign-up, and nothing you do here is stored anywhere.
+              Practise free on MedSetu: previous-year papers, a 30-test grand series and a 13,934-question bank — no sign-up.
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               <Link href="/tests/" className="rounded-md bg-med px-4 py-2 font-semibold text-white shadow-card transition-colors hover:bg-med-deep">
@@ -154,9 +152,6 @@ export default function BlogArticle({ params }: { params: { slug: string } }) {
                   href={`/blog/${p.slug}/`}
                   className="group flex flex-col rounded-xl border border-line bg-white p-5 shadow-card transition-colors hover:border-med"
                 >
-                  <p className="text-xs font-semibold uppercase tracking-wide text-med-deep">
-                    {getCategory(p.category).name}
-                  </p>
                   <h3 className="mt-2 font-semibold leading-snug text-ink group-hover:text-med-deep">{p.title}</h3>
                   <p className="mt-2 flex-1 text-sm leading-relaxed text-inksoft">{p.excerpt}</p>
                   <p className="mt-4 text-xs text-inksoft">{readingMinutes(p)} min read</p>

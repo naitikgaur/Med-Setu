@@ -86,7 +86,7 @@ export default function QBankGate() {
     <RequireName>
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-ink">Question Bank</h1>
+          <h2 className="text-3xl font-bold tracking-tight text-ink">Question Bank</h2>
           <p className="mt-1.5 text-body2 text-inksoft">
             {name ? (
               <>
@@ -98,6 +98,9 @@ export default function QBankGate() {
               `${QBANK_META.total.toLocaleString('en-IN')} questions across all 19 FMGE subjects.`
             )}
           </p>
+          <p className="mt-1 text-sm text-inksoft">
+            Mistakes, bookmarks and progress are kept only in this tab.
+          </p>
         </div>
         <Link
           href="/start/"
@@ -106,13 +109,6 @@ export default function QBankGate() {
           Change name
         </Link>
       </div>
-
-      <p className="mt-4 max-w-3xl text-sm leading-relaxed text-inksoft">
-        Two ways to practise. <strong className="text-ink">Practice mode</strong> checks each answer
-        as you go and shows the explanation straight away. <strong className="text-ink">Exam mode</strong>{' '}
-        keeps answers locked until you submit, then gives you the full MedSetu analysis. Mistakes,
-        bookmarks and progress below are kept only in this tab — nothing is stored anywhere else.
-      </p>
 
       {active && (
         <div className="mt-5 flex flex-wrap items-center gap-3 rounded-xl border border-med-line bg-med-soft/50 px-5 py-4">

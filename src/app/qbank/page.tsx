@@ -8,7 +8,7 @@ import QBankGate from './QBankGate';
 export const metadata: Metadata = {
   title: 'FMGE Question Bank — 13,934 Questions by Subject & Topic — MedSetu',
   description:
-    'The MedSetu question bank for FMGE: 13,934 practice questions across all 19 subjects, organised by topic, every one with its answer and explanation. Practise question by question in Practice mode, sit a set in Exam mode, and clear My Mistakes. Free, no sign-up.',
+    '13,934 FMGE practice questions across all 19 subjects, organised by topic, every one with its answer and explanation. Practice and Exam modes. Free.',
   alternates: { canonical: '/qbank/' },
 };
 
@@ -20,7 +20,7 @@ export default function QBankPage() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 pb-4 pt-8 sm:px-6">
         <section className="max-w-3xl">
-          <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-h1">
             The FMGE question bank
           </h1>
           <p className="mt-3 text-body2 leading-relaxed text-inksoft sm:text-base">
@@ -33,8 +33,7 @@ export default function QBankPage() {
           </p>
           <p className="mt-2 text-body2 leading-relaxed text-inksoft sm:text-base">
             Every wrong answer is saved to <strong className="text-ink">My Mistakes</strong> in
-            this tab — replay it, answer it right, and it clears. Nothing is uploaded anywhere:
-            the bank, your mistakes and your bookmarks all live on your own device.
+            this tab — replay it, answer it right, and it clears.
           </p>
         </section>
 

@@ -229,7 +229,6 @@ const MODES: { title: string; count: string; body: string; href: string; badge?:
     count: '30 grand tests · 9,000 questions',
     body: 'Grand tests in the official subject mix, every question with a learning point. Together they cover almost the entire syllabus.',
     href: '/tests/',
-    badge: 'New',
   },
   {
     title: 'Subject-wise Tests',
@@ -248,14 +247,12 @@ const MODES: { title: string; count: string; body: string; href: string; badge?:
     count: '19 subjects · rapid revision',
     body: 'The topics previous-year papers actually ask — key facts, comparison tables, exam traps, golden points and a mind map per subject.',
     href: '/notes/',
-    badge: 'New',
   },
   {
     title: 'Flashcards',
     count: '19 subjects · 950 cards',
     body: 'Flip, answer from memory, sort into “got it” and “still learning”, and shrink the pile round by round.',
     href: '/flashcards/',
-    badge: 'New',
   },
 ];
 
@@ -304,16 +301,8 @@ const HOME_FAQ: { q: string; a: string }[] = [
     a: 'No. Enter your name once, in this tab only, and start. Everything stays in your tab and disappears when you close it — MedSetu has no server, no database, and collects nothing.',
   },
   {
-    q: 'Who makes MedSetu?',
-    a: 'Naitik Library — a study hall for medical students in Gautam Nagar, New Delhi, founded by Naitik Gaur — built MedSetu for its own students, then put it online free for every FMGE student.',
-  },
-  {
     q: 'What are the short notes and flashcards?',
     a: 'Rapid revision for all 19 subjects, built from what previous-year papers actually ask: short notes with comparison tables, exam traps and golden points, a one-screen mind map, and 50 flashcards per subject. Free on the site, not downloadable.',
-  },
-  {
-    q: 'Is MedSetu only a mock test platform?',
-    a: 'No — MedSetu is a complete preparation platform. Alongside mock tests sit a 13,934-question bank, short notes, mind maps, flashcards and 150 guides — learn, revise, recall and test in one place.',
   },
 ];
 
@@ -327,7 +316,7 @@ const STEPS = [
   {
     n: '1',
     title: 'Let’s Start',
-    body: 'A short gate: your name and one quick human check. No account is created, and your name stays in this tab.',
+    body: 'Your name and one quick human check. No account is created.',
   },
   {
     n: '2',
@@ -389,7 +378,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/flashcards/"
-                className="text-body2 font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white"
+                className="rounded-full border border-white/35 bg-white/10 px-7 py-4 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
               >
                 Try the flashcards
               </Link>
@@ -527,9 +516,6 @@ export default function Home() {
                   represents the average population at risk during the year, making it the most
                   appropriate denominator.”
                 </p>
-                <p className="mt-1.5 text-sm text-inksoft">
-                  The book’s note also shows why each of the other three options is wrong.
-                </p>
               </div>
             </div>
           </div>
@@ -586,9 +572,7 @@ export default function Home() {
           </table>
         </div>
         <p className="mt-3 text-caption leading-relaxed text-inksoft">
-          Per the NBEMS FMGE information bulletin (Radiology combines Radio-diagnosis and
-          Radiotherapy). Medicine, Surgery, Obstetrics &amp; Gynaecology and Community Medicine
-          alone carry 125 of the 300 marks.
+          Per the NBEMS FMGE information bulletin (Radiology combines Radio-diagnosis and Radiotherapy).
         </p>
       </section>
 
@@ -604,7 +588,7 @@ export default function Home() {
         <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {STEPS.map((s) => (
             <li key={s.n} className="rounded-2xl border border-line/70 bg-white p-6 shadow-card">
-              <span className="btn-primary flex h-9 w-9 items-center justify-center rounded-full text-body2 font-bold tabular-nums text-white">
+              <span className="step-num flex h-9 w-9 items-center justify-center rounded-full text-body2 font-bold tabular-nums text-white">
                 {s.n}
               </span>
               <h3 className="mt-4 text-base font-bold text-ink">{s.title}</h3>
@@ -670,8 +654,7 @@ export default function Home() {
               Your complete preparation is one click away.
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-body2 leading-relaxed text-white/85">
-              Papers, grand tests, a 13,934-question bank, short notes and flashcards — the real
-              window, the real pass mark, under a minute to start.
+              The real window, the real pass mark — under a minute to start.
             </p>
             <Link
               href="/start/"

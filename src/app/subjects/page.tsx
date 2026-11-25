@@ -7,7 +7,7 @@ import SubjectsGate from './SubjectsGate';
 export const metadata = {
   title: 'FMGE Subject-wise Tests — MedSetu by Naitik Library',
   description:
-    'FMGE subject-wise tests on MedSetu: 16 subjects, 30 tests, one subject at a time in the real exam window — every question with its full explanation, and a detailed analysis against the 50% FMGE pass proportion. Free, no sign-up.',
+    'FMGE subject-wise tests: 16 subjects, 30 tests, every question explained, with a detailed analysis against the 50% FMGE pass proportion. Free, no sign-up.',
   alternates: { canonical: '/subjects/' },
 };
 
@@ -24,7 +24,7 @@ export default function SubjectsPage() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
         <section className="max-w-3xl">
-          <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-h1">
             Subject-wise FMGE tests
           </h1>
           <p className="mt-3 text-body2 leading-relaxed text-inksoft sm:text-base">

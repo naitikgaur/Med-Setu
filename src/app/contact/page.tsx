@@ -15,7 +15,7 @@ export default function ContactPage() {
       <SiteHeader />
       <main id="content" className="mx-auto w-full max-w-4xl flex-1 px-4 sm:px-6">
         <section className="border-b border-line pb-8 pt-8 sm:pt-10">
-          <h1 className="text-3xl font-bold leading-snug tracking-tight text-ink sm:text-4xl">
+          <h1 className="text-4xl font-bold leading-snug tracking-tight text-ink sm:text-h1">
             Contact us
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-inksoft sm:text-lg">

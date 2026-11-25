@@ -120,15 +120,16 @@ export default function GateCard() {
 
         {/* Human check: a checkbox and one small addition, checked on-device. */}
         <div className="mt-5 rounded-xl border border-line bg-paper px-4 py-4">
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              role="checkbox"
-              aria-checked={robot}
-              aria-label="I'm not a robot"
-              onClick={() => setRobot((v) => !v)}
+          <button
+            type="button"
+            role="checkbox"
+            aria-checked={robot}
+            onClick={() => setRobot((v) => !v)}
+            className="flex min-h-[44px] w-full items-center gap-3 text-left"
+          >
+            <span
               className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-md border-2 transition-colors ${
-                robot ? 'border-med bg-med' : 'border-inksoft/50 bg-white hover:border-med'
+                robot ? 'border-med bg-med' : 'border-inksoft/50 bg-white'
               }`}
             >
               {robot && (
@@ -136,14 +137,14 @@ export default function GateCard() {
                   <path d="M2 6.5 4.8 9 10 3" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               )}
-            </button>
+            </span>
             <span className="text-body2 font-medium text-ink">I&apos;m not a robot</span>
             <span className="ml-auto text-right text-micro leading-tight text-inksoft">
               quick human check,
               <br />
               done on your device
             </span>
-          </div>
+          </button>
 
           <div className="mt-4 border-t border-line pt-4">
             <label htmlFor="gate-sum" className="text-sm font-semibold text-ink">
@@ -184,8 +185,7 @@ export default function GateCard() {
               </p>
             ) : (
               <p className="mt-1.5 text-xs leading-relaxed text-inksoft">
-                A small step that keeps the library for students. It runs entirely on your
-                device — nothing is sent anywhere.
+                A small step that keeps the library for students.
               </p>
             )}
           </div>

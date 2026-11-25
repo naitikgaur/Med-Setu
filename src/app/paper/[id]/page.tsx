@@ -34,7 +34,7 @@ export default function PaperPage({ params }: { params: { id: string } }) {
         <Link href="/papers/" className="mt-6 inline-block text-sm font-semibold text-med hover:underline">
           ← All papers
         </Link>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+        <h1 className="mt-2 text-4xl font-bold tracking-tight text-ink sm:text-h1">
           FMGE {meta.label}
         </h1>
         <p className="mt-1.5 text-body2 text-inksoft">
@@ -67,14 +67,6 @@ export default function PaperPage({ params }: { params: { id: string } }) {
                 ? ' and published with an answer key and full explanations in the FMGE previous-year book.'
                 : ' compilations, with answers verified against the recall sources. It has no explanations and no subject tags in the source.'}
             </li>
-            {meta.addedCount > 0 && (
-              <li>
-                <strong className="text-ink">Completed to 300.</strong> This paper&apos;s own source
-                has {meta.ownTotal} questions; {meta.addedCount} questions from other years&apos;
-                papers were added to complete the mock. See “Completed to 300 questions” below for
-                exactly how they were chosen.
-              </li>
-            )}
             {meta.paperId === 'jun-2026' && meta.dropped > 0 && (
               <li>
                 <strong className="text-ink">1 question dropped</strong>: its options were missing
@@ -188,19 +180,9 @@ export default function PaperPage({ params }: { params: { id: string } }) {
           </div>
           <ol start={5} className="mt-3 list-decimal space-y-2.5 pl-5 text-body2 leading-relaxed text-inksoft">
             <li>
-              Optional but valuable: mark <strong className="text-ink">Sure / Unsure / Guessed</strong>{' '}
-              under any question to record how confident you were. Your analysis uses it to show how
-              your guesses actually performed.
-            </li>
-            <li>
               When Part I ends, you see only your attempt counts and{' '}
               <strong className="text-ink">no score</strong>, just like the real exam. Your full
               analysis unlocks after Part II.
-            </li>
-            <li>
-              <strong className="text-ink">Your data stays on this device.</strong> Your name and
-              answers live only in this browser tab; a refresh resumes your test, and closing the
-              tab erases everything. Nothing is uploaded, ever.
             </li>
           </ol>
         </section>
